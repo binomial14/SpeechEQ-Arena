@@ -132,13 +132,28 @@ git push
 
 ### Step 4: Enable GitHub Pages
 
+**Option A: Using GitHub Actions (Recommended - Works when `/dist` folder selection is not available)**
+
+1. **The workflow file is already created** at `.github/workflows/deploy.yml`
+2. **Push the workflow file to GitHub**:
+   ```bash
+   git add .github/workflows/deploy.yml
+   git commit -m "Add GitHub Actions deployment"
+   git push
+   ```
+3. **Go to your GitHub repository** → Settings → Pages
+4. **Under "Source"**, select **"GitHub Actions"** (not "Deploy from a branch")
+5. **The site will automatically deploy** after the workflow runs (check the "Actions" tab)
+
+**Option B: Manual Deployment (If you can select `/dist` folder)**
+
 1. **Go to your GitHub repository** on GitHub.com
 2. **Click "Settings"** (top menu of your repo)
 3. **Click "Pages"** in the left sidebar
 4. **Under "Source"**:
    - Select **"Deploy from a branch"**
    - Branch: **`main`** (or `master`)
-   - Folder: **`/dist`** (important: select the dist folder, not root!)
+   - Folder: **`/dist`** (if this option is available)
 5. **Click "Save"**
 
 ### Step 5: Access Your Site

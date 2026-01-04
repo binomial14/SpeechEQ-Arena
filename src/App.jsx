@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 // Google Form submission URL - Update this with your Google Form URL
 // To get this: Create a Google Form, go to Settings > Responses > Get pre-filled link
 // Or use Google Apps Script to create a web app that accepts POST requests
-const GOOGLE_FORM_URL = import.meta.env.VITE_GOOGLE_FORM_URL || ''
+const GOOGLE_FORM_URL = import.meta.env.VITE_GOOGLE_FORM_URL || 'https://script.google.com/macros/s/AKfycbwhFhJmxXcgM-JYGVMK0zUkTbJXrw3J66IPpyl37Fg7F6S56Udy-4ZukLAa-pAKoFj9/exec'
 
 function App() {
   const [questions, setQuestions] = useState([])
