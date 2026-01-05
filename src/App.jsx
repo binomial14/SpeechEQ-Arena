@@ -146,18 +146,17 @@ function App() {
   }
 
   const getAudioPath = (questionPath, audioFileName) => {
-    const baseUrl = import.meta.env.BASE_URL
     // Construct path based on question's file structure: questionPath/audio/01.mp3
     // questionPath is like: "data/decision_making_impulse_control/20251208_160022_000003_88fee74e"
     // audioFileName is like: "01.mp3"
     
-    // Remove leading slash if present
-    let cleanPath = questionPath.startsWith('/') ? questionPath.slice(1) : questionPath
-    const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl
-    
-    // Construct: baseUrl/questionPath/audio/audioFileName
-    const finalPath = `${cleanBaseUrl}/${cleanPath}/audio/${audioFileName}`
-    return finalPath
+    // Use relative path starting from data/... (no base URL prefix)
+    // HTML audio elements resolve paths relative to the current page location
+    // The base URL in vite.config.js handles the routing, but audio src needs relative paths
+    const cleanPath = questionPath.startsWith('/') ? questionPath.slice(1) : questionPath
+    const audioPath = `${cleanPath}/audio/${audioFileName}`
+    console.log('Audio path resolution:', { questionPath, audioFileName, audioPath })
+    return audioPath
   }
 
   const handleAudioPlay = (audioId, audioElement, questionId, sequenceOrder, customCanPlay = null) => {
