@@ -62,6 +62,10 @@ function doPost(e) {
     
     Logger.log('Processing ' + questions.length + ' questions for one row');
     
+    // Extract feedback
+    const feedback = data.feedback || '';
+    Logger.log('Feedback: ' + (feedback ? feedback.substring(0, 50) + '...' : 'N/A'));
+    
     // Build header row if first time (dynamic based on number of questions)
     if (sheet.getLastRow() === 0) {
       const headerRow = ['Timestamp', 'Email', 'Native Speaker'];
@@ -69,6 +73,8 @@ function doPost(e) {
       for (let i = 0; i < questions.length; i++) {
         headerRow.push(`Q${i+1}_ID`, `Q${i+1}_Q1`, `Q${i+1}_Q2`);
       }
+      // Add feedback column at the end
+      headerRow.push('Feedback');
       sheet.appendRow(headerRow);
     }
     
@@ -86,6 +92,9 @@ function doPost(e) {
       dataRow.push(q_id, q1bool, q2bool);
     });
     
+    // Add feedback at the end
+    dataRow.push(feedback);
+    
     // Append the single row for this user
     sheet.appendRow(dataRow);
     
@@ -95,7 +104,7 @@ function doPost(e) {
       .createTextOutput(JSON.stringify({
         success: true, 
         message: 'Data saved successfully',
-        rowsAdded: submissions.length || 1
+        rowsAdded: 1
       }))
       .setMimeType(ContentService.MimeType.JSON);
       
@@ -214,12 +223,17 @@ function doPost(e) {
     // Process questions - flatten into one row per user
     const questions = data.questions || [];
     
+    // Extract feedback
+    const feedback = data.feedback || '';
+    
     // Build header row if first time
     if (sheet.getLastRow() === 0) {
       const headerRow = ['Timestamp', 'Email', 'Native Speaker'];
       for (let i = 0; i < questions.length; i++) {
         headerRow.push(`Q${i+1}_ID`, `Q${i+1}_Q1`, `Q${i+1}_Q2`);
       }
+      // Add feedback column at the end
+      headerRow.push('Feedback');
       sheet.appendRow(headerRow);
     }
     
@@ -231,6 +245,9 @@ function doPost(e) {
       const q2bool = question.q2bool === true ? 'true' : 'false';
       dataRow.push(q_id, q1bool, q2bool);
     });
+    
+    // Add feedback at the end
+    dataRow.push(feedback);
     
     sheet.appendRow(dataRow);
     Logger.log('Data saved. One row added for user: ' + email);

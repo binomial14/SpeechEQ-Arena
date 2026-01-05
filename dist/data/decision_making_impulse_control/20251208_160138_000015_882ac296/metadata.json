@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Sales Appointment",
+    "context": "Grocery store",
+    "description": "Ali, a sales representative, bumps into a potential client, Maria, at a grocery store. They begin having a casual chat when Ali sees an opportunity to introduce his new product offering. He must decide whether to seize this moment or respect the informal setting.",
+    "speaker1_name": "Ali",
+    "speaker1_role": "Sales Representative",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Professional, respectful, and empathetic. He is mindful of the context and the other person's comfort.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Maria",
+    "speaker2_role": "Potential Client",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Responds positively to Ali's approach, appreciating his professionalism and respect for the informal setting.",
+    "speaker2_persona_2": "Low EQ - Reacts hastily, feeling pressured and annoyed. She expresses her displeasure immediately, not appreciating the sales pitch in a casual setting.",
+    "speaker2_persona_3": "Low EQ - Feels anxious and overwhelmed by Ali's sales approach. She tries to end the conversation quickly without expressing her discomfort directly.",
+    "speaker2_persona_high": "High EQ - Responds positively to Ali's approach, appreciating his professionalism and respect for the informal setting.",
+    "speaker2_persona_low": "Low EQ - Reacts hastily, feeling pressured and annoyed. She expresses her displeasure immediately, not appreciating the sales pitch in a casual setting.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Maria, it's great to bump into you here. How's that new project of yours coming along?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, Ali! It's been hectic but we're making progress. Just trying to find some solutions for a few hiccups."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I can imagine. You know, I recently came across a product that might help with some of those hiccups."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's interesting, but right now I'm just trying to finish up my shopping. Can we talk about this later?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Of course, Maria. I didn't mean to intrude. Let's catch up next week at the office."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I appreciate that, Ali. I look forward to our meeting next week."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Maria, it's great to bump into you here. How's that new project of yours coming along?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/01.mp3",
+      "tone_description": "Speak with a warm, respectful tone, showing genuine interest in her project."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, Ali! It's been hectic but we're making progress. Just trying to find some solutions for a few hiccups.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/02.mp3",
+      "tone_description": "Speak in a upbeat, positive manner, expressing gratitude and determination."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I can imagine. You know, I recently came across a product that might help with some of those hiccups.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/03.mp3",
+      "tone_description": "Speak with a thoughtful and optimistic tone, offering the solution confidently."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's interesting, but right now I'm just trying to finish up my shopping. Can we talk about this later?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/04.mp3",
+      "tone_description": "Speak with a warm, appreciative tone, and a friendly pace, showing respect for the conversation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's interesting, but right now I'm just trying to finish up my shopping. Can we talk about this later?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/05.mp3",
+      "tone_description": "Speak the line briskly and curtly, exuding annoyance and a strong desire to end the conversation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Of course, Maria. I didn't mean to intrude. Let's catch up next week at the office.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/06.mp3",
+      "tone_description": "Speak in a gentle, respectful tone, indicating willingness to postpone the conversation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Ali. I look forward to our meeting next week.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/07.mp3",
+      "tone_description": "Speak warmly with a calm, gracious tone, expressing genuine anticipation for the meeting."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Ali. I look forward to our meeting next week.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296/audio/08.mp3",
+      "tone_description": "Speak curtly with a hint of annoyance, emphasizing the 'I appreciate that' sarcastically."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_160138",
+    "dataset_id": "20251208_160138_000015_882ac296",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_300/decision_making_impulse_control/20251208_160138_000015_882ac296",
+    "audio_files_count": 8
+  }
+}

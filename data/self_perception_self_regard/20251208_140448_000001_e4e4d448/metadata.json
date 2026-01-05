@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Community Art Show Setback",
+    "context": "Local community center art show",
+    "description": "It's a bustling Saturday afternoon at the local community center where an art show is taking place. The sound of chatter fills the room, accompanied by the clinking of wine glasses and the soft hum of a string quartet playing in the background. As people admire the various works on display, the conversation between two artists, who are also friends, turns towards a piece that didn't make it into the show.",
+    "speaker1_name": "James",
+    "speaker1_role": "Artist and friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Confident, supportive, and believes in his own abilities as an artist. He is able to perceive his own worth and not let setbacks deter his self-regard.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Liam",
+    "speaker2_role": "Artist and friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Understands and accepts the setback, recognizing it as part of the journey to becoming a better artist. He maintains a positive self-regard, despite the rejection.",
+    "speaker2_persona_2": "Low EQ - Defensive and insecure. The rejection impacts his self-regard greatly and he reacts defensively, doubting his abilities as an artist.",
+    "speaker2_persona_3": "Low EQ - Anxious and upset. The rejection has caused a significant dent in his self-regard, leading him to feel anxious and question his worth as an artist.",
+    "speaker2_persona_high": "High EQ - Understands and accepts the setback, recognizing it as part of the journey to becoming a better artist. He maintains a positive self-regard, despite the rejection.",
+    "speaker2_persona_low": "Low EQ - Anxious and upset. The rejection has caused a significant dent in his self-regard, leading him to feel anxious and question his worth as an artist.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Remember that abstract piece you created, the one with the vibrant blues and oranges? Shame it didn't make it into the show today."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I was really hoping it would be showcased. I put a lot of myself into that piece."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "It was honestly one of your best works. Do you think you'd try to get it into another show?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I guess...it's just a setback, right? Every artist faces rejection. I'll look for other opportunities."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit! Your passion and talent will shine through, no doubt."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thank you, that means a lot. I won't let one disappointment define me."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Remember that abstract piece you created, the one with the vibrant blues and oranges? Shame it didn't make it into the show today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/01.mp3",
+      "tone_description": "Speak with a confident and supportive tone, expressing a hint of disappointment."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I was really hoping it would be showcased. I put a lot of myself into that piece.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/02.mp3",
+      "tone_description": "Speak thoughtfully and calmly, showing a touch of disappointment yet resilient optimism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "It was honestly one of your best works. Do you think you'd try to get it into another show?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/03.mp3",
+      "tone_description": "Speak with a confident, encouraging tone, showing your unwavering belief in your art."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I guess...it's just a setback, right? Every artist faces rejection. I'll look for other opportunities.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/04.mp3",
+      "tone_description": "Speak calmly and confidently, with a hint of optimism embedded in your tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I guess...it's just a setback, right? Every artist faces rejection. I'll look for other opportunities.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/05.mp3",
+      "tone_description": "Speak in a low, anxious tone, with a trembling voice indicating self-doubt."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit! Your passion and talent will shine through, no doubt.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/06.mp3",
+      "tone_description": "Speak with enthusiastic assurance, showcasing your unwavering belief in the artist's potential."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thank you, that means a lot. I won't let one disappointment define me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/07.mp3",
+      "tone_description": "Speak with genuine gratitude and assured calmness, maintaining a positive, resilient tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thank you, that means a lot. I won't let one disappointment define me.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448/audio/08.mp3",
+      "tone_description": "Speak with an anxious undertone, voice wavering slightly, as if on the verge of tears."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_140448",
+    "dataset_id": "20251208_140448_000001_e4e4d448",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_300/self_perception_self_regard/20251208_140448_000001_e4e4d448",
+    "audio_files_count": 8
+  }
+}

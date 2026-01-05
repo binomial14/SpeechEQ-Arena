@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Farmers Market Conundrum",
+    "context": "A bustling Saturday morning at a local farmers market",
+    "description": "Gerardo, a local farmer, and Keisha, the organizer of the farmers market, are trying to solve the issue of the lack of foot traffic to Gerardo's stall, which is located at the far end of the market. The lively ambiance is filled with the fresh aroma of fruits, vegetables, and baked goods, chatter of customers and vendors, and the occasional laughter of children.",
+    "speaker1_name": "Gerardo",
+    "speaker1_role": "Local Farmer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Patient, empathetic, and open to suggestions. He is eager to find a solution to the problem.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Keisha",
+    "speaker2_role": "Farmers Market Organizer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - She is understanding, empathetic, and solution-oriented. She communicates with clarity and is open to exploring different solutions.",
+    "speaker2_persona_2": "Low EQ - She is defensive and dismissive. She tends to avoid responsibility and is resistant to exploring different solutions.",
+    "speaker2_persona_3": "Low EQ - She is anxious and overreactive. She tends to panic in the face of problems and rushes to conclusions without fully understanding the situation.",
+    "speaker2_persona_high": "High EQ - She is understanding, empathetic, and solution-oriented. She communicates with clarity and is open to exploring different solutions.",
+    "speaker2_persona_low": "Low EQ - She is anxious and overreactive. She tends to panic in the face of problems and rushes to conclusions without fully understanding the situation.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Keisha, I just can't seem to get enough visitors to my stall. It's so far out from the center."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I understand, Gerardo. The layout is a bit tricky. We need to think of ways to draw people to your end."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I was thinking of maybe offering samples, or even having a mini cooking demonstration to attract people."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's a fantastic idea, Gerardo! Cooking demonstrations could add an interactive element to your stall. Let's see how we can make it work."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Great, I'll start preparing for that then. I'm hopeful this will make a significant difference."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I'm sure it will, Gerardo. And remember, we're in this together - let's keep communicating and tweaking until we get it right."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Keisha, I just can't seem to get enough visitors to my stall. It's so far out from the center.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/01.mp3",
+      "tone_description": "Speak in a patient, open manner, expressing concern and a desire for resolution."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I understand, Gerardo. The layout is a bit tricky. We need to think of ways to draw people to your end.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/02.mp3",
+      "tone_description": "Speak with a reassuring and empathetic tone, suggesting solutions confidently."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I was thinking of maybe offering samples, or even having a mini cooking demonstration to attract people.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/03.mp3",
+      "tone_description": "Speak in a thoughtful and hopeful tone, with a hint of excitement towards the end."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a fantastic idea, Gerardo! Cooking demonstrations could add an interactive element to your stall. Let's see how we can make it work.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/04.mp3",
+      "tone_description": "Speak in a soothing, encouraging tone with a clear, solution-focused approach."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a fantastic idea, Gerardo! Cooking demonstrations could add an interactive element to your stall. Let's see how we can make it work.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/05.mp3",
+      "tone_description": "Speak in a hurried, high-pitched tone, laden with anxiety and interruption."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Great, I'll start preparing for that then. I'm hopeful this will make a significant difference.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/06.mp3",
+      "tone_description": "Speak in a hopeful and enthusiastic tone, with a calm and patient pace."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm sure it will, Gerardo. And remember, we're in this together - let's keep communicating and tweaking until we get it right.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/07.mp3",
+      "tone_description": "Speak in a warm, reassuring tone, emphasizing the unity and the joint effort."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm sure it will, Gerardo. And remember, we're in this together - let's keep communicating and tweaking until we get it right.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90/audio/08.mp3",
+      "tone_description": "Speak in a rushed, anxious tone, emphasizing the need for immediate solutions."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_223023",
+    "dataset_id": "20251208_223023_000063_5233ca90",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_223023_000063_5233ca90",
+    "audio_files_count": 8
+  }
+}

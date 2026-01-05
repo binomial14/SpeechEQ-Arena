@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Community Clean-Up Dilemma",
+    "context": "Local Park on a Saturday Morning",
+    "description": "Two friends, Chris and Alex, meet at the local park for a morning jog. They notice an overflow of trash in the park and discuss the issue.",
+    "speaker1_name": "Chris",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Chris is a calm, patient, and empathetic individual who values community engagement and environmental responsibility. He believes in leading by example.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Alex is patient, understanding, and socially responsible. She values the community and is willing to contribute to its betterment.",
+    "speaker2_persona_2": "Low EQ - Alex is impatient and dismissive. She does not see the value in contributing to community efforts and prefers to avoid any responsibility that she does not directly benefit from.",
+    "speaker2_persona_3": "Low EQ - Alex is defensive and tends to blame others for community problems. She not only avoids responsibility but also criticizes those who strive to make a difference.",
+    "speaker2_persona_high": "High EQ - Alex is patient, understanding, and socially responsible. She values the community and is willing to contribute to its betterment.",
+    "speaker2_persona_low": "Low EQ - Alex is defensive and tends to blame others for community problems. She not only avoids responsibility but also criticizes those who strive to make a difference.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Man, look at all this trash. It's really gotten out of hand."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it's pretty bad. It's like people don't care about keeping the park clean anymore."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "We should do something about it. Maybe organize a community clean-up day?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's a great idea, Chris. But what if people don't show up or just make more mess?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Well, we can't control what others do, but we can at least do our part, right?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, Chris. Let's do it and hope others join."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Man, look at all this trash. It's really gotten out of hand.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/01.mp3",
+      "tone_description": "Speak in a calm, patient tone, expressing concern and responsibility."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it's pretty bad. It's like people don't care about keeping the park clean anymore.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/02.mp3",
+      "tone_description": "Express with a patient and understanding tone, showing concern for the community."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "We should do something about it. Maybe organize a community clean-up day?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/03.mp3",
+      "tone_description": "Speak patiently and earnestly, suggesting the idea with a tone of community concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea, Chris. But what if people don't show up or just make more mess?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/04.mp3",
+      "tone_description": "Speak in a warm, patient tone, with a slight hint of concern for the community."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea, Chris. But what if people don't show up or just make more mess?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/05.mp3",
+      "tone_description": "Speak defensively with a sharp, accusatory tone, as if blaming others for potential problems."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Well, we can't control what others do, but we can at least do our part, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/06.mp3",
+      "tone_description": "Speak with calm patience, emphasizing your commitment to personal responsibility."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Chris. Let's do it and hope others join.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/07.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, radiating patience and optimism for community involvement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Chris. Let's do it and hope others join.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/audio/08.mp3",
+      "tone_description": "Speak defensively with a bitter, sarcastic tone, indicating doubt and disdain for the idea."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_154110",
+    "dataset_id": "20251208_154110_000040_d2e37e56",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_300/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56",
+    "audio_files_count": 8
+  }
+}

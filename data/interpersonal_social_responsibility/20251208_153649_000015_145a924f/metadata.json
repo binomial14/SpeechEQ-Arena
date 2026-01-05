@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Park Initiative",
+    "context": "A local community park on a bright Saturday morning",
+    "description": "David, a member of the community, has initiated a community effort to clean up and improve the local park. He approaches his neighbor, Sarah, to discuss her potential involvement in the initiative.",
+    "speaker1_name": "David",
+    "speaker1_role": "Neighbor, Community Member",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Concerned, proactive, community-oriented, good at understanding and addressing others' viewpoints",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Sarah",
+    "speaker2_role": "Neighbor, Community Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Understanding, cooperative and interested in contributing to the community project",
+    "speaker2_persona_2": "Low EQ - Defensive, dismissive and uninterested in the community initiative",
+    "speaker2_persona_3": "Low EQ - Anxious, overwhelmed and resistant to the idea of taking on additional responsibilities",
+    "speaker2_persona_high": "High EQ - Understanding, cooperative and interested in contributing to the community project",
+    "speaker2_persona_low": "Low EQ - Defensive, dismissive and uninterested in the community initiative",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Good morning, Sarah! I was thinking about starting a community clean-up for our park. What do you think?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That sounds like a great idea, David. Our park could certainly use some TLC."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm glad you see the need too. I was hoping you'd be interested in helping out."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I'd love to help out, David. Maybe we could even get some local businesses involved to sponsor us."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's an excellent idea, Sarah! I knew you were the right person to ask."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I'm all in, David. Let's get our community together and make our park a place we can all be proud of."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Good morning, Sarah! I was thinking about starting a community clean-up for our park. What do you think?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/01.mp3",
+      "tone_description": "Speak in an enthusiastic, warm tone, showing your proactive and community-oriented nature."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That sounds like a great idea, David. Our park could certainly use some TLC.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/02.mp3",
+      "tone_description": "Speak enthusiastically and warmly, highlighting your genuine interest in the community project."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm glad you see the need too. I was hoping you'd be interested in helping out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/03.mp3",
+      "tone_description": "Speak with a sincere and enthusiastic tone, expressing appreciation for Sarah's support."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'd love to help out, David. Maybe we could even get some local businesses involved to sponsor us.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/04.mp3",
+      "tone_description": "Speak warmly with an enthusiastic, cooperative tone, showing genuine interest in the prospect."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'd love to help out, David. Maybe we could even get some local businesses involved to sponsor us.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/05.mp3",
+      "tone_description": "Speak in a bored, dismissive tone, implying you're just going along with the idea begrudgingly."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's an excellent idea, Sarah! I knew you were the right person to ask.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/06.mp3",
+      "tone_description": "Speak appreciatively and enthusiastically, highlighting your proactive and community-oriented persona."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm all in, David. Let's get our community together and make our park a place we can all be proud of.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/07.mp3",
+      "tone_description": "Speak enthusiastically and warmly, with a cooperative tone and a hint of excitement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm all in, David. Let's get our community together and make our park a place we can all be proud of.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f/audio/08.mp3",
+      "tone_description": "Speak dismissively, with a cold, aloof tone that shows your lack of interest."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_153649",
+    "dataset_id": "20251208_153649_000015_145a924f",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_300/interpersonal_social_responsibility/20251208_153649_000015_145a924f",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Change of Plans at the Farmer's Market",
+    "context": "A sunny Saturday afternoon at a bustling farmer's market",
+    "description": "Two friends, Alex and Jamie, planned to meet at the farmer's market to enjoy the afternoon together. However, Jamie arrived late and couldn't find a parking spot due to the market's popularity. Jamie calls Alex to suggest a change of plans.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Alex is easygoing and flexible, always willing to adapt to changes without getting stressed out. He has a positive attitude and is always upbeat, even when things don't go as planned.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Jamie",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Jamie, with high EQ, is apologetic about the situation and is open to alternatives. She is calm and composed, despite the unexpected change in plans.",
+    "speaker2_persona_2": "Jamie, with low EQ, is frustrated and stressed about the situation. She is quick to blame external factors and is inflexible to changes.",
+    "speaker2_persona_3": "Jamie, with another low EQ, is anxious and overwhelmed by the change in plans. She tends to overreact and struggles to cope with the unexpected situation.",
+    "speaker2_persona_high": "Jamie, with high EQ, is apologetic about the situation and is open to alternatives. She is calm and composed, despite the unexpected change in plans.",
+    "speaker2_persona_low": "Jamie, with another low EQ, is anxious and overwhelmed by the change in plans. She tends to overreact and struggles to cope with the unexpected situation.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jamie, where are you? The fresh strawberries are almost sold out!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I'm really sorry, Alex. I'm stuck looking for parking. This place is packed!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh no! That's a bummer. We were really looking forward to this."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, it is. How about we change our plans a bit? We can meet at that cozy coffee shop nearby instead, less crowd and easy parking."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That sounds like a good idea, Jamie. I've heard they serve great pastries too."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Perfect! I'll see you there in 10 minutes, Alex. Again, sorry for the change."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jamie, where are you? The fresh strawberries are almost sold out!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/01.mp3",
+      "tone_description": "Speak in a light-hearted, upbeat tone, with a sense of urgency about the strawberries."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I'm really sorry, Alex. I'm stuck looking for parking. This place is packed!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/02.mp3",
+      "tone_description": "Express regret sincerely, speak calmly and clearly, offering a hint of frustration."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh no! That's a bummer. We were really looking forward to this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/03.mp3",
+      "tone_description": "Speak in a relaxed and upbeat tone, conveying disappointment but remaining adaptable."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it is. How about we change our plans a bit? We can meet at that cozy coffee shop nearby instead, less crowd and easy parking.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/04.mp3",
+      "tone_description": "Speak softly and evenly, showcasing understanding and flexibility."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it is. How about we change our plans a bit? We can meet at that cozy coffee shop nearby instead, less crowd and easy parking.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/05.mp3",
+      "tone_description": "Speak with a shaky voice, sounding overwhelmed and stressed."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That sounds like a good idea, Jamie. I've heard they serve great pastries too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/06.mp3",
+      "tone_description": "Speak in an upbeat, flexible tone, with a hint of excitement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Perfect! I'll see you there in 10 minutes, Alex. Again, sorry for the change.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/07.mp3",
+      "tone_description": "Speak in a soft, soothing manner, radiating calmness and understanding while expressing sincere apology."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Perfect! I'll see you there in 10 minutes, Alex. Again, sorry for the change.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90/audio/08.mp3",
+      "tone_description": "[deep breath] Speak in a high-pitched, shaky voice, conveying anxiety and unease about the change in plans."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_161259",
+    "dataset_id": "20251208_161259_000029_66056a90",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_300/stress_management_flexibility/20251208_161259_000029_66056a90",
+    "audio_files_count": 8
+  }
+}

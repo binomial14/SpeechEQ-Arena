@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Delays at the Public Library",
+    "context": "Public library during afternoon hours",
+    "description": "A sudden power outage in the public library causes the computers to shut down, disrupting operations and causing an unexpected delay in the book checkout process. The library is full of patrons, many who are waiting to check out books or use the public computers. There is a slight panic in the air as the librarians scramble to manage the situation.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Head Librarian",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Ravi is a calm and composed individual who is always prepared for unexpected situations. He is a great problem solver and is known for his ability to manage stress well. He communicates clearly and is empathetic towards his staff and library patrons.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Lena",
+    "speaker2_role": "Librarian",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Lena is a quick thinker and adapts well to unexpected situations. She remains calm during stressful situations and tries to find solutions instead of panicking. She communicates clearly and effectively with her colleagues and library patrons.",
+    "speaker2_persona_2": "Low EQ - Lena is quick to panic during stressful situations and struggles to adapt to unexpected changes. She tends to communicate in a hurried, unclear manner and often gets overwhelmed, leading to ineffective problem-solving.",
+    "speaker2_persona_3": "Low EQ - Lena is resistant to change and gets easily frustrated when things don't go as planned. She tends to blame others for problems and struggles to find effective solutions during stressful situations. Her communication style can be aggressive and dismissive when under stress.",
+    "speaker2_persona_high": "High EQ - Lena is a quick thinker and adapts well to unexpected situations. She remains calm during stressful situations and tries to find solutions instead of panicking. She communicates clearly and effectively with her colleagues and library patrons.",
+    "speaker2_persona_low": "Low EQ - Lena is quick to panic during stressful situations and struggles to adapt to unexpected changes. She tends to communicate in a hurried, unclear manner and often gets overwhelmed, leading to ineffective problem-solving.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright, let's stay calm. We need to inform the patrons about the situation and reassure them we're working on it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yes, I can start making the rounds now. Do we have any estimate on when the power will be back?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I've called the power company, but they couldn't give me a definite time. Until then, we'll have to revert to manual checkouts."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Manual checkouts, right. It's been a while but I remember the process. It might slow things down a bit, but we'll manage."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Good. We'll also need to keep the patrons informed about the wait times. Let's try to keep things running as smoothly as possible."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, it's going to be a challenge but we can handle it. I'll start with the patrons in the waiting area."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright, let's stay calm. We need to inform the patrons about the situation and reassure them we're working on it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/01.mp3",
+      "tone_description": "Speak slowly and clearly, exuding calm assurance and empathetic understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yes, I can start making the rounds now. Do we have any estimate on when the power will be back?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/02.mp3",
+      "tone_description": "Speak with a calm, reassuring tone, projecting confidence and clear communication."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I've called the power company, but they couldn't give me a definite time. Until then, we'll have to revert to manual checkouts.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/03.mp3",
+      "tone_description": "Speak calmly and assuredly, with a composed and reassuring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Manual checkouts, right. It's been a while but I remember the process. It might slow things down a bit, but we'll manage.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/04.mp3",
+      "tone_description": "Speak calmly, with a steady pace and a reassuring tone, hinting at confidence and control."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Manual checkouts, right. It's been a while but I remember the process. It might slow things down a bit, but we'll manage.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/05.mp3",
+      "tone_description": "Speak hurriedly, with a shaky voice and an anxious tone, projecting a sense of being overwhelmed."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Good. We'll also need to keep the patrons informed about the wait times. Let's try to keep things running as smoothly as possible.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/06.mp3",
+      "tone_description": "Speak calmly and confidently, ensuring your tone conveys reassurance and empathy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, it's going to be a challenge but we can handle it. I'll start with the patrons in the waiting area.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/07.mp3",
+      "tone_description": "Speak calmly and assertively, with a tone of steady confidence and reassuring optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, it's going to be a challenge but we can handle it. I'll start with the patrons in the waiting area.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805/audio/08.mp3",
+      "tone_description": "Speak with a frustrated, dismissive tone, laced with irritation and resistance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_225254",
+    "dataset_id": "20251208_225254_000014_7078f805",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_600/stress_management_flexibility/20251208_225254_000014_7078f805",
+    "audio_files_count": 8
+  }
+}

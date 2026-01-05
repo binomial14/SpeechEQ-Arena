@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Fundraiser",
+    "context": "An evening community center meeting on a Wednesday, where the room is filled with chatter from various neighborhood groups. The scent of freshly baked cookies from the refreshment table wafts through the air, and the faint sounds of a basketball game can be heard from the adjacent gym.",
+    "description": "Ravi, a male community center coordinator, is discussing with Shira, a female neighborhood resident and frequent center visitor, about a potential fundraiser to improve the center's facilities.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Community Center Coordinator",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Ravi is patient, attentive, and highly respected in the community. He has a knack for understanding people\u2019s perspectives and maintaining good relationships with everyone.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Shira",
+    "speaker2_role": "Neighborhood Resident",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Shira is receptive to suggestions, communicates her opinions respectfully, and appreciates the efforts of others. She maintains a positive attitude and seeks to build strong relationships.",
+    "speaker2_persona_2": "Low EQ - Shira is quick to voice her concerns without considering others' feelings. She tends to be prickly and defensive, reacting strongly to any perceived criticism or disagreement.",
+    "speaker2_persona_3": "Low EQ - Shira is often dismissive and uninterested in the ideas of others. She can be impatient and curt, focusing more on her own interests rather than building relationships or considering the greater community good.",
+    "speaker2_persona_high": "High EQ - Shira is receptive to suggestions, communicates her opinions respectfully, and appreciates the efforts of others. She maintains a positive attitude and seeks to build strong relationships.",
+    "speaker2_persona_low": "Low EQ - Shira is quick to voice her concerns without considering others' feelings. She tends to be prickly and defensive, reacting strongly to any perceived criticism or disagreement.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Shira, we're thinking of organizing a fundraiser to help improve the center's facilities. What do you think?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That sounds like a great idea, Ravi. The center could really use some improvements."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "We're glad you think so! We're considering a bake sale or a charity sports match. Any preference?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Hmm, I'm not sure. Both ideas sound fun, but I think the bake sale might be more inclusive for all age groups."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's a good point, Shira. We want everyone to be able to participate. A bake sale it is then!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I'm glad I could help, Ravi. Let me know if there's anything else I can do for the fundraiser!"
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Shira, we're thinking of organizing a fundraiser to help improve the center's facilities. What do you think?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/01.mp3",
+      "tone_description": "Speak in a patient and respectful tone, expressing genuine interest in Shira's opinion."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That sounds like a great idea, Ravi. The center could really use some improvements.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/02.mp3",
+      "tone_description": "Respond enthusiastically and sincerely, expressing agreement and optimism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "We're glad you think so! We're considering a bake sale or a charity sports match. Any preference?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/03.mp3",
+      "tone_description": "Speak in a patient and engaging manner, showing genuine interest in Shira's opinion."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, I'm not sure. Both ideas sound fun, but I think the bake sale might be more inclusive for all age groups.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/04.mp3",
+      "tone_description": "Speak kindly with a warm, inviting tone, and an appreciative chuckle"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, I'm not sure. Both ideas sound fun, but I think the bake sale might be more inclusive for all age groups.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/05.mp3",
+      "tone_description": "Speak defensively, with a sharp and assertive tone, hinting at irritation"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's a good point, Shira. We want everyone to be able to participate. A bake sale it is then!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/06.mp3",
+      "tone_description": "Speak with a calm, confident, and inclusive tone, displaying your attentiveness and respect."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm glad I could help, Ravi. Let me know if there's anything else I can do for the fundraiser!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/07.mp3",
+      "tone_description": "Speak with a warm, appreciative tone, emphasizing your willingness to continue helping."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm glad I could help, Ravi. Let me know if there's anything else I can do for the fundraiser!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/audio/08.mp3",
+      "tone_description": "Speak defensively, with a sharp, irritated tone, making it clear you feel unappreciated."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_220027",
+    "dataset_id": "20251208_220027_000041_f4012212",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212",
+    "audio_files_count": 8
+  }
+}

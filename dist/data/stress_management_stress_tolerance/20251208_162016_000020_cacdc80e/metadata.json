@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Overbooked Community Hall",
+    "context": "A bustling community hall during a local charity event",
+    "description": "It's a busy Saturday afternoon at the local community hall where a charity event is taking place. The weather outside is unusually hot and the air conditioning in the hall is malfunctioning, making the atmosphere inside stuffy and uncomfortable. The hall is packed with people, noise from various conversations and children playing is bouncing off the walls, adding to the chaos. Amidst this, speaker 1, the event organizer, realizes that due to a scheduling error, two community groups have been booked to use the same space at the same time.",
+    "speaker1_name": "Riley",
+    "speaker1_role": "Event Organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Riley is generally calm, composed, and solution-oriented. She is emotionally intelligent and has a knack for handling high-stress situations with grace.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Leader of one of the community groups",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Jordan is empathetic, understanding, and patient. He is able to maintain his composure even when faced with stress and unexpected changes.",
+    "speaker2_persona_2": "Low EQ - Jordan is quick to anger and lacks patience. He tends to react defensively and can be confrontational when things do not go as planned.",
+    "speaker2_persona_3": "Low EQ - Jordan is highly anxious and easily stressed. He tends to panic and become overwhelmed when faced with unexpected situations, often resorting to blaming others.",
+    "speaker2_persona_high": "High EQ - Jordan is empathetic, understanding, and patient. He is able to maintain his composure even when faced with stress and unexpected changes.",
+    "speaker2_persona_low": "Low EQ - Jordan is quick to anger and lacks patience. He tends to react defensively and can be confrontational when things do not go as planned.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I'm sorry, there seems to have been a scheduling mistake. We've accidentally booked two groups in this space."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What?! We have been preparing for this for weeks. How could this happen?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand your frustration, it's my mistake. We're working on a solution right now."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, you better find a solution fast. This is unacceptable!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I'm really sorry for the inconvenience. Let's see if we can adjust the schedule or find an alternative space."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Alright, let's work it out. But this should not happen in the future."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I'm sorry, there seems to have been a scheduling mistake. We've accidentally booked two groups in this space.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/01.mp3",
+      "tone_description": "Speak with a calm, composed tone and a touch of sincere apology."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What?! We have been preparing for this for weeks. How could this happen?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/02.mp3",
+      "tone_description": "Speak calmly and empathetically, showing understanding and patience in your tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand your frustration, it's my mistake. We're working on a solution right now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/03.mp3",
+      "tone_description": "Speak in a sincere, composed manner, with a hint of regret and a focus on resolution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, you better find a solution fast. This is unacceptable!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/04.mp3",
+      "tone_description": "Speak calmly and firmly, with an underlying tone of understanding and encouragement"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, you better find a solution fast. This is unacceptable!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/05.mp3",
+      "tone_description": "Speak sharply and defensively, with a harsh, accusatory edge"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I'm really sorry for the inconvenience. Let's see if we can adjust the schedule or find an alternative space.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/06.mp3",
+      "tone_description": "Speak in a calm, composed manner with a hint of sincere apology and proactive solution-finding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright, let's work it out. But this should not happen in the future.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/07.mp3",
+      "tone_description": "Speak in a calm and soothing voice, expressing understanding and patience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright, let's work it out. But this should not happen in the future.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/audio/08.mp3",
+      "tone_description": "Speak in a fast and stern tone, displaying clear annoyance and lack of patience."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_162016",
+    "dataset_id": "20251208_162016_000020_cacdc80e",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_300/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Storm at the Summer Fair",
+    "context": "A community summer fair at a local park, late afternoon, with bustling activities, families enjoying games and stalls, and the smell of food wafting in the air. Suddenly, the weather turns, and a storm threatens to disrupt the event.",
+    "description": "Nina, the event organizer, informs Greg, a volunteer, about the unexpected weather change and tasks him with ensuring the safety of the attendees and managing the situation until the storm passes.",
+    "speaker1_name": "Nina",
+    "speaker1_role": "Event Organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, composed, and an effective communicator. She maintains a positive attitude even in stressful situations, which helps her manage events successfully.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Greg",
+    "speaker2_role": "Volunteer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Greg is adaptable, calm, and focused. He is able to prioritize tasks effectively under pressure and maintains a positive attitude when dealing with unexpected situations.",
+    "speaker2_persona_2": "Low EQ - Greg is easily overwhelmed by unexpected situations. He tends to panic under pressure and has difficulty focusing on tasks, leading to poor decision-making.",
+    "speaker2_persona_3": "Low EQ - Greg is irritable and pessimistic when faced with challenges. He often complains and blames others when things don't go as planned, creating a negative environment.",
+    "speaker2_persona_high": "High EQ - Greg is adaptable, calm, and focused. He is able to prioritize tasks effectively under pressure and maintains a positive attitude when dealing with unexpected situations.",
+    "speaker2_persona_low": "Low EQ - Greg is irritable and pessimistic when faced with challenges. He often complains and blames others when things don't go as planned, creating a negative environment.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Greg, the weather's taken a turn and it looks like there's a storm coming. I need you to keep everyone safe and manage the situation."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh wow, didn't see that coming. Alright, let's get on it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm relying on you to keep calm and ensure everyone else does too. We need to avoid any panic."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "No problem, Nina. I've handled tricky situations before. We'll get through this."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Great, Greg. I knew I could count on you. I'll be coordinating with the emergency services."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, we've got this. I'll get started on moving people to safety and securing the stalls."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Greg, the weather's taken a turn and it looks like there's a storm coming. I need you to keep everyone safe and manage the situation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/01.mp3",
+      "tone_description": "Speak with a calm, composed pace, exuding confidence and positivity."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh wow, didn't see that coming. Alright, let's get on it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/02.mp3",
+      "tone_description": "Speak in a calm, focused manner with a hint of surprise and immediate willingness to act."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm relying on you to keep calm and ensure everyone else does too. We need to avoid any panic.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/03.mp3",
+      "tone_description": "Deliver the message with calm assurance, maintaining a steady, unhurried pace."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No problem, Nina. I've handled tricky situations before. We'll get through this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/04.mp3",
+      "tone_description": "Speak with a steady, assuring tone, maintaining a calm and focused demeanor throughout."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No problem, Nina. I've handled tricky situations before. We'll get through this.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/05.mp3",
+      "tone_description": "Speak in a disgruntled tone, with evident irritation and a tinge of blame."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Great, Greg. I knew I could count on you. I'll be coordinating with the emergency services.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/06.mp3",
+      "tone_description": "Speak with a calming, confident tone, exuding positivity and control."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we've got this. I'll get started on moving people to safety and securing the stalls.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/07.mp3",
+      "tone_description": "Speak in a steady, deliberate pace with a reassuring tone and an undercurrent of calm determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we've got this. I'll get started on moving people to safety and securing the stalls.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177/audio/08.mp3",
+      "tone_description": "Speak in an agitated, irritated tone, with a sharpness that suggests blame and annoyance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230333",
+    "dataset_id": "20251208_230333_000017_94a95177",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_230333_000017_94a95177",
+    "audio_files_count": 8
+  }
+}

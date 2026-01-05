@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected News in the Library",
+    "context": "Local community library",
+    "description": "The community library is closing down for a month due to renovations. Speaker1, the library director, is informing staff about the temporary closure. Speaker2, one of the librarians, is learning about this news for the first time.",
+    "speaker1_name": "Peyton",
+    "speaker1_role": "Library Director",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Empathetic, patient, understanding, and communicative. Always strives to maintain a positive, supportive environment.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Brody",
+    "speaker2_role": "Librarian",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Open-minded, patient, understanding, willing to adapt to changes and see the bigger picture. Maintains a positive attitude.",
+    "speaker2_persona_2": "Low EQ - Defensive, easily agitated, resistant to changes. Tends to blame others for inconveniences.",
+    "speaker2_persona_3": "Low EQ - Anxious, panicky, pessimistic. Tends to overreact and jumps to worst-case scenarios.",
+    "speaker2_persona_high": "High EQ - Open-minded, patient, understanding, willing to adapt to changes and see the bigger picture. Maintains a positive attitude.",
+    "speaker2_persona_low": "Low EQ - Anxious, panicky, pessimistic. Tends to overreact and jumps to worst-case scenarios.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Interpersonal - Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Staff, I've heard from the city council that we need to close the library for a month for renovations."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, that's sudden! What about all the community events we have planned?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "We're working on finding alternative venues for those events. It's a tough situation, but it's necessary for the long-term benefit of our library."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand it's for a good cause, but the suddenness is overwhelming. We'll need to inform our members promptly."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Yes, I agree. Let's work on a communication plan right away and make this transition as smooth as possible for our community."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Sure, let's do that. And maybe we can use this time to organize some online events too."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Staff, I've heard from the city council that we need to close the library for a month for renovations.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/01.mp3",
+      "tone_description": "Speak with a patient and understanding tone, conveying empathy and clear communication."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, that's sudden! What about all the community events we have planned?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/02.mp3",
+      "tone_description": "Express surprise gently, then ask the question with a patient and understanding tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "We're working on finding alternative venues for those events. It's a tough situation, but it's necessary for the long-term benefit of our library.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/03.mp3",
+      "tone_description": "Speak with a patient and understanding tone, emphasizing the necessity of the situation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand it's for a good cause, but the suddenness is overwhelming. We'll need to inform our members promptly.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/04.mp3",
+      "tone_description": "Speak in a calm and patient manner, with a warm and reassuring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand it's for a good cause, but the suddenness is overwhelming. We'll need to inform our members promptly.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/05.mp3",
+      "tone_description": "Speak in a hurried, anxious manner, voice trembling slightly to reveal the panic."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Yes, I agree. Let's work on a communication plan right away and make this transition as smooth as possible for our community.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/06.mp3",
+      "tone_description": "Speak with a calm, reassuring tone, conveying patience and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sure, let's do that. And maybe we can use this time to organize some online events too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/07.mp3",
+      "tone_description": "Speak calmly and positively, showing appreciation for the idea with a tone of open-minded adaptability."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sure, let's do that. And maybe we can use this time to organize some online events too.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/audio/08.mp3",
+      "tone_description": "Speak with a hardened, defensive tone, expressing annoyance and resistance to the new idea."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_215905",
+    "dataset_id": "20251208_215905_000026_39777d96",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96",
+    "audio_files_count": 8
+  }
+}

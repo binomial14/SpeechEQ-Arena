@@ -1,15 +1,229 @@
 {
   "questions": [
     {
-      "id": "20251208_160022_000001_213287e3",
-      "path": "data/decision_making_impulse_control/20251208_160022_000001_213287e3",
-      "metadataPath": "data/decision_making_impulse_control/20251208_160022_000001_213287e3/metadata.json"
+      "id": "20251208_140448_000001_e4e4d448",
+      "path": "data/self_perception_self_regard/20251208_140448_000001_e4e4d448",
+      "metadataPath": "data/self_perception_self_regard/20251208_140448_000001_e4e4d448/metadata.json"
     },
     {
-      "id": "20251208_152214_000001_eaa3ef28",
-      "path": "data/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28",
-      "metadataPath": "data/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/metadata.json"
+      "id": "20251208_141741_000035_dfa46a54",
+      "path": "data/self_perception_self_regard/20251208_141741_000035_dfa46a54",
+      "metadataPath": "data/self_perception_self_regard/20251208_141741_000035_dfa46a54/metadata.json"
+    },
+    {
+      "id": "20251208_145210_000036_c4082cd9",
+      "path": "data/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9",
+      "metadataPath": "data/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/metadata.json"
+    },
+    {
+      "id": "20251208_145457_000003_5334663c",
+      "path": "data/self_expression_emotional_expression/20251208_145457_000003_5334663c",
+      "metadataPath": "data/self_expression_emotional_expression/20251208_145457_000003_5334663c/metadata.json"
+    },
+    {
+      "id": "20251208_150038_000030_9df5fa94",
+      "path": "data/self_expression_emotional_expression/20251208_150038_000030_9df5fa94",
+      "metadataPath": "data/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/metadata.json"
+    },
+    {
+      "id": "20251208_151206_000030_f8d97aa8",
+      "path": "data/self_expression_assertiveness/20251208_151206_000030_f8d97aa8",
+      "metadataPath": "data/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/metadata.json"
+    },
+    {
+      "id": "20251208_152215_000005_70bf8612",
+      "path": "data/interpersonal_interpersonal_relationships/20251208_152215_000005_70bf8612",
+      "metadataPath": "data/interpersonal_interpersonal_relationships/20251208_152215_000005_70bf8612/metadata.json"
+    },
+    {
+      "id": "20251208_153023_000009_fe78dee5",
+      "path": "data/interpersonal_empathy/20251208_153023_000009_fe78dee5",
+      "metadataPath": "data/interpersonal_empathy/20251208_153023_000009_fe78dee5/metadata.json"
+    },
+    {
+      "id": "20251208_153544_000004_4f8315b1",
+      "path": "data/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1",
+      "metadataPath": "data/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/metadata.json"
+    },
+    {
+      "id": "20251208_153649_000015_145a924f",
+      "path": "data/interpersonal_social_responsibility/20251208_153649_000015_145a924f",
+      "metadataPath": "data/interpersonal_social_responsibility/20251208_153649_000015_145a924f/metadata.json"
+    },
+    {
+      "id": "20251208_154110_000040_d2e37e56",
+      "path": "data/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56",
+      "metadataPath": "data/interpersonal_social_responsibility/20251208_154110_000040_d2e37e56/metadata.json"
+    },
+    {
+      "id": "20251208_154903_000035_5ec421bf",
+      "path": "data/decision_making_problem_solving/20251208_154903_000035_5ec421bf",
+      "metadataPath": "data/decision_making_problem_solving/20251208_154903_000035_5ec421bf/metadata.json"
+    },
+    {
+      "id": "20251208_155422_000018_28da1712",
+      "path": "data/decision_making_reality_testing/20251208_155422_000018_28da1712",
+      "metadataPath": "data/decision_making_reality_testing/20251208_155422_000018_28da1712/metadata.json"
+    },
+    {
+      "id": "20251208_155524_000026_d227332c",
+      "path": "data/decision_making_reality_testing/20251208_155524_000026_d227332c",
+      "metadataPath": "data/decision_making_reality_testing/20251208_155524_000026_d227332c/metadata.json"
+    },
+    {
+      "id": "20251208_155738_000038_3567f199",
+      "path": "data/decision_making_reality_testing/20251208_155738_000038_3567f199",
+      "metadataPath": "data/decision_making_reality_testing/20251208_155738_000038_3567f199/metadata.json"
+    },
+    {
+      "id": "20251208_160022_000003_88fee74e",
+      "path": "data/decision_making_impulse_control/20251208_160022_000003_88fee74e",
+      "metadataPath": "data/decision_making_impulse_control/20251208_160022_000003_88fee74e/metadata.json"
+    },
+    {
+      "id": "20251208_160138_000015_882ac296",
+      "path": "data/decision_making_impulse_control/20251208_160138_000015_882ac296",
+      "metadataPath": "data/decision_making_impulse_control/20251208_160138_000015_882ac296/metadata.json"
+    },
+    {
+      "id": "20251208_161259_000029_66056a90",
+      "path": "data/stress_management_flexibility/20251208_161259_000029_66056a90",
+      "metadataPath": "data/stress_management_flexibility/20251208_161259_000029_66056a90/metadata.json"
+    },
+    {
+      "id": "20251208_161903_000014_7f4bb042",
+      "path": "data/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042",
+      "metadataPath": "data/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/metadata.json"
+    },
+    {
+      "id": "20251208_162016_000020_cacdc80e",
+      "path": "data/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e",
+      "metadataPath": "data/stress_management_stress_tolerance/20251208_162016_000020_cacdc80e/metadata.json"
+    },
+    {
+      "id": "20251208_162948_000018_1b310a25",
+      "path": "data/stress_management_optimism/20251208_162948_000018_1b310a25",
+      "metadataPath": "data/stress_management_optimism/20251208_162948_000018_1b310a25/metadata.json"
+    },
+    {
+      "id": "20251208_205426_000027_3ac6273e",
+      "path": "data/self_perception_self_regard/20251208_205426_000027_3ac6273e",
+      "metadataPath": "data/self_perception_self_regard/20251208_205426_000027_3ac6273e/metadata.json"
+    },
+    {
+      "id": "20251208_210142_000008_5cf9a072",
+      "path": "data/self_perception_self_actualization/20251208_210142_000008_5cf9a072",
+      "metadataPath": "data/self_perception_self_actualization/20251208_210142_000008_5cf9a072/metadata.json"
+    },
+    {
+      "id": "20251208_210714_000034_009a49b6",
+      "path": "data/self_perception_self_actualization/20251208_210714_000034_009a49b6",
+      "metadataPath": "data/self_perception_self_actualization/20251208_210714_000034_009a49b6/metadata.json"
+    },
+    {
+      "id": "20251208_211122_000054_66669f85",
+      "path": "data/self_perception_self_actualization/20251208_211122_000054_66669f85",
+      "metadataPath": "data/self_perception_self_actualization/20251208_211122_000054_66669f85/metadata.json"
+    },
+    {
+      "id": "20251208_211749_000026_0a879762",
+      "path": "data/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762",
+      "metadataPath": "data/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/metadata.json"
+    },
+    {
+      "id": "20251208_211936_000041_2627f4fd",
+      "path": "data/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd",
+      "metadataPath": "data/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/metadata.json"
+    },
+    {
+      "id": "20251208_213038_000038_ebb7b15e",
+      "path": "data/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e",
+      "metadataPath": "data/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/metadata.json"
+    },
+    {
+      "id": "20251208_213840_000032_3301b4b8",
+      "path": "data/self_expression_assertiveness/20251208_213840_000032_3301b4b8",
+      "metadataPath": "data/self_expression_assertiveness/20251208_213840_000032_3301b4b8/metadata.json"
+    },
+    {
+      "id": "20251208_214213_000048_db9e9924",
+      "path": "data/self_expression_assertiveness/20251208_214213_000048_db9e9924",
+      "metadataPath": "data/self_expression_assertiveness/20251208_214213_000048_db9e9924/metadata.json"
+    },
+    {
+      "id": "20251208_215232_000054_09b6cb8e",
+      "path": "data/self_expression_independence/20251208_215232_000054_09b6cb8e",
+      "metadataPath": "data/self_expression_independence/20251208_215232_000054_09b6cb8e/metadata.json"
+    },
+    {
+      "id": "20251208_215328_000062_10c07db2",
+      "path": "data/self_expression_independence/20251208_215328_000062_10c07db2",
+      "metadataPath": "data/self_expression_independence/20251208_215328_000062_10c07db2/metadata.json"
+    },
+    {
+      "id": "20251208_215330_000064_cd181753",
+      "path": "data/self_expression_independence/20251208_215330_000064_cd181753",
+      "metadataPath": "data/self_expression_independence/20251208_215330_000064_cd181753/metadata.json"
+    },
+    {
+      "id": "20251208_215905_000026_39777d96",
+      "path": "data/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96",
+      "metadataPath": "data/interpersonal_interpersonal_relationships/20251208_215905_000026_39777d96/metadata.json"
+    },
+    {
+      "id": "20251208_220027_000041_f4012212",
+      "path": "data/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212",
+      "metadataPath": "data/interpersonal_interpersonal_relationships/20251208_220027_000041_f4012212/metadata.json"
+    },
+    {
+      "id": "20251208_221002_000037_a7508289",
+      "path": "data/interpersonal_empathy/20251208_221002_000037_a7508289",
+      "metadataPath": "data/interpersonal_empathy/20251208_221002_000037_a7508289/metadata.json"
+    },
+    {
+      "id": "20251208_221051_000048_7d977ec4",
+      "path": "data/interpersonal_empathy/20251208_221051_000048_7d977ec4",
+      "metadataPath": "data/interpersonal_empathy/20251208_221051_000048_7d977ec4/metadata.json"
+    },
+    {
+      "id": "20251208_222246_000003_d6ce7de6",
+      "path": "data/decision_making_problem_solving/20251208_222246_000003_d6ce7de6",
+      "metadataPath": "data/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/metadata.json"
+    },
+    {
+      "id": "20251208_223023_000063_5233ca90",
+      "path": "data/decision_making_problem_solving/20251208_223023_000063_5233ca90",
+      "metadataPath": "data/decision_making_problem_solving/20251208_223023_000063_5233ca90/metadata.json"
+    },
+    {
+      "id": "20251208_224904_000056_8af04657",
+      "path": "data/decision_making_impulse_control/20251208_224904_000056_8af04657",
+      "metadataPath": "data/decision_making_impulse_control/20251208_224904_000056_8af04657/metadata.json"
+    },
+    {
+      "id": "20251208_225202_000004_4d4fbba4",
+      "path": "data/stress_management_flexibility/20251208_225202_000004_4d4fbba4",
+      "metadataPath": "data/stress_management_flexibility/20251208_225202_000004_4d4fbba4/metadata.json"
+    },
+    {
+      "id": "20251208_225254_000014_7078f805",
+      "path": "data/stress_management_flexibility/20251208_225254_000014_7078f805",
+      "metadataPath": "data/stress_management_flexibility/20251208_225254_000014_7078f805/metadata.json"
+    },
+    {
+      "id": "20251208_230333_000017_94a95177",
+      "path": "data/stress_management_stress_tolerance/20251208_230333_000017_94a95177",
+      "metadataPath": "data/stress_management_stress_tolerance/20251208_230333_000017_94a95177/metadata.json"
+    },
+    {
+      "id": "20251208_231133_000006_48cd5ad0",
+      "path": "data/stress_management_optimism/20251208_231133_000006_48cd5ad0",
+      "metadataPath": "data/stress_management_optimism/20251208_231133_000006_48cd5ad0/metadata.json"
+    },
+    {
+      "id": "20251208_231419_000024_7797fbff",
+      "path": "data/stress_management_optimism/20251208_231419_000024_7797fbff",
+      "metadataPath": "data/stress_management_optimism/20251208_231419_000024_7797fbff/metadata.json"
     }
   ]
 }
-

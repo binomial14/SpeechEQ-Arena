@@ -52,6 +52,7 @@ if (fs.existsSync(questionsSource)) {
   console.log('✓ Copied questions.json to dist/')
 } else {
   console.warn('⚠ questions.json not found')
+  console.warn('💡 Run "npm run generate-questions" to auto-generate it from data/ folder')
 }
 
 console.log('✓ Assets copied successfully!')

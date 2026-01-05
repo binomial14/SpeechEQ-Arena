@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Local Farmers Market Stall",
+    "context": "A bustling local farmers market in the town center, late Sunday morning. The air is filled with the scent of fresh produce, baked goods, and the chatter of locals. A light, refreshing breeze is blowing, making the colorful banners of the various stalls flutter.",
+    "description": "Javier, who runs a homemade salsa stall, has just finished setting up his booth. His cousin, Marta, who has been helping him, offers her opinion on the display. Marta's feedback challenges Javier's self-regard, forcing him to assess his self-worth and confidence in his products.",
+    "speaker1_name": "Marta",
+    "speaker1_role": "Javier's cousin who is helping him set up his business",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Marta is supportive but straightforward, she gives her honest feedback without intending any harm. She is empathetic and well-intentioned, always looking out for Javier's best interests.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Javier",
+    "speaker2_role": "Owner of the homemade salsa stall",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Javier is self-assured and confident, acknowledging Marta's opinion without feeling threatened. He appreciates constructive criticism and uses it to improve without doubting his own abilities.",
+    "speaker2_persona_2": "Low EQ - Javier is defensive and sensitive to feedback, tending to take Marta's suggestions as personal attacks, which makes him question his self-worth and capabilities.",
+    "speaker2_persona_3": "Low EQ - Javier is anxious and overly self-critical, internalizing Marta's feedback and doubting his own abilities. He tends to catastrophize and sees criticism as a confirmation of his perceived failure.",
+    "speaker2_persona_high": "High EQ - Javier is self-assured and confident, acknowledging Marta's opinion without feeling threatened. He appreciates constructive criticism and uses it to improve without doubting his own abilities.",
+    "speaker2_persona_low": "Low EQ - Javier is defensive and sensitive to feedback, tending to take Marta's suggestions as personal attacks, which makes him question his self-worth and capabilities.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Javier, your salsas are top-notch, but I think your display could use some sprucing up. It doesn't quite do justice to your product."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Really, Marta? I thought I had done a pretty good job."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh, don't get me wrong, it's not bad. But think about it, a more attractive display could bring more customers."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You may be right, Marta. I guess I've been too focused on the quality of my salsa and not enough on the presentation."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit! And remember, your salsa is the best in town. It deserves to be showcased."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks, Marta. I appreciate your honesty and your faith in my product. Let's make this stall the star of the market!"
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Javier, your salsas are top-notch, but I think your display could use some sprucing up. It doesn't quite do justice to your product.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/01.mp3",
+      "tone_description": "Speak supportively with an honest and empathetic tone, offering the feedback gently."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Really, Marta? I thought I had done a pretty good job.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/02.mp3",
+      "tone_description": "Speak confidently and appreciatively with a hint of surprise."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh, don't get me wrong, it's not bad. But think about it, a more attractive display could bring more customers.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/03.mp3",
+      "tone_description": "Speak in a gentle, persuasive tone, with a hint of constructive criticism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You may be right, Marta. I guess I've been too focused on the quality of my salsa and not enough on the presentation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/04.mp3",
+      "tone_description": "Speak assuredly and warmly, acknowledging Marta's point with a positive, confident tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You may be right, Marta. I guess I've been too focused on the quality of my salsa and not enough on the presentation.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/05.mp3",
+      "tone_description": "Speak quickly and defensively with a sensitive, questioning tone, hinting at personal hurt."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit! And remember, your salsa is the best in town. It deserves to be showcased.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/06.mp3",
+      "tone_description": "Speak warmly and encouragingly, with a mix of sincerity and firm conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Marta. I appreciate your honesty and your faith in my product. Let's make this stall the star of the market!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/07.mp3",
+      "tone_description": "Speak with steady, self-assured confidence, expressing gratitude with a warm, resonating tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Marta. I appreciate your honesty and your faith in my product. Let's make this stall the star of the market!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e/audio/08.mp3",
+      "tone_description": "Speak defensively with a slightly strained voice, as if struggling to show appreciation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205426",
+    "dataset_id": "20251208_205426_000027_3ac6273e",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205426_000027_3ac6273e",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Changing Winds at the Farmers Market",
+    "context": "A bustling farmers market on a sunny Saturday afternoon",
+    "description": "Sarah, a vendor at the farmers market, is faced with a sudden change in her booth location due to an unexpected issue. Her longtime friend and fellow vendor, George, delivers the news.",
+    "speaker1_name": "George",
+    "speaker1_role": "Fellow vendor and friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, understanding, and supportive, George is always there to lend a hand or offer advice.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Sarah",
+    "speaker2_role": "Vendor at the farmers market",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Sarah handles the news with grace, understanding the change is unavoidable and quickly thinks of a plan to adapt to the new location.",
+    "speaker2_persona_2": "Low EQ - Sarah responds with immediate frustration, blaming George for the change and resisting any suggestions for how to adapt.",
+    "speaker2_persona_3": "Low EQ - Sarah becomes overly anxious about the change, worrying about the potential negative impact on her business and unable to think clearly about how to adapt.",
+    "speaker2_persona_high": "High EQ - Sarah handles the news with grace, understanding the change is unavoidable and quickly thinks of a plan to adapt to the new location.",
+    "speaker2_persona_low": "Low EQ - Sarah becomes overly anxious about the change, worrying about the potential negative impact on her business and unable to think clearly about how to adapt.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sarah, there's been a bit of a hiccup. There's a problem with your usual spot, and they're asking us to move our booths."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What? But I've been in that spot for years! This is so sudden."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I know. It's frustrating, but apparently, there's a drainage issue. The new spot isn't that far, though."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, there's nothing I can do about it now, is there? I guess I'll just have to adapt."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit, Sarah. I'll help you move your stuff, let's make the best of it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks, George. You're right, we can turn this into an opportunity. Maybe the new location will bring in more customers."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sarah, there's been a bit of a hiccup. There's a problem with your usual spot, and they're asking us to move our booths.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/01.mp3",
+      "tone_description": "Speak calmly and understandingly, with a gentle pace to show support and patience."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What? But I've been in that spot for years! This is so sudden.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/02.mp3",
+      "tone_description": "Speak with a calm, accepting tone, quickly transitioning to a thoughtful and proactive manner."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I know. It's frustrating, but apparently, there's a drainage issue. The new spot isn't that far, though.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/03.mp3",
+      "tone_description": "Speak with a calm, understanding tone, offering reassurance and a touch of optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, there's nothing I can do about it now, is there? I guess I'll just have to adapt.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/04.mp3",
+      "tone_description": "Speak calmly with a resilient undertone, showing grace in acceptance and a readiness to adapt."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, there's nothing I can do about it now, is there? I guess I'll just have to adapt.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/05.mp3",
+      "tone_description": "Speak with a tremble in your voice, reflecting high anxiety and fear of the future."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit, Sarah. I'll help you move your stuff, let's make the best of it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/06.mp3",
+      "tone_description": "Speak in a calm, supportive tone, offering reassurance and positivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, George. You're right, we can turn this into an opportunity. Maybe the new location will bring in more customers.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/07.mp3",
+      "tone_description": "Speak with a composed, optimistic tone, showing acceptance and forward-thinking."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, George. You're right, we can turn this into an opportunity. Maybe the new location will bring in more customers.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4/audio/08.mp3",
+      "tone_description": "Speak with a shaky, apprehensive tone, expressing worry and inability to think clearly."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_225202",
+    "dataset_id": "20251208_225202_000004_4d4fbba4",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_600/stress_management_flexibility/20251208_225202_000004_4d4fbba4",
+    "audio_files_count": 8
+  }
+}

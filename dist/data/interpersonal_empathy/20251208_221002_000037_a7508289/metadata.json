@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected News at the Local Community Center",
+    "context": "A bustling local community center on a sunny Saturday afternoon. Children are playing, adults are involved in various activities, and the air is filled with the sound of chatter and laughter.",
+    "description": "Speaker 1, Ximena, the head of the community center, has to break the news to Speaker 2, Reuben, a respected and beloved cooking class instructor, that the cooking classes may have to be canceled due to budget cuts.",
+    "speaker1_name": "Ximena",
+    "speaker1_role": "Head of the community center",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Ximena is warm, understanding, and a good listener. She's known for her empathetic approach and ability to handle difficult situations with grace.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Reuben",
+    "speaker2_role": "Cooking class instructor",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Reuben is understanding and appreciates Ximena's honesty. He is disappointed but handles the news with grace and patience.",
+    "speaker2_persona_2": "Low EQ - Reuben is defensive and feels personally attacked. He quickly jumps to conclusions and doesn't take time to understand the situation.",
+    "speaker2_persona_3": "Low EQ - Reuben is anxious and irritated. He feels like he's being singled out and becomes overly emotional, making it difficult for Ximena to communicate with him.",
+    "speaker2_persona_high": "High EQ - Reuben is understanding and appreciates Ximena's honesty. He is disappointed but handles the news with grace and patience.",
+    "speaker2_persona_low": "Low EQ - Reuben is anxious and irritated. He feels like he's being singled out and becomes overly emotional, making it difficult for Ximena to communicate with him.",
+    "speaker2_voice": "ash",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Reuben, can I grab a moment? There's something we need to discuss about the cooking classes."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Sure, Ximena. What seems to be the issue?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Well, due to some unfortunate budget cuts, we may have to cancel the cooking classes. I'm really sorry."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Oh... I see. That's disappointing. Is there anything we can do to keep them going?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I\u2019m exploring some options, like community fundraising or sponsorships. It's not definite yet."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I understand, it's a tough situation. Let's see how we can work this out together. The community loves these classes."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Reuben, can I grab a moment? There's something we need to discuss about the cooking classes.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/01.mp3",
+      "tone_description": "Speak in a warm, understanding tone, gently requesting Reuben's attention."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Sure, Ximena. What seems to be the issue?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/02.mp3",
+      "tone_description": "Speak with calm patience and a warm, understanding tone to convey appreciation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Well, due to some unfortunate budget cuts, we may have to cancel the cooking classes. I'm really sorry.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/03.mp3",
+      "tone_description": "Speak in a soft, empathetic tone, conveying regret and understanding."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh... I see. That's disappointing. Is there anything we can do to keep them going?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/04.mp3",
+      "tone_description": "Speak calmly and understandingly, expressing disappointment but also patience and resilience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh... I see. That's disappointing. Is there anything we can do to keep them going?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/05.mp3",
+      "tone_description": "Speak anxiously, with a hint of irritation, as if you feel singled out and overly emotional."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I\u2019m exploring some options, like community fundraising or sponsorships. It's not definite yet.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/06.mp3",
+      "tone_description": "Speak with a warm, understanding tone, expressing the uncertainty gently."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I understand, it's a tough situation. Let's see how we can work this out together. The community loves these classes.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/07.mp3",
+      "tone_description": "Speak with a calm, patient tone, showing understanding and determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I understand, it's a tough situation. Let's see how we can work this out together. The community loves these classes.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289/audio/08.mp3",
+      "tone_description": "Speak in a high pitched, anxious tone, showing frustration and feeling singled out."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_221002",
+    "dataset_id": "20251208_221002_000037_a7508289",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_600/interpersonal_empathy/20251208_221002_000037_a7508289",
+    "audio_files_count": 8
+  }
+}

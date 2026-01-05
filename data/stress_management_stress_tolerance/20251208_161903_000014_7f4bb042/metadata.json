@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Grocery Store Rush",
+    "context": "Grocery Store, Weekend Afternoon",
+    "description": "A sudden rush of customers has hit a small grocery store on a sleepy Sunday afternoon. The check-out lines are getting longer, and the store's staff is scrambling to cope with the sudden demand. The store manager, Alex, and one of the check-out assistants, Sam, are having a conversation amidst the chaos.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Store Manager",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm and composed, always exhibiting a level-headed approach even in stressful situations. He believes in leading by example and encourages his team to handle stress effectively.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Check-out Assistant",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Remains composed and optimistic in stressful situations. She believes in working systematically and efficiently to manage the situation.",
+    "speaker2_persona_2": "Low EQ - Tends to panic under stress. She often feels overwhelmed and helpless when faced with sudden challenges.",
+    "speaker2_persona_3": "Low EQ - Reacts negatively to stress. She tends to get irritable and may lash out or blame others when under pressure.",
+    "speaker2_persona_high": "High EQ - Remains composed and optimistic in stressful situations. She believes in working systematically and efficiently to manage the situation.",
+    "speaker2_persona_low": "Low EQ - Tends to panic under stress. She often feels overwhelmed and helpless when faced with sudden challenges.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Wow, Sam, it's like someone flipped a switch. Where did all these people come from?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I have no idea, Alex. I've never seen the store this packed on a Sunday!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "We have to manage this efficiently. Let's open all the check-out counters and call in some extra help."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alright, but I'm not sure how long we can keep this pace without burning out."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I understand, Sam. It's challenging, but let's get through this together. We'll take a break as soon as we can."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Okay, we can do this. I'll call in the extra help."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Wow, Sam, it's like someone flipped a switch. Where did all these people come from?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/01.mp3",
+      "tone_description": "Speak with a calm, composed tone, expressing surprise in a controlled manner."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I have no idea, Alex. I've never seen the store this packed on a Sunday!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/02.mp3",
+      "tone_description": "Speak with a calm and composed tone, maintaining an optimistic undertone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "We have to manage this efficiently. Let's open all the check-out counters and call in some extra help.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/03.mp3",
+      "tone_description": "Speak in a calm, steady pace, demonstrating composed leadership."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, but I'm not sure how long we can keep this pace without burning out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/04.mp3",
+      "tone_description": "Speak in a calm, measured tone, projecting confidence and a hint of optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, but I'm not sure how long we can keep this pace without burning out.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/05.mp3",
+      "tone_description": "Speak in a shaky, fast-paced tone, letting a sense of panic and overwhelm permeate."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I understand, Sam. It's challenging, but let's get through this together. We'll take a break as soon as we can.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/06.mp3",
+      "tone_description": "Speak with a calm, reassuring pace, exuding confidence and compassion."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Okay, we can do this. I'll call in the extra help.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/07.mp3",
+      "tone_description": "Speak with steady, composed certainty, infusing optimism in your tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Okay, we can do this. I'll call in the extra help.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042/audio/08.mp3",
+      "tone_description": "Speak sharply and defensively, showing irritation and a hint of blame."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_161903",
+    "dataset_id": "20251208_161903_000014_7f4bb042",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_300/stress_management_stress_tolerance/20251208_161903_000014_7f4bb042",
+    "audio_files_count": 8
+  }
+}

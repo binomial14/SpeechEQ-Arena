@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Community Bake Sale",
+    "context": "A community bake sale at a local park",
+    "description": "It's a sunny Saturday afternoon and a community bake sale is in full swing at the local park. Homemade pies, cakes, and cookies are on display as laughter and chatter fill the air. A minor disagreement arises between two community members, Fran and Hassan, over the last piece of Hassan's famous apple pie.",
+    "speaker1_name": "Fran",
+    "speaker1_role": "Community Member",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Fran is a calm and friendly person who always looks to understand and express her emotions in a clear and non-confrontational way. She is aware of her own feelings and how they can affect her interactions with others.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Hassan",
+    "speaker2_role": "Community Member",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Hassan is generally patient and understanding. He is attuned to his own emotions and the emotions of others, which allows him to address conflict in a calm and respectful way, even when faced with a challenging situation.",
+    "speaker2_persona_2": "Hassan can be quick to react and somewhat defensive when he feels his fairness is being questioned. He lets his emotions get the best of him and often responds with a heated tone, failing to consider the feelings of others.",
+    "speaker2_persona_3": "Hassan tends to become anxious and overly apologetic when he feels he might have upset someone. He struggles to assert his feelings and often sidesteps direct conflict, which can lead to miscommunication and further tension.",
+    "speaker2_persona_high": "Hassan is generally patient and understanding. He is attuned to his own emotions and the emotions of others, which allows him to address conflict in a calm and respectful way, even when faced with a challenging situation.",
+    "speaker2_persona_low": "Hassan tends to become anxious and overly apologetic when he feels he might have upset someone. He struggles to assert his feelings and often sidesteps direct conflict, which can lead to miscommunication and further tension.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey, Hassan, I've been eyeing that last piece of your apple pie all morning."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Fran, I'm sorry but I promised that piece to Mrs. Johnson."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But I've been waiting for it. You know how much I love your pie."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I know, Fran, and I appreciate it. How about I make a special pie for you next time?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's not fair, Hassan. I was here first."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I understand your frustration, Fran, and I apologize. Let's figure out a better system for next time."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey, Hassan, I've been eyeing that last piece of your apple pie all morning.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/01.mp3",
+      "tone_description": "Express your words with a calm and friendly tone, hinting at a slight longing."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Fran, I'm sorry but I promised that piece to Mrs. Johnson.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/02.mp3",
+      "tone_description": "Speak gently and patiently, with a tone of sincere regret."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But I've been waiting for it. You know how much I love your pie.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/03.mp3",
+      "tone_description": "Express disappointment softly but maintain a warm and understanding tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, Fran, and I appreciate it. How about I make a special pie for you next time?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/04.mp3",
+      "tone_description": "Speak in a soothing, pacifying tone while maintaining a patient and understanding pace."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, Fran, and I appreciate it. How about I make a special pie for you next time?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/05.mp3",
+      "tone_description": "Speak in a hurried, apologetic tone that's slightly shaky and laced with nervousness."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's not fair, Hassan. I was here first.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/06.mp3",
+      "tone_description": "Speak calmly and sincerely, expressing your feelings with a tone of understanding and friendliness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I understand your frustration, Fran, and I apologize. Let's figure out a better system for next time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/07.mp3",
+      "tone_description": "Speak gently and with a calm, understanding tone, showing patience and empathy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I understand your frustration, Fran, and I apologize. Let's figure out a better system for next time.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762/audio/08.mp3",
+      "tone_description": "Speak with a heated, defensive tone, letting your annoyance seep through."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211749",
+    "dataset_id": "20251208_211749_000026_0a879762",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000026_0a879762",
+    "audio_files_count": 8
+  }
+}

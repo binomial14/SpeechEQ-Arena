@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Virtual Event Dilemma",
+    "context": "An online video call in a small software company",
+    "description": "Amir, the project manager, and Mia, the lead developer, are discussing the feasibility of a virtual event for their product's next version launch.",
+    "speaker1_name": "Amir",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Amir is a patient, analytical, and empathetic individual who always takes into consideration the realities and limitations of any situation before making decisions.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Mia",
+    "speaker2_role": "Lead Developer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "As a high EQ individual, Mia is open to ideas, possesses strong problem-solving skills, and takes into account potential challenges before making decisions.",
+    "speaker2_persona_2": "In her low EQ persona, Mia is reactive and overly optimistic, disregarding potential challenges and flaws in their plans.",
+    "speaker2_persona_3": "In another low EQ persona, Mia is defensive and resistant to Amir's suggestions, reacting negatively to the proposed changes.",
+    "speaker2_persona_high": "As a high EQ individual, Mia is open to ideas, possesses strong problem-solving skills, and takes into account potential challenges before making decisions.",
+    "speaker2_persona_low": "In another low EQ persona, Mia is defensive and resistant to Amir's suggestions, reacting negatively to the proposed changes.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Mia, I'm considering hosting a virtual event for our next product version launch. Thoughts?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Interesting idea, Amir. On the technical side, we can certainly pull it off. But we need to think about our audience engagement."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes, that's a valid point. I was thinking we could maybe use some interactive features to keep everyone engaged. Do you think that's doable?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Absolutely, Amir. We can integrate interactive features like Q&A sessions, polls, and even virtual networking. But we need to ensure we don't compromise the user experience."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, Mia. We need to strike the right balance. Let's start working on this and keep assessing our progress."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Sounds like a plan, Amir. We'll need to run a lot of tests, but I believe we can make this work if we work closely together."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Mia, I'm considering hosting a virtual event for our next product version launch. Thoughts?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/01.mp3",
+      "tone_description": "Speak in a calm, analytical tone, showing empathy and patience in your considerations."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Interesting idea, Amir. On the technical side, we can certainly pull it off. But we need to think about our audience engagement.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/02.mp3",
+      "tone_description": "Speak in a thoughtful and open tone, highlighting the technical feasibility while expressing concern for audience engagement."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes, that's a valid point. I was thinking we could maybe use some interactive features to keep everyone engaged. Do you think that's doable?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/03.mp3",
+      "tone_description": "Speak in a calm, analytical tone, with a hint of curiosity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Absolutely, Amir. We can integrate interactive features like Q&A sessions, polls, and even virtual networking. But we need to ensure we don't compromise the user experience.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/04.mp3",
+      "tone_description": "Speak in a thoughtful, measured pace, projecting openness and hinting at potential challenges."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Absolutely, Amir. We can integrate interactive features like Q&A sessions, polls, and even virtual networking. But we need to ensure we don't compromise the user experience.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/05.mp3",
+      "tone_description": "Speak in a defensive, harsh tone, emphasizing the potential difficulties with a hint of resistance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, Mia. We need to strike the right balance. Let's start working on this and keep assessing our progress.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/06.mp3",
+      "tone_description": "Speak calmly and analytically, showing empathy and patience in your tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sounds like a plan, Amir. We'll need to run a lot of tests, but I believe we can make this work if we work closely together.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/07.mp3",
+      "tone_description": "Speak calmly and analytically, emphasizing teamwork and careful planning."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sounds like a plan, Amir. We'll need to run a lot of tests, but I believe we can make this work if we work closely together.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712/audio/08.mp3",
+      "tone_description": "Speak with a defensive edge and a hint of reluctance, emphasizing the burden of the tests."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155422",
+    "dataset_id": "20251208_155422_000018_28da1712",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155422_000018_28da1712",
+    "audio_files_count": 8
+  }
+}

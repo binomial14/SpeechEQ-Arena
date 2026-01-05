@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Breakup",
+    "context": "Late afternoon in a bustling coffee shop. Customers chatting and baristas making drinks can be heard in the background. The smell of fresh coffee and pastries fills the air.",
+    "description": "Two friends, Alex and Jordan, are meeting up for their usual coffee catch-up. Jordan has recently gone through a breakup and Alex is trying to provide emotional support.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Empathetic, considerate, patient, and a good listener. Always tries to put herself in the other person's shoes and respond in a supportive manner.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Appreciates Alex's empathy and responds in kind, expressing gratitude for her understanding and expressing his feelings openly.",
+    "speaker2_persona_2": "Low EQ - Reacts defensively, interpreting Alex's empathy as pity or condescension. Becomes hostile and uncommunicative.",
+    "speaker2_persona_3": "Low EQ - Misinterprets Alex's empathy as indifference and becomes frustrated and angry. Accuses Alex of not truly understanding or caring about his feelings.",
+    "speaker2_persona_high": "High EQ - Appreciates Alex's empathy and responds in kind, expressing gratitude for her understanding and expressing his feelings openly.",
+    "speaker2_persona_low": "Low EQ - Misinterprets Alex's empathy as indifference and becomes frustrated and angry. Accuses Alex of not truly understanding or caring about his feelings.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jordan, how have you been holding up since the breakup?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I have been better, Alex. It's not easy, you know?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I can only imagine, it's got to be tough. But remember, you're not alone."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I appreciate that, Alex. But, it feels like I've lost a part of myself."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I get it, Jordan. It's okay to feel this way. It's part of the healing process."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, Alex. I guess I just need time to adjust."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jordan, how have you been holding up since the breakup?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/01.mp3",
+      "tone_description": "Speak slowly and softly, with a tone of genuine concern and patience."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I have been better, Alex. It's not easy, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/02.mp3",
+      "tone_description": "Speak softly and sincerely, with a touch of vulnerability and gratitude."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I can only imagine, it's got to be tough. But remember, you're not alone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/03.mp3",
+      "tone_description": "Speak softly and patiently, infusing your words with empathy and reassurance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Alex. But, it feels like I've lost a part of myself.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/04.mp3",
+      "tone_description": "Speak softly and warmly, expressing vulnerability and gratitude."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Alex. But, it feels like I've lost a part of myself.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/05.mp3",
+      "tone_description": "Speak angrily, with a tone of accusation and frustration."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I get it, Jordan. It's okay to feel this way. It's part of the healing process.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/06.mp3",
+      "tone_description": "Speak gently and patiently, with a comforting and understanding tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Alex. I guess I just need time to adjust.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/07.mp3",
+      "tone_description": "Speak softly and gratefully, with a warm, understanding tone and a heavy sigh."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Alex. I guess I just need time to adjust.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5/audio/08.mp3",
+      "tone_description": "Speak loudly and angrily, voice shaking with frustration and a bitter tone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_153023",
+    "dataset_id": "20251208_153023_000009_fe78dee5",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_300/interpersonal_empathy/20251208_153023_000009_fe78dee5",
+    "audio_files_count": 8
+  }
+}

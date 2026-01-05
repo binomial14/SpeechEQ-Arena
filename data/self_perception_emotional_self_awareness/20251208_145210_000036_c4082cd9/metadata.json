@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Mishap at the Community Potluck",
+    "context": "An outdoor community potluck in a local park on a sunny afternoon. Families are gathered around picnic tables, kids are playing, and there's a general sense of joy and laughter in the air. The smell of various cuisines fills the air and the sounds of chatter and children playing can be heard in the background.",
+    "description": "During the event, a child accidentally spills a bowl of chili on Mark's new white shoes. Mark's friend, Helen, who is standing nearby, witnesses the incident.",
+    "speaker1_name": "Helen",
+    "speaker1_role": "Mark's friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Helen is a compassionate and emotionally intelligent individual. She is always aware of her feelings and how they impact her actions. She's good at reading situations and responding in ways that are constructive and supportive.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Mark",
+    "speaker2_role": "Participant at the community potluck",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Mark is generally good-natured, and he is highly emotionally intelligent. He can identify and manage his emotions, and he reacts calmly and rationally, even in frustrating situations.",
+    "speaker2_persona_2": "Mark tends to be reactive and somewhat defensive when things go wrong. He struggles to identify and manage his emotions, which often leads to impulsive reactions and heated remarks.",
+    "speaker2_persona_3": "Mark is often anxious and irritable, especially in unexpected or stressful situations. He struggles with emotional self-awareness, and his anxiety often leads to excessive worry and overreaction.",
+    "speaker2_persona_high": "Mark is generally good-natured, and he is highly emotionally intelligent. He can identify and manage his emotions, and he reacts calmly and rationally, even in frustrating situations.",
+    "speaker2_persona_low": "Mark tends to be reactive and somewhat defensive when things go wrong. He struggles to identify and manage his emotions, which often leads to impulsive reactions and heated remarks.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, Mark, your new shoes!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, just my luck. Fresh out of the box and they're already ruined."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm really sorry, Mark. That was an unfortunate accident."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Accident or not, it doesn't change the fact that my new shoes are ruined."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I understand. Let's see if we can clean it up a bit."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks, Helen. I appreciate your help."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, Mark, your new shoes!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/01.mp3",
+      "tone_description": "Express concern and sympathy in a soft, caring tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, just my luck. Fresh out of the box and they're already ruined.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/02.mp3",
+      "tone_description": "Speak in a calm, slightly amused tone, accepting the situation with grace."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm really sorry, Mark. That was an unfortunate accident.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/03.mp3",
+      "tone_description": "Express sincere regret and sympathy in a gentle, comforting tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Accident or not, it doesn't change the fact that my new shoes are ruined.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/04.mp3",
+      "tone_description": "Speak calmly and rationally, with a touch of disappointment but understanding in your voice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Accident or not, it doesn't change the fact that my new shoes are ruined.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/05.mp3",
+      "tone_description": "Speak impulsively with a defensive and slightly irritated tone, emphasizing your frustration."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I understand. Let's see if we can clean it up a bit.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/06.mp3",
+      "tone_description": "Speak gently and sympathetically, offering reassurance with a hint of positivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Helen. I appreciate your help.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/07.mp3",
+      "tone_description": "Speak calmly and rationally with a warm, understanding tone and a hint of optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Helen. I appreciate your help.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9/audio/08.mp3",
+      "tone_description": "Speak in a high-pitched, anxious tone, fast and with a hint of irritability."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_145210",
+    "dataset_id": "20251208_145210_000036_c4082cd9",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_300/self_perception_emotional_self_awareness/20251208_145210_000036_c4082cd9",
+    "audio_files_count": 8
+  }
+}

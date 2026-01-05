@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Garden Dispute",
+    "context": "Saturday morning at a community garden",
+    "description": "Harold and Naomi, both community garden members, are having a discussion about the recent changes to the garden's layout. Harold is upset as his tomato plants are now in a shaded area due to the new design.",
+    "speaker1_name": "Harold",
+    "speaker1_role": "Community garden member",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Harold is generally a mild mannered man who has trouble asserting himself, but is trying to improve on this. He deeply cares for his tomato plants and wants to ensure they get the sunlight they need.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Naomi",
+    "speaker2_role": "Community garden member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Naomi is an understanding woman who values every member's opinion in the community garden. She is always willing to find a solution that works for everyone.",
+    "speaker2_persona_2": "Naomi is often defensive and takes suggestions or criticisms as personal attacks. She is quick to shut down conversations if she feels threatened.",
+    "speaker2_persona_3": "Naomi is typically anxious and easily irritated. She often perceives any kind of confrontation as a threat and responds with passive-aggressive comments or sarcasm.",
+    "speaker2_persona_high": "Naomi is an understanding woman who values every member's opinion in the community garden. She is always willing to find a solution that works for everyone.",
+    "speaker2_persona_low": "Naomi is typically anxious and easily irritated. She often perceives any kind of confrontation as a threat and responds with passive-aggressive comments or sarcasm.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Naomi, I can't believe my tomato plants are in the shade now, they're not going to thrive there."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I understand your concern, Harold. The new layout is meant to distribute sunlight more evenly."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But my tomatoes need more sun than most plants, they're going to suffer!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I hear you, Harold. Let's talk to the committee together and see if we can adjust the layout slightly to accommodate your tomatoes."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That sounds reasonable, I just want to ensure my plants get the care they need."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, we all want our plants to thrive. Let's bring this up at the next meeting."
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Naomi, I can't believe my tomato plants are in the shade now, they're not going to thrive there.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/01.mp3",
+      "tone_description": "Speak with a gentle concern and a touch of frustration, yet maintain a hopeful tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I understand your concern, Harold. The new layout is meant to distribute sunlight more evenly.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/02.mp3",
+      "tone_description": "Speak in a soothing, patient manner, demonstrating understanding and optimism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But my tomatoes need more sun than most plants, they're going to suffer!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/03.mp3",
+      "tone_description": "Express your concern gently yet firmly, with a hint of frustration in your voice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I hear you, Harold. Let's talk to the committee together and see if we can adjust the layout slightly to accommodate your tomatoes.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/04.mp3",
+      "tone_description": "Speak with a warm, comforting tone and a hint of problem-solving enthusiasm."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I hear you, Harold. Let's talk to the committee together and see if we can adjust the layout slightly to accommodate your tomatoes.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/05.mp3",
+      "tone_description": "Speak with a fast, anxious tone, laced with a touch of passive-aggressive sarcasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That sounds reasonable, I just want to ensure my plants get the care they need.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/06.mp3",
+      "tone_description": "Speak in a gentle, slightly assertive tone, showing concern for your tomatoes."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we all want our plants to thrive. Let's bring this up at the next meeting.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/07.mp3",
+      "tone_description": "Speak with a warm, patient tone emphasizing unity and agreement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we all want our plants to thrive. Let's bring this up at the next meeting.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8/audio/08.mp3",
+      "tone_description": "Speak with a sharp, sarcastic tone, letting a hint of annoyance creep into your voice."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_151206",
+    "dataset_id": "20251208_151206_000030_f8d97aa8",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "data/1208_300/self_expression_assertiveness/20251208_151206_000030_f8d97aa8",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Disrupted Book Club",
+    "context": "A local library in the late afternoon. The smell of old books fills the air, and the subtle sound of turning pages can be heard in the background.",
+    "description": "Carmen, the librarian, and Darius, a regular book club member, are in a discussion about the latest book choice. Darius is upset because the book selected is his least favorite genre, historical fiction.",
+    "speaker1_name": "Carmen",
+    "speaker1_role": "Librarian",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Carmen is calm, patient, and understanding. She values the opinions of all the book club members and tries to maintain a harmonious environment.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Darius",
+    "speaker2_role": "Book Club Member",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Darius maintains self-control and expresses his disappointment in a calm and constructive manner. He acknowledges the diversity of the group's interests and proposes a solution.",
+    "speaker2_persona_2": "Low EQ - Darius reacts impulsively, expressing his disappointment in an aggressive manner and blaming Carmen for the book selection. He lacks control over his emotions and fails to consider the interests of other club members.",
+    "speaker2_persona_3": "Low EQ - Darius reacts in an immature and sarcastic manner, belittling the book choice and making fun of those who enjoy this genre. He resorts to humor rather than addressing his disappointment directly.",
+    "speaker2_persona_high": "High EQ - Darius maintains self-control and expresses his disappointment in a calm and constructive manner. He acknowledges the diversity of the group's interests and proposes a solution.",
+    "speaker2_persona_low": "Low EQ - Darius reacts in an immature and sarcastic manner, belittling the book choice and making fun of those who enjoy this genre. He resorts to humor rather than addressing his disappointment directly.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Darius, I see you're not too thrilled with this month's book selection."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, Carmen. I just can't get into historical fiction. It's just not my thing."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand, Darius. But as you know, the club tries to cover a range of genres. You might find it more engaging than you think."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I guess you're right, Carmen. I'll give it a shot, but I'm not promising anything."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's all we ask, Darius. Who knows, it might surprise you."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, we'll see. I'll start it tonight and let you know my thoughts next week."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Darius, I see you're not too thrilled with this month's book selection.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/01.mp3",
+      "tone_description": "Speak in a soft, patient tone, showing understanding and open-mindedness."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, Carmen. I just can't get into historical fiction. It's just not my thing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/02.mp3",
+      "tone_description": "Express your sentiment calmly and constructively, with a hint of disappointment."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand, Darius. But as you know, the club tries to cover a range of genres. You might find it more engaging than you think.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/03.mp3",
+      "tone_description": "Speak in a soothing, patient tone, gently encouraging Darius to stay open-minded."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I guess you're right, Carmen. I'll give it a shot, but I'm not promising anything.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/04.mp3",
+      "tone_description": "Speak calmly and thoughtfully, indicating openness to trying something new despite initial reluctance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I guess you're right, Carmen. I'll give it a shot, but I'm not promising anything.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/05.mp3",
+      "tone_description": "[Sarcastic chuckle] Speak in a mocking, dismissive tone, barely hiding your disdain for the genre."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's all we ask, Darius. Who knows, it might surprise you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/06.mp3",
+      "tone_description": "Speak gently, with a hint of encouraging optimism, displaying patience and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, we'll see. I'll start it tonight and let you know my thoughts next week.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/07.mp3",
+      "tone_description": "Speak calmly and deliberately, with a tone of understanding and an air of contemplation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, we'll see. I'll start it tonight and let you know my thoughts next week.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657/audio/08.mp3",
+      "tone_description": "Speak with a sharp, irritated tone, laced with blame and a hint of condescension."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_224904",
+    "dataset_id": "20251208_224904_000056_8af04657",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_600/decision_making_impulse_control/20251208_224904_000056_8af04657",
+    "audio_files_count": 8
+  }
+}

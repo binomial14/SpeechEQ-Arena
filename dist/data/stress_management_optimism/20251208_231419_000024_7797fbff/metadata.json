@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Library Budget Cut",
+    "context": "In a community library, late afternoon, the sunlight shines through large windows, casting a warm glow on rows of neatly arranged books. The hum of a distant printer and the rustle of turning pages can be heard in the background.",
+    "description": "The city council has decided to cut the budget for the community library. The head librarian, Mariko, has just received this news and is discussing it with her assistant, Th\u00e9o.",
+    "speaker1_name": "Mariko",
+    "speaker1_role": "Head librarian",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Mariko is a composed, experienced librarian who is known for maintaining a positive outlook, even in challenging situations. She is patient, empathetic, and open-minded.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Th\u00e9o",
+    "speaker2_role": "Assistant librarian",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Th\u00e9o is calm, understanding, and supportive. He acknowledges the situation and works collaboratively with Mariko to find solutions.",
+    "speaker2_persona_2": "Low EQ - Th\u00e9o is pessimistic, quick to panic, and tends to exaggerate the impact of the situation, which can lead to a negative outlook and preemptive defeatism.",
+    "speaker2_persona_3": "Low EQ - Th\u00e9o is defensive and resistant to change. He quickly blames the city council without considering possible solutions or the bigger picture.",
+    "speaker2_persona_high": "High EQ - Th\u00e9o is calm, understanding, and supportive. He acknowledges the situation and works collaboratively with Mariko to find solutions.",
+    "speaker2_persona_low": "Low EQ - Th\u00e9o is defensive and resistant to change. He quickly blames the city council without considering possible solutions or the bigger picture.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Th\u00e9o, I've just received news that the city council is cutting our budget. I'm afraid it's not by a small amount either."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's a heavy blow, Mariko. How are we going to manage our operations?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I know it's going to be a challenge, but we've survived tough times before. We'll have to get creative and find ways to streamline our costs."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, we've been through worse. I think if we work together, we can find solutions that won't affect our patrons too much."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I'm glad to hear that, Th\u00e9o. Let's start by evaluating our current expenses and see where we can save."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, Mariko. We'll tackle this head-on and ensure our library remains a valuable resource for the community."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Th\u00e9o, I've just received news that the city council is cutting our budget. I'm afraid it's not by a small amount either.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/01.mp3",
+      "tone_description": "Speak slowly and calmly, maintaining a composed tone despite the challenging news."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's a heavy blow, Mariko. How are we going to manage our operations?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/02.mp3",
+      "tone_description": "Speak in a calm, understanding tone, expressing concern and willingness to collaborate."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I know it's going to be a challenge, but we've survived tough times before. We'll have to get creative and find ways to streamline our costs.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/03.mp3",
+      "tone_description": "Speak calmly and patiently, maintaining a positive and reassuring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, we've been through worse. I think if we work together, we can find solutions that won't affect our patrons too much.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/04.mp3",
+      "tone_description": "Speak in a calm, gentle rhythm with a supportive and collaborative tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, we've been through worse. I think if we work together, we can find solutions that won't affect our patrons too much.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/05.mp3",
+      "tone_description": "Speak defensively with a harsh tone, injecting blame and resentment."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I'm glad to hear that, Th\u00e9o. Let's start by evaluating our current expenses and see where we can save.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/06.mp3",
+      "tone_description": "Speak with a calm, patient tone, emphasizing positivity and collaboration."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Mariko. We'll tackle this head-on and ensure our library remains a valuable resource for the community.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/07.mp3",
+      "tone_description": "Speak in a calm, reassuring tone, displaying your willingness to work together."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Mariko. We'll tackle this head-on and ensure our library remains a valuable resource for the community.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff/audio/08.mp3",
+      "tone_description": "[Defensive sigh] Speak in a resistant, blaming tone, hinting at external fault."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_231419",
+    "dataset_id": "20251208_231419_000024_7797fbff",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/1208_600/stress_management_optimism/20251208_231419_000024_7797fbff",
+    "audio_files_count": 8
+  }
+}

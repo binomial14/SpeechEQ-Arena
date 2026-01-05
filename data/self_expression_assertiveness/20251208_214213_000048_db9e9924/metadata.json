@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Farmers Market Stand Dispute",
+    "context": "Saturday morning at a bustling farmers market. The air is filled with the aroma of fresh fruits, vegetables, and baked goods. A local stand owner, Amir, is engaging in a conversation with his stand neighbor, Kyra, about the placement of her new signage which is obstructing his stand's visibility.",
+    "description": "Amir and Kyra have stands next to each other at the local farmers market. Recently, Kyra has put up new signage that is larger than before and is obstructing the view of Amir's stand. Amir wants to address this issue with Kyra and asks her to adjust her signage.",
+    "speaker1_name": "Amir",
+    "speaker1_role": "Farmers Market Stand Owner",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Amir is confident, respectful, and assertive. He is good at expressing his feelings and thoughts in a non-confrontational way.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Kyra",
+    "speaker2_role": "Neighboring Stand Owner",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Kyra is understanding, open-minded, and cooperative. She is able to empathize with Amir's situation and is willing to find a solution that benefits both of them.",
+    "speaker2_persona_2": "Low EQ - Kyra is defensive and quick to take offense. She interprets Amir's request as a personal attack and responds with hostility.",
+    "speaker2_persona_3": "Low EQ - Kyra is dismissive and unresponsive. She ignores Amir's concerns and refuses to engage in a constructive conversation.",
+    "speaker2_persona_high": "High EQ - Kyra is understanding, open-minded, and cooperative. She is able to empathize with Amir's situation and is willing to find a solution that benefits both of them.",
+    "speaker2_persona_low": "Low EQ - Kyra is defensive and quick to take offense. She interprets Amir's request as a personal attack and responds with hostility.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Kyra, I noticed your new signage. It's certainly eye-catching, but it's also obstructing the view of my stand."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, I didn't realize it was causing a problem, Amir. I just wanted my stand to be more visible."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand that, but the placement and size of the sign is making my stand less visible."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, I can't just take it down, I spent a lot on it. But maybe we can find a solution that works for both of us?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That sounds like a good idea, perhaps we could adjust the height or angle?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, I think we can figure something out. Let's work on this after the market closes, okay?"
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Kyra, I noticed your new signage. It's certainly eye-catching, but it's also obstructing the view of my stand.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/01.mp3",
+      "tone_description": "Speak confidently and assertively, yet with a respectful and non-confrontational tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, I didn't realize it was causing a problem, Amir. I just wanted my stand to be more visible.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/02.mp3",
+      "tone_description": "Speak in a sincere and calm manner, showing understanding and willingness to cooperate."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand that, but the placement and size of the sign is making my stand less visible.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/03.mp3",
+      "tone_description": "Express your concern assertively yet respectfully, maintaining a calm and steady tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I can't just take it down, I spent a lot on it. But maybe we can find a solution that works for both of us?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/04.mp3",
+      "tone_description": "Speak in a calm and understanding tone, showing a willingness to compromise."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I can't just take it down, I spent a lot on it. But maybe we can find a solution that works for both of us?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/05.mp3",
+      "tone_description": "Speak defensively and with a hint of indignation, as if feeling attacked."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That sounds like a good idea, perhaps we could adjust the height or angle?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/06.mp3",
+      "tone_description": "Speak confidently and respectfully, suggesting the adjustment as a potential solution."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, I think we can figure something out. Let's work on this after the market closes, okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/07.mp3",
+      "tone_description": "Speak gently and patiently, with a warm, collaborative tone, showing your willingness to cooperate."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, I think we can figure something out. Let's work on this after the market closes, okay?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924/audio/08.mp3",
+      "tone_description": "Speak with a sharp, defensive edge, showing your annoyance and perceived insult."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_214213",
+    "dataset_id": "20251208_214213_000048_db9e9924",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "data/1208_600/self_expression_assertiveness/20251208_214213_000048_db9e9924",
+    "audio_files_count": 8
+  }
+}

@@ -310,20 +310,34 @@ To add more questions:
 1. Create a new folder in `data/` (can be in any subfolder like `decision_making_impulse_control/` or `interpersonal_interpersonal_relationships/`)
 2. Add audio files (01-08) in the `audio/` subfolder
 3. Add a `metadata.json` file following the same structure as the example
-4. Add the question to `questions.json` manifest file:
-   ```json
-   {
-     "id": "<question-id>",
-     "path": "data/<category-folder>/<question-id>",
-     "metadataPath": "data/<category-folder>/<question-id>/metadata.json"
-   }
+4. **Automatically generate `questions.json`**:
+   ```bash
+   npm run generate-questions
    ```
+   
+   This script will:
+   - Scan all folders in the `data/` directory
+   - Find all questions with `metadata.json` files
+   - Automatically generate/update `questions.json` with all questions
+   
+   **No manual editing needed!** Just add your question folders and run the script.
 
 **Example for different categories:**
 - Decision Making: `data/decision_making_impulse_control/<question-id>`
 - Interpersonal: `data/interpersonal_interpersonal_relationships/<question-id>`
 
 The app will automatically load all questions listed in `questions.json` and display them in order.
+
+### Manual Update (Optional)
+
+If you prefer to manually update `questions.json`, you can add entries like this:
+```json
+{
+  "id": "<question-id>",
+  "path": "data/<category-folder>/<question-id>",
+  "metadataPath": "data/<category-folder>/<question-id>/metadata.json"
+}
+```
 
 ## Project Structure
 
@@ -334,7 +348,8 @@ SpeechEQ-Arena/
 │   ├── main.jsx         # React entry point
 │   └── index.css        # Global styles
 ├── scripts/
-│   └── copy-assets.js   # Script to copy data folder during build
+│   ├── copy-assets.js        # Script to copy data folder during build
+│   └── generate-questions.js # Script to auto-generate questions.json from data/
 ├── data/                # Question data and audio files
 ├── dist/                # Production build output (generated)
 ├── index.html           # HTML template

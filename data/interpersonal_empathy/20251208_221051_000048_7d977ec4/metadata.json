@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "After Hours at the Library",
+    "context": "Late evening at a public library",
+    "description": "It's late evening at the city library. A soft symphony of turning pages and quiet whispers fill the air. The weather outside is chilly, but inside, the ambiance is warm and inviting. Sam, a library manager, is working his shift and notices Mika, a regular patron, looking visibly upset. She has been sitting alone in a corner, her book unopened. Sam decides to approach her.",
+    "speaker1_name": "Sam",
+    "speaker1_role": "Library Manager",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Sam is a gentle, compassionate individual who is good at reading people's emotions. He is a good listener and has a knack for understanding and empathizing with others.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Mika",
+    "speaker2_role": "Library Patron",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Mika is a resilient individual who, even when upset, is capable of expressing her emotions clearly and constructively. She appreciates empathy and responds positively to it.",
+    "speaker2_persona_2": "Low EQ - Mika is a highly defensive person. When upset, she tends to react negatively to anyone trying to engage with her, sometimes lashing out or becoming sarcastic.",
+    "speaker2_persona_3": "Low EQ - Mika is prone to anxiety and can be highly sensitive. When upset, she tends to become excessively emotional and may react nervously or irritably to any attempts to engage with her.",
+    "speaker2_persona_high": "High EQ - Mika is a resilient individual who, even when upset, is capable of expressing her emotions clearly and constructively. She appreciates empathy and responds positively to it.",
+    "speaker2_persona_low": "Low EQ - Mika is prone to anxiety and can be highly sensitive. When upset, she tends to become excessively emotional and may react nervously or irritably to any attempts to engage with her.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Mika, you seem a bit off today. Is everything okay?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, it's nothing really. Just... life, you know?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand, we all have those days. If you want to talk about it, I'm here."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "It's just... I lost my job today. I'm not really sure what to do next."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I'm really sorry to hear that, Mika. It's tough, but remember, you've overcome challenges before. You have the strength to get through this too."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, you're right. I guess I just needed a moment to let it sink in. Thanks, Sam."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Mika, you seem a bit off today. Is everything okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/01.mp3",
+      "tone_description": "Speak with a gentle, empathetic tone, expressing sincere concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, it's nothing really. Just... life, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/02.mp3",
+      "tone_description": "Speak softly and sincerely, with a hint of resignation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand, we all have those days. If you want to talk about it, I'm here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/03.mp3",
+      "tone_description": "Speak softly and empathetically, offering comfort and a willing ear."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's just... I lost my job today. I'm not really sure what to do next.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/04.mp3",
+      "tone_description": "Speak calmly and deliberately, expressing vulnerability but maintaining composure."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's just... I lost my job today. I'm not really sure what to do next.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/05.mp3",
+      "tone_description": "Speak with a shaky voice, reflecting anxiety and uncertainty, with a hint of irritability."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I'm really sorry to hear that, Mika. It's tough, but remember, you've overcome challenges before. You have the strength to get through this too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/06.mp3",
+      "tone_description": "Speak softly and empathetically, with a warm and encouraging tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, you're right. I guess I just needed a moment to let it sink in. Thanks, Sam.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/07.mp3",
+      "tone_description": "Speak with warm gratitude, a touch of sadness, and a resilient undertone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, you're right. I guess I just needed a moment to let it sink in. Thanks, Sam.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4/audio/08.mp3",
+      "tone_description": "Speak anxiously, voice shaky, with a hint of irritation lacing through the gratitude."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_221051",
+    "dataset_id": "20251208_221051_000048_7d977ec4",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_600/interpersonal_empathy/20251208_221051_000048_7d977ec4",
+    "audio_files_count": 8
+  }
+}

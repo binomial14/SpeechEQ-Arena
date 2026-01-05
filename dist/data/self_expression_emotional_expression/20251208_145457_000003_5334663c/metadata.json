@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Tense Meeting in the Park",
+    "context": "A sunny afternoon in a bustling city park. Children are playing on the nearby playground, their laughter creating a pleasant background noise. A soft breeze rustles the leaves of the trees, and the air smells of fresh-cut grass and blooming flowers.",
+    "description": "Two colleagues, Tom and Sarah, have arranged to meet in a park during their lunch break to discuss recent tensions at work. Sarah has been feeling sidelined and unheard in team meetings, and Tom, as the team leader, has asked her to share her feelings.",
+    "speaker1_name": "Tom",
+    "speaker1_role": "Team Leader",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Patient, attentive, able to listen without interrupting, and skilled at expressing his emotions clearly and respectfully.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Sarah",
+    "speaker2_role": "Team Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Articulate, able to express her feelings without blaming or attacking, takes responsibility for her emotions, empathizes with Tom's position.",
+    "speaker2_persona_2": "Low EQ - Defensive, reacts to Tom's inquiries by becoming defensive and blaming others for her feelings, unable to articulate her emotions clearly.",
+    "speaker2_persona_3": "Low EQ - Passive, avoids expressing her feelings, deflects Tom's inquiries with humor or changes the subject, seems uncomfortable discussing emotions.",
+    "speaker2_persona_high": "High EQ - Articulate, able to express her feelings without blaming or attacking, takes responsibility for her emotions, empathizes with Tom's position.",
+    "speaker2_persona_low": "Low EQ - Defensive, reacts to Tom's inquiries by becoming defensive and blaming others for her feelings, unable to articulate her emotions clearly.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sarah, thanks for coming out here. I've noticed some tension and I wanted to understand your perspective. How are you feeling about our team meetings lately?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Honestly, Tom, I've been feeling ignored. It seems like my input is getting overshadowed, especially in the group discussions."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm sorry to hear that, Sarah. I value your input and I thought I was giving everyone a fair chance to speak. Can you tell me about a specific instance?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Last week, when I tried to suggest an alternative approach for our project, I was interrupted mid-sentence and no one seemed to care."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I see now... I didn't realize that happened. I apologize for that, and going forward, I'll ensure that everyone is heard during our meetings."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I appreciate your understanding, Tom. I just want to contribute to our team's success without feeling overlooked."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sarah, thanks for coming out here. I've noticed some tension and I wanted to understand your perspective. How are you feeling about our team meetings lately?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/01.mp3",
+      "tone_description": "Speak in a patient and attentive manner, using a calm and respectful tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Honestly, Tom, I've been feeling ignored. It seems like my input is getting overshadowed, especially in the group discussions.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/02.mp3",
+      "tone_description": "Speak gently and sincerely, with a hint of vulnerability but maintaining composure."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm sorry to hear that, Sarah. I value your input and I thought I was giving everyone a fair chance to speak. Can you tell me about a specific instance?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/03.mp3",
+      "tone_description": "Speak in a calm, patient tone, showing sincere concern and attentiveness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Last week, when I tried to suggest an alternative approach for our project, I was interrupted mid-sentence and no one seemed to care.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/04.mp3",
+      "tone_description": "Speak calmly and thoughtfully, with a steady pace and a tone of gentle assertiveness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Last week, when I tried to suggest an alternative approach for our project, I was interrupted mid-sentence and no one seemed to care.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/05.mp3",
+      "tone_description": "Speak with a sharp, defensive tone, rushing through the words as if you're on the offensive."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I see now... I didn't realize that happened. I apologize for that, and going forward, I'll ensure that everyone is heard during our meetings.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/06.mp3",
+      "tone_description": "Speak calmly and attentively, with a sincere tone of apology and assurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your understanding, Tom. I just want to contribute to our team's success without feeling overlooked.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/07.mp3",
+      "tone_description": "Speak in a calm, measured pace, with a gentle assertiveness and empathetic tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your understanding, Tom. I just want to contribute to our team's success without feeling overlooked.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c/audio/08.mp3",
+      "tone_description": "Speak defensively, quick and sharp with a palpable sense of resentment and blame."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_145457",
+    "dataset_id": "20251208_145457_000003_5334663c",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000003_5334663c",
+    "audio_files_count": 8
+  }
+}

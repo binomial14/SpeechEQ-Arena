@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Surprise Party Dilemma",
+    "context": "At a local bakery on a sunny afternoon",
+    "description": "Two friends, Alex and Sam, are planning a surprise party for their mutual friend, Kelly. They disagree about whether to invite Kelly's ex, who is still part of their wider friend group.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Considerate, thoughtful, patient",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Emotionally intelligent, calm, thoughtful",
+    "speaker2_persona_2": "Low EQ - Impulsive, defensive",
+    "speaker2_persona_3": "Low EQ - Aggressive, confrontational",
+    "speaker2_persona_high": "High EQ - Emotionally intelligent, calm, thoughtful",
+    "speaker2_persona_low": "Low EQ - Aggressive, confrontational",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, what do you think about inviting Kelly's ex to the party?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I think we should invite him. He's still part of our friend group, isn't he?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, but their breakup was pretty messy. I'm worried it might make Kelly uncomfortable."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I see your point, but we should also consider how excluding him might affect the dynamics of our friend group."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's a valid point, I didn't think about it that way. This is a tough decision."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Maybe we could talk to him first and see how he feels about it?"
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, what do you think about inviting Kelly's ex to the party?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/01.mp3",
+      "tone_description": "Speak in a calm and thoughtful manner, showing patience in your tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I think we should invite him. He's still part of our friend group, isn't he?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/02.mp3",
+      "tone_description": "Speak gently and thoughtfully, showing calm understanding and inclusivity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, but their breakup was pretty messy. I'm worried it might make Kelly uncomfortable.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/03.mp3",
+      "tone_description": "Express your concern gently and patiently, with a thoughtful undertone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I see your point, but we should also consider how excluding him might affect the dynamics of our friend group.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/04.mp3",
+      "tone_description": "Speak gently and thoughtfully, maintaining a calm and understanding tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I see your point, but we should also consider how excluding him might affect the dynamics of our friend group.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/05.mp3",
+      "tone_description": "Speak forcefully and confrontationally, with an aggressive undertone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's a valid point, I didn't think about it that way. This is a tough decision.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/06.mp3",
+      "tone_description": "Speak thoughtfully and patiently, with a considerate tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Maybe we could talk to him first and see how he feels about it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/07.mp3",
+      "tone_description": "Speak gently and thoughtfully, with a warm, empathetic tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Maybe we could talk to him first and see how he feels about it?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e/audio/08.mp3",
+      "tone_description": "Speak forcefully and confrontationally, with a tone laced with aggression."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_160022",
+    "dataset_id": "20251208_160022_000003_88fee74e",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000003_88fee74e",
+    "audio_files_count": 8
+  }
+}

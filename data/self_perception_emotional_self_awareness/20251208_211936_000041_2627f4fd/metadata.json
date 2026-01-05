@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Downpour at the Farmers Market",
+    "context": "A bustling farmers market on a Saturday morning. Stalls are filled with fresh produce, artisan breads, and homemade goods. The sky is overcast and a surprising downpour begins.",
+    "description": "Ravi, a regular vendor at the market, had just finished setting up his stall of handmade candles when the unexpected rain started. His neighbour, Clara, who sells organic veggies, quickly offers help.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Vendor at the market selling handmade candles",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Ravi is usually calm and composed, always aware of his own emotions and how they might influence his actions. He is willing to accept help and able to express gratitude.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Clara",
+    "speaker2_role": "Vendor at the market selling organic vegetables",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Clara is empathetic, offers help without hesitation, and communicates her concern kindly. She is able to pick up on the emotions of others and respond accordingly.",
+    "speaker2_persona_2": "Low EQ - Clara is quick to react, showing impatience and irritation when the unexpected rain disrupts the market. She offers help but does it grudgingly and communicates in a harsh tone.",
+    "speaker2_persona_3": "Low EQ - Clara is easily overwhelmed by the sudden change in weather and becomes anxious. She offers help but does so in a panicked and frantic manner, allowing her emotions to take over.",
+    "speaker2_persona_high": "High EQ - Clara is empathetic, offers help without hesitation, and communicates her concern kindly. She is able to pick up on the emotions of others and respond accordingly.",
+    "speaker2_persona_low": "Low EQ - Clara is quick to react, showing impatience and irritation when the unexpected rain disrupts the market. She offers help but does it grudgingly and communicates in a harsh tone.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, this rain is going to ruin my candles!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I see, Ravi. Let's quickly cover your stall with this tarp, it should help."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Thanks, Clara. I didn't expect this weather at all."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, it's a curveball. But hey, a little rain never hurt anyone, right?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, I guess. A change in weather can't stop us, can it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's the spirit! And remember, even the rainiest days can bring the most unexpected opportunities."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, this rain is going to ruin my candles!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/01.mp3",
+      "tone_description": "Speak calmly and composed, expressing concern without panic."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I see, Ravi. Let's quickly cover your stall with this tarp, it should help.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/02.mp3",
+      "tone_description": "Speak with sincere concern and quick determination, offering a helpful solution."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Thanks, Clara. I didn't expect this weather at all.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/03.mp3",
+      "tone_description": "Speak in a calm, appreciative tone, expressing surprise and gratitude."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it's a curveball. But hey, a little rain never hurt anyone, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/04.mp3",
+      "tone_description": "Speak softly and reassuringly, with a genuine, warm tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it's a curveball. But hey, a little rain never hurt anyone, right?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/05.mp3",
+      "tone_description": "Speak with a sharp edge of irritation, almost snapping the words."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, I guess. A change in weather can't stop us, can it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/06.mp3",
+      "tone_description": "Speak calmly with a light-hearted, accepting tone, showcasing resilience and positivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit! And remember, even the rainiest days can bring the most unexpected opportunities.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/07.mp3",
+      "tone_description": "Speak softly and reassuringly, emphasizing the hopeful message with a warm tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit! And remember, even the rainiest days can bring the most unexpected opportunities.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd/audio/08.mp3",
+      "tone_description": "Speak quickly and nervously, emphasizing the unexpectedness with an anxious, high-pitched tone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211936",
+    "dataset_id": "20251208_211936_000041_2627f4fd",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211936_000041_2627f4fd",
+    "audio_files_count": 8
+  }
+}

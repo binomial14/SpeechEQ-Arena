@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Neighborhood Cleanup Drive",
+    "context": "Neighborhood park on a sunny Saturday afternoon",
+    "description": "The park is filled with families enjoying the sunny weather. The neighborhood association has organized a cleanup drive that is about to start. Speaker 1, who is a member of the cleanup initiative, approaches Speaker 2, a park-goer, to invite them to participate.",
+    "speaker1_name": "Chris",
+    "speaker1_role": "Neighborhood association member",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Friendly, outgoing, cares deeply about the community and is always seeking ways to involve others in neighborhood activities.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Park-goer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Open-minded, community-oriented, willing to participate in activities that benefit the neighborhood.",
+    "speaker2_persona_2": "Low EQ - Defensive, resists being approached by strangers, doesn't see the need to participate in community activities.",
+    "speaker2_persona_3": "Low EQ - Anxious, avoids social activities, prefers to keep to herself and doesn't like being asked to participate in events.",
+    "speaker2_persona_high": "High EQ - Open-minded, community-oriented, willing to participate in activities that benefit the neighborhood.",
+    "speaker2_persona_low": "Low EQ - Defensive, resists being approached by strangers, doesn't see the need to participate in community activities.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hi there! Beautiful day, isn't it? We're about to start our neighborhood cleanup drive, would you be interested in joining us?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, I wasn't aware there was a cleanup drive happening today."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes, we're trying to make the park cleaner and safer for everyone. It's a great way to contribute to the community."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I can see the value in that. I'm here with my family though, and I don't want to leave them."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "No worries at all! The drive can actually be a fun activity for families too. We have gloves and bags for everyone."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That sounds like a good idea, actually. We'll join you, let's set a good example for the kids."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hi there! Beautiful day, isn't it? We're about to start our neighborhood cleanup drive, would you be interested in joining us?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/01.mp3",
+      "tone_description": "Speak with a bright, inviting tone, full of enthusiasm and community spirit."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, I wasn't aware there was a cleanup drive happening today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/02.mp3",
+      "tone_description": "Speak with a surprised, yet enthusiastic tone, showing willingness to join."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes, we're trying to make the park cleaner and safer for everyone. It's a great way to contribute to the community.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/03.mp3",
+      "tone_description": "Speak enthusiastically and invitingly, highlighting the importance of community involvement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I can see the value in that. I'm here with my family though, and I don't want to leave them.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/04.mp3",
+      "tone_description": "Speak with a genuine, warm tone, expressing understanding and regret for not being able to participate."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I can see the value in that. I'm here with my family though, and I don't want to leave them.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/05.mp3",
+      "tone_description": "Speak in a defensive, sharp tone, with a slightly irritated pace and a hint of sarcasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "No worries at all! The drive can actually be a fun activity for families too. We have gloves and bags for everyone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/06.mp3",
+      "tone_description": "Speak enthusiastically and warmly, painting the task as a positive and fun family activity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds like a good idea, actually. We'll join you, let's set a good example for the kids.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/07.mp3",
+      "tone_description": "Speak with a warm, enthusiastic tone, expressing genuine interest and community spirit."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds like a good idea, actually. We'll join you, let's set a good example for the kids.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1/audio/08.mp3",
+      "tone_description": "Speak defensively, with a hint of skepticism and reluctance, as if being coerced."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_153544",
+    "dataset_id": "20251208_153544_000004_4f8315b1",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_300/interpersonal_social_responsibility/20251208_153544_000004_4f8315b1",
+    "audio_files_count": 8
+  }
+}

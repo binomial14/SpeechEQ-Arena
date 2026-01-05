@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Food Truck Festival Fiasco",
+    "context": "At a bustling food truck festival on a sunny Saturday afternoon. The air is filled with the sound of live music, people chatting and the aroma of various cuisines.",
+    "description": "Sarah and Brian, co-owners of a popular food truck, are facing an unexpected issue: their generator has malfunctioned, leaving them without power to cook. They need to make a quick decision about how to handle this problem.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Co-owner of the Food Truck",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Pragmatic, calm, and quick-thinking. She is solution-oriented and tends to see problems as challenges to be solved. She likes to consider all possible options before making a decision.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Brian",
+    "speaker2_role": "Co-owner of the Food Truck",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Patient, level-headed, and open to suggestions. He is able to keep his composure under pressure and values collaborative problem-solving. He focuses on solutions rather than getting caught up in the problem.",
+    "speaker2_persona_2": "Low EQ - Easily flustered and anxious. He tends to panic in unexpected situations and has difficulty focusing on solutions. He often jumps to the worst-case scenario and struggles to think clearly under stress.",
+    "speaker2_persona_3": "Low EQ - Defensive and pessimistic. He tends to blame external factors for problems and is resistant to taking responsibility. He has difficulty accepting constructive criticism and can be dismissive of others' ideas.",
+    "speaker2_persona_high": "High EQ - Patient, level-headed, and open to suggestions. He is able to keep his composure under pressure and values collaborative problem-solving. He focuses on solutions rather than getting caught up in the problem.",
+    "speaker2_persona_low": "Low EQ - Defensive and pessimistic. He tends to blame external factors for problems and is resistant to taking responsibility. He has difficulty accepting constructive criticism and can be dismissive of others' ideas.",
+    "speaker2_voice": "ash",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Brian, this generator issue is a disaster, we can't cook anything!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know it's a tough spot, Sarah, but let's not freak out. Let's think this through."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You're right, Brian. We could maybe ask to share a generator from another truck?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's a great idea, Sarah. Let's give it a shot, the worst they can say is no."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Alright, I'll go ask the folks at the taco truck, they seem friendly."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Good call, Sarah. And remember, it's okay, even if they say no. We'll figure this out."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Brian, this generator issue is a disaster, we can't cook anything!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/01.mp3",
+      "tone_description": "Speak calmly and pragmatically, displaying a solution-oriented attitude."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know it's a tough spot, Sarah, but let's not freak out. Let's think this through.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/02.mp3",
+      "tone_description": "Speak in a steady, calm voice, projecting reassurance and patience."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You're right, Brian. We could maybe ask to share a generator from another truck?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/03.mp3",
+      "tone_description": "Speak in a steady, calm tone, showcasing your pragmatic and solution-oriented nature."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea, Sarah. Let's give it a shot, the worst they can say is no.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/04.mp3",
+      "tone_description": "Speak in a calm, steady pace, projecting a sense of confidence and openness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea, Sarah. Let's give it a shot, the worst they can say is no.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/05.mp3",
+      "tone_description": "Mutter defensively with a touch of scorn, voice flat and slightly dismissive."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Alright, I'll go ask the folks at the taco truck, they seem friendly.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/06.mp3",
+      "tone_description": "Speak with a calm and pragmatic tone, indicating confidence in the proposed solution."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Good call, Sarah. And remember, it's okay, even if they say no. We'll figure this out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/07.mp3",
+      "tone_description": "Speak calmly and patiently, with a warm, reassuring tone and a hint of encouragement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Good call, Sarah. And remember, it's okay, even if they say no. We'll figure this out.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6/audio/08.mp3",
+      "tone_description": "Speak hurriedly and nervously, with a shaky voice filled with anxiety and apprehension."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222246",
+    "dataset_id": "20251208_222246_000003_d6ce7de6",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000003_d6ce7de6",
+    "audio_files_count": 8
+  }
+}

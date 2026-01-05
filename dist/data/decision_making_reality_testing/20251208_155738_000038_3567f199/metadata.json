@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Crisis in the Coffee Shop",
+    "context": "A local coffee shop during a busy afternoon rush",
+    "description": "The espresso machine at a popular local coffee shop breaks down during a busy afternoon. Customers are waiting for their orders and growing impatient. The barista, Alex, is trying to figure out what to do. Terry, a regular customer and experienced barista at another coffee shop, is waiting for his coffee.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Barista",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Although she is generally friendly and calm, Alex is feeling stressed and overwhelmed in this situation. She's never dealt with a broken espresso machine before.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Terry",
+    "speaker2_role": "Customer and experienced barista",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Terry remains calm and patient despite the problem. He offers practical advice to Alex based on his experience and encourages her to take a moment to think and approach the problem systematically.",
+    "speaker2_persona_2": "Low EQ - Terry becomes impatient and irritated. He criticizes Alex for not knowing how to fix the machine and makes sarcastic comments about her competence.",
+    "speaker2_persona_3": "Low EQ - Terry becomes anxious and starts to panic. He insists that Alex should call the manufacturer right away, even though it's unlikely they would be able to provide immediate help, and suggests that she should close the shop until the machine is fixed.",
+    "speaker2_persona_high": "High EQ - Terry remains calm and patient despite the problem. He offers practical advice to Alex based on his experience and encourages her to take a moment to think and approach the problem systematically.",
+    "speaker2_persona_low": "Low EQ - Terry becomes impatient and irritated. He criticizes Alex for not knowing how to fix the machine and makes sarcastic comments about her competence.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, the espresso machine is acting up again! I'm really sorry everyone, we're having a bit of an issue here."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Hey Alex, no need to panic. I've seen this issue before at my shop. Would you like some help?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Really, Terry? That would be great. I don't want to keep all these people waiting."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alright. Let's first turn it off, then check the water temperature. It's usually a simple fix."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Okay, sounds like a plan. Thanks so much, Terry. I was starting to lose my mind."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "No worries, Alex. We all have those days. Let's get this sorted out together."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, the espresso machine is acting up again! I'm really sorry everyone, we're having a bit of an issue here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/01.mp3",
+      "tone_description": "Speak quickly with a stressed, apologetic tone, showing slight frustration."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Hey Alex, no need to panic. I've seen this issue before at my shop. Would you like some help?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/02.mp3",
+      "tone_description": "Speak calmly and reassuringly, offering your help with a confident, patient tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Really, Terry? That would be great. I don't want to keep all these people waiting.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/03.mp3",
+      "tone_description": "Express relief and gratitude quickly, yet calmly, with a hopeful tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright. Let's first turn it off, then check the water temperature. It's usually a simple fix.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/04.mp3",
+      "tone_description": "Speak in calm, measured tones, offering reassurance through experienced advice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright. Let's first turn it off, then check the water temperature. It's usually a simple fix.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/05.mp3",
+      "tone_description": "Speak with a hint of irritation and sarcasm, criticizing her lack of knowledge."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Okay, sounds like a plan. Thanks so much, Terry. I was starting to lose my mind.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/06.mp3",
+      "tone_description": "Speak with a relieved and appreciative tone, showing signs of stress lifting off."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No worries, Alex. We all have those days. Let's get this sorted out together.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/07.mp3",
+      "tone_description": "Speak with a calm, patient tone, reassuring and encouraging."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No worries, Alex. We all have those days. Let's get this sorted out together.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199/audio/08.mp3",
+      "tone_description": "Speak with an impatient, sarcastic tone, laced with irritation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155738",
+    "dataset_id": "20251208_155738_000038_3567f199",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155738_000038_3567f199",
+    "audio_files_count": 8
+  }
+}

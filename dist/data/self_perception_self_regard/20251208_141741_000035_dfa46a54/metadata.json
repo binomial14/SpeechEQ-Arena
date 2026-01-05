@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Artistic Conundrum",
+    "context": "At a local community art exhibition",
+    "description": "Two friends, who are also amateur artists, are attending a local community art exhibition. They are standing in front of one of Speaker 1's paintings that has received mixed reviews.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Amateur artist and friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Confident, self-aware, and open-minded",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Amateur artist and friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - empathetic, constructive, and supportive",
+    "speaker2_persona_2": "Low EQ - dismissive, snide, and sarcastic",
+    "speaker2_persona_3": "Low EQ - over critical, judgmental, and unsupportive",
+    "speaker2_persona_high": "High EQ - empathetic, constructive, and supportive",
+    "speaker2_persona_low": "Low EQ - dismissive, snide, and sarcastic",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I'm not sure how to feel about the mixed reviews on my painting."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Well, not everyone is going to like your work, it's subjective after all."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You're right, but it's hard not to take it personally, you know?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand, but remember that criticism is also a chance to grow. You've got talent, and this is just a step in the journey."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I suppose so. I need to focus more on the constructive criticism."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Exactly! You're a wonderful artist. Don't let a few mixed reviews deter you."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I'm not sure how to feel about the mixed reviews on my painting.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/01.mp3",
+      "tone_description": "Speak thoughtfully and with humble confidence, showing openness to critique."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Well, not everyone is going to like your work, it's subjective after all.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/02.mp3",
+      "tone_description": "Speak gently and reassuringly, emphasizing understanding and support."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You're right, but it's hard not to take it personally, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/03.mp3",
+      "tone_description": "Speak thoughtfully and sincerely, maintaining a calm and confident tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, but remember that criticism is also a chance to grow. You've got talent, and this is just a step in the journey.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/04.mp3",
+      "tone_description": "Speak warmly, with a reassuring tone and a touch of empathy, emphasizing the chance to grow."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, but remember that criticism is also a chance to grow. You've got talent, and this is just a step in the journey.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/05.mp3",
+      "tone_description": "Speak in a dismissive, sarcastic tone, emphasizing 'chance to grow' with a cynical laugh."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I suppose so. I need to focus more on the constructive criticism.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/06.mp3",
+      "tone_description": "Speak with a thoughtful, accepting tone, reflecting growth and self-awareness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Exactly! You're a wonderful artist. Don't let a few mixed reviews deter you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/07.mp3",
+      "tone_description": "Speak gently and reassuringly, with a warm tone brimming with empathy and support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Exactly! You're a wonderful artist. Don't let a few mixed reviews deter you.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54/audio/08.mp3",
+      "tone_description": "Speak with a sarcastic, dismissive tone, rolling your eyes as you emphasize 'wonderful artist'."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_141741",
+    "dataset_id": "20251208_141741_000035_dfa46a54",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_300/self_perception_self_regard/20251208_141741_000035_dfa46a54",
+    "audio_files_count": 8
+  }
+}

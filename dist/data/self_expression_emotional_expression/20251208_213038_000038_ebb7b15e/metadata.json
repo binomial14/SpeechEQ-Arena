@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Mixed Up Orders at the Food Truck",
+    "context": "A popular food truck in a busy downtown park during lunchtime rush.",
+    "description": "It's a sunny, early afternoon and the park is teeming with office workers on their lunch breaks. The aroma of sizzling food mingles with the sounds of birds chirping and the hum of a street performer playing a saxophone nearby. At the bustling food truck, there's a mix-up with orders causing some customers to receive the wrong items. The owner of the food truck, Ravi, has to deal with an upset customer, Lina.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Owner of the Food Truck",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Ravi is calm, patient, and empathetic. He is always respectful and understanding towards his customers. He has a knack for diffusing tense situations with his warm and friendly demeanor.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Lina",
+    "speaker2_role": "Customer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Lina is assertive yet respectful. She is able to express her dissatisfaction without resorting to anger or blaming. She has a clear understanding of her emotions and is able to communicate them effectively.",
+    "speaker2_persona_2": "Low EQ - Lina is easily irritable and quick to blame. She finds it hard to control her temper when things don't go her way. She expresses her emotions in a confrontational and aggressive manner.",
+    "speaker2_persona_3": "Low EQ - Lina is highly anxious and tends to overreact. She struggles to articulate her feelings and often resorts to panicky expressions of frustration and confusion.",
+    "speaker2_persona_high": "High EQ - Lina is assertive yet respectful. She is able to express her dissatisfaction without resorting to anger or blaming. She has a clear understanding of her emotions and is able to communicate them effectively.",
+    "speaker2_persona_low": "Low EQ - Lina is easily irritable and quick to blame. She finds it hard to control her temper when things don't go her way. She expresses her emotions in a confrontational and aggressive manner.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sorry for the mix-up, Lina. We've been slammed today and I guess your order got messed up."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "This isn't what I ordered, Ravi. I'm on a tight lunch schedule and I can't wait for another order."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I completely understand your frustration, Lina. Let me make this right for you, I'll expedite your correct order."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I appreciate that, Ravi, but it's not the first time this has happened. I think I'll give another truck a try next time."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I'm really sorry to hear that, Lina. We value you as a customer and we'll definitely work on improving our service."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, I hope so, Ravi. I really do love your food and I'd hate to have to go elsewhere."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sorry for the mix-up, Lina. We've been slammed today and I guess your order got messed up.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/01.mp3",
+      "tone_description": "Speak calmly and patiently, with a warm, empathetic tone to convey understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "This isn't what I ordered, Ravi. I'm on a tight lunch schedule and I can't wait for another order.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/02.mp3",
+      "tone_description": "Speak assertively but with respectful calmness, showing dissatisfaction yet understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I completely understand your frustration, Lina. Let me make this right for you, I'll expedite your correct order.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/03.mp3",
+      "tone_description": "Speak in a calm, patient manner, emphasizing empathy and understanding."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Ravi, but it's not the first time this has happened. I think I'll give another truck a try next time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/04.mp3",
+      "tone_description": "Speak calmly and assertively, expressing dissatisfaction with a respectful yet firm tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Ravi, but it's not the first time this has happened. I think I'll give another truck a try next time.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/05.mp3",
+      "tone_description": "Speak in an accusatory, irritated manner with a hint of aggression and impatience."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I'm really sorry to hear that, Lina. We value you as a customer and we'll definitely work on improving our service.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/06.mp3",
+      "tone_description": "Speak in a genuinely apologetic and patient tone, expressing commitment to better service."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, I hope so, Ravi. I really do love your food and I'd hate to have to go elsewhere.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/07.mp3",
+      "tone_description": "Speak in a calm, balanced tone with a hint of disappointment"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, I hope so, Ravi. I really do love your food and I'd hate to have to go elsewhere.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e/audio/08.mp3",
+      "tone_description": "Speak with a sharp tone, laced with irritation and resentment"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213038",
+    "dataset_id": "20251208_213038_000038_ebb7b15e",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000038_ebb7b15e",
+    "audio_files_count": 8
+  }
+}

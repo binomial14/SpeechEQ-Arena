@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Delicate Art of Dinner Planning",
+    "context": "Family dinner at Maya's house",
+    "description": "Maya and her brother Mike are discussing the menu for the upcoming family reunion dinner. Maya, the habitual organizer, wants to ensure everyone's dietary preferences are considered, while Mike, who is less experienced in event planning, is struggling to comprehend the complexity involved.",
+    "speaker1_name": "Maya",
+    "speaker1_role": "Sister and event organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Maya is patient, considerate, and systematic. She is adept at taking a seemingly overwhelming task and breaking it down into manageable parts, helping others understand and contribute effectively.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Mike",
+    "speaker2_role": "Brother and event helper",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ Mike: He is open-minded and eager to learn. He appreciates Maya's systematic approach and tries to contribute, asking clarifying questions when needed.",
+    "speaker2_persona_2": "Low EQ Mike (reactive/frustrated): He is easily overwhelmed and reacts defensively when faced with complexity. He may tend to dismiss the importance of the task at hand or mock it in a sarcastic manner.",
+    "speaker2_persona_3": "Low EQ Mike (impatient/irritated): He is impatient and gets irritated when things are complicated. He tends to oversimplify the task and make hasty decisions, often disregarding other people's needs or preferences.",
+    "speaker2_persona_high": "High EQ Mike: He is open-minded and eager to learn. He appreciates Maya's systematic approach and tries to contribute, asking clarifying questions when needed.",
+    "speaker2_persona_low": "Low EQ Mike (reactive/frustrated): He is easily overwhelmed and reacts defensively when faced with complexity. He may tend to dismiss the importance of the task at hand or mock it in a sarcastic manner.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright, Mike, we need to ensure we've catered to everyone's dietary preferences for the reunion dinner."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Does it really matter? I mean, can't we just order pizzas and be done with it?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "It's not that simple, Mike. Aunt Jenny is gluten-free, cousin Leah is vegan, and grandma is allergic to dairy."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "This is so complicated! You always make everything so complex!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I know it sounds overwhelming, but with a bit of planning, we can ensure everyone enjoys the meal."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, alright. I guess we can start by making a list of everyone's dietary needs."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright, Mike, we need to ensure we've catered to everyone's dietary preferences for the reunion dinner.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/01.mp3",
+      "tone_description": "Speak slowly, methodically, and considerately, instilling a sense of thoroughness and patience."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Does it really matter? I mean, can't we just order pizzas and be done with it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/02.mp3",
+      "tone_description": "Speak in a relaxed, questioning tone, showing openness to Maya's approach."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "It's not that simple, Mike. Aunt Jenny is gluten-free, cousin Leah is vegan, and grandma is allergic to dairy.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/03.mp3",
+      "tone_description": "Speak in a patient and systematic manner, explaining each point with considerate clarity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "This is so complicated! You always make everything so complex!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/04.mp3",
+      "tone_description": "Speak with a curious and patient tone, showing your interest and willingness to understand."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "This is so complicated! You always make everything so complex!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/05.mp3",
+      "tone_description": "Speak in a defensive and sarcastic manner, showing your frustration and dismissal of the situation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I know it sounds overwhelming, but with a bit of planning, we can ensure everyone enjoys the meal.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/06.mp3",
+      "tone_description": "Speak in a calm, systematic manner, showing patience and understanding in your tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, alright. I guess we can start by making a list of everyone's dietary needs.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/07.mp3",
+      "tone_description": "Speak with a positive and curious tone, showing eagerness to learn and contribute."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, alright. I guess we can start by making a list of everyone's dietary needs.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf/audio/08.mp3",
+      "tone_description": "Speak with a sarcastic and dismissive tone, showing frustration and a sense of being overwhelmed."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_154903",
+    "dataset_id": "20251208_154903_000035_5ec421bf",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_300/decision_making_problem_solving/20251208_154903_000035_5ec421bf",
+    "audio_files_count": 8
+  }
+}

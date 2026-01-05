@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    width: 75%;
+    max-width: 1400px;
     margin: 0 auto;
     background: white;
     border-radius: 16px;
@@ -79,6 +80,33 @@ header h1 {
     border-radius: 20px;
 }
 
+.question-progress {
+    margin-bottom: 20px;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.question-number {
+    font-size: 1em;
+    color: #667eea;
+    font-weight: 600;
+    text-align: center;
+}
+
 .saved-indicator {
     background: #28a745 !important;
     color: white !important;
@@ -115,6 +143,10 @@ header h1 {
     font-size: 1.3em;
     margin-bottom: 20px;
     color: #333;
+}
+
+.highlight-select {
+    font-weight: 700;
 }
 
 .audio-group {
@@ -156,6 +188,34 @@ header h1 {
     font-weight: 600;
     color: #667eea;
     font-size: 0.9em;
+}
+
+.audio-lock-message {
+    font-size: 0.85em;
+    color: #d32f2f;
+    font-style: italic;
+    margin-top: 5px;
+    display: block;
+}
+
+audio:disabled,
+.audio-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.audio-disabled {
+    filter: grayscale(100%);
+}
+
+.audio-disabled audio {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+audio {
+    pointer-events: auto;
 }
 
 .audio-choice {
@@ -341,6 +401,47 @@ header h1 {
     margin-top: 15px;
 }
 
+.feedback-section {
+    margin-top: 30px;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.feedback-section h3 {
+    color: #667eea;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.feedback-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.feedback-form {
+    margin-top: 20px;
+}
+
+.feedback-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: inherit;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+    min-height: 120px;
+}
+
+.feedback-textarea:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
 .results-actions {
     margin-top: 30px;
     display: flex;
@@ -412,6 +513,30 @@ header h1 {
     list-style-type: disc;
 }
 
+.example-scenario {
+    background: #f0f4ff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin-top: 15px;
+}
+
+.example-scenario p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.example-scenario ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.example-scenario li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
 .consent-form {
     margin-top: 30px;
     padding: 30px;
@@ -443,9 +568,76 @@ header h1 {
     transition: border-color 0.3s ease;
 }
 
-.form-group input[type="email"]:focus {
+.form-group input[type="email"]:focus,
+.form-group input.passkey-input:focus {
     outline: none;
     border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group input.passkey-input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    background: white;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form-group input.passkey-input::placeholder {
+    letter-spacing: 0;
+    font-weight: normal;
+    opacity: 0.6;
+}
+
+.passkey-container {
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.passkey-icon {
+    font-size: 4em;
+    margin-bottom: 20px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.passkey-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.passkey-description {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.passkey-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.passkey-submit {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1em;
 }
 
 .radio-group {
@@ -476,7 +668,8 @@ header h1 {
 
 @media (max-width: 768px) {
     .container {
-        margin: 10px;
+        width: 95%;
+        margin: 10px auto;
         border-radius: 12px;
     }
 
@@ -521,5 +714,31 @@ header h1 {
         flex-direction: column;
         gap: 10px;
     }
+}
+
+.app-footer {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    margin-top: auto;
+}
+
+.app-footer p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.app-footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.app-footer a:hover {
+    color: #764ba2;
+    text-decoration: underline;
 }
 

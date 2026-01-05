@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Delayed Project",
+    "context": "An office break room in the late afternoon. The smell of brewing coffee fills the room. The hum of the vending machine and the occasional ding from the microwave provide a calming background noise.",
+    "description": "Two colleagues, Anna and Mike, are discussing a high stakes project they are working on that has recently been delayed due to unexpected complications.",
+    "speaker1_name": "Anna",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Anna is calm and collected, always maintains a positive outlook. She is skilled at managing stress and is always looking for solutions rather than dwelling on problems.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Mike",
+    "speaker2_role": "Senior Analyst",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Mike is understanding and patient. He trusts in the team's ability to overcome challenges and remains optimistic despite facing adversity.",
+    "speaker2_persona_2": "Low EQ - Mike is easily frustrated and quick to lay blame. He tends to catastrophize situations and has difficulty maintaining a positive outlook when faced with challenges.",
+    "speaker2_persona_3": "Low EQ - Mike is pessimistic and often feels helpless when faced with challenges. He tends to focus on the negative aspects of the situation rather than looking for solutions.",
+    "speaker2_persona_high": "High EQ - Mike is understanding and patient. He trusts in the team's ability to overcome challenges and remains optimistic despite facing adversity.",
+    "speaker2_persona_low": "Low EQ - Mike is easily frustrated and quick to lay blame. He tends to catastrophize situations and has difficulty maintaining a positive outlook when faced with challenges.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I'm really concerned about the delay with our project, Mike. These complications were totally unexpected."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yes, Anna, it's definitely a big bump in the road but remember, we've dealt with such situations before."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You're right, but the stakes are so high this time. I'm worried about the impact on our reputation."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand your worries, but let's not lose sight of our past successes. We've overcome bigger challenges, haven't we?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's true, we've pulled through before. We just need to keep our heads down and work through it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, Anna. Let's focus on the task at hand and I'm sure we'll deliver a great result, as we always do."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I'm really concerned about the delay with our project, Mike. These complications were totally unexpected.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/01.mp3",
+      "tone_description": "Speak in a calm, solution-focused tone, expressing concern but maintaining positivity."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yes, Anna, it's definitely a big bump in the road but remember, we've dealt with such situations before.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/02.mp3",
+      "tone_description": "Speak in a calm, confident manner with an undertone of optimism and reassurance."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You're right, but the stakes are so high this time. I'm worried about the impact on our reputation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/03.mp3",
+      "tone_description": "Speak in a calm and composed manner, expressing concern but also confidence in finding a solution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand your worries, but let's not lose sight of our past successes. We've overcome bigger challenges, haven't we?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/04.mp3",
+      "tone_description": "Speak in a gentle, patient tone, exuding optimism and unwavering confidence in overcoming the challenge."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand your worries, but let's not lose sight of our past successes. We've overcome bigger challenges, haven't we?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/05.mp3",
+      "tone_description": "Speak with a sharp, accusatory tone, emphasizing the potential disaster and laying blame on the situation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's true, we've pulled through before. We just need to keep our heads down and work through it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/06.mp3",
+      "tone_description": "Speak in a soothing, confident manner, emphasizing past victories and future solutions."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Anna. Let's focus on the task at hand and I'm sure we'll deliver a great result, as we always do.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/07.mp3",
+      "tone_description": "Speak calmly and optimistically, with a reassuring tone and a hint of confidence."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Anna. Let's focus on the task at hand and I'm sure we'll deliver a great result, as we always do.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25/audio/08.mp3",
+      "tone_description": "Speak with a tense, frustrated tone, rushing through the words as if you're blaming Anna."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_162948",
+    "dataset_id": "20251208_162948_000018_1b310a25",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/1208_300/stress_management_optimism/20251208_162948_000018_1b310a25",
+    "audio_files_count": 8
+  }
+}

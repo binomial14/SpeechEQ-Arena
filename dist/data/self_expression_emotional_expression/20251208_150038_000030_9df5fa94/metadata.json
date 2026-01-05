@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Emotional Rollercoaster at the Amusement Park",
+    "context": "At an amusement park, waiting in line for a thrilling roller coaster ride",
+    "description": "Two friends, Alex and Jamie, are waiting in line for a roller coaster ride. Alex, who is terrified of rollercoasters, is trying to overcome his fear. Jamie is a rollercoaster enthusiast and is trying to help Alex cope with his fear.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Alex is very emotional and expressive. He's not very good at hiding his feelings, especially his fear of rollercoasters, and can often come off as dramatic. He tends to overthink and worry about things, but is also good at articulating his emotions.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Jamie",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Jamie is emotionally intelligent, empathetic, and supportive. She is good at understanding and acknowledging other people's feelings, and always tries to help them feel better.",
+    "speaker2_persona_2": "Jamie can be impatient and dismissive. She struggles to understand why Alex is so scared and tends to belittle his fears, often coming off as insensitive.",
+    "speaker2_persona_3": "Jamie can be overly enthusiastic and forceful. She doesn't understand why Alex is scared and tries to push him into facing his fears, often disregarding his feelings and making him feel pressured.",
+    "speaker2_persona_high": "Jamie is emotionally intelligent, empathetic, and supportive. She is good at understanding and acknowledging other people's feelings, and always tries to help them feel better.",
+    "speaker2_persona_low": "Jamie can be impatient and dismissive. She struggles to understand why Alex is so scared and tends to belittle his fears, often coming off as insensitive.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Man, I can't believe I let you talk me into this, Jamie. My heart's racing."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I get it, Alex. Let's take deep breaths, okay?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Deep breaths, right. I can do that."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Great, look at you handling this like a champ! Remember, it's just a ride. It's meant to be fun."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Fun, yeah. I'll remember that when I'm screaming my head off."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Hey, the best screams are the ones that come from pure joy, buddy. We're in this together, right?"
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Man, I can't believe I let you talk me into this, Jamie. My heart's racing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/01.mp3",
+      "tone_description": "Speak quickly and expressively, with a tone of nervous excitement and slight regret."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I get it, Alex. Let's take deep breaths, okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/02.mp3",
+      "tone_description": "Speak in a soothing, understanding tone, emphasizing the reassurance and empathy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Deep breaths, right. I can do that.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/03.mp3",
+      "tone_description": "Speak in a fast, shaky voice, showing a clear sense of nervousness and apprehension."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Great, look at you handling this like a champ! Remember, it's just a ride. It's meant to be fun.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/04.mp3",
+      "tone_description": "Speak in a soothing, empathetic tone, gently reassuring and encouraging Alex."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Great, look at you handling this like a champ! Remember, it's just a ride. It's meant to be fun.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/05.mp3",
+      "tone_description": "Speak in a dismissive, slightly sarcastic tone, undermining Alex's fears."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Fun, yeah. I'll remember that when I'm screaming my head off.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/06.mp3",
+      "tone_description": "Speak in a fast, dramatic tone, with a hint of sarcastic humor."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Hey, the best screams are the ones that come from pure joy, buddy. We're in this together, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/07.mp3",
+      "tone_description": "Speak warmly, reassuringly, and with a soft chuckle to convey your empathetic support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Hey, the best screams are the ones that come from pure joy, buddy. We're in this together, right?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94/audio/08.mp3",
+      "tone_description": "Speak in a fast, sarcastic tone, with a hint of impatience and dismissal."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_150038",
+    "dataset_id": "20251208_150038_000030_9df5fa94",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_300/self_expression_emotional_expression/20251208_150038_000030_9df5fa94",
+    "audio_files_count": 8
+  }
+}

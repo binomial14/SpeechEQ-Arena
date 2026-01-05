@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Event Miscalculation",
+    "context": "In a local community center, during a planning meeting for a charity event",
+    "description": "Julian, the event organizer, is discussing the event budget with Alex, the treasurer of the community center. Julian is proposing an ambitious plan that exceeds the budget, while Alex tries to bring him back to reality.",
+    "speaker1_name": "Julian",
+    "speaker1_role": "Event Organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Enthusiastic and ambitious, but often overlooks practical constraints or potential obstacles.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Treasurer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Patient and pragmatic. She uses concrete facts and figures to gently guide Julian towards a more realistic understanding of the budget restrictions.",
+    "speaker2_persona_2": "Low EQ - Irritated and dismissive. She quickly becomes frustrated with Julian's unrealistic ideas and resorts to sarcastic comments.",
+    "speaker2_persona_3": "Low EQ - Anxious and defensive. She becomes overwhelmed by Julian's ambitious plans and reacts with stress and panic, failing to present a clear argument.",
+    "speaker2_persona_high": "High EQ - Patient and pragmatic. She uses concrete facts and figures to gently guide Julian towards a more realistic understanding of the budget restrictions.",
+    "speaker2_persona_low": "Low EQ - Irritated and dismissive. She quickly becomes frustrated with Julian's unrealistic ideas and resorts to sarcastic comments.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alex, I think we should consider having that popular live band at our event. It will draw a bigger crowd and we will earn more donations."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That sounds interesting, Julian, but have you considered the cost? Hiring a live band isn't cheap."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand that, but I think the benefits outweigh the costs. It's a risk, but I believe it's worth taking."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Julian, it's not about taking risks, it's about being financially responsible. We can't afford to overspend and end up not being able to cover basic expenses."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I see your point, Alex. But without some risks, we can't achieve great things."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, Julian, that risks can lead to rewards. But we have to ensure that the risks we take don't jeopardize the event or the community center's operations."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alex, I think we should consider having that popular live band at our event. It will draw a bigger crowd and we will earn more donations.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/01.mp3",
+      "tone_description": "Speak with enthusiastic excitement and a hint of ambition, overlooking any potential drawbacks."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That sounds interesting, Julian, but have you considered the cost? Hiring a live band isn't cheap.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/02.mp3",
+      "tone_description": "Speak in a calm, gentle tone, highlighting the pragmatism of the situation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand that, but I think the benefits outweigh the costs. It's a risk, but I believe it's worth taking.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/03.mp3",
+      "tone_description": "Speak with enthusiastic conviction, but slightly rushed, ignoring any potential obstacles."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Julian, it's not about taking risks, it's about being financially responsible. We can't afford to overspend and end up not being able to cover basic expenses.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/04.mp3",
+      "tone_description": "Speak patiently and factually, maintaining a calm and pragmatic tone throughout."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Julian, it's not about taking risks, it's about being financially responsible. We can't afford to overspend and end up not being able to cover basic expenses.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/05.mp3",
+      "tone_description": "Speak in a terse, sharp tone, lacing your words with dismissive sarcasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I see your point, Alex. But without some risks, we can't achieve great things.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/06.mp3",
+      "tone_description": "Speak with enthusiastic conviction, overlooking any potential drawbacks."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Julian, that risks can lead to rewards. But we have to ensure that the risks we take don't jeopardize the event or the community center's operations.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/07.mp3",
+      "tone_description": "Speak slowly, calmly, using facts and figures to gently correct Julian's misunderstandings."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Julian, that risks can lead to rewards. But we have to ensure that the risks we take don't jeopardize the event or the community center's operations.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c/audio/08.mp3",
+      "tone_description": "Speak briskly, use a sharp, sarcastic tone, and a dismissive laugh to express your frustration."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155524",
+    "dataset_id": "20251208_155524_000026_d227332c",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155524_000026_d227332c",
+    "audio_files_count": 8
+  }
+}

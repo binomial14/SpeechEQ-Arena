@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Independent Organizer",
+    "context": "Community Center, organizing a charity event",
+    "description": "It's a sunny Saturday afternoon at the bustling community center. Children's laughter echoes from the playground, while inside the center, adults are busily preparing for the upcoming charity event. Amid all the activity, two friends and volunteers - Carlos and Diana - are discussing the preparations.",
+    "speaker1_name": "Carlos",
+    "speaker1_role": "Volunteer, friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Carlos is organized, assertive, and independent. He is capable of taking initiative and making decisions on his own, yet values the input of others.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Diana",
+    "speaker2_role": "Volunteer, friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Diana is understanding and patient. She appreciates Carlos's independence and supports his ideas while also expressing her own thoughts in a constructive manner.",
+    "speaker2_persona_2": "Low EQ - Diana is dismissive and indifferent. She questions Carlos's independent decisions and does not offer any constructive feedback or support.",
+    "speaker2_persona_3": "Low EQ - Diana is overwhelmed and anxious. She reacts negatively to Carlos's independence, feeling left out and unconsidered.",
+    "speaker2_persona_high": "High EQ - Diana is understanding and patient. She appreciates Carlos's independence and supports his ideas while also expressing her own thoughts in a constructive manner.",
+    "speaker2_persona_low": "Low EQ - Diana is overwhelmed and anxious. She reacts negatively to Carlos's independence, feeling left out and unconsidered.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Man, this event is really coming together, isn't it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, but I'm a bit worried about the food arrangements. I think we might be short on help."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Hmm, I see what you mean. How about I take charge of the food station?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Really? But you're already handling the registration desk, Carlos. Are you sure?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely. I've got a knack for juggling tasks. Plus, it's for a good cause, right?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, if you're sure... But remember, it's okay to ask for help if you need it."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Man, this event is really coming together, isn't it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/01.mp3",
+      "tone_description": "Speak assertively and confidently, with a tone of satisfaction and accomplishment."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, but I'm a bit worried about the food arrangements. I think we might be short on help.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/02.mp3",
+      "tone_description": "Express your concerns calmly and patiently, with a tone of constructive criticism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Hmm, I see what you mean. How about I take charge of the food station?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/03.mp3",
+      "tone_description": "Speak assertively and confidently, taking on a tone of initiative and responsibility."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Really? But you're already handling the registration desk, Carlos. Are you sure?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/04.mp3",
+      "tone_description": "Speak with a warm, supportive tone, expressing concern yet admiration for Carlos's initiative."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Really? But you're already handling the registration desk, Carlos. Are you sure?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/05.mp3",
+      "tone_description": "Speak with a shaky, anxious voice, sounding overwhelmed and slightly hurt by Carlos's decision."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely. I've got a knack for juggling tasks. Plus, it's for a good cause, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/06.mp3",
+      "tone_description": "Speak assertively, showcasing confidence and a hint of enthusiasm."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, if you're sure... But remember, it's okay to ask for help if you need it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/07.mp3",
+      "tone_description": "Speak in a soft, gentle tone, with a hint of admiration and a comforting reassurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, if you're sure... But remember, it's okay to ask for help if you need it.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2/audio/08.mp3",
+      "tone_description": "Speak in a dry, detached tone, with an undercurrent of skepticism and disregard."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_215328",
+    "dataset_id": "20251208_215328_000062_10c07db2",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/1208_600/self_expression_independence/20251208_215328_000062_10c07db2",
+    "audio_files_count": 8
+  }
+}
