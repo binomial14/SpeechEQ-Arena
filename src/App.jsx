@@ -21,6 +21,11 @@ function App() {
   const [audioPlayedStatus, setAudioPlayedStatus] = useState({}) // Track which audios have been played per question: { [questionId]: { [audioId]: true } }
   const [feedback, setFeedback] = useState('')
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
+  const [prolificIds, setProlificIds] = useState({
+    prolificPid: '',
+    studyId: '',
+    sessionId: ''
+  })
 
   // Function to fetch questions from Google Sheets (10 with least assignments)
   const fetchQuestionsFromGoogleSheets = async () => {
@@ -46,6 +51,20 @@ function App() {
   }
 
   useEffect(() => {
+    // Extract Prolific IDs from URL query parameters
+    const urlParams = new URLSearchParams(window.location.search)
+    const prolificPid = urlParams.get('PROLIFIC_PID') || ''
+    const studyId = urlParams.get('STUDY_ID') || ''
+    const sessionId = urlParams.get('SESSION_ID') || ''
+    
+    setProlificIds({
+      prolificPid,
+      studyId,
+      sessionId
+    })
+    
+    console.log('Prolific IDs:', { prolificPid, studyId, sessionId })
+    
     loadQuestions()
   }, [])
 
@@ -404,6 +423,9 @@ function App() {
         timestamp: new Date().toISOString(),
         email: 'N/A',
         nativeSpeaker: 'N/A',
+        prolificPid: prolificIds.prolificPid || 'N/A',
+        studyId: prolificIds.studyId || 'N/A',
+        sessionId: prolificIds.sessionId || 'N/A',
         questions: allSubmissions // Just the list of {q_id, q1bool, q2bool}
       }
 
@@ -551,6 +573,9 @@ function App() {
         timestamp: new Date().toISOString(),
         email: 'N/A',
         nativeSpeaker: 'N/A',
+        prolificPid: prolificIds.prolificPid || 'N/A',
+        studyId: prolificIds.studyId || 'N/A',
+        sessionId: prolificIds.sessionId || 'N/A',
         questions: finalSubmissions,
         feedback: feedback.trim()
       }

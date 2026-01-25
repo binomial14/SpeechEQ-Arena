@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, prolific ]  # Add your branch name here, e.g., [ main, develop ]
   workflow_dispatch:  # Allow manual triggering
 
 permissions:
@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}  # Uses the branch that triggered the workflow
       
       - name: Setup Node.js
         uses: actions/setup-node@v4

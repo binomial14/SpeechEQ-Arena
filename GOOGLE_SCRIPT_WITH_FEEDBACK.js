@@ -209,7 +209,9 @@ function doPost(e) {
       throw new Error('No data found in request');
     }
     
-    Logger.log('Email: ' + (data.email || 'N/A'));
+    Logger.log('Prolific PID: ' + (data.prolificPid || 'N/A'));
+    Logger.log('Study ID: ' + (data.studyId || 'N/A'));
+    Logger.log('Session ID: ' + (data.sessionId || 'N/A'));
     Logger.log('Questions: ' + (data.questions?.length || 0));
     Logger.log('Feedback: ' + (data.feedback ? data.feedback.substring(0, 50) + '...' : 'N/A'));
     
@@ -219,8 +221,9 @@ function doPost(e) {
     
     // Extract user info
     const timestamp = data.timestamp || new Date().toISOString();
-    const email = data.email || 'N/A';
-    const nativeSpeaker = data.nativeSpeaker || 'N/A';
+    const prolificPid = data.prolificPid || 'N/A';
+    const studyId = data.studyId || 'N/A';
+    const sessionId = data.sessionId || 'N/A';
     const feedback = data.feedback || '';
     const questions = data.questions || [];
     
@@ -229,7 +232,7 @@ function doPost(e) {
     
     // Build header row if first time
     if (responsesSheet.getLastRow() === 0) {
-      const headerRow = ['Timestamp', 'Email', 'Native Speaker'];
+      const headerRow = ['Timestamp', 'Prolific PID', 'Study ID', 'Session ID'];
       // Add columns for each question: q_id, q1bool, q2bool
       for (let i = 0; i < questions.length; i++) {
         headerRow.push(`Q${i+1}_ID`, `Q${i+1}_Q1`, `Q${i+1}_Q2`);
@@ -241,7 +244,7 @@ function doPost(e) {
     }
     
     // Build data row - one row per user with all questions
-    const dataRow = [timestamp, email, nativeSpeaker];
+    const dataRow = [timestamp, prolificPid, studyId, sessionId];
     
     // Add data for each question in order
     questions.forEach((question, index) => {
