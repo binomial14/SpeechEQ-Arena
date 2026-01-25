@@ -655,7 +655,7 @@ function App() {
           <div className="consent-section">
             <h3>Instructions</h3>
             <div className="instructions">
-              <p><strong>⏱️ Expected Time: Approximately 5 minutes</strong></p>
+              <p><strong>⏱️ Expected Time: Approximately 10 minutes</strong></p>
               <p>In this study, you will evaluate how well a speaker's tone matches a specific social situation.</p>
               <ol>
                 <li><strong>Understand the Context:</strong> Read the scenario description to understand the relationship between the speakers and the goal of the conversation.</li>
