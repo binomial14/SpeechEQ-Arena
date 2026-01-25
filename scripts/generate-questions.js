@@ -9,21 +9,22 @@ const dataDir = path.resolve(rootDir, 'data')
 const questionsFile = path.resolve(rootDir, 'questions.json')
 
 function generateQuestions() {
-  const questions = []
-
   if (!fs.existsSync(dataDir)) {
     console.error('❌ data folder not found')
     process.exit(1)
   }
 
-  // Get all category folders
+  // Get all category folders (subscales)
   const categories = fs.readdirSync(dataDir, { withFileTypes: true })
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
+    .sort() // Sort categories alphabetically for consistency
 
-  console.log(`📁 Found ${categories.length} categories in data/`)
+  console.log(`📁 Found ${categories.length} subscales in data/`)
 
-  // Iterate through each category
+  // Collect questions grouped by subscale
+  const questionsBySubscale = {}
+
   for (const category of categories) {
     const categoryPath = path.join(dataDir, category)
     
@@ -31,8 +32,11 @@ function generateQuestions() {
     const questionFolders = fs.readdirSync(categoryPath, { withFileTypes: true })
       .filter(dirent => dirent.isDirectory())
       .map(dirent => dirent.name)
+      .sort() // Sort questions within each subscale
 
     console.log(`  📂 ${category}: ${questionFolders.length} questions`)
+
+    const subscaleQuestions = []
 
     // Iterate through each question folder
     for (const questionId of questionFolders) {
@@ -45,7 +49,7 @@ function generateQuestions() {
         const relativePath = `data/${category}/${questionId}`
         const relativeMetadataPath = `${relativePath}/metadata.json`
 
-        questions.push({
+        subscaleQuestions.push({
           id: questionId,
           path: relativePath,
           metadataPath: relativeMetadataPath
@@ -54,10 +58,25 @@ function generateQuestions() {
         console.warn(`  ⚠️  Warning: metadata.json not found in ${questionPath}`)
       }
     }
+
+    questionsBySubscale[category] = subscaleQuestions
   }
 
-  // Sort questions by ID for consistency
-  questions.sort((a, b) => a.id.localeCompare(b.id))
+  // Interleave questions: round 1 from all subscales, then round 2, etc.
+  const questions = []
+  const maxQuestionsPerSubscale = Math.max(...Object.values(questionsBySubscale).map(q => q.length))
+
+  console.log(`\n🔄 Ordering questions by rounds (max ${maxQuestionsPerSubscale} rounds)...`)
+
+  for (let round = 0; round < maxQuestionsPerSubscale; round++) {
+    for (const category of categories) {
+      const subscaleQuestions = questionsBySubscale[category]
+      if (round < subscaleQuestions.length) {
+        questions.push(subscaleQuestions[round])
+        console.log(`  Round ${round + 1}: ${category} - ${subscaleQuestions[round].id}`)
+      }
+    }
+  }
 
   // Generate the JSON structure
   const questionsJson = {
@@ -69,6 +88,7 @@ function generateQuestions() {
 
   console.log(`\n✅ Generated questions.json with ${questions.length} questions`)
   console.log(`📝 File saved to: ${questionsFile}`)
+  console.log(`\n📊 Order: Round 1 (all subscales) → Round 2 (all subscales) → ...`)
 }
 
 // Run the script

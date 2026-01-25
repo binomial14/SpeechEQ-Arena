@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react'
 // Google Form submission URL - Update this with your Google Form URL
 // To get this: Create a Google Form, go to Settings > Responses > Get pre-filled link
 // Or use Google Apps Script to create a web app that accepts POST requests
-const GOOGLE_FORM_URL = import.meta.env.VITE_GOOGLE_FORM_URL || 'https://script.google.com/macros/s/AKfycbwhFhJmxXcgM-JYGVMK0zUkTbJXrw3J66IPpyl37Fg7F6S56Udy-4ZukLAa-pAKoFj9/exec'
+const GOOGLE_FORM_URL = import.meta.env.VITE_GOOGLE_FORM_URL ||'https://script.google.com/macros/s/AKfycbw74eVRALWCzJ-lxTdqQixM3RahQcG6UN56oIrMd8A_Q4yn0G_2rl8pwYcdiY04nfquqQ/exec'
+const PROLIFIC_EXIT_URL = 'https://app.prolific.com/submissions/complete?cc=C1GDHKVZ'
 
 function App() {
   const [questions, setQuestions] = useState([])
@@ -13,13 +14,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
   const [showResults, setShowResults] = useState(false)
-  const [showPasskey, setShowPasskey] = useState(true)
-  const [passkey, setPasskey] = useState('')
-  const [showConsent, setShowConsent] = useState(false)
-  const [userInfo, setUserInfo] = useState({
-    email: '',
-    nativeSpeaker: ''
-  })
+  const [showIntroduction, setShowIntroduction] = useState(true)
   const [submitting, setSubmitting] = useState(false)
   const [hasSubmitted, setHasSubmitted] = useState(false)
   const [currentlyPlayingAudio, setCurrentlyPlayingAudio] = useState(null)
@@ -27,43 +22,27 @@ function App() {
   const [feedback, setFeedback] = useState('')
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false)
 
-  // Function to sample questions using timestamp as hash key
-  const sampleQuestions = (allQuestions, count) => {
-    if (allQuestions.length <= count) {
-      return allQuestions
-    }
-
-    // Use current timestamp as seed for consistent sampling per session
-    const timestamp = Date.now()
-    
-    // Simple hash function to convert timestamp to a number
-    const hash = (str) => {
-      let hash = 0
-      for (let i = 0; i < str.length; i++) {
-        const char = str.charCodeAt(i)
-        hash = ((hash << 5) - hash) + char
-        hash = hash & hash // Convert to 32bit integer
+  // Function to fetch questions from Google Sheets (10 with least assignments)
+  const fetchQuestionsFromGoogleSheets = async () => {
+    try {
+      const response = await fetch(`${GOOGLE_FORM_URL}?action=getQuestions&count=10`)
+      if (response.ok) {
+        const result = await response.json()
+        if (result.success && result.questions) {
+          console.log('Fetched questions from Google Sheets:', result.questions)
+          return result.questions // Array of question IDs
+        } else {
+          console.warn('No questions returned from Google Sheets')
+          return []
+        }
+      } else {
+        console.warn('Failed to fetch questions from Google Sheets:', response.status)
+        return []
       }
-      return Math.abs(hash)
+    } catch (error) {
+      console.warn('Error fetching questions from Google Sheets:', error)
+      return [] // Return empty array on error
     }
-
-    // Create a seeded random number generator
-    const seededRandom = (seed) => {
-      const x = Math.sin(seed) * 10000
-      return x - Math.floor(x)
-    }
-
-    const seed = hash(timestamp.toString())
-    const sampled = []
-    const available = [...allQuestions]
-    
-    // Sample questions using seeded random
-    for (let i = 0; i < count && available.length > 0; i++) {
-      const randomIndex = Math.floor(seededRandom(seed + i) * available.length)
-      sampled.push(available.splice(randomIndex, 1)[0])
-    }
-
-    return sampled
   }
 
   useEffect(() => {
@@ -72,69 +51,76 @@ function App() {
 
   const loadQuestions = async () => {
     try {
-      const loadedQuestions = []
       const baseUrl = import.meta.env.BASE_URL
       
-      // Try to load questions from manifest file first
+      // Step 1: Fetch question IDs from Google Sheets (10 with least assignments)
+      const questionIds = await fetchQuestionsFromGoogleSheets()
+      
+      if (questionIds.length === 0) {
+        console.error('No questions returned from Google Sheets')
+        setError(true)
+        setLoading(false)
+        return
+      }
+      
+      // Step 2: Load questions.json to get paths for the selected question IDs
+      let questionManifest = null
       try {
         const manifestResponse = await fetch(`${baseUrl}questions.json`)
         if (manifestResponse.ok) {
           const manifest = await manifestResponse.json()
-          
-          // Load all questions from manifest
-          for (const questionInfo of manifest.questions) {
-            try {
-              const metadataPath = questionInfo.metadataPath.startsWith('/') 
-                ? `${baseUrl}${questionInfo.metadataPath.slice(1)}`
-                : `${baseUrl}${questionInfo.metadataPath}`
-              const response = await fetch(metadataPath)
-              if (response.ok) {
-                const metadata = await response.json()
-                loadedQuestions.push({
-                  id: questionInfo.id,
-                  path: questionInfo.path,
-                  metadata: metadata
-                })
-              } else {
-                console.error(`Failed to load question ${questionInfo.id}: ${response.status}`)
-              }
-            } catch (error) {
-              console.error(`Error loading question ${questionInfo.id}:`, error)
-            }
-          }
+          questionManifest = manifest
         } else {
-          console.log('Manifest file not found, trying direct load...')
+          console.error('Failed to load questions.json')
+          setError(true)
+          setLoading(false)
+          return
         }
       } catch (error) {
-        console.log('Manifest file not found, trying direct load...', error)
+        console.error('Error loading questions.json:', error)
+        setError(true)
+        setLoading(false)
+        return
       }
       
-      // Fallback: Try to load the example question directly if no questions loaded
-      if (loadedQuestions.length === 0) {
-        const questionPath = `${baseUrl}data/decision_making_impulse_control/20251208_160022_000001_213287e3/metadata.json`
+      // Step 3: Load metadata for each selected question
+      const loadedQuestions = []
+      
+      for (const questionId of questionIds) {
+        // Find question info in manifest
+        const questionInfo = questionManifest.questions.find(q => q.id === questionId)
+        
+        if (!questionInfo) {
+          console.warn(`Question ${questionId} not found in questions.json`)
+          continue
+        }
+        
         try {
-          const response = await fetch(questionPath)
+          const metadataPath = questionInfo.metadataPath.startsWith('/') 
+            ? `${baseUrl}${questionInfo.metadataPath.slice(1)}`
+            : `${baseUrl}${questionInfo.metadataPath}`
+          
+          const response = await fetch(metadataPath)
           if (response.ok) {
             const metadata = await response.json()
             loadedQuestions.push({
-              id: metadata.generation_metadata.dataset_id,
-              path: questionPath.replace('/metadata.json', ''),
+              id: questionInfo.id,
+              path: questionInfo.path,
               metadata: metadata
             })
           } else {
-            console.error(`Failed to load question: ${response.status}`)
+            console.error(`Failed to load question ${questionId}: ${response.status}`)
           }
         } catch (error) {
-          console.error('Error loading question:', error)
+          console.error(`Error loading question ${questionId}:`, error)
         }
       }
 
       if (loadedQuestions.length > 0) {
-        // Sample 10 questions using timestamp as hash key
-        const sampledQuestions = sampleQuestions(loadedQuestions, 10)
-        setQuestions(sampledQuestions)
+        setQuestions(loadedQuestions)
         setLoading(false)
       } else {
+        console.error('No questions could be loaded')
         setError(true)
         setLoading(false)
       }
@@ -315,42 +301,87 @@ function App() {
   const submitFeedbackToGoogleForms = async (submissionData) => {
     if (!GOOGLE_FORM_URL) {
       console.warn('Google Form URL not configured. Cannot submit feedback.')
-      return
+      throw new Error('Google Form URL not configured')
     }
 
-    try {
-      // Use form submission method
-      const form = document.createElement('form')
-      form.method = 'POST'
-      form.action = GOOGLE_FORM_URL
-      form.target = 'hidden_iframe'
-      form.style.display = 'none'
+    return new Promise((resolve, reject) => {
+      try {
+        // Use form submission with iframe to detect completion
+        const form = document.createElement('form')
+        form.method = 'POST'
+        form.action = GOOGLE_FORM_URL
+        form.target = 'submission_iframe'
+        form.style.display = 'none'
 
-      // Add data as hidden input
-      const dataInput = document.createElement('input')
-      dataInput.type = 'hidden'
-      dataInput.name = 'data'
-      dataInput.value = JSON.stringify(submissionData)
-      form.appendChild(dataInput)
+        // Add data as hidden input
+        const dataInput = document.createElement('input')
+        dataInput.type = 'hidden'
+        dataInput.name = 'data'
+        dataInput.value = JSON.stringify(submissionData)
+        form.appendChild(dataInput)
 
-      // Create hidden iframe for submission
-      let iframe = document.getElementById('hidden_iframe')
-      if (!iframe) {
-        iframe = document.createElement('iframe')
-        iframe.id = 'hidden_iframe'
-        iframe.name = 'hidden_iframe'
+        // Create hidden iframe for submission
+        const iframe = document.createElement('iframe')
+        iframe.name = 'submission_iframe'
+        iframe.id = 'submission_iframe'
         iframe.style.display = 'none'
+        
+        // Listen for iframe load to detect when submission completes
+        iframe.onload = () => {
+          console.log('Submission iframe loaded - data should be written')
+          // Clean up
+          setTimeout(() => {
+            if (document.body.contains(form)) {
+              document.body.removeChild(form)
+            }
+            if (document.body.contains(iframe)) {
+              document.body.removeChild(iframe)
+            }
+          }, 500)
+          
+          // Wait a bit more to ensure data is fully written
+          setTimeout(() => {
+            resolve(true)
+          }, 1000)
+        }
+        
+        iframe.onerror = () => {
+          console.error('Submission iframe error')
+          // Clean up
+          if (document.body.contains(form)) {
+            document.body.removeChild(form)
+          }
+          if (document.body.contains(iframe)) {
+            document.body.removeChild(iframe)
+          }
+          reject(new Error('Submission failed'))
+        }
+
         document.body.appendChild(iframe)
+        document.body.appendChild(form)
+        
+        console.log('Submitting feedback to Google Sheets...')
+        form.submit()
+        
+        // Fallback timeout in case iframe events don't fire
+        setTimeout(() => {
+          if (document.body.contains(form) || document.body.contains(iframe)) {
+            console.log('Submission timeout - assuming success')
+            if (document.body.contains(form)) {
+              document.body.removeChild(form)
+            }
+            if (document.body.contains(iframe)) {
+              document.body.removeChild(iframe)
+            }
+            resolve(true)
+          }
+        }, 5000)
+        
+      } catch (error) {
+        console.error('Error submitting feedback:', error)
+        reject(error)
       }
-
-      document.body.appendChild(form)
-      form.submit()
-      document.body.removeChild(form)
-
-      console.log('Feedback submitted successfully')
-    } catch (error) {
-      console.error('Error submitting feedback:', error)
-    }
+    })
   }
 
   const submitToGoogleForms = async (allSubmissions) => {
@@ -371,8 +402,8 @@ function App() {
       // Simplified data structure - only what we need
       const submissionData = {
         timestamp: new Date().toISOString(),
-        email: userInfo.email,
-        nativeSpeaker: userInfo.nativeSpeaker,
+        email: 'N/A',
+        nativeSpeaker: 'N/A',
         questions: allSubmissions // Just the list of {q_id, q1bool, q2bool}
       }
 
@@ -486,10 +517,7 @@ function App() {
   const handleFeedbackSubmit = async (e) => {
     e.preventDefault()
     
-    if (feedback.trim() === '') {
-      alert('Please provide your feedback before submitting.')
-      return
-    }
+    // Feedback is optional, no validation needed
 
     // Ensure all questions are saved
     questions.forEach(q => {
@@ -521,17 +549,29 @@ function App() {
       // Include feedback in submission
       const submissionData = {
         timestamp: new Date().toISOString(),
-        email: userInfo.email,
-        nativeSpeaker: userInfo.nativeSpeaker,
+        email: 'N/A',
+        nativeSpeaker: 'N/A',
         questions: finalSubmissions,
         feedback: feedback.trim()
       }
 
       // Submit everything (answers + feedback) to Google Sheets
       setSubmitting(true)
-      await submitFeedbackToGoogleForms(submissionData)
-      setSubmitting(false)
-      setFeedbackSubmitted(true)
+      try {
+        await submitFeedbackToGoogleForms(submissionData)
+        setSubmitting(false)
+        setFeedbackSubmitted(true)
+        
+        // Wait a moment to show success message, then redirect
+        setTimeout(() => {
+          // Redirect to Prolific exit URL
+          window.location.href = PROLIFIC_EXIT_URL
+        }, 1500)
+      } catch (error) {
+        setSubmitting(false)
+        console.error('Failed to submit:', error)
+        alert('Failed to submit your responses. Please try again or contact support.')
+      }
     }, 100)
   }
 
@@ -567,14 +607,6 @@ function App() {
   }
 
 
-  const handleConsentSubmit = (e) => {
-    e.preventDefault()
-    if (!userInfo.email || !userInfo.nativeSpeaker) {
-      alert('Please fill in all required fields.')
-      return
-    }
-    setShowConsent(false)
-  }
 
   const getSpeakerName = (speaker, scenario) => {
     if (speaker === 'speaker1') {
@@ -583,6 +615,70 @@ function App() {
       return scenario.speaker2_name || 'Speaker 2'
     }
     return 'Unknown'
+  }
+
+  if (showIntroduction) {
+    return (
+      <div className="container">
+        <header>
+          <h1>SpeechEQ Arena</h1>
+          <p className="subtitle">Speech Emotional Appropriateness Study</p>
+        </header>
+        <div className="consent-container">
+          <h2>Welcome to the SpeechEQ Arena</h2>
+          
+          <div className="consent-section">
+            <h3>Instructions</h3>
+            <div className="instructions">
+              <p><strong>⏱️ Expected Time: Approximately 5 minutes</strong></p>
+              <p>In this study, you will evaluate how well a speaker's tone matches a specific social situation.</p>
+              <ol>
+                <li><strong>Understand the Context:</strong> Read the scenario description to understand the relationship between the speakers and the goal of the conversation.</li>
+                <li><strong>Listen & Compare:</strong> You will hear two versions of the same response. The words are identical, but the vocal tone and emotion are different.</li>
+                <li><strong>Evaluate:</strong> Select the version that sounds more emotionally appropriate for the given context.</li>
+              </ol>
+              <p><strong>Please listen to all audio clips before making your selection. The goal is to select the voice that has a more positive impact on the interaction.</strong></p>
+            </div>
+          </div>
+
+          <div className="consent-section">
+            <h3>Example Scenario</h3>
+            <p>To help you get started, here is an example of what we are looking for:</p>
+            <div className="example-scenario">
+              <p><strong>The Situation:</strong> A friend is telling a coworker that they are sorry for missing a deadline.</p>
+              <p><strong>The Sentence:</strong> "I am so sorry, I'll have it to you by tomorrow."</p>
+              <ul>
+                <li><strong>Option A:</strong> Sounds upbeat, cheerful, and fast.</li>
+                <li><strong>Option B:</strong> Sounds sincere, slightly lowered pitch, and regretful.</li>
+              </ul>
+              <p><strong>Which is the right fit?</strong> In this case, Option B is the correct choice. Even though Option A sounds "happy," it is not a good fit for an apology.</p>
+            </div>
+          </div>
+
+          <div className="consent-section">
+            <h3>Consent</h3>
+            <p>By participating in this study, you agree that:</p>
+            <ul>
+              <li>Your responses will be recorded anonymously for research purposes.</li>
+              <li>You can withdraw at any time.</li>
+            </ul>
+          </div>
+
+          <div className="form-actions">
+            <button 
+              type="button" 
+              className="submit-btn"
+              onClick={() => setShowIntroduction(false)}
+            >
+              I Agree and Start the Test
+            </button>
+          </div>
+        </div>
+        <footer className="app-footer">
+          <p>&copy; {new Date().getFullYear()} <a href="https://binomial14.github.io" target="_blank" rel="noopener noreferrer">Leo Wu</a>. All rights reserved.</p>
+        </footer>
+      </div>
+    )
   }
 
   if (loading) {
@@ -613,164 +709,6 @@ function App() {
     )
   }
 
-  if (showPasskey) {
-    return (
-      <div className="container">
-        <header>
-          <h1>SpeechEQ Arena</h1>
-          <p className="subtitle">Speech Emotional Appropriateness Study</p>
-        </header>
-        <div className="consent-container">
-          <div className="passkey-container">
-            <div className="passkey-icon">🔐</div>
-            <h2>Secure Access</h2>
-            <p className="passkey-description">Please enter your access code to continue to the SpeechEQ Arena.</p>
-            <form className="consent-form passkey-form" onSubmit={(e) => {
-              e.preventDefault()
-              if (passkey === '2026SPEECHEQ') {
-                setShowPasskey(false)
-                setShowConsent(true)
-              } else {
-                alert('Invalid access code. Please try again.')
-                setPasskey('')
-              }
-            }}>
-              <div className="form-group">
-                <label htmlFor="passkey">
-                  Access Code <span className="required">*</span>
-                </label>
-                <input
-                  type="password"
-                  id="passkey"
-                  value={passkey}
-                  onChange={(e) => setPasskey(e.target.value)}
-                  required
-                  placeholder="Enter your access code"
-                  className="passkey-input"
-                  autoFocus
-                />
-              </div>
-              <div className="form-actions">
-                <button type="submit" className="submit-btn passkey-submit">
-                  Continue
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <footer className="app-footer">
-          <p>&copy; {new Date().getFullYear()} <a href="https://binomial14.github.io" target="_blank" rel="noopener noreferrer">Leo Wu</a>. All rights reserved.</p>
-        </footer>
-      </div>
-    )
-  }
-
-  if (showConsent) {
-    return (
-      <div className="container">
-        <header>
-          <h1>SpeechEQ Arena</h1>
-          <p className="subtitle">Speech Emotional Appropriateness Study</p>
-        </header>
-        <div className="consent-container">
-          <h2>Welcome to the SpeechEQ Arena</h2>
-          
-          <div className="consent-section">
-            <h3>Instructions</h3>
-            <div className="instructions">
-              <p><strong>⏱️ Expected Time: Approximately 10 minutes</strong></p>
-              <p>In this study, you will evaluate how well a speaker’s tone matches a specific social situation.</p>
-              <ol>
-                <li><strong>Understand the Context:</strong> Read the scenario description to understand the relationship between the speakers and the goal of the conversation.</li>
-                <li><strong>Listen & Compare:</strong> You will hear two versions of the same response. The words are identical, but the vocal tone and emotion are different.</li>
-                <li><strong>Evaluate:</strong> Select the version that sounds more emotionally appropriate for the given context.</li>
-              </ol>
-              <p><strong>Please listen to all audio clips before making your selection. The goal is to select the voice that has a more positive impact on the interaction.</strong></p>
-            </div>
-          </div>
-
-          <div className="consent-section">
-            <h3>Example Scenario</h3>
-            <p>To help you get started, here is an example of what we are looking for:</p>
-            <div className="example-scenario">
-              <p><strong>The Situation:</strong> A friend is telling a coworker that they are sorry for missing a deadline.</p>
-              <p><strong>The Sentence:</strong> "I am so sorry, I'll have it to you by tomorrow."</p>
-              <ul>
-                <li><strong>Option A:</strong> Sounds upbeat, cheerful, and fast.</li>
-                <li><strong>Option B:</strong> Sounds sincere, slightly lowered pitch, and regretful.</li>
-              </ul>
-              <p><strong>Which is the right fit?</strong> In this case, Option B is the correct choice. Even though Option A sounds "happy," it is not a good fit for an apology.</p>
-            </div>
-          </div>
-
-          <div className="consent-section">
-            <h3>Consent</h3>
-            <p>By participating in this study, you agree that:</p>
-            <ul>
-              <li>Your responses will be recorded anonymously for research purposes.</li>
-              <li>You can withdraw at any time.</li>
-              <li>Your email address will be used only for research purposes and will be kept confidential.</li>
-            </ul>
-          </div>
-
-          <form className="consent-form" onSubmit={handleConsentSubmit}>
-            <div className="form-group">
-              <label htmlFor="email">
-                Email Address <span className="required">*</span>
-              </label>
-              <input
-                type="email"
-                id="email"
-                value={userInfo.email}
-                onChange={(e) => setUserInfo({ ...userInfo, email: e.target.value })}
-                required
-                placeholder="your.email@example.com"
-              />
-            </div>
-
-            <div className="form-group">
-              <label>
-                Are you a native English speaker? <span className="required">*</span>
-              </label>
-              <div className="radio-group">
-                <label className="radio-label">
-                  <input
-                    type="radio"
-                    name="nativeSpeaker"
-                    value="yes"
-                    checked={userInfo.nativeSpeaker === 'yes'}
-                    onChange={(e) => setUserInfo({ ...userInfo, nativeSpeaker: e.target.value })}
-                    required
-                  />
-                  <span>Yes</span>
-                </label>
-                <label className="radio-label">
-                  <input
-                    type="radio"
-                    name="nativeSpeaker"
-                    value="no"
-                    checked={userInfo.nativeSpeaker === 'no'}
-                    onChange={(e) => setUserInfo({ ...userInfo, nativeSpeaker: e.target.value })}
-                    required
-                  />
-                  <span>No</span>
-                </label>
-              </div>
-            </div>
-
-            <div className="form-actions">
-              <button type="submit" className="submit-btn">
-                I Agree and Start the Test
-              </button>
-            </div>
-          </form>
-        </div>
-        <footer className="app-footer">
-          <p>&copy; {new Date().getFullYear()} <a href="https://binomial14.github.io" target="_blank" rel="noopener noreferrer">Leo Wu</a>. All rights reserved.</p>
-        </footer>
-      </div>
-    )
-  }
 
   if (showResults) {
     return (
@@ -783,13 +721,13 @@ function App() {
           {!feedbackSubmitted ? (
             <>
               <h2>Thank you for completing all questions!</h2>
-              <p>Please provide your feedback below, then we'll submit your responses.</p>
+              <p>You may provide feedback below (optional), then submit your responses.</p>
               {submitting && (
                 <p className="submitting-message">Submitting your responses and feedback...</p>
               )}
               {!submitting && (
                 <div className="feedback-section">
-                  <h3>We'd love to hear your feedback!</h3>
+                  <h3>Feedback (Optional)</h3>
                   <p>Please share any comments, suggestions, or thoughts about your experience:</p>
                   <form className="feedback-form" onSubmit={handleFeedbackSubmit}>
                     <div className="form-group">
@@ -797,10 +735,9 @@ function App() {
                         id="feedback"
                         value={feedback}
                         onChange={(e) => setFeedback(e.target.value)}
-                        placeholder="Enter your feedback here..."
+                        placeholder="Enter your feedback here (optional)..."
                         rows={6}
                         className="feedback-textarea"
-                        required
                       />
                     </div>
                     <div className="form-actions">
@@ -816,7 +753,7 @@ function App() {
             <>
               <h2>Thank you!</h2>
               <p>Your responses and feedback have been submitted successfully.</p>
-              <p className="submitting-message">We appreciate your time and input!</p>
+              <p className="submitting-message">Redirecting you back...</p>
             </>
           )}
         </div>
