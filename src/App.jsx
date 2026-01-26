@@ -323,84 +323,55 @@ function App() {
       throw new Error('Google Form URL not configured')
     }
 
-    return new Promise((resolve, reject) => {
-      try {
-        // Use form submission with iframe to detect completion
-        const form = document.createElement('form')
-        form.method = 'POST'
-        form.action = GOOGLE_FORM_URL
-        form.target = 'submission_iframe'
-        form.style.display = 'none'
+    console.log('Submitting feedback to Google Sheets...')
+    console.log('Submission data:', JSON.stringify(submissionData, null, 2))
 
-        // Add data as hidden input
-        const dataInput = document.createElement('input')
-        dataInput.type = 'hidden'
-        dataInput.name = 'data'
-        dataInput.value = JSON.stringify(submissionData)
-        form.appendChild(dataInput)
+    try {
+      // Use fetch to get the actual response and verify success
+      const formData = new URLSearchParams()
+      formData.append('data', JSON.stringify(submissionData))
+      
+      const response = await fetch(GOOGLE_FORM_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: formData.toString()
+      })
 
-        // Create hidden iframe for submission
-        const iframe = document.createElement('iframe')
-        iframe.name = 'submission_iframe'
-        iframe.id = 'submission_iframe'
-        iframe.style.display = 'none'
-        
-        // Listen for iframe load to detect when submission completes
-        iframe.onload = () => {
-          console.log('Submission iframe loaded - data should be written')
-          // Clean up
-          setTimeout(() => {
-            if (document.body.contains(form)) {
-              document.body.removeChild(form)
-            }
-            if (document.body.contains(iframe)) {
-              document.body.removeChild(iframe)
-            }
-          }, 500)
-          
-          // Wait a bit more to ensure data is fully written
-          setTimeout(() => {
-            resolve(true)
-          }, 1000)
-        }
-        
-        iframe.onerror = () => {
-          console.error('Submission iframe error')
-          // Clean up
-          if (document.body.contains(form)) {
-            document.body.removeChild(form)
-          }
-          if (document.body.contains(iframe)) {
-            document.body.removeChild(iframe)
-          }
-          reject(new Error('Submission failed'))
-        }
-
-        document.body.appendChild(iframe)
-        document.body.appendChild(form)
-        
-        console.log('Submitting feedback to Google Sheets...')
-        form.submit()
-        
-        // Fallback timeout in case iframe events don't fire
-        setTimeout(() => {
-          if (document.body.contains(form) || document.body.contains(iframe)) {
-            console.log('Submission timeout - assuming success')
-            if (document.body.contains(form)) {
-              document.body.removeChild(form)
-            }
-            if (document.body.contains(iframe)) {
-              document.body.removeChild(iframe)
-            }
-            resolve(true)
-          }
-        }, 5000)
-        
-      } catch (error) {
-        console.error('Error submitting feedback:', error)
-        reject(error)
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
       }
-    })
+
+      // Parse the response to verify success
+      const responseText = await response.text()
+      console.log('Server response:', responseText)
+
+      let result
+      try {
+        result = JSON.parse(responseText)
+      } catch (e) {
+        // If not JSON, check if response text indicates success
+        if (responseText.includes('success') || responseText.includes('Data saved')) {
+          console.log('✅ Success confirmed from response text')
+          return true
+        } else {
+          throw new Error('Response does not indicate success: ' + responseText)
+        }
+      }
+
+      // Verify the JSON response contains success: true
+      if (result.success === true) {
+        console.log('✅ Successfully submitted to Google Sheets - confirmed by server')
+        return true
+      } else {
+        throw new Error(result.error || 'Server returned success: false')
+      }
+
+    } catch (error) {
+      console.error('❌ Submission failed:', error)
+      throw error
+    }
   }
 
   const submitToGoogleForms = async (allSubmissions) => {
@@ -583,19 +554,19 @@ function App() {
       // Submit everything (answers + feedback) to Google Sheets
       setSubmitting(true)
       try {
+        // This will only resolve when we get confirmed success from the server
         await submitFeedbackToGoogleForms(submissionData)
+        console.log('✅ Submission confirmed - redirecting to Prolific exit URL')
         setSubmitting(false)
         setFeedbackSubmitted(true)
         
-        // Wait a moment to show success message, then redirect
-        setTimeout(() => {
-          // Redirect to Prolific exit URL
-          window.location.href = PROLIFIC_EXIT_URL
-        }, 1500)
+        // Only redirect after confirmed success - no timeout needed
+        window.location.href = PROLIFIC_EXIT_URL
       } catch (error) {
         setSubmitting(false)
-        console.error('Failed to submit:', error)
+        console.error('❌ Failed to submit:', error)
         alert('Failed to submit your responses. Please try again or contact support.')
+        // DO NOT redirect on error
       }
     }, 100)
   }
