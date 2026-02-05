@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Coffee Shop Confrontation",
+    "context": "A cozy coffee shop in the late afternoon, with the sound of espresso machines and soft chatter filling the air. The aroma of freshly brewed coffee wafts through the room, and light streams in through the large windows, casting a warm glow.",
+    "description": "Two colleagues, Mia and Raj, meet at the coffee shop to discuss a recent project presentation that went awry due to miscommunication. Mia feels frustrated about Raj's lack of clarity during their presentation, while Raj is defensive about his contributions. This conversation tests their abilities to express emotions effectively.",
+    "speaker1_name": "Mia",
+    "speaker1_role": "Marketing Specialist",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Mia is generally calm and composed, able to articulate her feelings with clarity. She values open communication and aims to resolve conflicts constructively.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Raj",
+    "speaker2_role": "Graphic Designer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Raj is understanding and willing to listen, responding empathetically to Mia's concerns. He acknowledges his part in the miscommunication and expresses regret, seeking to find common ground.",
+    "speaker2_persona_2": "Raj becomes defensive and dismissive, interrupting Mia and insisting that the problems were due to others not understanding his ideas. He raises his voice, indicating frustration.",
+    "speaker2_persona_3": "Raj reacts with sarcasm, rolling his eyes and making a snide remark about Mia's lack of clarity. He dismissively waves his hand, showing a lack of respect for her feelings.",
+    "speaker2_persona_high": "Raj is understanding and willing to listen, responding empathetically to Mia's concerns. He acknowledges his part in the miscommunication and expresses regret, seeking to find common ground.",
+    "speaker2_persona_low": "Raj reacts with sarcasm, rolling his eyes and making a snide remark about Mia's lack of clarity. He dismissively waves his hand, showing a lack of respect for her feelings.",
+    "speaker2_voice": "Ryan",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I just don't understand how you couldn't clarify your points during the presentation."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know it didn't go as planned; I felt overwhelmed with the questions."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But you didn't even attempt to clarify when it was clear we were losing them."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I see that now, and I regret not stepping up more; I should have communicated better."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Well, it was frustrating to watch you hold back when we needed you the most."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, and I\u2019m committed to doing better next time; we can\u2019t afford miscommunication again."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I just don't understand how you couldn't clarify your points during the presentation.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/01.mp3",
+      "tone_description": "Speak sharply and assertively with unwavering clarity."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know it didn't go as planned; I felt overwhelmed with the questions.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with genuine understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But you didn't even attempt to clarify when it was clear we were losing them.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/03.mp3",
+      "tone_description": "Speak sharply and urgently with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I see that now, and I regret not stepping up more; I should have communicated better.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/04.mp3",
+      "tone_description": "speak softly and sincerely, emphasizing regret and understanding [nod gently]..."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I see that now, and I regret not stepping up more; I should have communicated better.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/05.mp3",
+      "tone_description": "speak sarcastically with an eye roll, dismissing her concerns [wave hand dismissively]..."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Well, it was frustrating to watch you hold back when we needed you the most.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/06.mp3",
+      "tone_description": "Speak sharply and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, and I\u2019m committed to doing better next time; we can\u2019t afford miscommunication again.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/07.mp3",
+      "tone_description": "speak gently and sincerely, looking Mia in the eyes [nod understandingly]..."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, and I\u2019m committed to doing better next time; we can\u2019t afford miscommunication again.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1/audio/08.mp3",
+      "tone_description": "speak with heavy sarcasm, rolling your eyes dismissively [wave hand dismissively]..."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_052504",
+    "dataset_id": "20260126_052504_001006_320a9dc1",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052504_001006_320a9dc1",
+    "audio_files_count": 8
+  }
+}

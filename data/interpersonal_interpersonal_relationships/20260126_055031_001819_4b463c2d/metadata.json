@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Book Sale",
+    "context": "A community center on a sunny Saturday afternoon, bustling with families, children laughing, and the faint sound of a local musician playing guitar nearby.",
+    "description": "During a community book sale, Maria, a volunteer, approaches Dave, a local author who has set up a book signing table. Maria has noticed that Dave seems overwhelmed and is struggling to engage with the attendees. She wants to check in on him and offer support.",
+    "speaker1_name": "Maria",
+    "speaker1_role": "Volunteer at the community center",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Maria is empathetic and observant, keen on creating an inclusive environment for both volunteers and attendees.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Dave",
+    "speaker2_role": "Local author",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Dave, feeling stressed, appreciates support and values open communication; he responds with understanding.",
+    "speaker2_persona_2": "Dave, overwhelmed by pressure, snaps and dismisses Maria's concerns, showing a lack of patience.",
+    "speaker2_persona_3": "Dave, feeling insecure, deflects Maria's offer for help with sarcasm, minimizing his struggles instead of addressing them.",
+    "speaker2_persona_high": "Dave, feeling stressed, appreciates support and values open communication; he responds with understanding.",
+    "speaker2_persona_low": "Dave, feeling insecure, deflects Maria's offer for help with sarcasm, minimizing his struggles instead of addressing them.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Interpersonal - Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Dave, how's it going over here? Looks a bit quiet at your table."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it\u2019s a little slow today, but I\u2019m hanging in there."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You know, people might think your books are too niche. What do you think about that?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but every book has its audience. I believe in what I write and just need to find the right readers."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Sure, but you\u2019ve got to engage them more, right? Maybe try a catchy pitch or something?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely! I\u2019ll give it a go; I just need to remind myself it\u2019s all part of the process."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Dave, how's it going over here? Looks a bit quiet at your table.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/01.mp3",
+      "tone_description": "Speak rapidly and warmly with heartfelt concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it\u2019s a little slow today, but I\u2019m hanging in there.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/02.mp3",
+      "tone_description": "Speak rapidly and warmly with unwavering resilience."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You know, people might think your books are too niche. What do you think about that?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/03.mp3",
+      "tone_description": "Speak sharply and passionately with unwavering belief."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but every book has its audience. I believe in what I write and just need to find the right readers.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/04.mp3",
+      "tone_description": "speak softly and understandingly, like you're sharing a secret [nod gently]..."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but every book has its audience. I believe in what I write and just need to find the right readers.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/05.mp3",
+      "tone_description": "speak sarcastically and lightly, as if you're joking about the situation [smirk slightly]..."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Sure, but you\u2019ve got to engage them more, right? Maybe try a catchy pitch or something?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/06.mp3",
+      "tone_description": "Speak sharply and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! I\u2019ll give it a go; I just need to remind myself it\u2019s all part of the process.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/07.mp3",
+      "tone_description": "speak softly and supportively, conveying understanding and reassurance [nod slowly]\u2026"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! I\u2019ll give it a go; I just need to remind myself it\u2019s all part of the process.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d/audio/08.mp3",
+      "tone_description": "speak sarcastically, masking insecurity with a dismissive tone [smirk slightly]\u2026"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_055031",
+    "dataset_id": "20260126_055031_001819_4b463c2d",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/SpeechEQ_4500/interpersonal_interpersonal_relationships/20260126_055031_001819_4b463c2d",
+    "audio_files_count": 8
+  }
+}

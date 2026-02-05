@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Fair Encounter",
+    "context": "Community Center during a local fair, late afternoon on a sunny Saturday.",
+    "description": "At a bustling community fair, booths filled with local crafts and food line the park. Children are laughing and playing nearby, while the smell of popcorn wafts through the air. Maria, a local artist, runs a booth showcasing her paintings. She encounters her friend Alex, who has just stopped by after finishing his shift at the nearby library. Their conversation shifts from casual updates to a deeper discussion about Maria's passion for her art and her aspirations.",
+    "speaker1_name": "Maria",
+    "speaker1_role": "Local Artist",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Maria is enthusiastic and self-aware, passionate about her art. She radiates positivity and is eager to share her dreams, demonstrating a strong sense of self and purpose.",
+    "speaker1_voice": "Serena",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Friend and Library Assistant",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Alex is supportive and empathetic. He listens attentively, encouraging Maria to pursue her dreams while reflecting on his own aspirations, showing a strong emotional connection.",
+    "speaker2_persona_2": "Alex becomes defensive and dismissive, expressing skepticism about Maria's art career and focusing on practical concerns. His tone is critical, reflecting insecurity and a lack of support.",
+    "speaker2_persona_3": "Alex appears indifferent and changes the subject, showing a lack of interest in Maria\u2019s ambitions. His tone is flat and disengaged, indicating emotional distance.",
+    "speaker2_persona_high": "Alex is supportive and empathetic. He listens attentively, encouraging Maria to pursue her dreams while reflecting on his own aspirations, showing a strong emotional connection.",
+    "speaker2_persona_low": "Alex becomes defensive and dismissive, expressing skepticism about Maria's art career and focusing on practical concerns. His tone is critical, reflecting insecurity and a lack of support.",
+    "speaker2_voice": "Eric",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Alex, what do you think of my paintings? They seem to be getting a lot of attention today!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "They look great, Maria! I can see why people are stopping by your booth."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But honestly, do you think I should even keep pursuing this? Sometimes I wonder if it's worth the effort."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Of course it's worth it! Your art has a way of connecting with people; you shouldn\u2019t underestimate that."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I appreciate that, but what if I never really make it in the art world?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Making it isn't just about fame\u2014it's about expressing yourself and sharing that with others; you're already doing that."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Alex, what do you think of my paintings? They seem to be getting a lot of attention today!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/01.mp3",
+      "tone_description": "Speak rapidly and radiantly with infectious enthusiasm!"
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "They look great, Maria! I can see why people are stopping by your booth.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/02.mp3",
+      "tone_description": "Speak melodically and passionately with radiant enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But honestly, do you think I should even keep pursuing this? Sometimes I wonder if it's worth the effort.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/03.mp3",
+      "tone_description": "Speak passionately and brightly with unwavering determination."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Of course it's worth it! Your art has a way of connecting with people; you shouldn\u2019t underestimate that.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/04.mp3",
+      "tone_description": "speak warmly and passionately, with an encouraging smile, to uplift her spirit"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Of course it's worth it! Your art has a way of connecting with people; you shouldn\u2019t underestimate that.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/05.mp3",
+      "tone_description": "speak skeptically and with a hint of sarcasm, raising an eyebrow in disbelief"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I appreciate that, but what if I never really make it in the art world?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/06.mp3",
+      "tone_description": "Speak passionately and brightly with unwavering determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Making it isn't just about fame\u2014it's about expressing yourself and sharing that with others; you're already doing that.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/07.mp3",
+      "tone_description": "speak warmly and encouragingly, with a gentle smile and genuine connection"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Making it isn't just about fame\u2014it's about expressing yourself and sharing that with others; you're already doing that.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86/audio/08.mp3",
+      "tone_description": "speak critically and dismissively, with furrowed brows and a sharp tone"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_051109",
+    "dataset_id": "20260126_051109_000524_b96a3b86",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_051109_000524_b96a3b86",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Last Minute Gathering",
+    "context": "Late Friday afternoon in a bustling grocery store",
+    "description": "Speaker 1, Priya, is organizing an impromptu family reunion dinner. She called her brother, Speaker 2, Harish, asking him to pick up some groceries on his way home from work. She quickly scribbles down a long list of items and texts it to him. However, Harish is already overwhelmed with his work and has little time to spare.",
+    "speaker1_name": "Priya",
+    "speaker1_role": "Sister",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, understanding, and able to deal with volatile situations with grace and patience.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Harish",
+    "speaker2_role": "Brother",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Patient, understanding, and good communicator. Even under stress, he is able to articulate his concerns without getting irritable or aggressive.",
+    "speaker2_persona_2": "Low EQ - Easily agitated and quick to blame others. He struggles to remain calm under pressure, and often reacts defensively.",
+    "speaker2_persona_3": "Low EQ - Anxious and easily overwhelmed, he tends to catastrophize situations and becomes irritable when under stress.",
+    "speaker2_persona_high": "High EQ - Patient, understanding, and good communicator. Even under stress, he is able to articulate his concerns without getting irritable or aggressive.",
+    "speaker2_persona_low": "Low EQ - Easily agitated and quick to blame others. He struggles to remain calm under pressure, and often reacts defensively.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Harish, I'm sorry for the short notice, but could you please pick up some groceries on your way home? I've texted you the list."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Sure Priya, I got your text. It's a pretty long list though, and I'm still swamped at work."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I totally understand if it's too much, but it's for the family reunion dinner tonight. I wouldn't ask if it wasn't important."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alright, it's a bit stressful but family comes first. I'll manage somehow. I might be a bit late though."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you so much, Harish. Please don't worry about being late, just take your time."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks for understanding, Priya. I'll get it all. Let's make this reunion a memorable one."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Harish, I'm sorry for the short notice, but could you please pick up some groceries on your way home? I've texted you the list.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/01.mp3",
+      "tone_description": "Speak in a calm, understanding manner with a hint of apology."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Sure Priya, I got your text. It's a pretty long list though, and I'm still swamped at work.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/02.mp3",
+      "tone_description": "Speak in a calm, understanding tone, conveying patience despite being busy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I totally understand if it's too much, but it's for the family reunion dinner tonight. I wouldn't ask if it wasn't important.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/03.mp3",
+      "tone_description": "Speak in a gentle, patient tone, expressing understanding and conveying importance without pressure."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, it's a bit stressful but family comes first. I'll manage somehow. I might be a bit late though.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/04.mp3",
+      "tone_description": "Speak patiently and calmly, with a warm reassuring tone that conveys understanding."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, it's a bit stressful but family comes first. I'll manage somehow. I might be a bit late though.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/05.mp3",
+      "tone_description": "Speak in a defensive, agitated manner, with a hint of blaming tone and hurried speech."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you so much, Harish. Please don't worry about being late, just take your time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/06.mp3",
+      "tone_description": "Speak in a calm, understanding tone, with a hint of reassurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for understanding, Priya. I'll get it all. Let's make this reunion a memorable one.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/07.mp3",
+      "tone_description": "Speak in a gentle, warm voice, exuding patience and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for understanding, Priya. I'll get it all. Let's make this reunion a memorable one.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac/audio/08.mp3",
+      "tone_description": "Speak in a fast-paced, anxious manner, your voice shaky and riddled with stress."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230307",
+    "dataset_id": "20251208_230307_000015_c7cd9bac",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_230307_000015_c7cd9bac",
+    "audio_files_count": 8
+  }
+}

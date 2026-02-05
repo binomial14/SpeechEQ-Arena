@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Cooking Class Challenge",
+    "context": "A local community center cooking class in the late afternoon. The smell of fresh herbs and spices fills the air. There's the sound of chopping boards being used and pots and pans clattering in the background. The atmosphere is lively but a bit chaotic.",
+    "description": "During the class, the instructor, Kofi, announces a surprise challenge where the attendees will have to prepare a dish they've never made before. Yara, one of the attendees, is nervous since she's a beginner and lacks confidence in her cooking skills.",
+    "speaker1_name": "Kofi",
+    "speaker1_role": "Cooking Class Instructor",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Patient, encouraging, and understanding. Always seeks to motivate his students and provide constructive feedback.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Yara",
+    "speaker2_role": "Cooking Class Attendee",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Reacts to the challenge positively, acknowledging her nervousness but not letting it deter her. Demonstrates a willingness to learn and improve.",
+    "speaker2_persona_2": "Low EQ - Reacts defensively, expressing doubt in her abilities and refusing to participate in the challenge due to fear of failure.",
+    "speaker2_persona_3": "Low EQ - Appears anxious and irritated. Criticizes the instructor for introducing the challenge, blaming him for her potential failure.",
+    "speaker2_persona_high": "High EQ - Reacts to the challenge positively, acknowledging her nervousness but not letting it deter her. Demonstrates a willingness to learn and improve.",
+    "speaker2_persona_low": "Low EQ - Appears anxious and irritated. Criticizes the instructor for introducing the challenge, blaming him for her potential failure.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright, everyone, let's spice things up with a surprise challenge. You will all prepare a dish you've never made before!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh... um, I'm new to this, Kofi. I'm not sure I can make something without a recipe."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yara, it's okay to feel a bit overwhelmed. Remember, this is about experimenting and learning, not about being perfect."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Okay, you're right. I'll give it a try, but I'm worried about messing up."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Everyone makes mistakes in the kitchen, Yara. It's how we learn to create something delicious. Just dive in and see what happens."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, I suppose you're right. After all, it's just a cooking class, not a MasterChef competition. I'll do my best."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright, everyone, let's spice things up with a surprise challenge. You will all prepare a dish you've never made before!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/01.mp3",
+      "tone_description": "Speak enthusiastically and encouragingly, with a hint of suspenseful excitement."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh... um, I'm new to this, Kofi. I'm not sure I can make something without a recipe.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/02.mp3",
+      "tone_description": "[Nervous chuckle] Speak honestly but confidently, demonstrating a willingness to step out of your comfort zone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yara, it's okay to feel a bit overwhelmed. Remember, this is about experimenting and learning, not about being perfect.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/03.mp3",
+      "tone_description": "Speak in a gentle, patient manner with a hint of encouraging enthusiasm."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Okay, you're right. I'll give it a try, but I'm worried about messing up.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/04.mp3",
+      "tone_description": "Speak with warm enthusiasm, maintaining a steady pace and an undertone of excitement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Okay, you're right. I'll give it a try, but I'm worried about messing up.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/05.mp3",
+      "tone_description": "Speak with sharp irritation, rushing through the sentence and ending with a harsh sigh."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Everyone makes mistakes in the kitchen, Yara. It's how we learn to create something delicious. Just dive in and see what happens.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/06.mp3",
+      "tone_description": "Speak the line with a gentle, reassuring tone, filled with patience and encouragement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, I suppose you're right. After all, it's just a cooking class, not a MasterChef competition. I'll do my best.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/07.mp3",
+      "tone_description": "Speak warmly and confidently, acknowledging the challenge with a light-hearted, positive tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, I suppose you're right. After all, it's just a cooking class, not a MasterChef competition. I'll do my best.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce/audio/08.mp3",
+      "tone_description": "Speak in a sharp, irritated manner, letting your frustration and blame towards the instructor shine through."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205320",
+    "dataset_id": "20251208_205320_000020_8f5579ce",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205320_000020_8f5579ce",
+    "audio_files_count": 8
+  }
+}

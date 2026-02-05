@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Family Gathering",
+    "context": "A family dinner at a cozy restaurant on a rainy evening. The sound of rain pattering against the windows creates a warm, intimate atmosphere, while the aroma of freshly baked bread fills the air. The restaurant is softly lit, with laughter and clinking dishes in the background.",
+    "description": "During a casual family dinner, the conversation turns to unexpected changes in plans as one family member expresses frustration. The atmosphere is relaxed, but tensions arise when discussing a last-minute change to the holiday schedule.",
+    "speaker1_name": "Nina",
+    "speaker1_role": "Sister, family member",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Nina is calm and thoughtful, always looking for ways to diffuse tension. She values family connections and seeks understanding in difficult conversations.",
+    "speaker1_voice": "Vivian",
+    "speaker2_name": "Raj",
+    "speaker2_role": "Brother, family member",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Raj responds with empathy and seeks to understand Nina's perspective. He remains calm and open, trying to find a solution that works for everyone.",
+    "speaker2_persona_2": "Raj initially reacts with frustration, raising his voice slightly as he expresses his disappointment over the change. He struggles to see beyond his own feelings and feels overwhelmed.",
+    "speaker2_persona_3": "Raj becomes defensive, dismissing Nina's concerns and insisting on prioritizing his own plans. He speaks with irritation, making it clear he is not willing to adapt.",
+    "speaker2_persona_high": "Raj responds with empathy and seeks to understand Nina's perspective. He remains calm and open, trying to find a solution that works for everyone.",
+    "speaker2_persona_low": "Raj becomes defensive, dismissing Nina's concerns and insisting on prioritizing his own plans. He speaks with irritation, making it clear he is not willing to adapt.",
+    "speaker2_voice": "Eric",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe Mom changed the dinner date again for the holidays, it\u2019s so frustrating!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know it\u2019s annoying, but maybe she just wants everyone to be able to make it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But she always does this last minute! What about our plans?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but I think we can find a way to make it work. It\u2019s about being together, right?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Still, it feels like we\u2019re always bending to her schedule."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "True, but it\u2019s just one holiday; we can still enjoy our time, no matter when it happens."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe Mom changed the dinner date again for the holidays, it\u2019s so frustrating!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/01.mp3",
+      "tone_description": "Speak sharply and powerfully with deep frustration."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know it\u2019s annoying, but maybe she just wants everyone to be able to make it.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with unshakeable understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But she always does this last minute! What about our plans?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/03.mp3",
+      "tone_description": "Speak sharply and emphatically with unwavering understanding."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I think we can find a way to make it work. It\u2019s about being together, right?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/04.mp3",
+      "tone_description": "speak softly and warmly, showing understanding and empathy [nod slowly]..."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I think we can find a way to make it work. It\u2019s about being together, right?",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/05.mp3",
+      "tone_description": "speak defensively, with irritation, dismissing her concerns [cross arms tightly]..."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Still, it feels like we\u2019re always bending to her schedule.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/06.mp3",
+      "tone_description": "Speak steadily and warmly with unwavering understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but it\u2019s just one holiday; we can still enjoy our time, no matter when it happens.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/07.mp3",
+      "tone_description": "speak warmly and slowly, showing understanding and openness [nodding gently]\u2026"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but it\u2019s just one holiday; we can still enjoy our time, no matter when it happens.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303/audio/08.mp3",
+      "tone_description": "speak defensively and curtly, dismissing her concerns with irritation [cross arms]\u2026"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_064949",
+    "dataset_id": "20260126_064949_003762_3dc2b303",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003762_3dc2b303",
+    "audio_files_count": 8
+  }
+}

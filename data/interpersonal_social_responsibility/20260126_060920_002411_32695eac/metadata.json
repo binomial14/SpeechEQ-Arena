@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Clean-up Challenge",
+    "context": "Community park during a sunny Saturday afternoon. The sound of children playing, birds chirping, and the faint smell of barbecue from a nearby picnic fills the air.",
+    "description": "Two friends, Mia and Tom, are participating in a community clean-up event. They've just finished cleaning up a section of the park and are discussing the importance of social responsibility and community engagement.",
+    "speaker1_name": "Mia",
+    "speaker1_role": "Community volunteer",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Mia is empathetic and passionate about community service. She believes in the power of collective action and encourages others to get involved.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Tom",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "Tom is supportive and understanding. He values Mia's perspective and often seeks to amplify her ideas. He approaches the topic with enthusiasm.",
+    "speaker2_persona_2": "Tom is dismissive and sarcastic. He downplays the importance of the clean-up event, suggesting it's a waste of time and that people should focus on their own lives.",
+    "speaker2_persona_3": "Tom expresses frustration and feels overwhelmed, claiming that their efforts are futile and that the community doesn\u2019t care about cleanliness anyway.",
+    "speaker2_persona_high": "Tom is supportive and understanding. He values Mia's perspective and often seeks to amplify her ideas. He approaches the topic with enthusiasm.",
+    "speaker2_persona_low": "Tom expresses frustration and feels overwhelmed, claiming that their efforts are futile and that the community doesn\u2019t care about cleanliness anyway.",
+    "speaker2_voice": "Uncle_Fu",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Look at all this trash we picked up today, it's kind of a lot, isn't it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it really is surprising how much can accumulate in just one area."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Do you think people even care about keeping the park clean? I mean, it seems like a lost cause sometimes."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I believe people do care; they just need a little push to get involved and see the difference they can make."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Really? I wonder if everyone feels that way, or if it\u2019s just us."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, if we keep showing up and making an effort, others might join us and feel that sense of responsibility too."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Look at all this trash we picked up today, it's kind of a lot, isn't it?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/01.mp3",
+      "tone_description": "Speak passionately and powerfully with unwavering conviction."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it really is surprising how much can accumulate in just one area.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/02.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Do you think people even care about keeping the park clean? I mean, it seems like a lost cause sometimes.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/03.mp3",
+      "tone_description": "Speak passionately and urgently with absolute conviction."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I believe people do care; they just need a little push to get involved and see the difference they can make.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/04.mp3",
+      "tone_description": "speak enthusiastically and warmly, as if inspiring a friend [smile brightly]\u2026"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I believe people do care; they just need a little push to get involved and see the difference they can make.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/05.mp3",
+      "tone_description": "speak with frustration and heaviness, as if burdened by disappointment [sigh deeply]\u2026"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Really? I wonder if everyone feels that way, or if it\u2019s just us.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/06.mp3",
+      "tone_description": "Speak passionately and emphatically with unwavering conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, if we keep showing up and making an effort, others might join us and feel that sense of responsibility too.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/07.mp3",
+      "tone_description": "speak enthusiastically and warmly, like you're rallying others to join in [smile widely]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, if we keep showing up and making an effort, others might join us and feel that sense of responsibility too.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac/audio/08.mp3",
+      "tone_description": "speak with frustration, your voice heavy and defeated [sigh deeply]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_060920",
+    "dataset_id": "20260126_060920_002411_32695eac",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_060920_002411_32695eac",
+    "audio_files_count": 8
+  }
+}

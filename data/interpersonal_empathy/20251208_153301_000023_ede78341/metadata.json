@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Park Run Heartache",
+    "context": "A sunny afternoon in a bustling city park, where the local community is taking part in a charity 5K run.",
+    "description": "Speaker 1, Jake, has just finished the run and is stretching on a nearby bench. Speaker 2, Tom, an old friend from high school, approaches Jake visibly upset after having to quit the race due to a knee injury.",
+    "speaker1_name": "Jake",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Jake is a good listener, understanding and patient. He is known for his empathetic nature and ability to connect with people on an emotional level.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Tom",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Tom is able to openly express his feelings of disappointment and frustration, and appreciates Jake's understanding and empathetic response.",
+    "speaker2_persona_2": "Low EQ - Tom is defensive and dismissive, denying his disappointment and responding negatively to Jake's attempts to empathize.",
+    "speaker2_persona_3": "Low EQ - Tom is irritated and angry, blaming others for his inability to finish the race and responding with hostility to Jake's compassion.",
+    "speaker2_persona_high": "High EQ - Tom is able to openly express his feelings of disappointment and frustration, and appreciates Jake's understanding and empathetic response.",
+    "speaker2_persona_low": "Low EQ - Tom is irritated and angry, blaming others for his inability to finish the race and responding with hostility to Jake's compassion.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Tom, you're not looking too happy. What happened?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I had to drop out, Jake. My knee gave out again."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Ah, man. That's really unfortunate. You were preparing so much for this."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, it's just... I was hoping I could push through it, you know?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I get it, Tom. It's okay to feel frustrated. Just remember, your health comes first."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, I guess you're right. It just sucks, you know?"
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Tom, you're not looking too happy. What happened?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/01.mp3",
+      "tone_description": "Speak with a soft, empathetic tone, expressing concern and patience."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I had to drop out, Jake. My knee gave out again.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/02.mp3",
+      "tone_description": "Express disappointment and frustration in a sincere, calm manner."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Ah, man. That's really unfortunate. You were preparing so much for this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/03.mp3",
+      "tone_description": "Speak with a gentle, understanding tone, expressing empathy and concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it's just... I was hoping I could push through it, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/04.mp3",
+      "tone_description": "Speak in a soft, resigned tone, allowing the disappointment to filter through your words."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it's just... I was hoping I could push through it, you know?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/05.mp3",
+      "tone_description": "Speak in a harsh, bitter tone, letting your anger and blame seep into your words."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I get it, Tom. It's okay to feel frustrated. Just remember, your health comes first.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/06.mp3",
+      "tone_description": "Speak in a calm, understanding tone, with a hint of gentle reassurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, I guess you're right. It just sucks, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/07.mp3",
+      "tone_description": "Speak with a soft, understanding tone, expressing honest disappointment and gratitude for the support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, I guess you're right. It just sucks, you know?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341/audio/08.mp3",
+      "tone_description": "Speak in a harsh, angry tone, lashing out with pointed blame and rejecting the compassion."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_153301",
+    "dataset_id": "20251208_153301_000023_ede78341",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_300/interpersonal_empathy/20251208_153301_000023_ede78341",
+    "audio_files_count": 8
+  }
+}

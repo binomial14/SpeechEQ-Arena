@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Tough Decision at the Community Meeting",
+    "context": "Community centre, during a neighbourhood meeting",
+    "description": "During a neighbourhood meeting, a contentious issue regarding the community\u2019s annual fair has arisen. The fair typically features a fireworks display, which is loved by many, but some residents have raised concerns about the environmental impact and disturbance to local wildlife. The discussion has been opened up for the community to decide whether to continue with the fireworks display or not.",
+    "speaker1_name": "Raj",
+    "speaker1_role": "Community leader",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm and empathetic, Raj is a good listener who always makes an effort to understand the perspectives of others. He values open dialogue and respects differing opinions.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Susan",
+    "speaker2_role": "Resident",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Susan is thoughtful and understands the value of constructive conversation. She respectfully expresses her views, listens to others, and shows empathy towards those with differing opinions.",
+    "speaker2_persona_2": "Low EQ - Susan can be defensive and dismissive. She is quick to interrupt, often raising her voice to make her point, and she struggles to accept any viewpoint that is different from her own.",
+    "speaker2_persona_3": "Low EQ - Susan is anxious and easily irritated. She tends to jump to conclusions, often misinterpreting others\u2019 intentions, and her responses are usually driven by her emotions rather than logical thinking.",
+    "speaker2_persona_high": "High EQ - Susan is thoughtful and understands the value of constructive conversation. She respectfully expresses her views, listens to others, and shows empathy towards those with differing opinions.",
+    "speaker2_persona_low": "Low EQ - Susan can be defensive and dismissive. She is quick to interrupt, often raising her voice to make her point, and she struggles to accept any viewpoint that is different from her own.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Interpersonal - Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "We understand the concerns about the fireworks display. It's a tradition, but we also need to consider its impact on our environment and local wildlife."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yes, the fireworks are spectacular, but I've noticed how the noise really scares my pets, and I can only imagine what it does to the wildlife."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's a valid point. We have to think about all residents, big and small. Any suggestions for a possible compromise or replacement for the fireworks?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Maybe we could do something quieter, like a light show or a silent disco? It could be just as fun but less disruptive."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I love that idea! It's innovative and considers everyone's needs. Let's open this up to the floor for further discussion."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Great, I'm glad to see we're all working together on this. It's important to find a solution that respects everyone and the environment we share."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "We understand the concerns about the fireworks display. It's a tradition, but we also need to consider its impact on our environment and local wildlife.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/01.mp3",
+      "tone_description": "Speak in a calm, understanding tone, showing empathy and concern for both tradition and the environment."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yes, the fireworks are spectacular, but I've noticed how the noise really scares my pets, and I can only imagine what it does to the wildlife.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/02.mp3",
+      "tone_description": "Express your concerns calmly and empathetically, with a thoughtful tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's a valid point. We have to think about all residents, big and small. Any suggestions for a possible compromise or replacement for the fireworks?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/03.mp3",
+      "tone_description": "Speak gently and thoughtfully, expressing understanding and openness for suggestions."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe we could do something quieter, like a light show or a silent disco? It could be just as fun but less disruptive.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/04.mp3",
+      "tone_description": "Speak in a soothing, patient manner with a hint of empathy"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe we could do something quieter, like a light show or a silent disco? It could be just as fun but less disruptive.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/05.mp3",
+      "tone_description": "Speak in a loud, assertive tone with a touch of impatience"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I love that idea! It's innovative and considers everyone's needs. Let's open this up to the floor for further discussion.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/06.mp3",
+      "tone_description": "Speak in a calm, enthusiastic tone, indicating openness to further ideas."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great, I'm glad to see we're all working together on this. It's important to find a solution that respects everyone and the environment we share.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/07.mp3",
+      "tone_description": "Speak gently with a warm, empathetic tone, expressing your thoughts in a respectful and considerate manner."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great, I'm glad to see we're all working together on this. It's important to find a solution that respects everyone and the environment we share.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28/audio/08.mp3",
+      "tone_description": "Speak defensively, raising your voice slightly to emphasize your point and show your determination."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_152214",
+    "dataset_id": "20251208_152214_000001_eaa3ef28",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/1208_300/interpersonal_interpersonal_relationships/20251208_152214_000001_eaa3ef28",
+    "audio_files_count": 8
+  }
+}

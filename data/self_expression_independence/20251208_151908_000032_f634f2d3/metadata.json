@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Stepping Up at the Community Event",
+    "context": "At a local community event, inside a bustling community center decorated with colorful banners and balloons. The chatter of various community members fills the air. The aroma of coffee and pastries wafts from the refreshment table.",
+    "description": "Maya, the community event organizer, is talking to Sean, a volunteer, about assigning him a new task after the previous one was completed efficiently. Maya is trying to gauge Sean's willingness to take on an independent role.",
+    "speaker1_name": "Maya",
+    "speaker1_role": "Community Event Organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Maya is a highly emotionally intelligent woman. She's a good listener, empathetic, and has a knack for reading people's emotions and responding appropriately.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Sean",
+    "speaker2_role": "Event Volunteer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Sean is a highly emotionally intelligent man. He is confident, open to new experiences, and manages stress well while being independent.",
+    "speaker2_persona_2": "Sean is emotionally reactive. He is quick to feel overwhelmed and stressed, and often seeks validation and guidance from others instead of trusting his own capabilities.",
+    "speaker2_persona_3": "Sean is emotionally reactive and defensive. He is quick to feel offended or unappreciated when given new responsibilities, viewing them as burdens rather than opportunities.",
+    "speaker2_persona_high": "Sean is a highly emotionally intelligent man. He is confident, open to new experiences, and manages stress well while being independent.",
+    "speaker2_persona_low": "Sean is emotionally reactive and defensive. He is quick to feel offended or unappreciated when given new responsibilities, viewing them as burdens rather than opportunities.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sean, you handled the check-in desk like a pro. What do you think about taking over the raffle draw?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, I'd be delighted, Maya! I've always loved the excitement around raffles."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Excellent! You'll need to manage the ticket sales, organise the prizes, and announce the winners. Can you handle that?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I'm a little nervous, but I think I can pull it off. I've never done anything like this before, but I'm willing to give it my best shot!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit, Sean! Don't worry, you have the entire team's support. We trust you'll do a fantastic job."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks for the vote of confidence, Maya. I won't let you down."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sean, you handled the check-in desk like a pro. What do you think about taking over the raffle draw?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/01.mp3",
+      "tone_description": "Speak in an encouraging, appreciative tone, with a hint of excitement for his potential."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, I'd be delighted, Maya! I've always loved the excitement around raffles.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/02.mp3",
+      "tone_description": "Express with sincere enthusiasm and a relaxed tone, showcasing your openness to new experiences."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Excellent! You'll need to manage the ticket sales, organise the prizes, and announce the winners. Can you handle that?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/03.mp3",
+      "tone_description": "Speak with calm confidence, warmth, and an undertone of excitement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'm a little nervous, but I think I can pull it off. I've never done anything like this before, but I'm willing to give it my best shot!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/04.mp3",
+      "tone_description": "Speak with a confident and steady rhythm, exuding calm assurance and open-minded curiosity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'm a little nervous, but I think I can pull it off. I've never done anything like this before, but I'm willing to give it my best shot!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/05.mp3",
+      "tone_description": "Speak defensively, with a tinge of irritation and a sense of feeling burdened."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit, Sean! Don't worry, you have the entire team's support. We trust you'll do a fantastic job.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/06.mp3",
+      "tone_description": "Speak with sincere enthusiasm and warmth, injecting a tone of reassurance and confidence."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for the vote of confidence, Maya. I won't let you down.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/07.mp3",
+      "tone_description": "Speak confidently and sincerely, maintaining steady eye contact and a warm smile."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for the vote of confidence, Maya. I won't let you down.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3/audio/08.mp3",
+      "tone_description": "[defensive huff] Speak with a hint of resentment and a sarcastic undertone, avoiding eye contact."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_151908",
+    "dataset_id": "20251208_151908_000032_f634f2d3",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/1208_300/self_expression_independence/20251208_151908_000032_f634f2d3",
+    "audio_files_count": 8
+  }
+}

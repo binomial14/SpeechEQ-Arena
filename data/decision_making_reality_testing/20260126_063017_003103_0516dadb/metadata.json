@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Coffee Shop Conundrum",
+    "context": "A cozy coffee shop on a rainy afternoon, the sound of raindrops tapping against the window and soft jazz playing in the background. The warm smell of coffee fills the air, and a few patrons are engaged in quiet conversations while others work on their laptops.",
+    "description": "Two colleagues, Sarah and David, are taking a break from work to discuss a recent project decision. They need to decide whether to go ahead with a risky marketing strategy that could either dramatically increase their sales or lead to significant losses. Sarah feels strongly about the potential benefits, while David is more cautious and concerned about the risks involved.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Marketing Executive",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Sarah is confident and optimistic, often looking at the big picture and believing in the power of taking calculated risks. She tends to inspire those around her with her enthusiasm while acknowledging the importance of considering different viewpoints.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "David",
+    "speaker2_role": "Financial Analyst",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "David is analytical and cautious, focused on the details and potential pitfalls. He values data-driven decisions and encourages a careful review of risks before proceeding, ensuring that all options are considered.",
+    "speaker2_persona_2": "David is dismissive and frustrated, scoffing at Sarah's enthusiasm. He raises his voice slightly, saying, 'You just don\u2019t get how much we could lose if this goes wrong!'",
+    "speaker2_persona_3": "David becomes defensive and sarcastic, saying, 'Sure, let\u2019s just throw caution to the wind and hope for the best. Sounds like a great plan,' rolling his eyes.",
+    "speaker2_persona_high": "David is analytical and cautious, focused on the details and potential pitfalls. He values data-driven decisions and encourages a careful review of risks before proceeding, ensuring that all options are considered.",
+    "speaker2_persona_low": "David becomes defensive and sarcastic, saying, 'Sure, let\u2019s just throw caution to the wind and hope for the best. Sounds like a great plan,' rolling his eyes.",
+    "speaker2_voice": "Ryan",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "What do you think about pushing forward with that bold marketing strategy despite the risks?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I see the potential, but we really need to consider the financial impact too."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But if we don't take this chance, we might miss out on a huge growth opportunity."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "True, but we have to balance that with what could happen if it backfires."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're being overly cautious; sometimes the biggest rewards come from taking risks!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I get that, but if we carefully assess the risks, we can still position ourselves for success."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "What do you think about pushing forward with that bold marketing strategy despite the risks?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/01.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering optimism."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I see the potential, but we really need to consider the financial impact too.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/02.mp3",
+      "tone_description": "Speak sharply and confidently with unwavering conviction."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But if we don't take this chance, we might miss out on a huge growth opportunity.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/03.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "True, but we have to balance that with what could happen if it backfires.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/04.mp3",
+      "tone_description": "speak slowly and thoughtfully, emphasizing caution and the importance of careful analysis"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "True, but we have to balance that with what could happen if it backfires.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/05.mp3",
+      "tone_description": "speak sarcastically with a dismissive tone, rolling your eyes to show disbelief"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're being overly cautious; sometimes the biggest rewards come from taking risks!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/06.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I get that, but if we carefully assess the risks, we can still position ourselves for success.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/07.mp3",
+      "tone_description": "speak methodically and calmly, emphasizing each risk with a serious tone [nod slightly]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I get that, but if we carefully assess the risks, we can still position ourselves for success.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb/audio/08.mp3",
+      "tone_description": "speak with heavy sarcasm, dragging out words as you roll your eyes [smirk slightly]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_063017",
+    "dataset_id": "20260126_063017_003103_0516dadb",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063017_003103_0516dadb",
+    "audio_files_count": 8
+  }
+}

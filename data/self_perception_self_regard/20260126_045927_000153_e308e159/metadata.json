@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Debate",
+    "context": "A local community center during a neighborhood meeting on a rainy Saturday morning. The sound of rain tapping against the windows mixes with the murmur of community members discussing local issues. A projector displays a presentation on community development plans.",
+    "description": "During a meeting, two community leaders, one male and one female, discuss differing opinions on how to allocate community funds. The tension rises as they navigate their contrasting views in front of the audience, testing their self-regard in the face of disagreement.",
+    "speaker1_name": "Liam",
+    "speaker1_role": "Community Organizer",
+    "speaker1_gender": "male",
+    "speaker1_persona": "Liam is confident and grounded, expressing his opinions while remaining open to feedback. He values his contributions and respects differing views, aiming for a collaborative atmosphere.",
+    "speaker1_voice": "Eric",
+    "speaker2_name": "Sofia",
+    "speaker2_role": "Local Business Owner",
+    "speaker2_gender": "female",
+    "speaker2_persona_1": "Sofia is assertive and values her expertise, responding to Liam's points with constructive criticism while maintaining a respectful tone. She seeks to find common ground.",
+    "speaker2_persona_2": "Sofia is defensive and dismissive, quickly shutting down Liam's ideas. Her tone is sharp as she feels her authority is being challenged, making the conversation tense.",
+    "speaker2_persona_3": "Sofia shows frustration, raising her voice and interrupting Liam. Her emotions get the better of her, and she lashes out, believing that she is losing control of the discussion.",
+    "speaker2_persona_high": "Sofia is assertive and values her expertise, responding to Liam's points with constructive criticism while maintaining a respectful tone. She seeks to find common ground.",
+    "speaker2_persona_low": "Sofia shows frustration, raising her voice and interrupting Liam. Her emotions get the better of her, and she lashes out, believing that she is losing control of the discussion.",
+    "speaker2_voice": "Sohee",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I really think we should prioritize funding for the new sports facilities, they\u2019ll bring in more people to the center."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That could be beneficial, but we can't overlook the need for expanding our after-school programs."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But do you really believe that more kids will come if we just have better programs? We need something that attracts families now."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I hear you, but investing in education will create long-term benefits for our community that a temporary attraction won't sustain."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Still, I just feel like we need to think bigger and focus on immediate growth."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Growth is important, but let's not forget that nurturing our youth now will lead to a stronger community in the future."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I really think we should prioritize funding for the new sports facilities, they\u2019ll bring in more people to the center.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/01.mp3",
+      "tone_description": "Speak sharply and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That could be beneficial, but we can't overlook the need for expanding our after-school programs.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/02.mp3",
+      "tone_description": "Speak rapidly and assertively with unwavering conviction."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But do you really believe that more kids will come if we just have better programs? We need something that attracts families now.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/03.mp3",
+      "tone_description": "Speak rapidly and emphatically with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I hear you, but investing in education will create long-term benefits for our community that a temporary attraction won't sustain.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/04.mp3",
+      "tone_description": "speak firmly with conviction, emphasizing long-term benefits and nodding for agreement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I hear you, but investing in education will create long-term benefits for our community that a temporary attraction won't sustain.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/05.mp3",
+      "tone_description": "raise your voice in frustration, interrupting him to express your anger and urgency."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Still, I just feel like we need to think bigger and focus on immediate growth.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/06.mp3",
+      "tone_description": "Speak sharply and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Growth is important, but let's not forget that nurturing our youth now will lead to a stronger community in the future.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/07.mp3",
+      "tone_description": "speak firmly yet kindly, emphasizing collaboration and shared values [nodding thoughtfully]\u2026"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Growth is important, but let's not forget that nurturing our youth now will lead to a stronger community in the future.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159/audio/08.mp3",
+      "tone_description": "speak with rising frustration and urgency, interrupting forcefully to assert dominance [voice raised]\u2026"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_045927",
+    "dataset_id": "20260126_045927_000153_e308e159",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045927_000153_e308e159",
+    "audio_files_count": 8
+  }
+}

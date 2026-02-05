@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Grocery Store Insights",
+    "context": "A bustling grocery store on a Saturday afternoon, where shoppers are navigating through aisles filled with fresh produce, the sound of carts rolling, and announcements from the store's PA system echoing in the background.",
+    "description": "During a busy grocery run, two friends, Alex and Priya, run into each other while shopping. They take a moment to catch up on life and reflect on their personal growth. Alex shares a recent achievement, while Priya expresses her feelings about her own struggles with self-acceptance.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Alex is a supportive and optimistic individual, who believes in the importance of personal growth and encourages others to embrace their authentic self.",
+    "speaker1_voice": "Dylan",
+    "speaker2_name": "Priya",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Priya listens attentively, responds thoughtfully, and validates Alex's feelings, demonstrating empathy and emotional understanding.",
+    "speaker2_persona_2": "Priya feels defensive and dismissive of her own accomplishments, reacting with sarcasm and a lack of confidence.",
+    "speaker2_persona_3": "Priya becomes visibly frustrated and shifts the conversation to complain about her situation, expressing feelings of inadequacy without seeking a constructive dialogue.",
+    "speaker2_persona_high": "Priya listens attentively, responds thoughtfully, and validates Alex's feelings, demonstrating empathy and emotional understanding.",
+    "speaker2_persona_low": "Priya becomes visibly frustrated and shifts the conversation to complain about her situation, expressing feelings of inadequacy without seeking a constructive dialogue.",
+    "speaker2_voice": "Sohee",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Priya, have you seen the new organic section? It's huge!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I actually just noticed it; looks like they have some great options."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You know, I just got promoted at work; it feels pretty great, but I bet you're still struggling with that project you mentioned."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, it's been tough. Sometimes I wonder if I\u2019m really cut out for this."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "C'mon, you've worked hard; don't you think you can push through it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I guess I have to believe in myself a bit more\u2014I'll figure it out, one step at a time."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Priya, have you seen the new organic section? It's huge!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/01.mp3",
+      "tone_description": "Speak rapidly and excitedly with overwhelming enthusiasm!"
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I actually just noticed it; looks like they have some great options.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with heartfelt enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You know, I just got promoted at work; it feels pretty great, but I bet you're still struggling with that project you mentioned.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/03.mp3",
+      "tone_description": "Speak rapidly and melodically with unwavering joy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it's been tough. Sometimes I wonder if I\u2019m really cut out for this.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/04.mp3",
+      "tone_description": "speak softly and empathetically, with a warm tone and a nod of understanding [gentle nod]."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it's been tough. Sometimes I wonder if I\u2019m really cut out for this.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/05.mp3",
+      "tone_description": "speak with frustration and urgency, crossing your arms tightly [exasperated sigh]."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "C'mon, you've worked hard; don't you think you can push through it?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/06.mp3",
+      "tone_description": "Speak rapidly and passionately with unyielding encouragement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I guess I have to believe in myself a bit more\u2014I'll figure it out, one step at a time.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/07.mp3",
+      "tone_description": "speak gently and reassuringly, with a warm tone and a nod of understanding [soft smile]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I guess I have to believe in myself a bit more\u2014I'll figure it out, one step at a time.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c/audio/08.mp3",
+      "tone_description": "sneer slightly and roll your eyes, delivering it sarcastically with a dismissive wave [scoff]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_050853",
+    "dataset_id": "20260126_050853_000433_e0e9ff7c",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/SpeechEQ_4500/self_perception_self_actualization/20260126_050853_000433_e0e9ff7c",
+    "audio_files_count": 8
+  }
+}

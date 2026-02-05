@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Rainstorm",
+    "context": "Community Park on a Saturday afternoon",
+    "description": "A weekend community event is in full swing, with families enjoying food stalls and activities. Suddenly, dark clouds roll in, and heavy rain starts pouring down. People scramble to find shelter, creating a chaotic but lively scene.",
+    "speaker1_name": "Joyce",
+    "speaker1_role": "Event Coordinator",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Joyce is optimistic and resourceful, always looking for solutions and encouraging others to stay positive, even in challenging situations.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Marcus",
+    "speaker2_role": "Community Member",
+    "speaker2_gender": "female",
+    "speaker2_persona_1": "Marcus is calm and rational, able to see the silver lining in tough situations and uses humor to lighten the mood.",
+    "speaker2_persona_2": "Evan is quick to complain and express frustration when things go wrong, often seeing the worst side of situations.",
+    "speaker2_persona_3": "Sofia tends to panic in stressful situations, easily overwhelmed and prone to expressing defeat and disappointment.",
+    "speaker2_persona_high": "Marcus is calm and rational, able to see the silver lining in tough situations and uses humor to lighten the mood.",
+    "speaker2_persona_low": "Sofia tends to panic in stressful situations, easily overwhelmed and prone to expressing defeat and disappointment.",
+    "speaker2_voice": "Sohee",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Wow, can you believe this sudden downpour? We might need to cancel some activities!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it's really coming down! But hey, it\u2019s just rain, right?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But what if people get upset and leave? We were counting on a big turnout today."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I think most people will just grab their umbrellas and stick around for the fun!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I hope you're right, but I can't help feeling anxious about the whole thing."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Let's focus on the good\u2014this could turn into a really memorable event for everyone!"
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Wow, can you believe this sudden downpour? We might need to cancel some activities!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/01.mp3",
+      "tone_description": "Speak rapidly and joyfully with unwavering optimism."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it's really coming down! But hey, it\u2019s just rain, right?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/02.mp3",
+      "tone_description": "Speak melodically and warmly with unshakeable optimism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But what if people get upset and leave? We were counting on a big turnout today.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/03.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I think most people will just grab their umbrellas and stick around for the fun!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/04.mp3",
+      "tone_description": "speak calmly with a light chuckle, highlighting the fun in the rain [smile]"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I think most people will just grab their umbrellas and stick around for the fun!",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/05.mp3",
+      "tone_description": "speak anxiously, voice trembling with worry about people leaving [wring hands nervously]"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I hope you're right, but I can't help feeling anxious about the whole thing.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/06.mp3",
+      "tone_description": "Speak melodically and brightly with unwavering optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Let's focus on the good\u2014this could turn into a really memorable event for everyone!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/07.mp3",
+      "tone_description": "[chuckles softly] speak with calm optimism, highlighting the fun and potential memories ahead."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Let's focus on the good\u2014this could turn into a really memorable event for everyone!",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588/audio/08.mp3",
+      "tone_description": "[voice trembling] speak in a panicked tone, expressing worry and feeling overwhelmed about the outcome."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_071331",
+    "dataset_id": "20260126_071331_004476_e9f9c588",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071331_004476_e9f9c588",
+    "audio_files_count": 8
+  }
+}

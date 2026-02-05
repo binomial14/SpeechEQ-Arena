@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Concert Crisis",
+    "context": "Late evening at a community concert in a local park",
+    "description": "A sudden storm forces an abrupt end to the community concert. The sound system, borrowed from a local school, is at risk of being damaged by rain. The concert organizers, Kofi and Sven, must quickly make decisions to protect the equipment and ensure the safety of the attendees.",
+    "speaker1_name": "Kofi",
+    "speaker1_role": "Concert organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, methodical, and proactive. Known for his cool-headedness even under pressure.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Sven",
+    "speaker2_role": "Concert organizer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Composed and cooperative. Reacts to the situation with a clear mind and contributes to problem-solving effectively.",
+    "speaker2_persona_2": "Low EQ - Panic-stricken and overly emotional. Reacts impulsively, making hasty decisions without considering the bigger picture.",
+    "speaker2_persona_3": "Low EQ - Indecisive and passive. Avoids making decisions, leading to delays and potential mishaps.",
+    "speaker2_persona_high": "High EQ - Composed and cooperative. Reacts to the situation with a clear mind and contributes to problem-solving effectively.",
+    "speaker2_persona_low": "Low EQ - Panic-stricken and overly emotional. Reacts impulsively, making hasty decisions without considering the bigger picture.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sven, we've got to get this sound equipment covered up, quick!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Absolutely, Kofi. Let's use the stage curtains and those tarps from the picnic area."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Good thinking, let's do it. But what about the crowd? We can't just leave them in this downpour."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, we have to prioritize their safety too. Let's direct them to the community center across the park, it's large enough to accommodate everyone."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I'll make the announcement now then, we need to move fast."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I'll start covering the equipment. Let's regroup after your announcement, Kofi."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sven, we've got to get this sound equipment covered up, quick!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/01.mp3",
+      "tone_description": "Speak in a calm, methodical manner, infusing a sense of urgency without showing panic."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Absolutely, Kofi. Let's use the stage curtains and those tarps from the picnic area.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/02.mp3",
+      "tone_description": "Speak in a clear, composed manner showing effective problem-solving confidence."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Good thinking, let's do it. But what about the crowd? We can't just leave them in this downpour.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/03.mp3",
+      "tone_description": "Speak in a calm, methodical manner, offering a proactive solution with cool-headed confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, we have to prioritize their safety too. Let's direct them to the community center across the park, it's large enough to accommodate everyone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/04.mp3",
+      "tone_description": "Speak with a calm and thoughtful tone, deliberating on each word carefully for maximum clarity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, we have to prioritize their safety too. Let's direct them to the community center across the park, it's large enough to accommodate everyone.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/05.mp3",
+      "tone_description": "Speak in a frantic and high-pitched tone, rushing through the words in a state of panic."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I'll make the announcement now then, we need to move fast.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/06.mp3",
+      "tone_description": "Speak decisively and quickly, maintaining a calm and methodical tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'll start covering the equipment. Let's regroup after your announcement, Kofi.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/07.mp3",
+      "tone_description": "Speak with a calm, steady pace and a confident, reassuring tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'll start covering the equipment. Let's regroup after your announcement, Kofi.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb/audio/08.mp3",
+      "tone_description": "Speak quickly and frantically, voice trembling with panic and fear."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222616",
+    "dataset_id": "20251208_222616_000027_11242bfb",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_222616_000027_11242bfb",
+    "audio_files_count": 8
+  }
+}

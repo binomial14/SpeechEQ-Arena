@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Interruption during Online Yoga Session",
+    "context": "An online yoga session on a Saturday morning, conducted via video call from a tranquil home studio with gentle sunlight streaming through the window, the soft hum of distant traffic and birds chirping in the background.",
+    "description": "Instructor Xin is leading an online yoga class. Suddenly, during the session, a participant, Kieran, accidentally unmutes himself and starts having a loud conversation, disrupting the flow of the class. Xin addresses this unexpected interruption.",
+    "speaker1_name": "Xin",
+    "speaker1_role": "Yoga Instructor",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, patient, and understanding, always maintaining a positive attitude and serene demeanor even in difficult situations.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Kieran",
+    "speaker2_role": "Class Participant",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Apologetic and understanding, immediately realizes his mistake, and takes responsibility for the disruption caused.",
+    "speaker2_persona_2": "Low EQ - Defensive and dismissive, fails to acknowledge his mistake and instead blames the technology for the issue.",
+    "speaker2_persona_3": "Low EQ - Anxious and embarrassed, overreacts to the situation, making it more about himself than the disruption caused to the class.",
+    "speaker2_persona_high": "High EQ - Apologetic and understanding, immediately realizes his mistake, and takes responsibility for the disruption caused.",
+    "speaker2_persona_low": "Low EQ - Defensive and dismissive, fails to acknowledge his mistake and instead blames the technology for the issue.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Kieran, I think you've unmuted yourself. We can all hear your conversation."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, I'm so sorry guys! Didn't realize."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "No worries, Kieran. Just remember to keep your mic muted."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Absolutely, Xin. My apologies for the disruption."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "It's okay, Kieran. Let's get back to the session."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks for understanding, Xin. Ready when you are."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Kieran, I think you've unmuted yourself. We can all hear your conversation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/01.mp3",
+      "tone_description": "Deliver the statement gently and patiently, maintaining a positive and understanding tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, I'm so sorry guys! Didn't realize.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/02.mp3",
+      "tone_description": "Speak in a sincere, apologetic tone, quickly acknowledging your mishap."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "No worries, Kieran. Just remember to keep your mic muted.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/03.mp3",
+      "tone_description": "Speak in a gentle, patient tone, reassuring Kieran with a calm and understanding demeanor."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Absolutely, Xin. My apologies for the disruption.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/04.mp3",
+      "tone_description": "Speak with a warm, slow-paced tone full of understanding and sincere regret."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Absolutely, Xin. My apologies for the disruption.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/05.mp3",
+      "tone_description": "Speak in a defensive, brisk manner, with a dismissive undertone laced with mild annoyance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "It's okay, Kieran. Let's get back to the session.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/06.mp3",
+      "tone_description": "Speak softly and patiently, maintaining a serene and understanding tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for understanding, Xin. Ready when you are.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/07.mp3",
+      "tone_description": "Speak the lines in a sincere, warm tone, with slow pace showing genuine remorse."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for understanding, Xin. Ready when you are.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6/audio/08.mp3",
+      "tone_description": "Speak dismissively, with a quick pace and a tone of annoyance, as if it's an inconvenience."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_212145",
+    "dataset_id": "20251208_212145_000058_9327ebe6",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_212145_000058_9327ebe6",
+    "audio_files_count": 8
+  }
+}

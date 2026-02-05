@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Coffee Shop Dilemma",
+    "context": "A bustling coffee shop on a chilly Saturday afternoon. The air is filled with the sound of chatter and the strong aroma of coffee. The weather outside is gloomy, with occasional raindrops hitting the glass windows.",
+    "description": "The coffee shop's grinder has suddenly stopped working, causing panic amongst the staff. The influx of customers isn't slowing down and they need a quick solution to keep serving coffee.",
+    "speaker1_name": "Carlos",
+    "speaker1_role": "Coffee Shop Manager",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Carlos is a calm, composed individual with a strong ability to handle crisis situations. He has a knack for problem-solving and can think on his feet.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Jasmine",
+    "speaker2_role": "Barista",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "In the face of crisis, Jasmine is able to maintain her composure. She listens to Carlos's instructions, offers her input, and helps execute the solution effectively.",
+    "speaker2_persona_2": "When faced with a problem, Jasmine quickly becomes anxious and starts panicking. She has a hard time focusing on finding a solution and tends to express her frustration openly.",
+    "speaker2_persona_3": "Jasmine tends to react defensively when faced with a problem. She may blame others or deny responsibility, and has difficulty focusing on coming up with a solution.",
+    "speaker2_persona_high": "In the face of crisis, Jasmine is able to maintain her composure. She listens to Carlos's instructions, offers her input, and helps execute the solution effectively.",
+    "speaker2_persona_low": "When faced with a problem, Jasmine quickly becomes anxious and starts panicking. She has a hard time focusing on finding a solution and tends to express her frustration openly.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "The grinder's kaput and the line's not getting any shorter. Any ideas?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Well, we could try using the old manual grinder we have in the storage."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's a start, but it's too slow for this crowd. We need something faster."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alright, what if we also offer discounts on our cold brews and teas, so we can divert some of the demand?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Great idea! We can also put a sign explaining the situation and thanking them for their patience. Let's get to it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "On it, boss. And hey, we'll get through this. We always do."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "The grinder's kaput and the line's not getting any shorter. Any ideas?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/01.mp3",
+      "tone_description": "Speak in a composed and calm manner, reflecting a problem-solving mindset."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Well, we could try using the old manual grinder we have in the storage.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/02.mp3",
+      "tone_description": "Speak calmly and confidently, offering the suggestion as a practical solution."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's a start, but it's too slow for this crowd. We need something faster.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/03.mp3",
+      "tone_description": "Speak calmly and decisively, showing your quick problem-solving skills."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, what if we also offer discounts on our cold brews and teas, so we can divert some of the demand?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/04.mp3",
+      "tone_description": "Speak in a calm, composed and clear manner, suggesting the idea as a logical solution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, what if we also offer discounts on our cold brews and teas, so we can divert some of the demand?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/05.mp3",
+      "tone_description": "Speak fast and nervously, as if gasping for breath, proposing the idea in a panic."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Great idea! We can also put a sign explaining the situation and thanking them for their patience. Let's get to it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/06.mp3",
+      "tone_description": "Speak in a calm, composed manner, conveying a confident and quick solution to the problem."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "On it, boss. And hey, we'll get through this. We always do.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/07.mp3",
+      "tone_description": "Speak with a calm and confident tone, maintaining steady pacing and a hint of warmth."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "On it, boss. And hey, we'll get through this. We always do.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3/audio/08.mp3",
+      "tone_description": "Speak in a frantic, high-pitched tone with a fast pace, betraying your anxiety."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222938",
+    "dataset_id": "20251208_222938_000058_4e104ce3",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_222938_000058_4e104ce3",
+    "audio_files_count": 8
+  }
+}

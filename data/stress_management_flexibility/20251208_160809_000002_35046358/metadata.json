@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Changing Plans at the Family Gathering",
+    "context": "Family gathering at a park for a picnic on a sunny Saturday afternoon",
+    "description": "The family had planned a picnic at the park. However, due to an unexpected event, Speaker 1, Samantha, the event organizer, has to change the location last minute. She has to communicate this to Speaker 2, Ben, her brother.",
+    "speaker1_name": "Samantha",
+    "speaker1_role": "Event organizer, sister",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, understanding, clear communicator, open to feedback, empathetic",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Ben",
+    "speaker2_role": "Brother",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Adaptable, understanding, patient, and supportive",
+    "speaker2_persona_2": "Low EQ - Resistant to change, quick to anger, inflexible, and reactive",
+    "speaker2_persona_3": "Low EQ - Anxious, overwhelmed by change, pessimistic, and panicky",
+    "speaker2_persona_high": "High EQ - Adaptable, understanding, patient, and supportive",
+    "speaker2_persona_low": "Low EQ - Resistant to change, quick to anger, inflexible, and reactive",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey, Ben, there's been a bit of a hiccup. We can't use the park for our picnic today."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What? But we've all already planned for the park, Sam."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I know, it's a bummer. But the park has been unexpectedly closed. I'm thinking we can shift to our backyard instead."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, that's certainly not what we planned... But okay, let's make the best of it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thanks, Ben. I know it's not ideal, but I'm sure we can still have a great time."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, you're right. Let's do it at our backyard then. It might even be more fun!"
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey, Ben, there's been a bit of a hiccup. We can't use the park for our picnic today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/01.mp3",
+      "tone_description": "Speak in a calm and understanding manner, delivering the news with clear, empathetic communication."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What? But we've all already planned for the park, Sam.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/02.mp3",
+      "tone_description": "Speak with a patient and understanding tone, showing slight disappointment but remaining supportive."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I know, it's a bummer. But the park has been unexpectedly closed. I'm thinking we can shift to our backyard instead.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/03.mp3",
+      "tone_description": "Speak with a calm and understanding tone, gently suggesting the alternative plan."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, that's certainly not what we planned... But okay, let's make the best of it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/04.mp3",
+      "tone_description": "Speak the line with a calm, patient tone, clearly showing understanding and adaptability."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, that's certainly not what we planned... But okay, let's make the best of it.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/05.mp3",
+      "tone_description": "Speak the line defensively, with a hint of anger and resistance to the unexpected change."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thanks, Ben. I know it's not ideal, but I'm sure we can still have a great time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/06.mp3",
+      "tone_description": "Speak with a calm and understanding tone, showing your open-mindedness and empathy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, you're right. Let's do it at our backyard then. It might even be more fun!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/07.mp3",
+      "tone_description": "Speak warmly and reassuringly, demonstrating flexibility and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, you're right. Let's do it at our backyard then. It might even be more fun!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358/audio/08.mp3",
+      "tone_description": "Speak grudgingly with a hard edge of reluctance and a hint of annoyance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_160809",
+    "dataset_id": "20251208_160809_000002_35046358",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_300/stress_management_flexibility/20251208_160809_000002_35046358",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "After the Weekend Soccer Match",
+    "context": "On a Monday morning, at a bustling bakery near the park where a local community soccer match was held during the weekend",
+    "description": "Two friends meet for breakfast and discuss their performance during the weekend soccer match. The bakery is filled with the aroma of fresh bread and pastries, with the sounds of espresso machines hissing in the background. Outside, the sunny day signal the start of a new week.",
+    "speaker1_name": "Elias",
+    "speaker1_role": "Friend and soccer teammate",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Elias is a considerate and emotionally expressive person. He is open about his feelings and comfortable sharing his disappointments and successes.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Dora",
+    "speaker2_role": "Friend and soccer teammate",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Dora is a thoughtful listener and relates to Elias's feelings. She is supportive and expresses her feelings openly and constructively.",
+    "speaker2_persona_2": "Low EQ - Dora is dismissive of Elias's feelings. She tends to avoid discussing her feelings and may respond defensively when her performance is discussed.",
+    "speaker2_persona_3": "Low EQ - Dora is passive-aggressive. She finds it hard to express her feelings directly and often use sarcasm or indirect communication to express her dissatisfaction.",
+    "speaker2_persona_high": "High EQ - Dora is a thoughtful listener and relates to Elias's feelings. She is supportive and expresses her feelings openly and constructively.",
+    "speaker2_persona_low": "Low EQ - Dora is passive-aggressive. She finds it hard to express her feelings directly and often use sarcasm or indirect communication to express her dissatisfaction.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Man, you were on fire at the match this weekend!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Ah, thanks! But I fumbled that one goal, it's been bothering me."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Come on, don't beat yourself up. Everyone makes mistakes."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I know, but I can't help feeling I let the team down."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Trust me, you didn't. We win as a team, lose as a team. Plus, that pastry smell is making me forget everything else!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, no point dwelling on it. Let's focus on these amazing pastries instead."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Man, you were on fire at the match this weekend!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/01.mp3",
+      "tone_description": "Express your excitement and appreciation with a warm, enthusiastic tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Ah, thanks! But I fumbled that one goal, it's been bothering me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/02.mp3",
+      "tone_description": "Respond in a comforting tone, emphasizing empathy and understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Come on, don't beat yourself up. Everyone makes mistakes.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/03.mp3",
+      "tone_description": "Speak in a comforting and empathetic tone, with a hint of assurance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, but I can't help feeling I let the team down.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/04.mp3",
+      "tone_description": "Speak in a soothing, empathetic tone, gently reassuring him of his worth."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, but I can't help feeling I let the team down.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/05.mp3",
+      "tone_description": "Speak in a condescending tone, subtly undermining his self-doubt with sarcasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Trust me, you didn't. We win as a team, lose as a team. Plus, that pastry smell is making me forget everything else!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/06.mp3",
+      "tone_description": "Speak with a warm, reassuring tone, emphasizing unity and distraction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, no point dwelling on it. Let's focus on these amazing pastries instead.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/07.mp3",
+      "tone_description": "Speak with a soft, reassuring tone, emphasizing understanding and support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, no point dwelling on it. Let's focus on these amazing pastries instead.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805/audio/08.mp3",
+      "tone_description": "Speak dismissively, fast and curt, with an undertone of irritation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_212801",
+    "dataset_id": "20251208_212801_000034_8f055805",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_212801_000034_8f055805",
+    "audio_files_count": 8
+  }
+}

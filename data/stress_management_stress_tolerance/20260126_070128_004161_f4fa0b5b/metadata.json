@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Rain",
+    "context": "A neighborhood park on a Saturday afternoon",
+    "description": "During a casual weekend picnic, a sudden rainstorm interrupts the gathering. Two friends, one male and one female, are caught in the rain while trying to save their food and belongings.",
+    "speaker1_name": "Lucas",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Lucas is calm and optimistic, always looking for solutions while maintaining a positive attitude in stressful situations. He has a high emotional intelligence and can effectively manage his own stress.",
+    "speaker1_voice": "Eric",
+    "speaker2_name": "Maya",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Maya is also emotionally intelligent, and she responds to stress with humor and understanding, helping to diffuse the situation.",
+    "speaker2_persona_2": "Maya is frustrated and overwhelmed, reacting with a sense of panic as she feels the pressure of losing the picnic and expresses this through sharp comments.",
+    "speaker2_persona_3": "Maya becomes withdrawn and sulky, expressing her disappointment silently, which creates a tense atmosphere.",
+    "speaker2_persona_high": "Maya is also emotionally intelligent, and she responds to stress with humor and understanding, helping to diffuse the situation.",
+    "speaker2_persona_low": "Maya is frustrated and overwhelmed, reacting with a sense of panic as she feels the pressure of losing the picnic and expresses this through sharp comments.",
+    "speaker2_voice": "Sohee",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Can you believe this rain? We just set everything up!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know, right? It's like the sky waited for our picnic to start!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "What are we even supposed to do now? We can't just let all that food get ruined!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Let\u2019s just grab what we can and find some shelter; we\u2019ll sort it out later!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I guess we could, but it feels like such a mess!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "It is a mess, but we'll laugh about it later; right now, we just need to be quick!"
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Can you believe this rain? We just set everything up!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/01.mp3",
+      "tone_description": "Speak rapidly and brightly with unwavering optimism."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know, right? It's like the sky waited for our picnic to start!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/02.mp3",
+      "tone_description": "Speak rapidly and melodically with vibrant excitement."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "What are we even supposed to do now? We can't just let all that food get ruined!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/03.mp3",
+      "tone_description": "Speak rapidly and emphatically with unwavering determination."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Let\u2019s just grab what we can and find some shelter; we\u2019ll sort it out later!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/04.mp3",
+      "tone_description": "[soft laugh] speak warmly and lightly, as if turning chaos into a playful adventure."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Let\u2019s just grab what we can and find some shelter; we\u2019ll sort it out later!",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/05.mp3",
+      "tone_description": "speak with sharp urgency and frustration, as if every second counts and you're losing control."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I guess we could, but it feels like such a mess!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/06.mp3",
+      "tone_description": "Speak rapidly and resolutely with unwavering optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "It is a mess, but we'll laugh about it later; right now, we just need to be quick!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/07.mp3",
+      "tone_description": "speak warmly with a soft laugh, embracing the chaos and finding humor in it."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "It is a mess, but we'll laugh about it later; right now, we just need to be quick!",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b/audio/08.mp3",
+      "tone_description": "speak sharply and quickly, letting frustration leak into your voice as panic rises."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_070128",
+    "dataset_id": "20260126_070128_004161_f4fa0b5b",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_070128_004161_f4fa0b5b",
+    "audio_files_count": 8
+  }
+}

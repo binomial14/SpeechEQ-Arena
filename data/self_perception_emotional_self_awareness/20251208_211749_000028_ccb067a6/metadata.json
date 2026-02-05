@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Saturday Morning Soccer",
+    "context": "A local community park on a sunny Saturday morning during a children's recreational soccer game",
+    "description": "The game is quite intense, with parents cheering on their children. One child, Noor, is having a tough day and has missed several opportunities to score. Noor's father, Farid, is discussing Noor's performance with another parent, Uma.",
+    "speaker1_name": "Farid",
+    "speaker1_role": "Father",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Farid is understanding and compassionate. He is always aware of his own feelings and understands the impact of his words and actions on others. He is supportive and calm, even in stressful situations.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Uma",
+    "speaker2_role": "Parent",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Uma is empathetic and considerate. She has a good understanding of her own emotions and uses that understanding to navigate her interactions with others. Even when discussing sensitive topics, she maintains a positive and respectful tone.",
+    "speaker2_persona_2": "Uma is prone to emotional outbursts and can be quite reactive. She has a tendency to be impatient and critical, and she often lets these emotions control her conversations. She can be quite blunt and tactless, often without realizing the impact of her words on others.",
+    "speaker2_persona_3": "Uma is generally anxious and tends to worry excessively. She often interprets situations negatively and responds with a sense of panic. She struggles to keep her emotions under control and has a tendency to overreact to minor issues.",
+    "speaker2_persona_high": "Uma is empathetic and considerate. She has a good understanding of her own emotions and uses that understanding to navigate her interactions with others. Even when discussing sensitive topics, she maintains a positive and respectful tone.",
+    "speaker2_persona_low": "Uma is prone to emotional outbursts and can be quite reactive. She has a tendency to be impatient and critical, and she often lets these emotions control her conversations. She can be quite blunt and tactless, often without realizing the impact of her words on others.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Noor's really struggling out there today, isn't she?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it seems like she's just having an off day."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I've seen her do better at practice, but she's missing a lot of shots today."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, we all have our off days, don't we? Maybe it's not about the shots she's missing but about what she's learning from it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, Uma. It's all a learning experience for her."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "And remember, Farid, it's not whether she wins or loses, but how much she enjoys the game."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Noor's really struggling out there today, isn't she?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/01.mp3",
+      "tone_description": "Speak in a soft, understanding tone with a hint of concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it seems like she's just having an off day.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/02.mp3",
+      "tone_description": "Speak with empathetic understanding and a soft, soothing voice."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I've seen her do better at practice, but she's missing a lot of shots today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/03.mp3",
+      "tone_description": "Speak in a soothing, understanding manner with a hint of concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, we all have our off days, don't we? Maybe it's not about the shots she's missing but about what she's learning from it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/04.mp3",
+      "tone_description": "Speak gently and empathetically, with a comforting undertone and a hint of optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, we all have our off days, don't we? Maybe it's not about the shots she's missing but about what she's learning from it.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/05.mp3",
+      "tone_description": "Speak bluntly and critically, with a strong edge of impatience and a touch of dismissal."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, Uma. It's all a learning experience for her.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/06.mp3",
+      "tone_description": "Speak in a gentle, understanding tone, emphasizing the positive aspects of the situation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "And remember, Farid, it's not whether she wins or loses, but how much she enjoys the game.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/07.mp3",
+      "tone_description": "Speak gently and positively, emphasizing the joy of the game over the outcome."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "And remember, Farid, it's not whether she wins or loses, but how much she enjoys the game.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6/audio/08.mp3",
+      "tone_description": "Speak impatiently and critically, emphasizing the lesson rather than the enjoyment."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211749",
+    "dataset_id": "20251208_211749_000028_ccb067a6",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000028_ccb067a6",
+    "audio_files_count": 8
+  }
+}

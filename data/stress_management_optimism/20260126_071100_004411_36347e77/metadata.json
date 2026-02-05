@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Setbacks at the Community Center",
+    "context": "Community center, late afternoon, sunny with a light breeze, a few children playing outside, the sound of laughter and chatter in the background.",
+    "description": "Maya and Jordan, both volunteers at the local community center, have just learned that their planned fundraising event for the upcoming weekend has been canceled due to unforeseen circumstances. They are sitting at a picnic table outside, discussing how to adapt and move forward.",
+    "speaker1_name": "Maya",
+    "speaker1_role": "Volunteer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Maya is proactive and encourages positivity, focusing on solutions rather than problems. She believes in the power of teamwork and is often the one to rally others when faced with setbacks.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Volunteer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Jordan is generally optimistic and encourages a collaborative spirit. He tends to see the silver lining in difficult situations and supports others in maintaining morale.",
+    "speaker2_persona_2": "Jordan expresses frustration and a sense of defeat, stating that the cancellation is a huge setback and that they might as well give up now. His tone is pessimistic and dismissive.",
+    "speaker2_persona_3": "Jordan reacts with anger, blaming others for the cancellation and insisting that they should have seen this coming. He raises his voice and emphasizes the negative impact on their plans.",
+    "speaker2_persona_high": "Jordan is generally optimistic and encourages a collaborative spirit. He tends to see the silver lining in difficult situations and supports others in maintaining morale.",
+    "speaker2_persona_low": "Jordan reacts with anger, blaming others for the cancellation and insisting that they should have seen this coming. He raises his voice and emphasizes the negative impact on their plans.",
+    "speaker2_voice": "Uncle_Fu",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe the fundraising event is canceled just like that."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it\u2019s a bummer, especially after all the planning we've done."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "What if nobody shows up for the next one? I\u2019m really worried about the funds we need!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get it, but I think we can still rally support. We just need to adapt our approach."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You really think people will still be interested? It feels like we\u2019re losing momentum."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely! People love our center, and we can use this as an opportunity to get creative."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe the fundraising event is canceled just like that.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/01.mp3",
+      "tone_description": "Speak rapidly and energetically with unwavering determination."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it\u2019s a bummer, especially after all the planning we've done.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/02.mp3",
+      "tone_description": "Speak resonantly and powerfully with unwavering optimism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "What if nobody shows up for the next one? I\u2019m really worried about the funds we need!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/03.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering determination."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get it, but I think we can still rally support. We just need to adapt our approach.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/04.mp3",
+      "tone_description": "speak encouragingly with a warm smile, highlighting the potential for success together"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get it, but I think we can still rally support. We just need to adapt our approach.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/05.mp3",
+      "tone_description": "speak angrily and loudly, pointing out blame and the disastrous consequences of their actions"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You really think people will still be interested? It feels like we\u2019re losing momentum.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/06.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! People love our center, and we can use this as an opportunity to get creative.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/07.mp3",
+      "tone_description": "[smiling brightly] speak enthusiastically and upliftingly about the opportunity for creativity!"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! People love our center, and we can use this as an opportunity to get creative.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77/audio/08.mp3",
+      "tone_description": "[voice raised] speak angrily and accusatorily, emphasizing the frustration and failure we face!"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_071100",
+    "dataset_id": "20260126_071100_004411_36347e77",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/SpeechEQ_4500/stress_management_optimism/20260126_071100_004411_36347e77",
+    "audio_files_count": 8
+  }
+}

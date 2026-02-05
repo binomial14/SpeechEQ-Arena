@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Choosing the Path Less Traveled",
+    "context": "On a sunny afternoon at a bustling coffee shop, two friends catch up over cups of cappuccino amidst the clink of cups and the hum of chatter.",
+    "description": "Speaker 1, Alex, is considering a career change and is looking for advice from their friend, Sam. Alex is torn between staying in their current job, which offers stability, or venturing into a new and uncertain territory.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend considering career change",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Open-minded, introspective, and courageous. She is not afraid to question her choices and consider alternatives.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Friend giving advice",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Supportive, empathetic, and respectful. He encourages Alex to trust her instincts while also considering the practical implications of her decision.",
+    "speaker2_persona_2": "Dismissive, impatient, and non-empathetic. He is quick to dismiss Alex's aspirations and pushes her to stick with her current job without fully understanding her perspective.",
+    "speaker2_persona_3": "Overbearing, judgmental, and controlling. He insists that Alex should follow a conventional path and not risk her stable career for an uncertain venture.",
+    "speaker2_persona_high": "Supportive, empathetic, and respectful. He encourages Alex to trust her instincts while also considering the practical implications of her decision.",
+    "speaker2_persona_low": "Overbearing, judgmental, and controlling. He insists that Alex should follow a conventional path and not risk her stable career for an uncertain venture.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sam, you know I've been feeling stuck in my job lately. I'm contemplating a career change, but I'm unsure if that's the right thing to do."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I can see why you're torn, Alex. Stability is crucial, but so is personal satisfaction."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Exactly, I mean, it's a big step and I worry about regretting it later. But I also can't help but wonder if there's something better out there?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "It's natural to have fear, Alex. But remember, you're capable and adaptable. You've faced challenges before and came out stronger. So, what's your gut telling you?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I think I want to take the leap, Sam. I've got this urge to try something new, even if it's a bit scary."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Then that's your answer, my friend. It might be a tough ride initially, but you'll learn and grow in the process. And know that I'll be here to support you."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sam, you know I've been feeling stuck in my job lately. I'm contemplating a career change, but I'm unsure if that's the right thing to do.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/01.mp3",
+      "tone_description": "Express your words thoughtfully and authentically, with a hint of uncertainty."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I can see why you're torn, Alex. Stability is crucial, but so is personal satisfaction.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/02.mp3",
+      "tone_description": "Speak in a gentle, understanding tone, expressing empathy and support."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Exactly, I mean, it's a big step and I worry about regretting it later. But I also can't help but wonder if there's something better out there?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/03.mp3",
+      "tone_description": "Speak thoughtfully and with a touch of uncertainty, reflecting your introspection and courage."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's natural to have fear, Alex. But remember, you're capable and adaptable. You've faced challenges before and came out stronger. So, what's your gut telling you?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/04.mp3",
+      "tone_description": "Speak with a warm, empathetic tone, emphasizing the reassurance and respect in your voice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's natural to have fear, Alex. But remember, you're capable and adaptable. You've faced challenges before and came out stronger. So, what's your gut telling you?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/05.mp3",
+      "tone_description": "Speak in a condescending, judgemental manner, emphasizing your control and superiority over Alex."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I think I want to take the leap, Sam. I've got this urge to try something new, even if it's a bit scary.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/06.mp3",
+      "tone_description": "Speak thoughtfully and with a hint of excitement, portraying your courage and openness to new experiences."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Then that's your answer, my friend. It might be a tough ride initially, but you'll learn and grow in the process. And know that I'll be here to support you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/07.mp3",
+      "tone_description": "Speak gently and encouragingly, emphasizing your supportive and empathetic nature."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Then that's your answer, my friend. It might be a tough ride initially, but you'll learn and grow in the process. And know that I'll be here to support you.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0/audio/08.mp3",
+      "tone_description": "Speak in a stern, judgmental tone, conveying an overbearing sense of control."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_151515",
+    "dataset_id": "20251208_151515_000012_2c6baec0",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/1208_300/self_expression_independence/20251208_151515_000012_2c6baec0",
+    "audio_files_count": 8
+  }
+}

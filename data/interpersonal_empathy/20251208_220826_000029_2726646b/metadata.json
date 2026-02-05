@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Afternoon in the Park",
+    "context": "A local park on a sunny afternoon, with children's laughter and the chirping of birds in the background. The scent of freshly cut grass is in the air and a soft breeze rustles the leaves.",
+    "description": "Naveen and Rosa, two friends who are also colleagues at the same software development company, are having a casual conversation while sitting on a bench in the park. Rosa has been feeling down lately due to personal issues.",
+    "speaker1_name": "Naveen",
+    "speaker1_role": "Friend and Colleague",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Patient, caring, and attentive. Always tries to understand the emotions and perspective of others.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Rosa",
+    "speaker2_role": "Friend and Colleague",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Open and willing to share her feelings. Appreciates Naveen's understanding.",
+    "speaker2_persona_2": "Low EQ - Defensive and dismissive, reluctant to share or accept empathy.",
+    "speaker2_persona_3": "Low EQ - Overly sensitive and reacts with irritation at Naveen's attempts to empathize.",
+    "speaker2_persona_high": "High EQ - Open and willing to share her feelings. Appreciates Naveen's understanding.",
+    "speaker2_persona_low": "Low EQ - Overly sensitive and reacts with irritation at Naveen's attempts to empathize.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "You know Rosa, I've noticed you've been a bit quiet these past few days. Is everything okay?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, Naveen... I'm just going through some stuff at home. It's been a bit hard to focus on anything else."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm really sorry to hear that, Rosa. You know you can always talk to me if you need to, right?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Thanks, Naveen. I might take you up on that. It's just... you know, it's complicated."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I totally understand, Rosa. And remember, it's okay to take a step back when you need to. We've got your back at work."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That means a lot, Naveen. I've been feeling so isolated with everything going on. I'll try to remember that."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "You know Rosa, I've noticed you've been a bit quiet these past few days. Is everything okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/01.mp3",
+      "tone_description": "Speak in a soft, caring tone, gently probing for an answer."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, Naveen... I'm just going through some stuff at home. It's been a bit hard to focus on anything else.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/02.mp3",
+      "tone_description": "Speak in a soft, sincere tone, sharing your feelings openly yet with a hint of struggle."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm really sorry to hear that, Rosa. You know you can always talk to me if you need to, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/03.mp3",
+      "tone_description": "Speak in a soft, reassuring tone, emphasizing your genuine concern and patience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Thanks, Naveen. I might take you up on that. It's just... you know, it's complicated.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/04.mp3",
+      "tone_description": "Speak softly and appreciatively, with a touch of emotional vulnerability in your voice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Thanks, Naveen. I might take you up on that. It's just... you know, it's complicated.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/05.mp3",
+      "tone_description": "Say it with a sharp, annoyed edge, as if Naveen's offer of help is intrusive."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I totally understand, Rosa. And remember, it's okay to take a step back when you need to. We've got your back at work.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/06.mp3",
+      "tone_description": "Speak in a gentle, empathetic tone, assuring Rosa that she is not alone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That means a lot, Naveen. I've been feeling so isolated with everything going on. I'll try to remember that.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/07.mp3",
+      "tone_description": "Speak with a warm, appreciative tone, letting your vulnerability show through."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That means a lot, Naveen. I've been feeling so isolated with everything going on. I'll try to remember that.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b/audio/08.mp3",
+      "tone_description": "Speak with a cool, dismissive tone, reluctantly acknowledging Naveen\u2019s support."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_220826",
+    "dataset_id": "20251208_220826_000029_2726646b",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_600/interpersonal_empathy/20251208_220826_000029_2726646b",
+    "audio_files_count": 8
+  }
+}

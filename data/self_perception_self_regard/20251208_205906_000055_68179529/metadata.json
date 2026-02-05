@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Library Chess Tournament",
+    "context": "Local public library, mid-afternoon, during a community chess tournament. The room is filled with the sounds of soft whisperings, the ticking of chess clocks, and the occasional thud of a piece being moved. The air is filled with a mix of tension and excitement.",
+    "description": "Raj, a middle-aged librarian, is hosting a community chess tournament in the local library. He's talking to Helena, a young woman who has just lost her first game in the tournament but is a brilliant player known in the community.",
+    "speaker1_name": "Raj",
+    "speaker1_role": "Librarian",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Empathetic, observant, and supportive, always looking to encourage others and help them see their potential.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Helena",
+    "speaker2_role": "Chess player",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Acknowledges the loss and the pain it brings, but maintains a positive outlook, recognizing her capabilities and the opportunity to learn from the situation.",
+    "speaker2_persona_2": "Low EQ - Reacts defensively, blaming external factors for the loss and refusing to acknowledge any shortcomings.",
+    "speaker2_persona_3": "Low EQ - Responds with self-deprecating remarks, showing a lack of confidence and self-esteem, and fails to recognize her own abilities.",
+    "speaker2_persona_high": "High EQ - Acknowledges the loss and the pain it brings, but maintains a positive outlook, recognizing her capabilities and the opportunity to learn from the situation.",
+    "speaker2_persona_low": "Low EQ - Reacts defensively, blaming external factors for the loss and refusing to acknowledge any shortcomings.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Tough break, Helena. Remember, it's just the first game, and we all know you're a brilliant player."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I know. But it's still frustrating to lose."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Absolutely. But remember, even the best players lose sometimes. It's all part of the game."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, Raj. I guess I just need to regroup and focus on the next match."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit, Helena! And remember, it's about enjoying the game too."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yes, that's true. Thanks, Raj. I'll keep that in mind."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Tough break, Helena. Remember, it's just the first game, and we all know you're a brilliant player.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/01.mp3",
+      "tone_description": "Speak in a gentle, comforting tone, expressing sincere support and unwavering belief."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I know. But it's still frustrating to lose.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/02.mp3",
+      "tone_description": "Speak with a warm, understanding tone, expressing both empathy and confidence."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Absolutely. But remember, even the best players lose sometimes. It's all part of the game.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/03.mp3",
+      "tone_description": "Speak with a gentle, comforting tone, expressing empathy and encouragement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, Raj. I guess I just need to regroup and focus on the next match.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/04.mp3",
+      "tone_description": "Speak with a warm, optimistic tone, acknowledging the disappointment but emphasizing the learning opportunity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, Raj. I guess I just need to regroup and focus on the next match.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/05.mp3",
+      "tone_description": "Speak defensively, with a fast, irritated tone, blaming external factors and refusing to accept responsibility."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit, Helena! And remember, it's about enjoying the game too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/06.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, emphasizing enjoyment over competition."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yes, that's true. Thanks, Raj. I'll keep that in mind.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/07.mp3",
+      "tone_description": "Speak with a warm, appreciative tone, exuding positivity and resilience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yes, that's true. Thanks, Raj. I'll keep that in mind.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529/audio/08.mp3",
+      "tone_description": "Speak in a defensive, slightly irritated tone, with a hint of blame shifting."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205906",
+    "dataset_id": "20251208_205906_000055_68179529",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205906_000055_68179529",
+    "audio_files_count": 8
+  }
+}

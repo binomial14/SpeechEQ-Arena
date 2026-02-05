@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Taking the Lead on a Community Project",
+    "context": "A community meeting held in the local library, in the evening.",
+    "description": "The local community has received a grant to improve the children's park and they are discussing how to use the money. Sarah, a member of the community, proposes she takes the lead on the project.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Community member",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Confident, independent, well-spoken and assertive but also considerate of others' opinions.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "John",
+    "speaker2_role": "Community member",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Supportive, understanding, and open to Sarah's proposition, recognizing her competence and independence.",
+    "speaker2_persona_2": "Dismissive and patronizing, not recognizing Sarah's independence and ability to lead.",
+    "speaker2_persona_3": "Overly anxious and doubtful, questioning Sarah's ability to work independently on the project.",
+    "speaker2_persona_high": "Supportive, understanding, and open to Sarah's proposition, recognizing her competence and independence.",
+    "speaker2_persona_low": "Dismissive and patronizing, not recognizing Sarah's independence and ability to lead.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I believe I can take the lead on the park improvement project. I have a few ideas on how we can use the grant money effectively."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, Sarah, you always want to be in charge. Don't you think others might have ideas too?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Absolutely, I didn't mean to overlook anyone's thoughts. I'm just excited and eager to contribute."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, alright then. As long as everyone gets a chance to voice their ideas, I suppose there's no harm in you leading."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely, I'll ensure everyone's ideas are heard. We're all in this together after all."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's fair, Sarah. Just make sure you don't lose sight of that in your enthusiasm."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I believe I can take the lead on the park improvement project. I have a few ideas on how we can use the grant money effectively.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/01.mp3",
+      "tone_description": "Speak assertively and eloquently, showcasing your confidence and consideration for others' views."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, Sarah, you always want to be in charge. Don't you think others might have ideas too?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/02.mp3",
+      "tone_description": "Speak with a supportive and understanding tone, gently encouraging open dialogue."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Absolutely, I didn't mean to overlook anyone's thoughts. I'm just excited and eager to contribute.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/03.mp3",
+      "tone_description": "Speak with a calm, assertive tone, expressing enthusiasm but also showing respect for others' inputs."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, alright then. As long as everyone gets a chance to voice their ideas, I suppose there's no harm in you leading.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/04.mp3",
+      "tone_description": "Speak warmly and encouragingly, exuding acceptance and admiration."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, alright then. As long as everyone gets a chance to voice their ideas, I suppose there's no harm in you leading.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/05.mp3",
+      "tone_description": "Speak in a condescending, dismissive tone, laced with barely concealed sarcasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely, I'll ensure everyone's ideas are heard. We're all in this together after all.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/06.mp3",
+      "tone_description": "Speak assertively yet considerately, ensuring your tone conveys collaboration and inclusivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's fair, Sarah. Just make sure you don't lose sight of that in your enthusiasm.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/07.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, showing genuine support and belief in her abilities."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's fair, Sarah. Just make sure you don't lose sight of that in your enthusiasm.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40/audio/08.mp3",
+      "tone_description": "Speak with a condescending, dismissive tone and a hint of patronizing sarcasm."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_151908",
+    "dataset_id": "20251208_151908_000035_3e797f40",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/1208_300/self_expression_independence/20251208_151908_000035_3e797f40",
+    "audio_files_count": 8
+  }
+}

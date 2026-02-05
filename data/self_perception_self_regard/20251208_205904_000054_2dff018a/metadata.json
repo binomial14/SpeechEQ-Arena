@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center's Talent Show",
+    "context": "At a bustling community center where a talent show is about to commence in the evening. The dimmed lights, the smell of popcorn, and the excited chatter create an atmosphere of anticipation. In the backstage area, two friends are discussing their upcoming performances.",
+    "description": "Irving, a seasoned performer at the community center, is about to give a stand-up comedy performance. His friend, Sun-Hee, is a first-time participant who is nervous about her upcoming piano recital. Despite Sun-Hee's obvious talent, her self-regard is wavering under the pressure.",
+    "speaker1_name": "Irving",
+    "speaker1_role": "Friend and fellow performer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Confident, supportive, and empathetic. Always encourages others and is sensitive to their feelings.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Sun-Hee",
+    "speaker2_role": "Friend and fellow performer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Assertive, yet considerate of others' feelings. She acknowledges her fears but does not let them define her abilities.",
+    "speaker2_persona_2": "Low EQ - Easily upset, pessimistic. She questions her abilities and tends to catastrophize situations.",
+    "speaker2_persona_3": "Low EQ - Anxious and defensive. She is highly reactive, takes any form of critique as an attack, and tends to isolate herself when under pressure.",
+    "speaker2_persona_high": "High EQ - Assertive, yet considerate of others' feelings. She acknowledges her fears but does not let them define her abilities.",
+    "speaker2_persona_low": "Low EQ - Anxious and defensive. She is highly reactive, takes any form of critique as an attack, and tends to isolate herself when under pressure.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Sun-Hee, you ready for the big night? You've been practicing so much, your performance will be great!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I'm not so sure, Irving. What if I mess up? Everyone will be watching..."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Trust me, we all feel that way sometimes. But remember why you love playing piano and let that guide you."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, I do love playing. I'll just try my best and hope for the best."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit! Just imagine the applause and cheering when you finish your piece."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You know what, you're right. I can do this. Thanks, Irving."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Sun-Hee, you ready for the big night? You've been practicing so much, your performance will be great!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/01.mp3",
+      "tone_description": "Speak enthusiastically and confidently, with a tone full of encouragement and empathy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I'm not so sure, Irving. What if I mess up? Everyone will be watching...",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/02.mp3",
+      "tone_description": "Express your concerns softly yet assertively, with a hint of vulnerability in your voice."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Trust me, we all feel that way sometimes. But remember why you love playing piano and let that guide you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/03.mp3",
+      "tone_description": "Express the words soothingly and confidently, infusing reassurance and empathy into your tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, I do love playing. I'll just try my best and hope for the best.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/04.mp3",
+      "tone_description": "Speak assertively, yet with a gentle warmth, instilling a sense of hope and determination."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, I do love playing. I'll just try my best and hope for the best.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/05.mp3",
+      "tone_description": "Speak in a shaky, evasive manner, sounding as if you're in the brink of a defensive outburst."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit! Just imagine the applause and cheering when you finish your piece.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/06.mp3",
+      "tone_description": "Speak enthusiastically and confidently, imagining the applause and cheering in your voice."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You know what, you're right. I can do this. Thanks, Irving.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/07.mp3",
+      "tone_description": "Speak with a gentle determination and a warm, reassuring tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You know what, you're right. I can do this. Thanks, Irving.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a/audio/08.mp3",
+      "tone_description": "Speak defensively and reactively, with a sharp edge of anticipated criticism."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205904",
+    "dataset_id": "20251208_205904_000054_2dff018a",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205904_000054_2dff018a",
+    "audio_files_count": 8
+  }
+}

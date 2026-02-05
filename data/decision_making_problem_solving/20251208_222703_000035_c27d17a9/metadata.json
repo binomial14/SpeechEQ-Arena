@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Averting the Library Crisis",
+    "context": "In the quiet ambience of a busy local library, where the sound of rustling pages and hushed whispers is occasionally interrupted by the beeping of the self-checkout machine.",
+    "description": "The library's computer system suddenly crashes during peak hours, causing chaos and panic among the librarians. The head librarian and the IT specialist are trying to come up with a solution to restore the system before the situation escalates.",
+    "speaker1_name": "Marlon",
+    "speaker1_role": "Head Librarian",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm and composed, Marlon is known for his ability to keep a level head during crises. He believes in clear communication and collaborative problem-solving.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Hilary",
+    "speaker2_role": "IT Specialist",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Hilary is patient and understanding. She is good at analyzing problems and coming up with well-thought-out solutions. She's mindful of the stress the situation might be causing others and chooses her words carefully.",
+    "speaker2_persona_2": "Low EQ - In this version, Hilary is quick to jump to conclusions and becomes frustrated easily. She tends to blame others when things go wrong and lacks patience in stressful situations.",
+    "speaker2_persona_3": "Low EQ - Hilary here is overly anxious and worried. She tends to overthink situations, leading to indecisiveness and difficulty in coming up with effective solutions.",
+    "speaker2_persona_high": "High EQ - Hilary is patient and understanding. She is good at analyzing problems and coming up with well-thought-out solutions. She's mindful of the stress the situation might be causing others and chooses her words carefully.",
+    "speaker2_persona_low": "Low EQ - In this version, Hilary is quick to jump to conclusions and becomes frustrated easily. She tends to blame others when things go wrong and lacks patience in stressful situations.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "The system just crashed, we have people waiting and books piling up. We need it back up ASAP."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I understand the gravity of the situation. Let me check the server, it might be a quick fix."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "If it's not a quick fix, do we have a backup plan? The patrons are getting restless."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I've got it under control. If it's not a simple fix, I've got a backup system we can switch over to."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Alright, I trust your judgment. I'll let the patrons know we're working on it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Good idea, and don't worry, we'll have everything back up and running soon."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "The system just crashed, we have people waiting and books piling up. We need it back up ASAP.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/01.mp3",
+      "tone_description": "Speak slowly and assertively, maintaining a calm and composed tone throughout the sentence."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I understand the gravity of the situation. Let me check the server, it might be a quick fix.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/02.mp3",
+      "tone_description": "Speak calmly and assuredly, with a patient and understanding tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "If it's not a quick fix, do we have a backup plan? The patrons are getting restless.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/03.mp3",
+      "tone_description": "Speak in a steady, reassuring manner, exuding calmness and confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I've got it under control. If it's not a simple fix, I've got a backup system we can switch over to.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/04.mp3",
+      "tone_description": "Speak calmly and assuringly, with a touch of empathetic patience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I've got it under control. If it's not a simple fix, I've got a backup system we can switch over to.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/05.mp3",
+      "tone_description": "Speak hastily with a hint of blame and visible frustration."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Alright, I trust your judgment. I'll let the patrons know we're working on it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/06.mp3",
+      "tone_description": "Speak in a calm, composed manner with a reassuring tone to convey confidence in your judgment."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Good idea, and don't worry, we'll have everything back up and running soon.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/07.mp3",
+      "tone_description": "Speak slowly, with a calm and reassuring tone, showing empathy for the situation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Good idea, and don't worry, we'll have everything back up and running soon.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9/audio/08.mp3",
+      "tone_description": "Speak hastily and with a hint of irritation, as if blaming someone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222703",
+    "dataset_id": "20251208_222703_000035_c27d17a9",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_222703_000035_c27d17a9",
+    "audio_files_count": 8
+  }
+}

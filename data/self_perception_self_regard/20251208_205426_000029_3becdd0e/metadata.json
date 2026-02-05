@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Dropped Guitar",
+    "context": "In a bustling music shop on a sunny Saturday afternoon",
+    "description": "Ravi, a young sales associate, accidentally knocks over a customer's expensive guitar while cleaning the display. The guitar suffers a visible dent. The customer, Mario, a professional musician, witnesses the incident.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Sales Associate at the Music Shop",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, sincere and responsible. He is quick to accept his mistakes and willing to make things right.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Mario",
+    "speaker2_role": "Customer and Professional Musician",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Understanding and patient. He appreciates honesty and is more concerned with how the situation is handled rather than the mistake itself.",
+    "speaker2_persona_2": "Low EQ - Quick-tempered and aggressive. He gets upset easily and can be rude when things don't go his way.",
+    "speaker2_persona_3": "Low EQ - Incredibly anxious and quick to catastrophize. He overreacts to the situation and struggles to see a solution.",
+    "speaker2_persona_high": "High EQ - Understanding and patient. He appreciates honesty and is more concerned with how the situation is handled rather than the mistake itself.",
+    "speaker2_persona_low": "Low EQ - Quick-tempered and aggressive. He gets upset easily and can be rude when things don't go his way.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, I'm really sorry, sir. I didn't mean to knock your guitar over."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's my livelihood you just dented, kid. Not just any guitar."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand, sir. I can't apologize enough. We'll definitely see what we can do to make this right."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You better do more than 'see', I need a guarantee here."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely, sir. I'll speak with my manager right now to figure out the best solution for you."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Just make sure it gets done. I can't afford to lose this instrument."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, I'm really sorry, sir. I didn't mean to knock your guitar over.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/01.mp3",
+      "tone_description": "Speak apologetically and sincerely, emphasizing your readiness to rectify the situation."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's my livelihood you just dented, kid. Not just any guitar.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/02.mp3",
+      "tone_description": "Speak in a patient tone, emphasizing understanding rather than anger or frustration."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand, sir. I can't apologize enough. We'll definitely see what we can do to make this right.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/03.mp3",
+      "tone_description": "Speak in a sincere, apologetic tone, expressing genuine regret and determination to resolve the issue."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You better do more than 'see', I need a guarantee here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/04.mp3",
+      "tone_description": "Speak with a calm and patient tone, emphasizing understanding and reassurance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You better do more than 'see', I need a guarantee here.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/05.mp3",
+      "tone_description": "Speak with a sharp, aggressive tone, letting your irritation and impatience show."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely, sir. I'll speak with my manager right now to figure out the best solution for you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/06.mp3",
+      "tone_description": "Speak in a calm, sincere tone, demonstrating responsibility and assurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Just make sure it gets done. I can't afford to lose this instrument.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/07.mp3",
+      "tone_description": "Speak in a gentle yet firm manner, emphasizing the importance but maintaining patience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Just make sure it gets done. I can't afford to lose this instrument.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e/audio/08.mp3",
+      "tone_description": "Snarl out the words, full of impatience and unhidden annoyance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205426",
+    "dataset_id": "20251208_205426_000029_3becdd0e",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205426_000029_3becdd0e",
+    "audio_files_count": 8
+  }
+}

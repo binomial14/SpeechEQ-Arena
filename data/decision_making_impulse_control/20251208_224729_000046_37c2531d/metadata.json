@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Misplaced Farm Market Supplies",
+    "context": "At a bustling community farmer's market on a sunny Saturday afternoon",
+    "description": "Yara, a market vendor, realizes her coworker, Farid, accidentally left a box of crucial supplies in the storage. Yara must decide how to handle the situation.",
+    "speaker1_name": "Yara",
+    "speaker1_role": "Farm market vendor",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, patient, clear communicator who handles problems with grace and thoughtfulness",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Farid",
+    "speaker2_role": "Coworker and fellow vendor",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Apologetic, takes responsibility for his mistake, and offers a solution",
+    "speaker2_persona_2": "Low EQ - Defensive, tries to pass the blame and reacts impulsively",
+    "speaker2_persona_3": "Low EQ - Anxious, overreacts to the situation, and starts panicking",
+    "speaker2_persona_high": "High EQ - Apologetic, takes responsibility for his mistake, and offers a solution",
+    "speaker2_persona_low": "Low EQ - Anxious, overreacts to the situation, and starts panicking",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Farid, I think we're missing a box of supplies. Did you check the storage before we left?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh no, I thought I'd grabbed everything. This is such a mess."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "It's okay, Farid. Let's think this through. Maybe we can find a temporary solution here."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, Yara. Let's see if we can borrow some supplies from the other vendors."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's a great idea, Farid. I'll start asking around."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "And I'll double-check our inventory to see what we can manage without for now."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Farid, I think we're missing a box of supplies. Did you check the storage before we left?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/01.mp3",
+      "tone_description": "Speak calmly and thoughtfully, with a hint of patience and clarity in your tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh no, I thought I'd grabbed everything. This is such a mess.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/02.mp3",
+      "tone_description": "Speak in a sincere, apologetic tone, offering a solution with a sense of responsibility."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "It's okay, Farid. Let's think this through. Maybe we can find a temporary solution here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/03.mp3",
+      "tone_description": "Speak soothingly and thoughtfully, offering hope and reassurance with a calm demeanor."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, Yara. Let's see if we can borrow some supplies from the other vendors.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/04.mp3",
+      "tone_description": "Speak calmly and regretfully, offering the solution in a hopeful, conciliatory tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, Yara. Let's see if we can borrow some supplies from the other vendors.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/05.mp3",
+      "tone_description": "[nervously] Speak in a rushed, high-pitched tone, proposing the solution in a panicked manner."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's a great idea, Farid. I'll start asking around.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/06.mp3",
+      "tone_description": "Speak thoughtfully and patiently, showing calm confidence in the proposed solution."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "And I'll double-check our inventory to see what we can manage without for now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/07.mp3",
+      "tone_description": "Speak in a remorseful, clear tone, offering the solution as a sincere apology."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "And I'll double-check our inventory to see what we can manage without for now.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d/audio/08.mp3",
+      "tone_description": "Speak in a rushed, shaky voice, emphasizing the urgency and panic."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_224729",
+    "dataset_id": "20251208_224729_000046_37c2531d",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_600/decision_making_impulse_control/20251208_224729_000046_37c2531d",
+    "audio_files_count": 8
+  }
+}

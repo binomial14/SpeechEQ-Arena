@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Family Dinner Dilemma",
+    "context": "A cozy dining room during a family dinner on a rainy Sunday evening. The warm glow of candlelight flickers against the walls, while the sound of raindrops patters gently against the window. The dinner table is set, with plates of homemade lasagna and a fresh salad. Laughter and chatter fill the air as the family enjoys their meal.",
+    "description": "During the dinner, a sudden family announcement creates tension. One family member has decided to take a job offer far away, which disrupts the holiday plans that everyone had been looking forward to. The conversation unfolds around how to adapt and manage these unexpected changes.",
+    "speaker1_name": "Eva",
+    "speaker1_role": "Sister",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Eva is a calm and open-minded individual, known for her ability to empathize with others and find common ground. She believes in maintaining harmony within the family and approaches conflicts with patience and understanding.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Liam",
+    "speaker2_role": "Brother",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Liam is supportive and flexible, valuing family connections. He encourages openness and is quick to adapt to changes, expressing positivity and a willingness to explore new options.",
+    "speaker2_persona_2": "Liam becomes frustrated and dismissive, reacting with sarcasm about the sudden change. He emphasizes how it ruins their plans without considering the implications of his words.",
+    "speaker2_persona_3": "Liam takes a defensive stance, feeling personally affected by the announcement. He expresses his anger and disappointment bluntly, failing to engage with the family's feelings and focusing solely on his own frustration.",
+    "speaker2_persona_high": "Liam is supportive and flexible, valuing family connections. He encourages openness and is quick to adapt to changes, expressing positivity and a willingness to explore new options.",
+    "speaker2_persona_low": "Liam takes a defensive stance, feeling personally affected by the announcement. He expresses his anger and disappointment bluntly, failing to engage with the family's feelings and focusing solely on his own frustration.",
+    "speaker2_voice": "Aiden",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe you're really moving away for that job; what about our holiday plans?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know it's tough, but it's an opportunity I can't pass up."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But can you just leave us hanging like this? It\u2019s so unfair to the rest of us."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand, but we can still make the most of the time we have left together."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I just don\u2019t see how we'll ever get over this without you here."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "We\u2019ll find a way; family is about adapting, and I\u2019ll always be there for you no matter the distance."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe you're really moving away for that job; what about our holiday plans?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/01.mp3",
+      "tone_description": "Speak rapidly and melodically with deep-seated concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know it's tough, but it's an opportunity I can't pass up.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/02.mp3",
+      "tone_description": "Speak rapidly and warmly with unwavering encouragement."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But can you just leave us hanging like this? It\u2019s so unfair to the rest of us.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/03.mp3",
+      "tone_description": "Speak sharply and urgently with deep emotional resonance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, but we can still make the most of the time we have left together.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/04.mp3",
+      "tone_description": "speak warmly and positively, emphasizing togetherness and hope [smile softly]"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, but we can still make the most of the time we have left together.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/05.mp3",
+      "tone_description": "speak defensively and bluntly, expressing frustration without regard for others' feelings [cross arms]"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I just don\u2019t see how we'll ever get over this without you here.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/06.mp3",
+      "tone_description": "Speak resonantly and firmly with deep empathy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "We\u2019ll find a way; family is about adapting, and I\u2019ll always be there for you no matter the distance.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/07.mp3",
+      "tone_description": "speak gently and optimistically, with a warm smile as you reassure them..."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "We\u2019ll find a way; family is about adapting, and I\u2019ll always be there for you no matter the distance.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159/audio/08.mp3",
+      "tone_description": "speak sharply and defensively, clenching your jaw to show your disappointment..."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_064949",
+    "dataset_id": "20260126_064949_003769_3ee40159",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/SpeechEQ_4500/stress_management_flexibility/20260126_064949_003769_3ee40159",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Team Outing",
+    "context": "A community center on a sunny Saturday afternoon, during a local art fair. The sound of laughter and music fills the air, with people browsing various art stalls and children playing nearby.",
+    "description": "During a casual visit to the art fair, two colleagues, Leah and Sam, discuss an unexpected team outing planned by their manager. Leah is excited about it, while Sam is skeptical and concerned about the timing and cost.",
+    "speaker1_name": "Leah",
+    "speaker1_role": "Marketing Coordinator",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Leah is optimistic and enthusiastic about team activities. She values collaboration and is open to new experiences.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Sales Associate",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Sam is understanding and values communication. He expresses his concerns in a constructive manner, seeking to balance his apprehensions with Leah's excitement.",
+    "speaker2_persona_2": "Sam is dismissive and frustrated, prioritizing his negative feelings over the discussion. He reacts with sarcasm and skepticism about the outing.",
+    "speaker2_persona_3": "Sam is defensive, feeling overwhelmed by the suggestion. He shuts down the conversation with a blunt remark, showing a lack of willingness to explore the idea further.",
+    "speaker2_persona_high": "Sam is understanding and values communication. He expresses his concerns in a constructive manner, seeking to balance his apprehensions with Leah's excitement.",
+    "speaker2_persona_low": "Sam is dismissive and frustrated, prioritizing his negative feelings over the discussion. He reacts with sarcasm and skepticism about the outing.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Did you hear about the team outing our manager planned for next week?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I saw the email. It sounds fun!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But do you really think we should be spending money on something like this right now?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get your point, but it could be a great way to boost team morale and bond outside work."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Still, I just feel like it's not the right time for it, you know?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I understand, but sometimes a little fun can actually help us get through tough times better."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Did you hear about the team outing our manager planned for next week?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/01.mp3",
+      "tone_description": "Speak rapidly and melodically with infectious enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I saw the email. It sounds fun!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/02.mp3",
+      "tone_description": "Speak melodically and warmly with contagious enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But do you really think we should be spending money on something like this right now?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/03.mp3",
+      "tone_description": "Speak melodically and enthusiastically with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get your point, but it could be a great way to boost team morale and bond outside work.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/04.mp3",
+      "tone_description": "speak warmly and thoughtfully, showing genuine understanding [nod slightly]\u2026"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get your point, but it could be a great way to boost team morale and bond outside work.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/05.mp3",
+      "tone_description": "speak with sarcasm and a dismissive tone, rolling your eyes [scoff lightly]\u2026"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Still, I just feel like it's not the right time for it, you know?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/06.mp3",
+      "tone_description": "Speak melodically and enthusiastically with radiant optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I understand, but sometimes a little fun can actually help us get through tough times better.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/07.mp3",
+      "tone_description": "speak warmly and reassuringly, conveying understanding while encouraging the idea [nod slightly]..."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I understand, but sometimes a little fun can actually help us get through tough times better.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e/audio/08.mp3",
+      "tone_description": "speak with sharp sarcasm, emphasizing your skepticism with a dismissive tone [roll eyes]..."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_062613",
+    "dataset_id": "20260126_062613_002967_8a46c14e",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062613_002967_8a46c14e",
+    "audio_files_count": 8
+  }
+}

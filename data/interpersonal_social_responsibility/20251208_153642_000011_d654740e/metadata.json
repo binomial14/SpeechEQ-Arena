@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Community Cleanup Initiative",
+    "context": "Early Saturday morning in a small park in the heart of the city, where a community cleanup event is about to start.",
+    "description": "A community event is organized to clean up the park. Many locals are participating. The conversation is between an organizer and a local resident.",
+    "speaker1_name": "Sam",
+    "speaker1_role": "Event Organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Sam is a highly organized individual. He is patient, empathetic, and always willing to listen to other people's concerns or opinions. He feels a strong sense of responsibility towards his community and is always looking for ways to contribute positively.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Rita",
+    "speaker2_role": "Local Resident",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Rita is a friendly and community-oriented person. She values the cleanliness of her environment and is keen on participating in activities that promote social responsibility. She is open-minded and respects other people's perspectives.",
+    "speaker2_persona_2": "Rita is generally apathetic towards community issues. She tends to be dismissive of other people's efforts and is often critical of initiatives that she does not directly benefit from. She is quick to voice her complaints, often in a sarcastic manner.",
+    "speaker2_persona_3": "Rita is often anxious and irritable, especially when she feels her routine is disrupted. She struggles to see the bigger picture of community initiatives and tends to become defensive when asked to participate in such events, often responding in a passive-aggressive manner.",
+    "speaker2_persona_high": "Rita is a friendly and community-oriented person. She values the cleanliness of her environment and is keen on participating in activities that promote social responsibility. She is open-minded and respects other people's perspectives.",
+    "speaker2_persona_low": "Rita is often anxious and irritable, especially when she feels her routine is disrupted. She struggles to see the bigger picture of community initiatives and tends to become defensive when asked to participate in such events, often responding in a passive-aggressive manner.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Good morning! Ready to make our park a cleaner place?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I am. I've got my gloves and everything."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's great! Just remember we're not only picking up trash, but also separating recyclables."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Oh, I didn't think of that... I'll keep it in mind."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "No worries, it's a learning process for all of us. Let's get started!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Alright then, let's do this!"
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Good morning! Ready to make our park a cleaner place?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/01.mp3",
+      "tone_description": "Speak patiently and empathetically, with a slow pace and an encouraging tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I am. I've got my gloves and everything.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/02.mp3",
+      "tone_description": "Speak with an enthusiastic and friendly tone, highlighting your readiness and commitment."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's great! Just remember we're not only picking up trash, but also separating recyclables.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/03.mp3",
+      "tone_description": "Speak with a warm, patient tone, emphasizing the importance of our task."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh, I didn't think of that... I'll keep it in mind.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/04.mp3",
+      "tone_description": "Speak with a warm, friendly tone, appreciating the advice with genuine interest."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh, I didn't think of that... I'll keep it in mind.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/05.mp3",
+      "tone_description": "Speak with an anxious and slightly defensive tone, as if feeling overwhelmed by the new information."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "No worries, it's a learning process for all of us. Let's get started!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/06.mp3",
+      "tone_description": "Speak in a patient and understanding tone, emphasizing the learning process with a hint of excitement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright then, let's do this!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/07.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, emphasizing unity and readiness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright then, let's do this!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e/audio/08.mp3",
+      "tone_description": "Speak rapidly and with a hint of frustration, conveying reluctance and anxiety."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_153642",
+    "dataset_id": "20251208_153642_000011_d654740e",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_300/interpersonal_social_responsibility/20251208_153642_000011_d654740e",
+    "audio_files_count": 8
+  }
+}

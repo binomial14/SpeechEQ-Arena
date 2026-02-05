@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Overcoming Setbacks at the Community Event",
+    "context": "A community event at the local park",
+    "description": "During the peak of a community fundraising event at the local park, a sudden downpour of rain forces the event to be called off. There is still a substantial amount of fundraising that needs to be done. The two speakers are the main event organizers discussing how to move forward.",
+    "speaker1_name": "John",
+    "speaker1_role": "Event organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "John is usually upbeat and positive. He is good at problem-solving, always looking for a silver lining in any situation.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Laura",
+    "speaker2_role": "Event organizer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Laura is resilient and resourceful. She is an optimist who looks for solutions and ways to adapt when facing adversity.",
+    "speaker2_persona_2": "Low EQ - Laura is prone to negative thinking. She tends to feel overwhelmed when things don't go according to plan and struggles to stay positive.",
+    "speaker2_persona_3": "Low EQ - Laura is pessimistic and quick to give up. She tends to dwell on the negatives and struggles to see any positive outcomes when faced with setbacks.",
+    "speaker2_persona_high": "High EQ - Laura is resilient and resourceful. She is an optimist who looks for solutions and ways to adapt when facing adversity.",
+    "speaker2_persona_low": "Low EQ - Laura is pessimistic and quick to give up. She tends to dwell on the negatives and struggles to see any positive outcomes when faced with setbacks.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Well, this is a bummer. We can't control the weather, but we still have a lot of fundraising to do."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it's disappointing. But let's remember why we're doing this, for the community. We can't let a little rain stop us."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Absolutely. Maybe we can turn this into an opportunity. What if we organize a 'rain check' event?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's a great idea! We could even make it a theme, like 'Rain or Shine, Our Community Shines'."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I love it! This could actually turn out to be a unique event that people will remember."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Exactly! Let's get to work on this. Even a downpour can't dampen our spirits."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Well, this is a bummer. We can't control the weather, but we still have a lot of fundraising to do.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/01.mp3",
+      "tone_description": "Speak with an upbeat tone, displaying optimism despite the setback."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it's disappointing. But let's remember why we're doing this, for the community. We can't let a little rain stop us.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/02.mp3",
+      "tone_description": "Speak optimistically and resiliently, with a motivating and resourceful tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Absolutely. Maybe we can turn this into an opportunity. What if we organize a 'rain check' event?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/03.mp3",
+      "tone_description": "Speak enthusiastically and optimistically, turning disappointment into a positive opportunity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea! We could even make it a theme, like 'Rain or Shine, Our Community Shines'.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/04.mp3",
+      "tone_description": "Speak energetically and with a hopeful tone, emphasizing the positive possibilities."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea! We could even make it a theme, like 'Rain or Shine, Our Community Shines'.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/05.mp3",
+      "tone_description": "Speak flatly and with a pessimistic undertone, as if you're expecting the worst."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I love it! This could actually turn out to be a unique event that people will remember.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/06.mp3",
+      "tone_description": "Speak enthusiastically and confidently, highlighting the positive aspects of the event."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Exactly! Let's get to work on this. Even a downpour can't dampen our spirits.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/07.mp3",
+      "tone_description": "Speak with a warm, enthusiastic tone, highlighting the positive outlook with a light chuckle."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Exactly! Let's get to work on this. Even a downpour can't dampen our spirits.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df/audio/08.mp3",
+      "tone_description": "Speak in a resigned, low tone, as if reluctantly agreeing while expressing a sense of doom."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_162748",
+    "dataset_id": "20251208_162748_000007_159054df",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/1208_300/stress_management_optimism/20251208_162748_000007_159054df",
+    "audio_files_count": 8
+  }
+}

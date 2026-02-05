@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Proposal",
+    "context": "A community center meeting room, mid-afternoon with sunlight filtering through large windows. The room has colorful posters on the walls about various programs and activities. There's a faint sound of laughter and chatter from an ongoing kids' art class in the next room.",
+    "description": "Two members of the community center board discuss a proposal for a new program aimed at providing resources for local families in need. Speaker 1 is optimistic about the potential impact, while Speaker 2 is skeptical and questions the feasibility of the plan, leading to a moment of disagreement.",
+    "speaker1_name": "Rachel",
+    "speaker1_role": "Community Center Board Member",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Rachel is passionate about community engagement and often advocates for marginalized groups. She believes in the power of collective action and approaches challenges with optimism and empathy.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "David",
+    "speaker2_role": "Community Center Board Member",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "David is pragmatic and values evidence-based decision-making. He often channels his emotional intelligence into constructive criticism, aiming to strengthen proposals with careful consideration.",
+    "speaker2_persona_2": "David is dismissive and often reacts defensively. He tends to belittle suggestions he disagrees with, expressing his doubts through sarcasm and a tone that hints at frustration.",
+    "speaker2_persona_3": "David becomes anxious and overwhelmed, leading to emotional outbursts. He expresses his concerns in a loud voice, fearing change and focusing on potential negative outcomes.",
+    "speaker2_persona_high": "David is pragmatic and values evidence-based decision-making. He often channels his emotional intelligence into constructive criticism, aiming to strengthen proposals with careful consideration.",
+    "speaker2_persona_low": "David is dismissive and often reacts defensively. He tends to belittle suggestions he disagrees with, expressing his doubts through sarcasm and a tone that hints at frustration.",
+    "speaker2_voice": "Aiden",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I really think this new program could make a huge difference for families struggling in our community."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That\u2019s a nice thought, but we need to consider if we have the resources to sustain it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But if we don\u2019t try, how will we ever know if it helps? We owe it to the families to at least give it a shot."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but what if we stretch ourselves too thin and can\u2019t deliver on our promises?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I believe we can find volunteers and funding if we present the idea well enough."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "True, but we need a solid plan first to make sure we\u2019re not setting ourselves up for failure."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I really think this new program could make a huge difference for families struggling in our community.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/01.mp3",
+      "tone_description": "Speak passionately and powerfully with unwavering conviction."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That\u2019s a nice thought, but we need to consider if we have the resources to sustain it.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/02.mp3",
+      "tone_description": "Speak rapidly and decisively with unwavering conviction."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But if we don\u2019t try, how will we ever know if it helps? We owe it to the families to at least give it a shot.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/03.mp3",
+      "tone_description": "Speak passionately and assertively with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but what if we stretch ourselves too thin and can\u2019t deliver on our promises?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/04.mp3",
+      "tone_description": "speak calmly and thoughtfully, weighing each word as if building a careful argument [nod slowly]\u2026"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but what if we stretch ourselves too thin and can\u2019t deliver on our promises?",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/05.mp3",
+      "tone_description": "speak dismissively with a sarcastic edge, as if questioning the very idea [roll eyes]\u2026"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I believe we can find volunteers and funding if we present the idea well enough.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/06.mp3",
+      "tone_description": "Speak passionately and resolutely with unwavering conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but we need a solid plan first to make sure we\u2019re not setting ourselves up for failure.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/07.mp3",
+      "tone_description": "speak thoughtfully and measured, emphasizing the need for a well-structured plan [nod slowly]..."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but we need a solid plan first to make sure we\u2019re not setting ourselves up for failure.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d/audio/08.mp3",
+      "tone_description": "speak with a sarcastic edge, rolling your eyes to show disbelief [scoff lightly]..."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_063147",
+    "dataset_id": "20260126_063147_003160_afb6bb3d",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/SpeechEQ_4500/decision_making_reality_testing/20260126_063147_003160_afb6bb3d",
+    "audio_files_count": 8
+  }
+}

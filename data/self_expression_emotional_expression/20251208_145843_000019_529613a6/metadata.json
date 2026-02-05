@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Under Pressure at the Weekly Team Meeting",
+    "context": "A busy tech startup office, late in the afternoon, with the hum of computers and colleagues chatting in the background. The team is at the end of a weekly meeting where they discuss their progress and any issues they're facing.",
+    "description": "During a team meeting, a project manager, Alex, is discussing the team's progress on a product launch. A team member, Jamie, has been struggling with their tasks and Alex addresses this with them in front of the team.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, empathetic, and understanding. Alex is always careful about how he expresses his emotions, particularly in a professional setting. He is skilled at discussing sensitive topics in a way that is clear but not confrontational.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Jamie",
+    "speaker2_role": "Team Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Jamie is open and constructive when discussing her challenges. She acknowledges her struggles and expresses her commitment to improve.",
+    "speaker2_persona_2": "Low EQ - Jamie becomes defensive when her performance is discussed. She reacts strongly, expressing frustration, and tries to deflect the blame onto others.",
+    "speaker2_persona_3": "Low EQ - Jamie is dismissive and sarcastic when her struggles are brought up. She makes light of the situation and avoids discussing the issue seriously.",
+    "speaker2_persona_high": "High EQ - Jamie is open and constructive when discussing her challenges. She acknowledges her struggles and expresses her commitment to improve.",
+    "speaker2_persona_low": "Low EQ - Jamie becomes defensive when her performance is discussed. She reacts strongly, expressing frustration, and tries to deflect the blame onto others.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jamie, I've noticed you're having some difficulties with your tasks for the product launch."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I've been a bit overwhelmed with the workload and I'm trying to figure out how to manage it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "We're here to support you, Jamie. Have you thought about delegating some tasks or asking for help?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I have, but I'm not sure who can take on more tasks. I don't want to be a burden."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Remember, we're a team. It's okay to lean on each other when things get tough. Let's discuss this after the meeting and find a way to lighten your load."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That sounds good, Alex. I appreciate the understanding and support."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jamie, I've noticed you're having some difficulties with your tasks for the product launch.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/01.mp3",
+      "tone_description": "Speak softly and slowly, exuding calm confidence and empathetic understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I've been a bit overwhelmed with the workload and I'm trying to figure out how to manage it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/02.mp3",
+      "tone_description": "Speak with sincerity and a touch of overwhelm, but maintain an underlying tone of determination."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "We're here to support you, Jamie. Have you thought about delegating some tasks or asking for help?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/03.mp3",
+      "tone_description": "Speak in a gentle, empathetic tone, offering words of encouragement and suggestions calmly."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I have, but I'm not sure who can take on more tasks. I don't want to be a burden.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/04.mp3",
+      "tone_description": "Speak empathetically and thoughtfully, expressing a commitment to improvement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I have, but I'm not sure who can take on more tasks. I don't want to be a burden.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/05.mp3",
+      "tone_description": "[sigh] Speak defensively with a frustrated tone, as if feeling unjustly accused."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Remember, we're a team. It's okay to lean on each other when things get tough. Let's discuss this after the meeting and find a way to lighten your load.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/06.mp3",
+      "tone_description": "Speak in a soft, empathetic tone, conveying the importance of teamwork and mutual support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds good, Alex. I appreciate the understanding and support.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/07.mp3",
+      "tone_description": "Speak with a warm, supportive tone, expressing sincere gratitude and openness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds good, Alex. I appreciate the understanding and support.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6/audio/08.mp3",
+      "tone_description": "[sigh] Speak dismissively, with a sarcastic undertone, as if making light of the situation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_145843",
+    "dataset_id": "20251208_145843_000019_529613a6",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_300/self_expression_emotional_expression/20251208_145843_000019_529613a6",
+    "audio_files_count": 8
+  }
+}

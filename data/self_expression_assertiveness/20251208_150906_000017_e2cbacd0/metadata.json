@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Saturday Soccer Disagreement",
+    "context": "Local neighborhood park on a sunny Saturday morning. Children are playing soccer in a casual neighborhood match.",
+    "description": "In the midst of the match, there's a disagreement about a goal that was scored. Tom, one of the parents, believes that the opposing team's goal was offside. He is talking to Rebecca, the parent who is acting as the referee for this friendly match.",
+    "speaker1_name": "Tom",
+    "speaker1_role": "Parent of a child in the soccer match",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Passionate about fair play, but respectful and understanding. He is assertive and stands up for what he believes is right, but equally values maintaining good relationships.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Rebecca",
+    "speaker2_role": "Parent and acting referee of the soccer match",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Calm and understanding, she listens to Tom's concern, explains her perspective, but also proposes a solution to avoid future disagreements.",
+    "speaker2_persona_2": "Low EQ - Defensive and impatient, she shuts down Tom's concern immediately, insisting that her call was correct and that he should stop questioning her decisions.",
+    "speaker2_persona_3": "Low EQ - Irritated and confrontational, she snaps back at Tom's concern, accusing him of always causing problems and threatening to walk off the match.",
+    "speaker2_persona_high": "High EQ - Calm and understanding, she listens to Tom's concern, explains her perspective, but also proposes a solution to avoid future disagreements.",
+    "speaker2_persona_low": "Low EQ - Irritated and confrontational, she snaps back at Tom's concern, accusing him of always causing problems and threatening to walk off the match.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Rebecca, I'm pretty sure that last goal was offside."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Tom, I understand your concern, but from my perspective, it looked fair."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But Rebecca, it's clear to everyone here that the player was well ahead."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I see your point, Tom, but as the ref, I have to make the final call. Let's remember, it's just a friendly neighborhood game."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Alright, I may have gotten a bit carried away. It's just that the kids are so invested in this."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, Tom. Let's continue to encourage them and keep the focus on fun."
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Rebecca, I'm pretty sure that last goal was offside.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/01.mp3",
+      "tone_description": "Speak assertively yet respectfully, displaying your passion for fairness."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Tom, I understand your concern, but from my perspective, it looked fair.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/02.mp3",
+      "tone_description": "Speak calmly and understandingly, with a tone of gentle assurance."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But Rebecca, it's clear to everyone here that the player was well ahead.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/03.mp3",
+      "tone_description": "Speak assertively yet respectfully, maintaining a calm and fair-minded tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I see your point, Tom, but as the ref, I have to make the final call. Let's remember, it's just a friendly neighborhood game.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/04.mp3",
+      "tone_description": "Speak calmly and diplomatically, with a warm tone of understanding and a touch of gentle firmness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I see your point, Tom, but as the ref, I have to make the final call. Let's remember, it's just a friendly neighborhood game.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/05.mp3",
+      "tone_description": "[sigh heavily] Speak in a confrontational, irritated manner, with a biting edge and a threat to walk away."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Alright, I may have gotten a bit carried away. It's just that the kids are so invested in this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/06.mp3",
+      "tone_description": "Speak with a humble, apologetic tone, but maintain underlying firmness in your belief."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Tom. Let's continue to encourage them and keep the focus on fun.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/07.mp3",
+      "tone_description": "Speak with a calm, soothing voice, infusing each word with understanding and positivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Tom. Let's continue to encourage them and keep the focus on fun.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0/audio/08.mp3",
+      "tone_description": "Speak in a loud, irritated tone, with a confrontational edge and a hint of threat."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_150906",
+    "dataset_id": "20251208_150906_000017_e2cbacd0",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "data/1208_300/self_expression_assertiveness/20251208_150906_000017_e2cbacd0",
+    "audio_files_count": 8
+  }
+}

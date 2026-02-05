@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Family Dinner Disagreement",
+    "context": "A cozy dining room during a family dinner on a rainy Sunday evening, with the sound of raindrops tapping against the window and the aroma of roasted chicken filling the air. The table is set with colorful plates and glasses, with family members chatting softly in the background.",
+    "description": "During a family dinner, two siblings, Sofia and Marco, discuss the upcoming family vacation plans. A disagreement arises when Marco insists on a destination that Sofia feels is unsuitable for their parents' age and health concerns. This conversation tests their ability to assert their opinions respectfully while considering each other's perspectives.",
+    "speaker1_name": "Sofia",
+    "speaker1_role": "Sister",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Sofia is empathetic and open-minded, always aiming to understand her brother's perspective while expressing her concerns in a calm manner.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Marco",
+    "speaker2_role": "Brother",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Marco is supportive and receptive, acknowledging his sister's concerns while asserting his viewpoint with confidence.",
+    "speaker2_persona_2": "Marco becomes frustrated and defensive, dismissing Sofia's concerns as overreactions and insisting on his choice without considering her feelings.",
+    "speaker2_persona_3": "Marco reacts with sarcasm, belittling Sofia's concerns by saying they are insignificant compared to the excitement of the trip, making it hard for a constructive dialogue to continue.",
+    "speaker2_persona_high": "Marco is supportive and receptive, acknowledging his sister's concerns while asserting his viewpoint with confidence.",
+    "speaker2_persona_low": "Marco reacts with sarcasm, belittling Sofia's concerns by saying they are insignificant compared to the excitement of the trip, making it hard for a constructive dialogue to continue.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, what do you think about that beach resort for our family trip?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I think it sounds fun, but I'm worried about Mom and Dad getting around there."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But come on, they loved the beach last time! What\u2019s the real issue?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I just feel like we should choose somewhere easier for them to manage, like the mountains."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I don\u2019t know, that sounds boring! They need some excitement!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Excitement is great, but maybe we can find a place that offers both fun and comfort for everyone."
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, what do you think about that beach resort for our family trip?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/01.mp3",
+      "tone_description": "Speak melodically and warmly with deep empathy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I think it sounds fun, but I'm worried about Mom and Dad getting around there.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with unshakeable confidence."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But come on, they loved the beach last time! What\u2019s the real issue?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/03.mp3",
+      "tone_description": "Speak sharply and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I just feel like we should choose somewhere easier for them to manage, like the mountains.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/04.mp3",
+      "tone_description": "speak warmly and supportively, acknowledging her fears with a reassuring nod."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I just feel like we should choose somewhere easier for them to manage, like the mountains.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/05.mp3",
+      "tone_description": "speak sarcastically and dismissively, rolling your eyes to convey mocking disbelief."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I don\u2019t know, that sounds boring! They need some excitement!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/06.mp3",
+      "tone_description": "Speak sharply and passionately with unshakeable conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Excitement is great, but maybe we can find a place that offers both fun and comfort for everyone.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/07.mp3",
+      "tone_description": "speak warmly and confidently, nodding in agreement with her concerns [gentle smile]\u2026"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Excitement is great, but maybe we can find a place that offers both fun and comfort for everyone.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec/audio/08.mp3",
+      "tone_description": "speak sarcastically and dismissively, rolling your eyes at her worries [scoff lightly]\u2026"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_053941",
+    "dataset_id": "20260126_053941_001449_0d95f4ec",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "data/SpeechEQ_4500/self_expression_assertiveness/20260126_053941_001449_0d95f4ec",
+    "audio_files_count": 8
+  }
+}

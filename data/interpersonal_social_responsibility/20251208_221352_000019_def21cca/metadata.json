@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Forgotten Birthday Party Invitation",
+    "context": "A bustling city library on a sunny Saturday afternoon",
+    "description": "While sorting through a stack of returned children's books, librarian, Lila, discovers a misplaced birthday party invitation for a little girl named Rebecca. She realizes that the party is the very next day. She discusses the situation with her colleague, Sam.",
+    "speaker1_name": "Lila",
+    "speaker1_role": "Librarian",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, empathetic, responsible, thoughtful, community-oriented",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Librarian",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Empathetic, considerate, solutions-focused, community-oriented",
+    "speaker2_persona_2": "Low EQ - Indifferent, dismissive, focused on personal tasks",
+    "speaker2_persona_3": "Low EQ - Anxious, overly focused on rules and procedures, resistant to going beyond the job description",
+    "speaker2_persona_high": "High EQ - Empathetic, considerate, solutions-focused, community-oriented",
+    "speaker2_persona_low": "Low EQ - Anxious, overly focused on rules and procedures, resistant to going beyond the job description",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Sam, look what I found tucked in one of the returned children's books - an invitation to Rebecca's birthday party."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, that's odd. When is the party?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's the problem - it's actually tomorrow."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Oh no, that's unfortunate. I think we need to make sure Rebecca gets her invitation as soon as possible."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I agree, but we don't even have her contact information."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, we could try reaching out to her classmates or their parents. Let's do our best to make this right."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Sam, look what I found tucked in one of the returned children's books - an invitation to Rebecca's birthday party.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/01.mp3",
+      "tone_description": "Speak with a warm, thoughtful tone, expressing mild surprise and shared community intrigue."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, that's odd. When is the party?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/02.mp3",
+      "tone_description": "Express genuine curiosity and warmth, with a hint of surprise."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's the problem - it's actually tomorrow.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/03.mp3",
+      "tone_description": "Speak gently and thoughtfully, emphasizing the word 'tomorrow' with a hint of regret."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh no, that's unfortunate. I think we need to make sure Rebecca gets her invitation as soon as possible.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/04.mp3",
+      "tone_description": "Speak with a warm, concerned tone, emphasizing a solution-oriented approach."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh no, that's unfortunate. I think we need to make sure Rebecca gets her invitation as soon as possible.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/05.mp3",
+      "tone_description": "Speak rapidly with a tense, anxious tone, stressing the urgency and procedural misstep."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I agree, but we don't even have her contact information.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/06.mp3",
+      "tone_description": "Speak in a calm, thoughtful manner, expressing concern for the situation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, we could try reaching out to her classmates or their parents. Let's do our best to make this right.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/07.mp3",
+      "tone_description": "Speak gently and positively, with a patient, community-focused tone, showing empathy and willingness to help."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, we could try reaching out to her classmates or their parents. Let's do our best to make this right.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca/audio/08.mp3",
+      "tone_description": "Speak in a detached, uninterested manner, without any emotional engagement, as if you'd rather be doing something else."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_221352",
+    "dataset_id": "20251208_221352_000019_def21cca",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_600/interpersonal_social_responsibility/20251208_221352_000019_def21cca",
+    "audio_files_count": 8
+  }
+}

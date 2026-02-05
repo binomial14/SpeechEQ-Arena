@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Interruption During Live Broadcast",
+    "context": "A local TV station during the evening news broadcast",
+    "description": "The evening news is being broadcast live when a technical glitch occurs. A loud, unexpected noise suddenly interrupts the broadcast. The anchor, Keshav, and the director, Maria, are in conversation through their headsets.",
+    "speaker1_name": "Keshav",
+    "speaker1_role": "News Anchor",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, professional, and understanding. He understands the importance of maintaining composure on live TV and values the morale of the team.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Maria",
+    "speaker2_role": "Director",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - She is composed, patient, and solution-oriented. She maintains her cool even under stress and communicates effectively while managing the situation.",
+    "speaker2_persona_2": "Low EQ - She is impulsive and easily flustered. She reacts immediately with frustration and panic, leading to rushed decisions and ineffective communication.",
+    "speaker2_persona_3": "Low EQ - She is quick to anger and tends to blame others. She lacks patience and her communication is driven by her frustration and desire to find a scapegoat.",
+    "speaker2_persona_high": "High EQ - She is composed, patient, and solution-oriented. She maintains her cool even under stress and communicates effectively while managing the situation.",
+    "speaker2_persona_low": "Low EQ - She is impulsive and easily flustered. She reacts immediately with frustration and panic, leading to rushed decisions and ineffective communication.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Whoa, what was that noise?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Not sure, Keshav. Looks like we hit a technical glitch. Just stay calm, we'll figure this out."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Okay, should I go to commercial break or...?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "No, keep going. Let's not panic and jump to the break just yet. We'll try to resolve this on the fly."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Alright, I'll keep going. Let me know when we're clear."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, Keshav. Just take a deep breath and continue with the script. We've got this."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Whoa, what was that noise?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/01.mp3",
+      "tone_description": "Speak in a calm, professional tone, expressing curiosity without alarm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Not sure, Keshav. Looks like we hit a technical glitch. Just stay calm, we'll figure this out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/02.mp3",
+      "tone_description": "Speak in a calm and patient manner, with a soothing and confident tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Okay, should I go to commercial break or...?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/03.mp3",
+      "tone_description": "Speak in a composed, steady voice with a hint of professional concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No, keep going. Let's not panic and jump to the break just yet. We'll try to resolve this on the fly.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/04.mp3",
+      "tone_description": "Speak with a steady, composed voice, exuding patience and reassurance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No, keep going. Let's not panic and jump to the break just yet. We'll try to resolve this on the fly.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/05.mp3",
+      "tone_description": "Speak in a rushed, high-pitched voice, conveying a sense of panic and impulsiveness."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Alright, I'll keep going. Let me know when we're clear.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/06.mp3",
+      "tone_description": "Speak with a calm, professional tone, maintaining composure while conveying understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Keshav. Just take a deep breath and continue with the script. We've got this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/07.mp3",
+      "tone_description": "Speak with a calm, steady voice, exuding patience and reassurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Keshav. Just take a deep breath and continue with the script. We've got this.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80/audio/08.mp3",
+      "tone_description": "Speak in a rushed, high-pitched tone, clearly flustered and impatient."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_224910",
+    "dataset_id": "20251208_224910_000060_efa48b80",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_600/decision_making_impulse_control/20251208_224910_000060_efa48b80",
+    "audio_files_count": 8
+  }
+}

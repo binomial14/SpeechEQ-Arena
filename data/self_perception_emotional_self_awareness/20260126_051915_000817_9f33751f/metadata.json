@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Park Reflection",
+    "context": "A sunny Saturday afternoon at a local park, where children are playing and the sound of laughter fills the air. A couple of picnic tables are occupied by families enjoying food and drinks, while a gentle breeze rustles the leaves in the trees.",
+    "description": "Two colleagues, a man and a woman, are taking a break from a team-building event held at the park. They find a quiet spot under a large oak tree to talk. The discussion shifts from light banter to deeper emotions as they reflect on their recent project and the stress it caused.",
+    "speaker1_name": "Sophie",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Sophie is known for her high emotional intelligence, often navigating challenging conversations with empathy and awareness of her own feelings.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Mark",
+    "speaker2_role": "Graphic Designer",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "Mark demonstrates high emotional intelligence by thoughtfully acknowledging his feelings and the impact of their project on his well-being.",
+    "speaker2_persona_2": "Mark reacts with defensiveness, expressing frustration about the feedback he received, dismissing the emotional conversation as unnecessary.",
+    "speaker2_persona_3": "Mark shows avoidance, shrugging off the conversation and changing the topic abruptly, indicating discomfort with exploring deeper feelings.",
+    "speaker2_persona_high": "Mark demonstrates high emotional intelligence by thoughtfully acknowledging his feelings and the impact of their project on his well-being.",
+    "speaker2_persona_low": "Mark reacts with defensiveness, expressing frustration about the feedback he received, dismissing the emotional conversation as unnecessary.",
+    "speaker2_voice": "Ryan",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, did you think the project went as smoothly as we hoped?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Honestly, I think we faced more challenges than expected."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I just feel like maybe if you had been more proactive, we could have avoided some of those issues."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but I was juggling a lot at once, and I tried to communicate the struggles I was facing."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Still, it seemed like things fell through the cracks, didn't it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "True, but I think we can learn from this and be even better on the next project."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, did you think the project went as smoothly as we hoped?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/01.mp3",
+      "tone_description": "Speak sharply and emphatically with unwavering determination."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Honestly, I think we faced more challenges than expected.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with unwavering conviction."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I just feel like maybe if you had been more proactive, we could have avoided some of those issues.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/03.mp3",
+      "tone_description": "Speak sharply and urgently with unwavering clarity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I was juggling a lot at once, and I tried to communicate the struggles I was facing.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/04.mp3",
+      "tone_description": "speak slowly and warmly, emphasizing the weight of my struggles [gentle nod]"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I was juggling a lot at once, and I tried to communicate the struggles I was facing.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/05.mp3",
+      "tone_description": "speak defensively with frustration, dismissing the concerns as overblown [cross arms]"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Still, it seemed like things fell through the cracks, didn't it?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/06.mp3",
+      "tone_description": "Speak sharply and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but I think we can learn from this and be even better on the next project.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/07.mp3",
+      "tone_description": "speak gently and sincerely, showing empathy and understanding [nod slowly]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but I think we can learn from this and be even better on the next project.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f/audio/08.mp3",
+      "tone_description": "speak sharply and defensively, brushing off the feedback with irritation [cross arms]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_051915",
+    "dataset_id": "20260126_051915_000817_9f33751f",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_051915_000817_9f33751f",
+    "audio_files_count": 8
+  }
+}

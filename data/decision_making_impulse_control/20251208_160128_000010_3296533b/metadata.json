@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Promotion",
+    "context": "Workplace, late afternoon, in a large open-plan office with the hum of conversation and keyboards clicking. The setting sun is casting a warm glow through the large windows.",
+    "description": "Sam, a seasoned senior manager, is breaking the news to his assistant, Alex, about an unexpected promotion opportunity that has come up. This promotion would significantly increase Alex's responsibilities and workload, but also offer a substantial pay rise.",
+    "speaker1_name": "Sam",
+    "speaker1_role": "Senior Manager",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, level-headed, empathetic, and clear communicator. Sam's years of experience in management have given him a high level of emotional intelligence. He is adept at reading people's reactions and adjusting his communication style to suit the situation.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Assistant",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Excited about the opportunity but also aware of the challenges it will present. Alex takes a moment to digest the information, asks thoughtful questions about the new role, and doesn't rush into a decision.",
+    "speaker2_persona_2": "Low EQ - Impulsive and reactive. Alex immediately agrees to the promotion without considering the implications. She gets overly excited and doesn't think about the potential stress and responsibility that comes with the role.",
+    "speaker2_persona_3": "Low EQ - Anxious and overwhelmed. Alex immediately feels pressured by the news and reacts defensively, assuming Sam is trying to pile more work on her without considering her feelings or capacity.",
+    "speaker2_persona_high": "High EQ - Excited about the opportunity but also aware of the challenges it will present. Alex takes a moment to digest the information, asks thoughtful questions about the new role, and doesn't rush into a decision.",
+    "speaker2_persona_low": "Low EQ - Anxious and overwhelmed. Alex immediately feels pressured by the news and reacts defensively, assuming Sam is trying to pile more work on her without considering her feelings or capacity.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alex, there's a new role opening up that I think you'd be perfect for. It's got a lot more responsibility, but the pay increase is substantial."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Wow, that's unexpected. I'm intrigued, what would be the additional responsibilities?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Well, you'd be managing your own team, coordinating high-priority projects, and attending executive meetings. It's a big step up."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's a lot to take in. But, I'm ready for a challenge and to grow in my career. This could be a good opportunity."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's exactly the attitude I was hoping for, Alex. You've got until the end of the week to officially decide."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks, Sam. I'll take some time to think it over and weigh up the pros and cons."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alex, there's a new role opening up that I think you'd be perfect for. It's got a lot more responsibility, but the pay increase is substantial.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/01.mp3",
+      "tone_description": "Speak sincerely and calmly, expressing confidence in Alex's potential for the role."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Wow, that's unexpected. I'm intrigued, what would be the additional responsibilities?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/02.mp3",
+      "tone_description": "Speak with a tone of excited curiosity, yet maintain a calm, thoughtful pace."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Well, you'd be managing your own team, coordinating high-priority projects, and attending executive meetings. It's a big step up.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/03.mp3",
+      "tone_description": "Speak clearly and calmly, conveying your confidence and understanding of the new role."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a lot to take in. But, I'm ready for a challenge and to grow in my career. This could be a good opportunity.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/04.mp3",
+      "tone_description": "Speak thoughtfully and with a moderate pace, exuding excitement mixed with a hint of caution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a lot to take in. But, I'm ready for a challenge and to grow in my career. This could be a good opportunity.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/05.mp3",
+      "tone_description": "Speak in a rushed, nervous tone with a defensive edge, projecting anxiety and feeling overwhelmed."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's exactly the attitude I was hoping for, Alex. You've got until the end of the week to officially decide.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/06.mp3",
+      "tone_description": "Speak with calm confidence, imparting reassurance and clear decision-making."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Sam. I'll take some time to think it over and weigh up the pros and cons.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/07.mp3",
+      "tone_description": "Speak with a warm, enthusiastic tone, pausing thoughtfully before each phrase."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Sam. I'll take some time to think it over and weigh up the pros and cons.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b/audio/08.mp3",
+      "tone_description": "Speak quickly with a tense, defensive edge, breathing heavily between phrases."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_160128",
+    "dataset_id": "20251208_160128_000010_3296533b",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_300/decision_making_impulse_control/20251208_160128_000010_3296533b",
+    "audio_files_count": 8
+  }
+}

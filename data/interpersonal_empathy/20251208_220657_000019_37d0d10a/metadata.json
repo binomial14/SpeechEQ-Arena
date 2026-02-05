@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Troubled Commute",
+    "context": "A late-evening ride on a city bus",
+    "description": "After a long day at work, Speaker 1 takes the last city bus home. There, they encounter Speaker 2, who is visibly upset and distressed. Speaker 1 decides to reach out to Speaker 2.",
+    "speaker1_name": "Rafael",
+    "speaker1_role": "Fellow commuter",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Rafael is a patient and understanding individual who often goes out of his way to help others. He has a natural ability to understand other people's emotions and responds to them in a considerate way.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Sakura",
+    "speaker2_role": "Fellow commuter",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Sakura (high EQ) - She is grateful for Rafael's concern and responds to him in a respectful and appreciative manner. She shares her worries openly and honestly, while also being mindful of Rafael's feelings.",
+    "speaker2_persona_2": "Sakura (low EQ - defensive) - She is suspicious of Rafael's intentions and reacts defensively when he tries to show empathy. She is closed off, uncommunicative and quick to misinterpret Rafael's kind intentions.",
+    "speaker2_persona_3": "Sakura (low EQ - irritated) - She is annoyed by Rafael's attempts to empathize and responds with irritation. She is dismissive, rude, and expresses her annoyance in a harsh tone.",
+    "speaker2_persona_high": "Sakura (high EQ) - She is grateful for Rafael's concern and responds to him in a respectful and appreciative manner. She shares her worries openly and honestly, while also being mindful of Rafael's feelings.",
+    "speaker2_persona_low": "Sakura (low EQ - irritated) - She is annoyed by Rafael's attempts to empathize and responds with irritation. She is dismissive, rude, and expresses her annoyance in a harsh tone.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Rough day, huh?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "You could say that... Just lost my job today."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh man, I'm really sorry to hear that. Everything feels tough when it's fresh, doesn't it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, it does. Not sure how I'm going to tell my family..."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's definitely a hard conversation to have... but remember, it's okay to lean on them for support."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, I guess it's just hard to see the silver lining right now."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Rough day, huh?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/01.mp3",
+      "tone_description": "Speak in a gentle, empathetic tone, slowly and full of understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "You could say that... Just lost my job today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/02.mp3",
+      "tone_description": "Speak softly and honestly, with a touch of vulnerability and appreciation in your voice."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh man, I'm really sorry to hear that. Everything feels tough when it's fresh, doesn't it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/03.mp3",
+      "tone_description": "Speak in a gentle, empathetic tone, with a hint of sadness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it does. Not sure how I'm going to tell my family...",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/04.mp3",
+      "tone_description": "Speak the line gently, with a sincere tone and a soft, appreciative smile."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, it does. Not sure how I'm going to tell my family...",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/05.mp3",
+      "tone_description": "Speak tersely, allowing your irritation to seep into your tone, displaying clear annoyance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's definitely a hard conversation to have... but remember, it's okay to lean on them for support.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/06.mp3",
+      "tone_description": "Speak with a gentle and patient tone, conveying understanding and support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, I guess it's just hard to see the silver lining right now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/07.mp3",
+      "tone_description": "Speak in an appreciative, warm tone, with a hint of vulnerability and uncertainty."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, I guess it's just hard to see the silver lining right now.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a/audio/08.mp3",
+      "tone_description": "Speak dismissively and coldly, oozing annoyance and irritation with every word."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_220657",
+    "dataset_id": "20251208_220657_000019_37d0d10a",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_600/interpersonal_empathy/20251208_220657_000019_37d0d10a",
+    "audio_files_count": 8
+  }
+}

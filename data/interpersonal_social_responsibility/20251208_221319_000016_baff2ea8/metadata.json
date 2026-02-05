@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Lending a Hand at the Soup Kitchen",
+    "context": "Local soup kitchen during lunchtime rush",
+    "description": "It's a busy lunchtime at the local soup kitchen. The place is filled with the pleasant aroma of hot soup and freshly baked bread. The harsh clink of cutlery on plates and murmurs of conversation echo around the room. In the midst of this, two volunteers, Fatima and Oscar, are working alongside each other serving food to the needy. Fatima notices that the line is getting longer and the demand is overwhelming their current staffing.",
+    "speaker1_name": "Fatima",
+    "speaker1_role": "Volunteer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Empathetic and proactive, always considering the needs of others and looking for ways to help. She has a strong sense of social responsibility.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Oscar",
+    "speaker2_role": "Volunteer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Oscar is understanding and cooperative. He values the needs of the community and is willing to put in the extra effort to meet those needs.",
+    "speaker2_persona_2": "Low EQ - Oscar is easily overwhelmed and can be selfish. He tends to prioritize his own comfort over the needs of others.",
+    "speaker2_persona_3": "Low EQ - Oscar is dismissive and uncooperative. He lacks empathy and doesn't feel the need to go beyond his assigned duties.",
+    "speaker2_persona_high": "High EQ - Oscar is understanding and cooperative. He values the needs of the community and is willing to put in the extra effort to meet those needs.",
+    "speaker2_persona_low": "Low EQ - Oscar is dismissive and uncooperative. He lacks empathy and doesn't feel the need to go beyond his assigned duties.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Wow, Oscar, the line's getting pretty long. Do you think we're keeping up?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I think we're managing for now, although it's definitely getting busier."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Maybe we should call in for some extra help, just to make sure no one has to wait too long?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's a great idea. I'll give a ring to some of the other volunteers and see if they can come in early."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Great! In the meantime, let's try to serve as efficiently as we can."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, we've got this! Let's keep the line moving and make sure everyone gets a warm meal."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Wow, Oscar, the line's getting pretty long. Do you think we're keeping up?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/01.mp3",
+      "tone_description": "Express concern with a warm, empathetic tone, speaking at a moderate pace."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I think we're managing for now, although it's definitely getting busier.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/02.mp3",
+      "tone_description": "Speak calmly and cooperatively, with an understanding yet motivated tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Maybe we should call in for some extra help, just to make sure no one has to wait too long?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/03.mp3",
+      "tone_description": "Speak with a thoughtful, concerned tone, suggesting a proactive solution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea. I'll give a ring to some of the other volunteers and see if they can come in early.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/04.mp3",
+      "tone_description": "Speak in a warm, patient manner, emphasizing each word to display genuine cooperation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's a great idea. I'll give a ring to some of the other volunteers and see if they can come in early.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/05.mp3",
+      "tone_description": "Speak dismissively and with a sarcastic undertone, clearly showing lack of interest."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Great! In the meantime, let's try to serve as efficiently as we can.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/06.mp3",
+      "tone_description": "Speak with a proactive and empathetic tone, conveying both efficiency and care."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we've got this! Let's keep the line moving and make sure everyone gets a warm meal.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/07.mp3",
+      "tone_description": "Speak with a warm, motivating tone, emphasizing unity and perseverance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we've got this! Let's keep the line moving and make sure everyone gets a warm meal.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8/audio/08.mp3",
+      "tone_description": "Speak in a dismissive, bored tone, as if the task is a chore."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_221319",
+    "dataset_id": "20251208_221319_000016_baff2ea8",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_600/interpersonal_social_responsibility/20251208_221319_000016_baff2ea8",
+    "audio_files_count": 8
+  }
+}

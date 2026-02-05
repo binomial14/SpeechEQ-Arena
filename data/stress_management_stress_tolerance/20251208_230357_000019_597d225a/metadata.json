@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Library Closure",
+    "context": "A local community library",
+    "description": "On a sunny Saturday afternoon, library patrons, including Ravi and Lina, are informed that the library will be closing immediately due to a power outage. Lina, a volunteer librarian, is tasked with informing Ravi, a regular patron and a passionate reader who has just settled down with a pile of books.",
+    "speaker1_name": "Lina",
+    "speaker1_role": "Volunteer librarian",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Calm, articulate, and empathetic, she is known for her ability to handle difficult situations with grace. Her emotional intelligence is evident in her ability to deliver disappointing news in a gentle and understanding manner.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Ravi",
+    "speaker2_role": "Library patron",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "High EQ - Ravi is understanding, patient, and adaptable. He appreciates Lina's efforts and quickly comes up with an alternative plan for his afternoon.",
+    "speaker2_persona_2": "Low EQ - Ravi is easily upset and tends to overreact to unexpected changes. He becomes agitated, raises his voice, and complains about the inconvenience.",
+    "speaker2_persona_3": "Low EQ - Ravi is stubborn and inflexible. He resists accepting the situation, insists on staying, and criticizes Lina for the library's lack of preparedness.",
+    "speaker2_persona_high": "High EQ - Ravi is understanding, patient, and adaptable. He appreciates Lina's efforts and quickly comes up with an alternative plan for his afternoon.",
+    "speaker2_persona_low": "Low EQ - Ravi is easily upset and tends to overreact to unexpected changes. He becomes agitated, raises his voice, and complains about the inconvenience.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Ravi, I'm afraid I've got some disappointing news. We've just been informed of a power outage and the library will be closing immediately."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh no, really? I've just started on these books!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm sorry, Ravi. The issue is out of our control. We hope the power will be reinstated soon."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, that's disappointing but it can't be helped. I'll return tomorrow then."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you for understanding, Ravi. We appreciate your patience in this unexpected situation."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Not a problem, Lina. These things happen. See you tomorrow."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Ravi, I'm afraid I've got some disappointing news. We've just been informed of a power outage and the library will be closing immediately.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/01.mp3",
+      "tone_description": "Deliver the news with a soft, gentle voice, expressing empathy and calm understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh no, really? I've just started on these books!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/02.mp3",
+      "tone_description": "Express surprise and adaptability, speaking calmly and with a touch of disappointment."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm sorry, Ravi. The issue is out of our control. We hope the power will be reinstated soon.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/03.mp3",
+      "tone_description": "Speak gently and empathetically, maintaining a calm and articulate tone to soften the disappointing news."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, that's disappointing but it can't be helped. I'll return tomorrow then.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/04.mp3",
+      "tone_description": "Speak calmly and understandingly, with a hint of mild disappointment and a reassuring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, that's disappointing but it can't be helped. I'll return tomorrow then.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/05.mp3",
+      "tone_description": "Speak with a raised voice, expressing frustration and impatience, with an underlying tone of agitation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you for understanding, Ravi. We appreciate your patience in this unexpected situation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/06.mp3",
+      "tone_description": "Speak in a calm, empathetic tone, expressing sincere appreciation and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Not a problem, Lina. These things happen. See you tomorrow.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/07.mp3",
+      "tone_description": "Speak in a soothing, calm voice with a hint of positivity and reassurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Not a problem, Lina. These things happen. See you tomorrow.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a/audio/08.mp3",
+      "tone_description": "Speak in a clipped, irritated tone, emphasizing the inconvenience with a loud sigh."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230357",
+    "dataset_id": "20251208_230357_000019_597d225a",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_230357_000019_597d225a",
+    "audio_files_count": 8
+  }
+}

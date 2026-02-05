@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Crisis in the Coffee Shop",
+    "context": "Busy downtown coffee shop during lunch rush",
+    "description": "A barista and the store manager are dealing with a sudden equipment malfunction during the busiest time of day. The espresso machine has stopped working and there is a long line of customers waiting.",
+    "speaker1_name": "Leo",
+    "speaker1_role": "Barista",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, patient, and proactive. Always looking for solutions rather than dwelling on problems.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Rebecca",
+    "speaker2_role": "Store Manager",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Cool-headed, supportive, and adaptable. Able to remain calm under pressure and focused on resolving the issue without letting stress affect her.",
+    "speaker2_persona_2": "Low EQ - Panics easily, gets overwhelmed with stress, and tends to blame others. Quick to anger and speaks sharply when under pressure.",
+    "speaker2_persona_3": "Low EQ - Avoidant and overly emotional. Becomes visibly anxious and upset during stressful situations, often unable to make decisions or take action.",
+    "speaker2_persona_high": "High EQ - Cool-headed, supportive, and adaptable. Able to remain calm under pressure and focused on resolving the issue without letting stress affect her.",
+    "speaker2_persona_low": "Low EQ - Panics easily, gets overwhelmed with stress, and tends to blame others. Quick to anger and speaks sharply when under pressure.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, the espresso machine just died on me!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What?! Now? Alright, let's stay calm, we'll figure it out."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But there's a massive line, people are getting impatient!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I know, I know. I'll address the customers and explain the situation. Can you try resetting it?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Okay, I'll give it a shot. Hope it works."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's the spirit. Keep me posted, and remember, we've handled worse."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, the espresso machine just died on me!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/01.mp3",
+      "tone_description": "Speak calmly and patiently, focusing on the solution rather than the problem."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What?! Now? Alright, let's stay calm, we'll figure it out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/02.mp3",
+      "tone_description": "Speak in a steady, soothing tone, projecting calm assurance and adaptability."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But there's a massive line, people are getting impatient!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/03.mp3",
+      "tone_description": "Deliver the line with a steady, composed voice, indicating a proactive approach to the situation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, I know. I'll address the customers and explain the situation. Can you try resetting it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/04.mp3",
+      "tone_description": "Speak with a calm, steady pace, seamlessly offering solutions in a reassuring, supportive tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, I know. I'll address the customers and explain the situation. Can you try resetting it?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/05.mp3",
+      "tone_description": "Speak with a sharp, hurried tone, laced with frustration and a hint of blame."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Okay, I'll give it a shot. Hope it works.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/06.mp3",
+      "tone_description": "Speak calmly and confidently, with a hint of optimism and patience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit. Keep me posted, and remember, we've handled worse.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/07.mp3",
+      "tone_description": "Speak in a calm, steady pace with a soothing, uplifting tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit. Keep me posted, and remember, we've handled worse.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd/audio/08.mp3",
+      "tone_description": "Speak with a sharp, quick pace and a distressed, accusatory tone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_162030",
+    "dataset_id": "20251208_162030_000021_c1033acd",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_300/stress_management_stress_tolerance/20251208_162030_000021_c1033acd",
+    "audio_files_count": 8
+  }
+}

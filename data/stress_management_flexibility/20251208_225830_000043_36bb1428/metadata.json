@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Flight Delay",
+    "context": "Two friends are at the airport, waiting to board a flight for a planned vacation together. It's a busy evening with the hum of people chatting, announcements echoing, and the smell of coffee wafting from a nearby cafe.",
+    "description": "Just as they are about to board their flight, an announcement comes that the flight has been delayed indefinitely due to bad weather. This unexpected change threatens to disrupt their vacation plans.",
+    "speaker1_name": "Leila",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Leila is patient, adaptable and has a high level of emotional intelligence. She maintains a positive outlook even in challenging situations and is good at problem-solving.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Marcus",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Marcus, with high EQ, understands that the situation is out of their control. He acknowledges his disappointment but quickly adapts to the change, considering alternative plans and solutions.",
+    "speaker2_persona_2": "Marcus, with low EQ, reacts defensively to the change. He is visibly upset, blaming the airline for the inconvenience and struggling to accept the change, focusing on the negative impact on their vacation.",
+    "speaker2_persona_3": "Marcus, with another low EQ, becomes anxious and irritated. He is overwhelmed by the change, worrying about the consequences and potential losses, and unable to think clearly about solutions or alternatives.",
+    "speaker2_persona_high": "Marcus, with high EQ, understands that the situation is out of their control. He acknowledges his disappointment but quickly adapts to the change, considering alternative plans and solutions.",
+    "speaker2_persona_low": "Marcus, with another low EQ, becomes anxious and irritated. He is overwhelmed by the change, worrying about the consequences and potential losses, and unable to think clearly about solutions or alternatives.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, did you hear that? The flight's been delayed indefinitely."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "You've got to be kidding me! This is going to ruin everything!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Hey, it's not ideal, but let's not panic. We can figure something out."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "No, you don't understand. This was supposed to be perfect!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I know it's disappointing, but sometimes things don't go as planned. Let's see what else we can do."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, I guess I'm just letting my frustration get the better of me. Let's see what we can do."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, did you hear that? The flight's been delayed indefinitely.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/01.mp3",
+      "tone_description": "Speak calmly and patiently, maintaining an optimistic tone despite the news."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "You've got to be kidding me! This is going to ruin everything!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/02.mp3",
+      "tone_description": "Express slight disappointment, then speak calmly and thoughtfully, considering other options."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Hey, it's not ideal, but let's not panic. We can figure something out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/03.mp3",
+      "tone_description": "Speak with a calm, steady pace, radiating patience and confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No, you don't understand. This was supposed to be perfect!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/04.mp3",
+      "tone_description": "Speak with a calm, composed voice, showing mild disappointment but also hinting at resilience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No, you don't understand. This was supposed to be perfect!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/05.mp3",
+      "tone_description": "Speak with a high-pitched, nervous tone, stammering slightly and showing clear signs of panic."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I know it's disappointing, but sometimes things don't go as planned. Let's see what else we can do.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/06.mp3",
+      "tone_description": "Speak in a patient and calm tone, offering reassurance and optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, I guess I'm just letting my frustration get the better of me. Let's see what we can do.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/07.mp3",
+      "tone_description": "Speak with a calm, accepting tone, expressing disappointment but quickly shifting towards optimism and solution-finding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, I guess I'm just letting my frustration get the better of me. Let's see what we can do.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428/audio/08.mp3",
+      "tone_description": "Speak in an anxious, irritated tone, overwhelmed by the situation and preoccupied with the potential consequences."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_225830",
+    "dataset_id": "20251208_225830_000043_36bb1428",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_600/stress_management_flexibility/20251208_225830_000043_36bb1428",
+    "audio_files_count": 8
+  }
+}

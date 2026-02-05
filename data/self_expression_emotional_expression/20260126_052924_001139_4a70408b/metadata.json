@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Coffee Shop Confrontation",
+    "context": "A cozy coffee shop filled with the aroma of freshly brewed coffee and the soft murmur of conversations. It\u2019s a rainy afternoon, and the sound of raindrops tapping against the window creates a soothing backdrop. The shop is buzzing with activity, with a barista calling out orders and a few patrons typing away on their laptops.",
+    "description": "During a catch-up at the coffee shop, Jamie, a project manager, expresses frustration about a recent project delay to her colleague, Sam. As they sip their lattes, Jamie\u2019s tone shifts from frustration to understanding, prompting different reactions from Sam, who is either supportive or defensive.",
+    "speaker1_name": "Jamie",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Jamie is an emotionally intelligent project manager who values open communication. She understands her emotions and is capable of expressing them constructively.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Team Member",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Sam is empathetic and responds thoughtfully, recognizing Jamie's feelings about the project delay. He seeks to foster a supportive dialogue.",
+    "speaker2_persona_2": "Sam is defensive and reacts with frustration, dismissing Jamie's concerns and blaming external factors for the project delay.",
+    "speaker2_persona_3": "Sam is overly emotional, responding with anger and sarcasm, making it difficult for Jamie to express her concerns without feeling attacked.",
+    "speaker2_persona_high": "Sam is empathetic and responds thoughtfully, recognizing Jamie's feelings about the project delay. He seeks to foster a supportive dialogue.",
+    "speaker2_persona_low": "Sam is overly emotional, responding with anger and sarcasm, making it difficult for Jamie to express her concerns without feeling attacked.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe we're still dealing with the project delays; it's so frustrating."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I know it\u2019s been tough for everyone involved."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Do you even care about how this is affecting our deadlines and reputation?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Of course I do, but I think we should look at what we can change instead of just blaming each other."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "But isn't it just easier to point fingers at the delays?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Maybe, but that won't solve anything; let's focus on the next steps instead."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe we're still dealing with the project delays; it's so frustrating.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/01.mp3",
+      "tone_description": "Speak sharply and passionately with resolute determination."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I know it\u2019s been tough for everyone involved.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with deep, unwavering empathy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Do you even care about how this is affecting our deadlines and reputation?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/03.mp3",
+      "tone_description": "Speak sharply and urgently with deep frustration."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Of course I do, but I think we should look at what we can change instead of just blaming each other.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/04.mp3",
+      "tone_description": "speak gently and with understanding, showing empathy for their concerns [nodding thoughtfully]"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Of course I do, but I think we should look at what we can change instead of just blaming each other.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/05.mp3",
+      "tone_description": "speak with biting sarcasm and anger, making it hard to listen [rolling eyes dramatically]"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "But isn't it just easier to point fingers at the delays?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/06.mp3",
+      "tone_description": "Speak sharply and passionately with unwavering determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Maybe, but that won't solve anything; let's focus on the next steps instead.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/07.mp3",
+      "tone_description": "[nodding gently] speak with warm empathy, highlighting understanding before suggesting next steps."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Maybe, but that won't solve anything; let's focus on the next steps instead.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b/audio/08.mp3",
+      "tone_description": "[roll eyes sarcastically] deliver with sharp anger, making it clear that blame is futile and mocking the suggestion."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_052924",
+    "dataset_id": "20260126_052924_001139_4a70408b",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/SpeechEQ_4500/self_expression_emotional_expression/20260126_052924_001139_4a70408b",
+    "audio_files_count": 8
+  }
+}

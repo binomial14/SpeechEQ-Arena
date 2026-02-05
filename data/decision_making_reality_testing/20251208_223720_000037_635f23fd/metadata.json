@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Disrupted Book Club Meeting",
+    "context": "A community book club meeting at a local library on a rainy Tuesday evening",
+    "description": "The book club is about to start discussing the assigned book when the host introduces a new member, Skylar, who insists on changing the book selection at the last minute. The club's regular member, Ravi, is trying to handle the situation.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Regular book club member",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, patient, and understanding, always tries to see things from others' perspectives and considers the impact his words and decisions may have.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Skylar",
+    "speaker2_role": "New book club member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Respectful, open-minded, and considerate, respects the group's existing plans and is willing to go along with them despite her initial desire to change the book selection.",
+    "speaker2_persona_2": "Low EQ - Impulsive, dismissive, and resistant, disregards the group's existing plans and insists on changing the book selection, showing little regard for others' efforts and feelings.",
+    "speaker2_persona_3": "Low EQ - Defensive and passive-aggressive, subtly tries to push her own agenda while belittling the current book selection and the group's tastes.",
+    "speaker2_persona_high": "High EQ - Respectful, open-minded, and considerate, respects the group's existing plans and is willing to go along with them despite her initial desire to change the book selection.",
+    "speaker2_persona_low": "Low EQ - Impulsive, dismissive, and resistant, disregards the group's existing plans and insists on changing the book selection, showing little regard for others' efforts and feelings.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Welcome, Skylar! We're just about to start discussing our current book. Have you had a chance to read it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Actually, I was thinking we could change the book. I brought one that I think everyone will love!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh, we usually stick to the predetermined list. But, let's give everyone a fair chance to voice their thoughts."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "But isn't it boring to always follow the same routine? A little change could be refreshing, right?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "It's not about being boring or exciting, Skylar. It's about respecting the time others have invested in preparing for the current book."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Oh, I see. I didn't mean to disrupt, I just thought it would be a good idea."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Welcome, Skylar! We're just about to start discussing our current book. Have you had a chance to read it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/01.mp3",
+      "tone_description": "Speak in a gentle, patient manner with a touch of curiosity and understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Actually, I was thinking we could change the book. I brought one that I think everyone will love!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/02.mp3",
+      "tone_description": "Speak gently and suggestively, with a tone of humble enthusiasm and respectful consideration."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh, we usually stick to the predetermined list. But, let's give everyone a fair chance to voice their thoughts.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/03.mp3",
+      "tone_description": "Speak in a calm, patient manner, gently suggesting openness to new ideas."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "But isn't it boring to always follow the same routine? A little change could be refreshing, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/04.mp3",
+      "tone_description": "Speak gently and thoughtfully, with a tone of understanding and an open-ended question."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "But isn't it boring to always follow the same routine? A little change could be refreshing, right?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/05.mp3",
+      "tone_description": "Speak assertively and abruptly, with an air of dismissal and a challenging edge."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "It's not about being boring or exciting, Skylar. It's about respecting the time others have invested in preparing for the current book.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/06.mp3",
+      "tone_description": "Speak with a calm, patient tone, emphasizing the importance of respect."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Oh, I see. I didn't mean to disrupt, I just thought it would be a good idea.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/07.mp3",
+      "tone_description": "Speak gently, with a warm, understanding tone and sincere regret for potentially causing disruption."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Oh, I see. I didn't mean to disrupt, I just thought it would be a good idea.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd/audio/08.mp3",
+      "tone_description": "Speak in a dismissive, defiant tone, with a hint of impatience and disregard for others' efforts."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_223720",
+    "dataset_id": "20251208_223720_000037_635f23fd",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_600/decision_making_reality_testing/20251208_223720_000037_635f23fd",
+    "audio_files_count": 8
+  }
+}

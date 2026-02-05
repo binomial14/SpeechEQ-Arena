@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Team Outing",
+    "context": "A bustling local park on a sunny Saturday afternoon, with families enjoying picnics and children playing on swings in the background. The sound of laughter and upbeat music from a nearby food truck fills the air.",
+    "description": "During a casual weekend outing, two colleagues, Amira and Jake, discuss an unexpected company team-building trip that was announced at the last minute. Amira feels anxious about the surprise outing conflicting with her personal plans, while Jake is enthusiastic about the opportunity but doesn\u2019t realize Amira's concerns.",
+    "speaker1_name": "Amira",
+    "speaker1_role": "Marketing Specialist",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Amira is thoughtful and values communication. She has a high emotional intelligence and often considers how her feelings and those of others are impacted by decisions.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Jake",
+    "speaker2_role": "Sales Associate",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Jake is optimistic and supportive, demonstrating high emotional intelligence in his response. He encourages Amira to express her feelings and suggests finding a compromise.",
+    "speaker2_persona_2": "Jake is dismissive and reacts defensively, showing low emotional intelligence. He brushes off Amira's concerns, insisting it will be fun and she should just join.",
+    "speaker2_persona_3": "Jake becomes frustrated and blames Amira for being negative, exhibiting low emotional intelligence by projecting his disappointment onto her instead of engaging empathetically.",
+    "speaker2_persona_high": "Jake is optimistic and supportive, demonstrating high emotional intelligence in his response. He encourages Amira to express her feelings and suggests finding a compromise.",
+    "speaker2_persona_low": "Jake becomes frustrated and blames Amira for being negative, exhibiting low emotional intelligence by projecting his disappointment onto her instead of engaging empathetically.",
+    "speaker2_voice": "Ryan",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Did you hear about the surprise team outing next weekend?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I just found out! It sounds fun, but I'm a bit worried about my plans."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But come on, it's a great chance to bond with everyone; you should just cancel your plans!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but I've been looking forward to this personal event for months\u2014it means a lot to me."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I still think you\u2019ll regret not going with the team; it might be a blast!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I appreciate that, Jake, but I really need to stick to my plans this time."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Did you hear about the surprise team outing next weekend?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/01.mp3",
+      "tone_description": "Speak rapidly and melodically with radiant enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I just found out! It sounds fun, but I'm a bit worried about my plans.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/02.mp3",
+      "tone_description": "Speak sharply and eagerly with unwavering support."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But come on, it's a great chance to bond with everyone; you should just cancel your plans!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/03.mp3",
+      "tone_description": "Speak urgently and passionately with unwavering encouragement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I've been looking forward to this personal event for months\u2014it means a lot to me.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/04.mp3",
+      "tone_description": "[gently] express your feelings warmly, showing understanding and encouraging compromise."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I've been looking forward to this personal event for months\u2014it means a lot to me.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/05.mp3",
+      "tone_description": "[frustrated] raise your voice slightly, blaming her for negativity, dripping with disappointment."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I still think you\u2019ll regret not going with the team; it might be a blast!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/06.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Jake, but I really need to stick to my plans this time.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/07.mp3",
+      "tone_description": "[gentle smile] speak warmly and encouragingly, emphasizing your commitment to your plans."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate that, Jake, but I really need to stick to my plans this time.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf/audio/08.mp3",
+      "tone_description": "[frustrated sigh] speak sharply and accusatorily, letting disappointment seep into your voice."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_063931",
+    "dataset_id": "20260126_063931_003405_34075dcf",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003405_34075dcf",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Coffee Shop Conversation",
+    "context": "A bustling coffee shop on a rainy afternoon, with the sound of rain tapping against the windows and the hum of conversation filling the air.",
+    "description": "Two colleagues, Sarah and David, run into each other while waiting for their drinks. Sarah has been feeling overwhelmed with her workload, and David notices her demeanor. They engage in a conversation about how things have been at work lately.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Marketing Specialist",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Sarah is generally optimistic and empathetic, often considering the feelings of others. She is approachable and often seeks to understand her colleagues' perspectives.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "David",
+    "speaker2_role": "Software Engineer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "David is also emotionally intelligent, responding to Sarah with genuine concern and support, reflecting a good understanding of her feelings.",
+    "speaker2_persona_2": "David is dismissive and avoids the topic, responding with irritation, indicating low empathy and a lack of awareness of Sarah's struggles.",
+    "speaker2_persona_3": "David reacts defensively, taking Sarah's mention of her stress personally and accusing her of not managing her time well, showcasing a low EQ response.",
+    "speaker2_persona_high": "David is also emotionally intelligent, responding to Sarah with genuine concern and support, reflecting a good understanding of her feelings.",
+    "speaker2_persona_low": "David reacts defensively, taking Sarah's mention of her stress personally and accusing her of not managing her time well, showcasing a low EQ response.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey David, have you seen the latest marketing report? It\u2019s a total mess."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I heard it\u2019s been pretty hectic lately."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Honestly, I\u2019m drowning in tasks and it feels like no one else is pulling their weight."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I can imagine that\u2019s tough; maybe we could brainstorm some solutions together?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I don't know, it just seems like I\u2019m the only one trying to keep things afloat."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I get that, but I\u2019m here if you need to talk or need extra hands on deck."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey David, have you seen the latest marketing report? It\u2019s a total mess.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/01.mp3",
+      "tone_description": "Speak rapidly and brightly with urgent determination."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I heard it\u2019s been pretty hectic lately.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/02.mp3",
+      "tone_description": "Speak rapidly and resonantly with unwavering support."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Honestly, I\u2019m drowning in tasks and it feels like no one else is pulling their weight.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/03.mp3",
+      "tone_description": "Speak sharply and urgently with trembling anxiety."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I can imagine that\u2019s tough; maybe we could brainstorm some solutions together?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/04.mp3",
+      "tone_description": "speak warmly and gently, showing genuine concern for her feelings [nod empathetically]..."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I can imagine that\u2019s tough; maybe we could brainstorm some solutions together?",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/05.mp3",
+      "tone_description": "speak defensively and accusatorily, implying she needs better time management [cross arms]..."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I don't know, it just seems like I\u2019m the only one trying to keep things afloat.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/06.mp3",
+      "tone_description": "Speak rapidly and passionately with deep-seated determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I get that, but I\u2019m here if you need to talk or need extra hands on deck.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/07.mp3",
+      "tone_description": "speak warmly and reassuringly, with a gentle nod of understanding"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I get that, but I\u2019m here if you need to talk or need extra hands on deck.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11/audio/08.mp3",
+      "tone_description": "speak defensively, crossing your arms and frowning in frustration"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_060436",
+    "dataset_id": "20260126_060436_002261_9271ef11",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060436_002261_9271ef11",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Garden Dilemma",
+    "context": "Community Center Garden, late afternoon on a sunny Saturday",
+    "description": "During a community gardening event, Sarah and Tom discuss the ongoing issue of weeds taking over their shared garden plot. As they work side-by-side, they need to decide how to tackle the problem effectively while considering other community members' feelings and contributions.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Community Volunteer",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Sarah is empathetic and values collaboration. She believes in finding solutions that consider everyone's input and feelings.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Tom",
+    "speaker2_role": "Community Volunteer",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "Tom is also emotionally intelligent, responding to Sarah with understanding and a willingness to discuss options. He is careful in his choice of words and seeks a compromise.",
+    "speaker2_persona_2": "Tom is frustrated and reacts defensively, dismissing Sarah's ideas and instead blaming others for the issue rather than focusing on solutions.",
+    "speaker2_persona_3": "Tom is apathetic and shows little interest in the problem, responding with indifference and a lack of motivation to contribute to a solution.",
+    "speaker2_persona_high": "Tom is also emotionally intelligent, responding to Sarah with understanding and a willingness to discuss options. He is careful in his choice of words and seeks a compromise.",
+    "speaker2_persona_low": "Tom is frustrated and reacts defensively, dismissing Sarah's ideas and instead blaming others for the issue rather than focusing on solutions.",
+    "speaker2_voice": "Aiden",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "These weeds are really taking over our plot, aren't they?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it's a bit overwhelming right now, especially with everything else going on."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "So, why don't we just pull them all out and then call it a day?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, I think we should also consider how the others feel about the garden; maybe we can involve them too?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I don't know, that sounds like it might take forever."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "But it could really bring the community together and make everyone feel included in this space."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "These weeds are really taking over our plot, aren't they?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/01.mp3",
+      "tone_description": "Speak rapidly and emphatically with unwavering determination."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it's a bit overwhelming right now, especially with everything else going on.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with unwavering understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "So, why don't we just pull them all out and then call it a day?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/03.mp3",
+      "tone_description": "Speak sharply and decisively with unwavering determination."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I think we should also consider how the others feel about the garden; maybe we can involve them too?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/04.mp3",
+      "tone_description": "speak softly and thoughtfully, emphasizing collaboration and understanding [nodding gently]\u2026"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I think we should also consider how the others feel about the garden; maybe we can involve them too?",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/05.mp3",
+      "tone_description": "speak sharply and dismissively, lacing your words with irritation [cross arms]\u2026"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I don't know, that sounds like it might take forever.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/06.mp3",
+      "tone_description": "Speak rapidly and passionately with unwavering determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "But it could really bring the community together and make everyone feel included in this space.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/07.mp3",
+      "tone_description": "speak warmly and thoughtfully, emphasizing inclusion and community connection [nodding gently]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "But it could really bring the community together and make everyone feel included in this space.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71/audio/08.mp3",
+      "tone_description": "speak defensively, with a hint of frustration, dismissing the idea as impractical [crossing arms]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_062246",
+    "dataset_id": "20260126_062246_002848_6cde1b71",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/SpeechEQ_4500/decision_making_problem_solving/20260126_062246_002848_6cde1b71",
+    "audio_files_count": 8
+  }
+}

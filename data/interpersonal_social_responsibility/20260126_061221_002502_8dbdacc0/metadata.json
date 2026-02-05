@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Art Project Discussion",
+    "context": "A local community center on a sunny Saturday afternoon, the sounds of children playing outside and the aroma of freshly brewed coffee wafts through the air. Local artists are gathered around a large table filled with paint supplies and canvases.",
+    "description": "During a planning meeting for a community art project aimed at beautifying the neighborhood, two individuals discuss the importance of inclusion and collaboration. The conversation shifts as one person expresses concern about the lack of representation in the project.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Community Art Coordinator",
+    "speaker1_gender": "male",
+    "speaker1_persona": "Ravi is empathetic and values collaboration. He believes in the power of art to bring people together and is open to feedback.",
+    "speaker1_voice": "Eric",
+    "speaker2_name": "Leah",
+    "speaker2_role": "Local Artist",
+    "speaker2_gender": "female",
+    "speaker2_persona_1": "Leah actively listens, values inclusivity, and seeks to understand different perspectives. She responds thoughtfully, emphasizing the importance of community input.",
+    "speaker2_persona_2": "Leah becomes defensive, dismissing Ravi's concerns and insisting that her vision is sufficient. She responds with irritation, stating, 'If they wanted to join, they should have spoken up sooner!'",
+    "speaker2_persona_3": "Leah reacts with frustration, saying she feels overwhelmed and expresses, 'I\u2019m just trying to create something beautiful without all these complications!'",
+    "speaker2_persona_high": "Leah actively listens, values inclusivity, and seeks to understand different perspectives. She responds thoughtfully, emphasizing the importance of community input.",
+    "speaker2_persona_low": "Leah reacts with frustration, saying she feels overwhelmed and expresses, 'I\u2019m just trying to create something beautiful without all these complications!'",
+    "speaker2_voice": "Sohee",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright everyone, let\u2019s talk about how we can get started on the community mural this summer."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Sounds great! I'm really excited to see how this brings us all together."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But we need to consider if this project is really representing everyone in the neighborhood."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I think that\u2019s a valid point; we should definitely include voices from different backgrounds."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Can we really make that happen with the resources we have?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "With a little creativity and teamwork, I believe we can find ways to include everyone\u2019s perspective."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright everyone, let\u2019s talk about how we can get started on the community mural this summer.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/01.mp3",
+      "tone_description": "Speak rapidly and melodically with radiant enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Sounds great! I'm really excited to see how this brings us all together.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/02.mp3",
+      "tone_description": "Speak melodically and passionately with infectious enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But we need to consider if this project is really representing everyone in the neighborhood.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/03.mp3",
+      "tone_description": "Speak sharply and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I think that\u2019s a valid point; we should definitely include voices from different backgrounds.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/04.mp3",
+      "tone_description": "speak warmly and thoughtfully, emphasizing the importance of community voices [nod understandingly]"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I think that\u2019s a valid point; we should definitely include voices from different backgrounds.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/05.mp3",
+      "tone_description": "speak with frustration and anxiety, feeling overwhelmed by complications [throw hands up]"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Can we really make that happen with the resources we have?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/06.mp3",
+      "tone_description": "Speak resonantly and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "With a little creativity and teamwork, I believe we can find ways to include everyone\u2019s perspective.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/07.mp3",
+      "tone_description": "speak warmly and thoughtfully, inviting collaboration with open hands [gestures invitingly]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "With a little creativity and teamwork, I believe we can find ways to include everyone\u2019s perspective.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0/audio/08.mp3",
+      "tone_description": "speak defensively, with a dismissive wave, and a hint of irritation [rolls eyes]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_061221",
+    "dataset_id": "20260126_061221_002502_8dbdacc0",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/SpeechEQ_4500/interpersonal_social_responsibility/20260126_061221_002502_8dbdacc0",
+    "audio_files_count": 8
+  }
+}

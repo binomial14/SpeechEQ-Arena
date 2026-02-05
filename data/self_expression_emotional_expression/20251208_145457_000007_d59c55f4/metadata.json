@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected News in Coffee Shop",
+    "context": "A small, cozy coffee shop in a bustling city. It's late in the afternoon, the sky outside is overcast, the smell of fresh coffee beans and the sound of soft jazz music fill the air.",
+    "description": "Two friends, Jamie and Alex, are catching up over coffee. Jamie has some potentially upsetting news to share with Alex and is trying to express these emotions with careful consideration.",
+    "speaker1_name": "Jamie",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Compassionate, considerate and emotionally aware, Jamie always tries to express her emotions in a clear and understanding way, taking into account the feelings of others.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Alex is also emotionally intelligent, empathetic, and receptive. He understands and accepts the feelings of others without judgment, and can maintain calmness even when faced with difficult news.",
+    "speaker2_persona_2": "Low EQ - Alex can be reactive and defensive, tending to suppress his emotions and react negatively when faced with difficult or unexpected news, often leading to an abrupt change in behavior or mood.",
+    "speaker2_persona_3": "Low EQ - Alex can be overly emotional and anxious, often overreacting to difficult news and letting his emotions take over, leading to heightened stress and irrational behavior.",
+    "speaker2_persona_high": "High EQ - Alex is also emotionally intelligent, empathetic, and receptive. He understands and accepts the feelings of others without judgment, and can maintain calmness even when faced with difficult news.",
+    "speaker2_persona_low": "Low EQ - Alex can be overly emotional and anxious, often overreacting to difficult news and letting his emotions take over, leading to heightened stress and irrational behavior.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alex, I have something to tell you and I'm not sure how to say it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Hey, it's okay Jamie, we're friends. Just tell me what's going on."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm moving... to another city. I've been offered a job and it's a great opportunity for me."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Oh... that's quite a surprise, Jamie. But I understand, sometimes we have to make tough decisions for our own good."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I didn't want to let you down, I know we've been through a lot together in this city."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Jamie, you're not letting me down. Life changes and we adapt. We'll keep in touch, okay?"
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alex, I have something to tell you and I'm not sure how to say it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/01.mp3",
+      "tone_description": "Speak gently and hesitantly, expressing uncertainty and care for the listener's feelings."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Hey, it's okay Jamie, we're friends. Just tell me what's going on.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/02.mp3",
+      "tone_description": "Speak in a gentle, reassuring tone, expressing empathy and understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm moving... to another city. I've been offered a job and it's a great opportunity for me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/03.mp3",
+      "tone_description": "Speak in a gentle, considerate manner, with a hint of excitement and anticipation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh... that's quite a surprise, Jamie. But I understand, sometimes we have to make tough decisions for our own good.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/04.mp3",
+      "tone_description": "Speak gently and understandingly, with a soft, empathetic tone and a hint of surprise."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh... that's quite a surprise, Jamie. But I understand, sometimes we have to make tough decisions for our own good.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/05.mp3",
+      "tone_description": "Speak in a hurried, anxious tone, with excessive emotion and a clear sense of stress."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I didn't want to let you down, I know we've been through a lot together in this city.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/06.mp3",
+      "tone_description": "Speak softly and slowly, conveying a compassionate and considerate tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Jamie, you're not letting me down. Life changes and we adapt. We'll keep in touch, okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/07.mp3",
+      "tone_description": "Speak with a calm and composed voice, reassuringly and with an understanding tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Jamie, you're not letting me down. Life changes and we adapt. We'll keep in touch, okay?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4/audio/08.mp3",
+      "tone_description": "Speak anxiously and with an overly emotional tone, allowing a hint of panic to seep in."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_145457",
+    "dataset_id": "20251208_145457_000007_d59c55f4",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_300/self_expression_emotional_expression/20251208_145457_000007_d59c55f4",
+    "audio_files_count": 8
+  }
+}

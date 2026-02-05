@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Picnic Proposal",
+    "context": "A sunny afternoon in a bustling city park",
+    "description": "Two friends, Alex and Jamie, are enjoying a picnic in the park. Alex has a business idea and wants to partner with Jamie. Jamie must decide based on the reality of the situation.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Enthusiastic, optimistic and persuasive, eager to start a new business venture",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Jamie",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Rational, calm, understanding, and keen to consider all the facts before making a decision",
+    "speaker2_persona_2": "Low EQ - Easily swayed, impulsive, and overexcited by the prospect of starting a new venture without considering the reality of the situation",
+    "speaker2_persona_3": "Low EQ - Dismissive, pessimistic, and quick to shoot down the idea without considering all the information",
+    "speaker2_persona_high": "High EQ - Rational, calm, understanding, and keen to consider all the facts before making a decision",
+    "speaker2_persona_low": "Low EQ - Dismissive, pessimistic, and quick to shoot down the idea without considering all the information",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey, Jamie, I've been mulling over this business idea I have."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, really? Let's hear it, Alex."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I want to start a food truck business. We can use unique, locally sourced ingredients and offer something truly different."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That sounds interesting, but we need to consider the realities. Do we have enough capital? What about the competition?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I have some savings and I thought we could start small. As for the competition, I believe our unique concept will make us stand out."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I appreciate your optimism, Alex, but we need to do a thorough market research before we jump in. Let's take this step by step."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey, Jamie, I've been mulling over this business idea I have.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/01.mp3",
+      "tone_description": "Speak with enthusiastic optimism, persuasively expressing your eagerness for the new venture."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, really? Let's hear it, Alex.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/02.mp3",
+      "tone_description": "Respond with genuine interest and calm anticipation, indicating readiness to listen."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I want to start a food truck business. We can use unique, locally sourced ingredients and offer something truly different.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/03.mp3",
+      "tone_description": "Speak enthusiastically and persuasively, highlighting the uniqueness and locality of the ingredients."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That sounds interesting, but we need to consider the realities. Do we have enough capital? What about the competition?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/04.mp3",
+      "tone_description": "Speak slowly and thoughtfully, with a calm and rational tone, carefully weighing each word."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That sounds interesting, but we need to consider the realities. Do we have enough capital? What about the competition?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/05.mp3",
+      "tone_description": "Speak quickly, in a dismissive and pessimistic tone, immediately shooting down the idea."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I have some savings and I thought we could start small. As for the competition, I believe our unique concept will make us stand out.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/06.mp3",
+      "tone_description": "Speak enthusiastically and persuasively with a confident, optimistic tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your optimism, Alex, but we need to do a thorough market research before we jump in. Let's take this step by step.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/07.mp3",
+      "tone_description": "Speak slowly and calmly, with a reassuring tone and a hint of understanding in your voice."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your optimism, Alex, but we need to do a thorough market research before we jump in. Let's take this step by step.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7/audio/08.mp3",
+      "tone_description": "[Scoff] Speak briskly and dismissively, with a pessimistic and curt tone, as if you're quick to reject the idea."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155136",
+    "dataset_id": "20251208_155136_000001_c0bed9b7",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000001_c0bed9b7",
+    "audio_files_count": 8
+  }
+}

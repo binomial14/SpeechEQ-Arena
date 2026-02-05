@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Derailed Farmers Market Stall",
+    "context": "A farmers market in a bustling city park on a sunny Saturday morning",
+    "description": "Naomi, the organizer of the farmers market, is approached by Sven, a vendor who sells homemade jams and jellies. Sven's stall has been mistakenly set up in a less visible part of the market, leading to lower foot traffic and sales.",
+    "speaker1_name": "Naomi",
+    "speaker1_role": "Farmers Market Organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, patient, and understanding. Naomi is a problem-solver who always listens carefully to concerns and addresses them effectively.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Sven",
+    "speaker2_role": "Market Vendor",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Sven is appreciative of Naomi's attention and open to her suggestions. He understands the situation is a mistake and remains positive, hoping for a solution.",
+    "speaker2_persona_2": "Low EQ - Sven is visibly irritated and accusatory. He reacts defensively, blaming Naomi for the mishap and expressing his dissatisfaction loudly.",
+    "speaker2_persona_3": "Low EQ - Sven is highly anxious, worrying excessively about the potential loss of sales. He overreacts to the situation, showing signs of panic and desperation.",
+    "speaker2_persona_high": "High EQ - Sven is appreciative of Naomi's attention and open to her suggestions. He understands the situation is a mistake and remains positive, hoping for a solution.",
+    "speaker2_persona_low": "Low EQ - Sven is visibly irritated and accusatory. He reacts defensively, blaming Naomi for the mishap and expressing his dissatisfaction loudly.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Sven, how's the day treating you?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Naomi, my stall's stuck in a corner and there's no foot traffic. It's hurting my sales."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm sorry to hear that, Sven. It looks like there was a mix up. Let's see what we can do to fix this."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's great, Naomi. I just need more visibility. Maybe near the entrance or the food stalls?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Good ideas, Sven. Let me talk to the other vendors and see if we can rearrange some things."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I appreciate your help, Naomi. This means a lot to me."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Sven, how's the day treating you?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/01.mp3",
+      "tone_description": "Speak with a calm and patient tone, conveying genuine warmth and understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Naomi, my stall's stuck in a corner and there's no foot traffic. It's hurting my sales.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/02.mp3",
+      "tone_description": "Speak with a hopeful tone, calmly expressing your concern and openness to advice."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm sorry to hear that, Sven. It looks like there was a mix up. Let's see what we can do to fix this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/03.mp3",
+      "tone_description": "Speak in a soothing, patient manner, expressing understanding and readiness to help."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's great, Naomi. I just need more visibility. Maybe near the entrance or the food stalls?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/04.mp3",
+      "tone_description": "Speak with a warm, grateful tone, maintaining a hopeful undertone and open demeanor."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's great, Naomi. I just need more visibility. Maybe near the entrance or the food stalls?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/05.mp3",
+      "tone_description": "Speak with a loud, accusatory tone, showing strong irritation and a defensive stance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Good ideas, Sven. Let me talk to the other vendors and see if we can rearrange some things.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/06.mp3",
+      "tone_description": "Speak in a calm, patient tone with a hint of assurance, indicating problem-solving determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your help, Naomi. This means a lot to me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/07.mp3",
+      "tone_description": "Speak with a warm, appreciative tone, gently expressing gratitude for Naomi's help."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your help, Naomi. This means a lot to me.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b/audio/08.mp3",
+      "tone_description": "Speak in a defensive, accusatory tone, emphasizing your irritation with Naomi's mishap."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222754",
+    "dataset_id": "20251208_222754_000044_7497e38b",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_222754_000044_7497e38b",
+    "audio_files_count": 8
+  }
+}

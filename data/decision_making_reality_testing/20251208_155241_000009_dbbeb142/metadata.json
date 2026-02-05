@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Handling a Troubling Rumor",
+    "context": "A bustling caf\u00e9 during morning rush hour",
+    "description": "Speaker 1, Joan, and Speaker 2, Lisa, are work colleagues who have just ordered their morning coffees and found a table. Joan has heard a rumor about possible layoffs at their company and wants to discuss it with Lisa.",
+    "speaker1_name": "Joan",
+    "speaker1_role": "Senior Project Manager",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, rational, and open to different viewpoints. Values evidence and logic over speculation.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Lisa",
+    "speaker2_role": "Financial Analyst",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Emotionally intelligent, rational, and pragmatic. Tends to look at the bigger picture and doesn't jump to conclusions without evidence.",
+    "speaker2_persona_2": "Low EQ - Emotionally reactive and prone to anxiety. Tends to take rumors as fact and worry about worst-case scenarios.",
+    "speaker2_persona_3": "Low EQ - Emotionally reactive and defensive. Tends to be dismissive and sarcastic, preferring to avoid uncomfortable discussions.",
+    "speaker2_persona_high": "High EQ - Emotionally intelligent, rational, and pragmatic. Tends to look at the bigger picture and doesn't jump to conclusions without evidence.",
+    "speaker2_persona_low": "Low EQ - Emotionally reactive and defensive. Tends to be dismissive and sarcastic, preferring to avoid uncomfortable discussions.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Lisa, have you heard these rumors about layoffs?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I've heard some whispers. It's hard not to worry."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Right, but we need to remember that they're just rumors at this stage."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I know, but it's tough. We've all put so much into this company."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely, but let's not jump to conclusions. We'll confront it if it becomes a reality."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, Joan. It's just hard to detach from the 'what ifs'."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Lisa, have you heard these rumors about layoffs?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/01.mp3",
+      "tone_description": "Speak in a steady, rational tone, maintaining a sense of calm and openness."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I've heard some whispers. It's hard not to worry.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/02.mp3",
+      "tone_description": "Speak in a calm, pragmatic tone, with a hint of concern."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Right, but we need to remember that they're just rumors at this stage.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/03.mp3",
+      "tone_description": "Speak in a steady, soothing tone, emphasizing logical reasoning over speculation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, but it's tough. We've all put so much into this company.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/04.mp3",
+      "tone_description": "Speak calmly and rationally, emphasizing the collective effort with a tone of reassurance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know, but it's tough. We've all put so much into this company.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/05.mp3",
+      "tone_description": "[scoffs] Speak dismissively and sarcastically, downplaying the effort put into the company."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely, but let's not jump to conclusions. We'll confront it if it becomes a reality.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/06.mp3",
+      "tone_description": "Speak in a steady, calm manner, emphasizing logical reasoning over speculation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Joan. It's just hard to detach from the 'what ifs'.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/07.mp3",
+      "tone_description": "Speak calmly and rationally, with a steady voice reflecting understanding and patience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Joan. It's just hard to detach from the 'what ifs'.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142/audio/08.mp3",
+      "tone_description": "Speak in a hurried, hushed tone, with a hint of fear and anxiety lingering."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155241",
+    "dataset_id": "20251208_155241_000009_dbbeb142",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155241_000009_dbbeb142",
+    "audio_files_count": 8
+  }
+}

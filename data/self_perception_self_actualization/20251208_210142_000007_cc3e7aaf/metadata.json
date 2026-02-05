@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Long Awaited Promotion",
+    "context": "Workplace, a pharmaceutical company's annual gala",
+    "description": "At the company's annual gala, Bob and Sarah, both senior researchers, are discussing about the recent promotion that Sarah received. Bob feels he was more deserving and is struggling to accept Sarah's achievement.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Senior Researcher, Recently promoted",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Confident, accomplished, displays high emotional intelligence, has a clear understanding of her abilities and strengths, and is working to fulfill her potential.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Bob",
+    "speaker2_role": "Senior Researcher",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Bob is genuinely happy for Sarah. He understands her capabilities and believes that she deserves the promotion. He uses this opportunity to learn from her experiences.",
+    "speaker2_persona_2": "Low EQ - Bob is bitter and envious. He believes that he deserved the promotion more than Sarah. He's dismissive of her accomplishment and attempts to belittle her.",
+    "speaker2_persona_3": "Low EQ - Bob is disheartened and invalidates his own abilities. He feels he will never be good enough for a promotion and his confidence is shattered by Sarah's success.",
+    "speaker2_persona_high": "High EQ - Bob is genuinely happy for Sarah. He understands her capabilities and believes that she deserves the promotion. He uses this opportunity to learn from her experiences.",
+    "speaker2_persona_low": "Low EQ - Bob is bitter and envious. He believes that he deserved the promotion more than Sarah. He's dismissive of her accomplishment and attempts to belittle her.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Bob, I've got to say, this promotion came as a surprise to me as well."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Well, it shouldn't have. You've always been the boss's favorite."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I wouldn't say that, Bob. We're both hard workers and contribute a lot to this team."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "But still, I've been here longer. I deserved that promotion."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I understand where you're coming from, Bob. And I believe your time will come too."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I hope so, Sarah. I just really thought this was my year."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Bob, I've got to say, this promotion came as a surprise to me as well.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/01.mp3",
+      "tone_description": "Express the sentence with a calm, confident tone, indicating a pleasant surprise."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Well, it shouldn't have. You've always been the boss's favorite.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/02.mp3",
+      "tone_description": "Speak sincerely and calmly, projecting genuine happiness and admiration."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I wouldn't say that, Bob. We're both hard workers and contribute a lot to this team.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/03.mp3",
+      "tone_description": "Speak assertively yet humbly, acknowledging both contributions evenly."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "But still, I've been here longer. I deserved that promotion.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/04.mp3",
+      "tone_description": "Speak in a humble, sincere tone with a hint of admiration for Sarah's achievement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "But still, I've been here longer. I deserved that promotion.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/05.mp3",
+      "tone_description": "Speak with a bitter, resentful tone, as if trying to mask your envy."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I understand where you're coming from, Bob. And I believe your time will come too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/06.mp3",
+      "tone_description": "Speak with calm confidence, empathy, and a hint of assurance for the future."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I hope so, Sarah. I just really thought this was my year.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/07.mp3",
+      "tone_description": "Speak warmly with an understanding tone, and a slight hint of optimism in your voice."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I hope so, Sarah. I just really thought this was my year.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf/audio/08.mp3",
+      "tone_description": "Speak with a bitter and dismissive tone, injecting a heavy dose of sarcasm into your voice."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_210142",
+    "dataset_id": "20251208_210142_000007_cc3e7aaf",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/1208_600/self_perception_self_actualization/20251208_210142_000007_cc3e7aaf",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected News at the Farmers Market",
+    "context": "A bustling farmers market on a sunny Saturday morning, surrounded by the sounds of vendors calling out, children laughing, and the smell of fresh produce in the air.",
+    "description": "Two friends, one male and one female, unexpectedly run into each other while picking out fresh vegetables at their local farmers market. They engage in a conversation that tests their emotional self-awareness as they discuss personal and unexpected changes in their lives.",
+    "speaker1_name": "Sofia",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Sofia is perceptive and empathetic, always taking the time to understand her own emotions and those of others. She tends to approach situations with a calm demeanor and seeks to create a supportive environment.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Marcus",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Marcus is emotionally aware and shares his feelings openly. He values vulnerability in conversations, often reflecting on how changes affect him and those around him.",
+    "speaker2_persona_2": "Marcus feels overwhelmed and dismissive, reacting defensively to any discussion about emotions. He avoids deeper conversations, often saying things sarcastically or brushing off concerns.",
+    "speaker2_persona_3": "Marcus is frustrated and tends to shut down when faced with emotional discussions. He becomes withdrawn and responds curtly, indicating his discomfort rather than engaging with the topic.",
+    "speaker2_persona_high": "Marcus is emotionally aware and shares his feelings openly. He values vulnerability in conversations, often reflecting on how changes affect him and those around him.",
+    "speaker2_persona_low": "Marcus feels overwhelmed and dismissive, reacting defensively to any discussion about emotions. He avoids deeper conversations, often saying things sarcastically or brushing off concerns.",
+    "speaker2_voice": "Ryan",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Wow, it's really packed here today, isn\u2019t it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I love the energy of the market on a nice day like this!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "So, how are you handling that big job change? Must be stressful, right?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "It definitely has its moments, but I\u2019m trying to see it as an opportunity for growth."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Really? I mean, isn't it just overwhelming most of the time?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Sometimes, but I believe it\u2019ll lead me to something even better in the long run."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Wow, it's really packed here today, isn\u2019t it?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/01.mp3",
+      "tone_description": "Speak rapidly and resonantly with deep empathy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I love the energy of the market on a nice day like this!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/02.mp3",
+      "tone_description": "Speak radiantly and joyfully with absolute certainty."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "So, how are you handling that big job change? Must be stressful, right?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/03.mp3",
+      "tone_description": "Speak sharply and emphatically with unwavering support."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It definitely has its moments, but I\u2019m trying to see it as an opportunity for growth.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/04.mp3",
+      "tone_description": "speak warmly and reflectively, embracing vulnerability with a gentle nod."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It definitely has its moments, but I\u2019m trying to see it as an opportunity for growth.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/05.mp3",
+      "tone_description": "speak sarcastically, rolling your eyes as if brushing off the seriousness."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Really? I mean, isn't it just overwhelming most of the time?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/06.mp3",
+      "tone_description": "Speak resonantly and warmly with profound understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sometimes, but I believe it\u2019ll lead me to something even better in the long run.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/07.mp3",
+      "tone_description": "speak with warmth and openness, reflecting on hope for the future [gentle nod]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sometimes, but I believe it\u2019ll lead me to something even better in the long run.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f/audio/08.mp3",
+      "tone_description": "say it with sarcasm, shrugging it off like it doesn't matter [eye roll]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_052013",
+    "dataset_id": "20260126_052013_000855_fbaebf4f",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/SpeechEQ_4500/self_perception_emotional_self_awareness/20260126_052013_000855_fbaebf4f",
+    "audio_files_count": 8
+  }
+}

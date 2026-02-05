@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Grocery Store Mishap",
+    "context": "A bustling local grocery store on a bright Saturday afternoon. The atmosphere is filled with the sound of chattering customers, beeping cash registers, and the rustling of plastic bags. The aroma of freshly baked bread from the bakery section is wafting through the air.",
+    "description": "Tomas, an employee at the grocery store, accidentally knocks over a display of canned goods while restocking the shelves. The noise attracts the attention of nearby shoppers, including Marianne who is a regular customer.",
+    "speaker1_name": "Tomas",
+    "speaker1_role": "Grocery Store Employee",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Tomas is generally calm and composed. He is able to acknowledge his emotions and understand their source. He is also capable of recognizing the emotional states of others and responds with empathy.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Marianne",
+    "speaker2_role": "Customer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Marianne is patient and understanding. She is able to recognize that accidents happen and does not let the situation impact her mood negatively.",
+    "speaker2_persona_2": "Low EQ - Marianne is easily annoyed and has a short temper. She reacts harshly to the mishap, letting her frustration show openly.",
+    "speaker2_persona_3": "Low EQ - Marianne is overly sensitive and tends to overreact. She becomes anxious and agitated quickly, expressing exaggerated concern over the accident.",
+    "speaker2_persona_high": "High EQ - Marianne is patient and understanding. She is able to recognize that accidents happen and does not let the situation impact her mood negatively.",
+    "speaker2_persona_low": "Low EQ - Marianne is easily annoyed and has a short temper. She reacts harshly to the mishap, letting her frustration show openly.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh, no! I'm so sorry about that, I didn't mean to knock over that display."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's quite a mess, Tomas. Are you okay?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes, I'm fine, thank you for asking, Marianne. I'll clean this up right away."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Accidents happen, Tomas. Just take it easy, okay?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you, Marianne. I appreciate your understanding."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Of course, Tomas. We all have those days. No worries at all."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh, no! I'm so sorry about that, I didn't mean to knock over that display.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/01.mp3",
+      "tone_description": "Express the sentence sincerely and calmly, showing empathy and regret."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's quite a mess, Tomas. Are you okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/02.mp3",
+      "tone_description": "Speak in a gentle, reassuring tone, with a hint of concern for Tomas's wellbeing."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes, I'm fine, thank you for asking, Marianne. I'll clean this up right away.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/03.mp3",
+      "tone_description": "Speak calmly and sincerely, expressing gratitude and readiness to take action."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Accidents happen, Tomas. Just take it easy, okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/04.mp3",
+      "tone_description": "Speak in a gentle, soothing tone, with a hint of comforting warmth."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Accidents happen, Tomas. Just take it easy, okay?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/05.mp3",
+      "tone_description": "Deliver the line with a sharp, irritated tone and a dismissive sigh."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you, Marianne. I appreciate your understanding.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/06.mp3",
+      "tone_description": "Speak calmly and sincerely, expressing gratitude with a composed and understanding tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Of course, Tomas. We all have those days. No worries at all.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/07.mp3",
+      "tone_description": "Speak with a warm, gentle voice, reassuringly and with a hint of soft laughter."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Of course, Tomas. We all have those days. No worries at all.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc/audio/08.mp3",
+      "tone_description": "Speak with a resentful tone, biting off each word impatiently and with a heavy sigh."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211749",
+    "dataset_id": "20251208_211749_000031_8e0b48bc",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211749_000031_8e0b48bc",
+    "audio_files_count": 8
+  }
+}

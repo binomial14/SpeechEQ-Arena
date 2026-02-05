@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Coffee Shop Confrontation",
+    "context": "A busy coffee shop on a Wednesday afternoon, with the sounds of baristas shouting drink orders and the aroma of freshly brewed coffee filling the air. The tables are filled with patrons, some working on laptops while others catch up with friends. Sunlight streams through the large windows, creating a warm and inviting atmosphere.",
+    "description": "Two colleagues, Maria and Derek, are at the coffee shop after work to discuss a recent project. Tensions are high due to a missed deadline that has caused frustration within the team. As they sit at a small table by the window, the conversation reveals differing levels of stress tolerance and emotional intelligence.",
+    "speaker1_name": "Maria",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Maria is calm and composed, focused on finding a solution rather than assigning blame. She believes in open communication and is skilled at managing her own stress while supporting her colleagues.",
+    "speaker1_voice": "Sohee",
+    "speaker2_name": "Derek",
+    "speaker2_role": "Software Developer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Derek is understanding and empathetic, wanting to discuss the issues without escalating tension. He acknowledges his own stress and is willing to work towards a resolution collaboratively.",
+    "speaker2_persona_2": "Derek is defensive and frustrated, unwilling to take responsibility for the missed deadline. He reacts with anger, blaming the team instead of focusing on solutions.",
+    "speaker2_persona_3": "Derek is dismissive and sarcastic, minimizing the issue and showing little concern for the project's impact on the team's morale.",
+    "speaker2_persona_high": "Derek is understanding and empathetic, wanting to discuss the issues without escalating tension. He acknowledges his own stress and is willing to work towards a resolution collaboratively.",
+    "speaker2_persona_low": "Derek is dismissive and sarcastic, minimizing the issue and showing little concern for the project's impact on the team's morale.",
+    "speaker2_voice": "Ryan",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe we missed that deadline; it really set us back."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it was tough, but we can still make up some ground."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Do you even care that this puts extra pressure on the whole team?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I do care, but stressing won't help us fix the issues; let\u2019s focus on solutions instead."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You really think it\u2019s that easy to just move on?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Not easy, but it\u2019s the only way we\u2019ll get through this together."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe we missed that deadline; it really set us back.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/01.mp3",
+      "tone_description": "Speak sharply and clearly with unwavering determination."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it was tough, but we can still make up some ground.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/02.mp3",
+      "tone_description": "Speak resonantly and firmly with unshakeable determination."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Do you even care that this puts extra pressure on the whole team?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/03.mp3",
+      "tone_description": "Speak sharply and assertively with unshakeable determination."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I do care, but stressing won't help us fix the issues; let\u2019s focus on solutions instead.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/04.mp3",
+      "tone_description": "speak warmly and empathetically, acknowledging stress while inviting collaboration [nodding gently]\u2026"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I do care, but stressing won't help us fix the issues; let\u2019s focus on solutions instead.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/05.mp3",
+      "tone_description": "speak dismissively and sarcastically, minimizing the issue with a smirk [rolling eyes]\u2026"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You really think it\u2019s that easy to just move on?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/06.mp3",
+      "tone_description": "Speak sharply and assertively with unwavering determination."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Not easy, but it\u2019s the only way we\u2019ll get through this together.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/07.mp3",
+      "tone_description": "speak gently and with understanding, as if reassuring a friend [nod empathetically]\u2026"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Not easy, but it\u2019s the only way we\u2019ll get through this together.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad/audio/08.mp3",
+      "tone_description": "speak dismissively, with a sarcastic tone, as if mocking the problem [roll eyes]\u2026"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_065448",
+    "dataset_id": "20260126_065448_003935_73a63cad",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/SpeechEQ_4500/stress_management_stress_tolerance/20260126_065448_003935_73a63cad",
+    "audio_files_count": 8
+  }
+}

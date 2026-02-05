@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Neighborhood BBQ Dispute",
+    "context": "A sunny Saturday afternoon in a suburban backyard filled with the smell of grilled burgers and the sound of children playing in the background.",
+    "description": "During a neighborhood barbecue, Emily and Raj, two neighbors, discuss the upcoming community event. Raj is excited to propose a joint project but is feeling impatient and impulsive about the details, while Emily wants to ensure a thoughtful approach.",
+    "speaker1_name": "Emily",
+    "speaker1_role": "Graphic Designer and Community Volunteer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Thoughtful and patient, Emily values collaboration and considers the feelings of others before making decisions.",
+    "speaker1_voice": "Serena",
+    "speaker2_name": "Raj",
+    "speaker2_role": "IT Specialist and Local Sports Coach",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Enthusiastic and open-minded, Raj values innovation and embraces creativity in discussions but sometimes struggles with patience.",
+    "speaker2_persona_2": "Frustrated and defensive, Raj often reacts without considering the impact of his words, leading to conflict.",
+    "speaker2_persona_3": "Dismissive and impulsive, Raj tends to brush off others' opinions and pushes his ideas without engaging in dialogue.",
+    "speaker2_persona_high": "Enthusiastic and open-minded, Raj values innovation and embraces creativity in discussions but sometimes struggles with patience.",
+    "speaker2_persona_low": "Dismissive and impulsive, Raj tends to brush off others' opinions and pushes his ideas without engaging in dialogue.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, are we just going to throw together the community event without any real plan?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I think we can manage a solid plan if we start discussing it now."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But why wait? Let\u2019s just dive in and make it fun and spontaneous!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but we might miss important details if we rush it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Come on, a little chaos could lead to something great, right?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Maybe, but I'd rather have a solid foundation first, then we can add the fun later."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, are we just going to throw together the community event without any real plan?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/01.mp3",
+      "tone_description": "Speak sharply and passionately with unwavering conviction."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I think we can manage a solid plan if we start discussing it now.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/02.mp3",
+      "tone_description": "Speak sharply and enthusiastically with absolute certainty."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But why wait? Let\u2019s just dive in and make it fun and spontaneous!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/03.mp3",
+      "tone_description": "Speak sharply and energetically with absolute enthusiasm."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but we might miss important details if we rush it.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/04.mp3",
+      "tone_description": "speak excitedly, with a hint of urgency, as if inviting creativity to flow [lean in with enthusiasm]..."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but we might miss important details if we rush it.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/05.mp3",
+      "tone_description": "speak dismissively, with a casual shrug, as if their concerns are unimportant [roll eyes slightly]..."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Come on, a little chaos could lead to something great, right?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/06.mp3",
+      "tone_description": "Speak rapidly and melodically with vibrant enthusiasm."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Maybe, but I'd rather have a solid foundation first, then we can add the fun later.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/07.mp3",
+      "tone_description": "speak enthusiastically and with excitement, as if unveiling a new adventure [bright smile]"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Maybe, but I'd rather have a solid foundation first, then we can add the fun later.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9/audio/08.mp3",
+      "tone_description": "speak dismissively and quickly, as if the idea is beneath consideration [roll eyes]"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_063931",
+    "dataset_id": "20260126_063931_003402_bdb198e9",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/SpeechEQ_4500/decision_making_impulse_control/20260126_063931_003402_bdb198e9",
+    "audio_files_count": 8
+  }
+}

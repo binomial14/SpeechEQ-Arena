@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Weekend Getaway Debate",
+    "context": "A vibrant farmers market on a sunny Saturday morning, with various stalls selling fresh produce and handmade goods. The air is filled with the sounds of laughter, chatter, and the occasional call of vendors promoting their wares.",
+    "description": "As they browse through the stalls, Sarah and Tom discuss their upcoming weekend plans. Sarah wants to take a short trip to the beach, while Tom is hesitant, preferring to stay in town for a local music festival. Their differing perspectives lead to a conversation about their choices and independence in decision-making.",
+    "speaker1_name": "Sarah",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "A thoughtful and independent individual who values personal freedom and encourages open dialogue. She expresses her opinions calmly and seeks to understand others\u2019 viewpoints.",
+    "speaker1_voice": "Vivian",
+    "speaker2_name": "Tom",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Emotionally intelligent and empathetic, Tom listens carefully to Sarah\u2019s ideas, valuing her perspective and showing a willingness to compromise while articulating his own feelings.",
+    "speaker2_persona_2": "Frustrated and dismissive, Tom reacts emotionally to Sarah\u2019s suggestion, feeling his own weekend preference is being overlooked and responding with irritation.",
+    "speaker2_persona_3": "Indifferent and apathetic, Tom brushes off Sarah's excitement about the beach trip, expressing a lack of interest in discussions about the plans and focusing solely on his own choices.",
+    "speaker2_persona_high": "Emotionally intelligent and empathetic, Tom listens carefully to Sarah\u2019s ideas, valuing her perspective and showing a willingness to compromise while articulating his own feelings.",
+    "speaker2_persona_low": "Frustrated and dismissive, Tom reacts emotionally to Sarah\u2019s suggestion, feeling his own weekend preference is being overlooked and responding with irritation.",
+    "speaker2_voice": "Eric",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I really think we should just hit the beach this weekend instead of sticking around for that festival."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "The beach sounds nice, but the music festival has some great bands playing."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Come on, it's just one weekend; why not break away from all that noise?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get that, but I really want to enjoy the music\u2014it\u2019s something I\u2019ve looked forward to."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "But think about how relaxing the beach would be compared to a crowded festival!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "It would be relaxing, but I also need to do what makes me happy, and the festival feels right for me this time."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I really think we should just hit the beach this weekend instead of sticking around for that festival.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/01.mp3",
+      "tone_description": "Speak rapidly and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "The beach sounds nice, but the music festival has some great bands playing.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/02.mp3",
+      "tone_description": "Speak melodically and warmly with deep resonant enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Come on, it's just one weekend; why not break away from all that noise?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/03.mp3",
+      "tone_description": "Speak sharply and urgently with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I really want to enjoy the music\u2014it\u2019s something I\u2019ve looked forward to.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/04.mp3",
+      "tone_description": "[gentle nod] speak with warmth and understanding, expressing genuine desire to connect."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get that, but I really want to enjoy the music\u2014it\u2019s something I\u2019ve looked forward to.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/05.mp3",
+      "tone_description": "[cross arms] speak with sharp frustration, emphasizing your disappointment and irritation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "But think about how relaxing the beach would be compared to a crowded festival!",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/06.mp3",
+      "tone_description": "Speak melodically and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "It would be relaxing, but I also need to do what makes me happy, and the festival feels right for me this time.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/07.mp3",
+      "tone_description": "[softly] express understanding, balancing relaxation with genuine excitement for the festival."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "It would be relaxing, but I also need to do what makes me happy, and the festival feels right for me this time.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6/audio/08.mp3",
+      "tone_description": "[frustrated] say it sharply, emphasizing your desire for the festival over her beach idea."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_054846",
+    "dataset_id": "20260126_054846_001759_9230c2f6",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054846_001759_9230c2f6",
+    "audio_files_count": 8
+  }
+}

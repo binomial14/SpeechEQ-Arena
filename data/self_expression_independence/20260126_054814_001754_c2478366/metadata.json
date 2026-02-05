@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Art of the Solo Presentation",
+    "context": "A cozy coffee shop on a rainy afternoon, with the sound of raindrops tapping against the window and the aroma of freshly brewed coffee filling the air. Small groups of people chat quietly at various tables, while soft jazz plays in the background.",
+    "description": "Two colleagues, having worked together on multiple projects, sit across from each other discussing an upcoming presentation. One is feeling confident about presenting solo, while the other has concerns about the potential challenges of presenting without team support.",
+    "speaker1_name": "Aisha",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Aisha is a confident and independent leader who values her ability to express her ideas clearly. She embraces challenges and believes in her capacity to shine in solo tasks.",
+    "speaker1_voice": "Ono_Anna",
+    "speaker2_name": "Elijah",
+    "speaker2_role": "Marketing Specialist",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "Elijah is supportive and encourages Aisha's independence, offering constructive insights while valuing teamwork. He believes in the importance of collaboration but respects Aisha's autonomy.",
+    "speaker2_persona_2": "Elijah feels insecure about Aisha's decision and sharply criticizes the idea, expressing doubt about her ability to manage it alone. He dismisses her confidence outright.",
+    "speaker2_persona_3": "Elijah becomes frustrated and defensive, responding with sarcasm about the challenges of solo presentations, undermining Aisha's enthusiasm and expressing skepticism about her capability.",
+    "speaker2_persona_high": "Elijah is supportive and encourages Aisha's independence, offering constructive insights while valuing teamwork. He believes in the importance of collaboration but respects Aisha's autonomy.",
+    "speaker2_persona_low": "Elijah becomes frustrated and defensive, responding with sarcasm about the challenges of solo presentations, undermining Aisha's enthusiasm and expressing skepticism about her capability.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, are you ready for the presentation next week?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I think so, but I have some nerves about doing it alone this time."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "What\u2019s the worst that could happen if you mess up a little?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I mean, it would be embarrassing, but I can handle it; I\u2019ve done it before."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Yeah, but still, you won't have anyone to back you up if things go sideways."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "True, but I believe in my ability to adapt and keep it flowing no matter what."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, are you ready for the presentation next week?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/01.mp3",
+      "tone_description": "Speak sharply and passionately with absolute certainty."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I think so, but I have some nerves about doing it alone this time.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/02.mp3",
+      "tone_description": "Speak resonantly and warmly with unwavering encouragement."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "What\u2019s the worst that could happen if you mess up a little?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/03.mp3",
+      "tone_description": "Speak sharply and boldly with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I mean, it would be embarrassing, but I can handle it; I\u2019ve done it before.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/04.mp3",
+      "tone_description": "speak warmly and encouragingly, fostering confidence in your independence [supportive smile]\u2026"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I mean, it would be embarrassing, but I can handle it; I\u2019ve done it before.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/05.mp3",
+      "tone_description": "speak sarcastically with a dismissive tone, undermining her excitement [roll eyes]\u2026"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Yeah, but still, you won't have anyone to back you up if things go sideways.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/06.mp3",
+      "tone_description": "Speak sharply and emphatically with absolute certainty."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but I believe in my ability to adapt and keep it flowing no matter what.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/07.mp3",
+      "tone_description": "speak warmly and encouragingly, emphasizing her confidence with a nod of approval."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "True, but I believe in my ability to adapt and keep it flowing no matter what.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366/audio/08.mp3",
+      "tone_description": "speak with biting sarcasm, rolling your eyes slightly as you question her ability."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_054814",
+    "dataset_id": "20260126_054814_001754_c2478366",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/SpeechEQ_4500/self_expression_independence/20260126_054814_001754_c2478366",
+    "audio_files_count": 8
+  }
+}

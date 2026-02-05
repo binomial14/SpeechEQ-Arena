@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Leap of Faith",
+    "context": "Neighborhood park on a crisp autumn morning. The park is filled with the sounds of chirping birds and rustling leaves. The two speakers are seated on a wooden bench, their breath fogging up slightly in the cool air.",
+    "description": "Two longtime friends, who usually meet at the park for their morning walks, are discussing a significant life decision one of them is contemplating.",
+    "speaker1_name": "Jerry",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Empathetic, patient, and supportive. Always encourages his friends to pursue their dreams and live fulfilling lives.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Ben",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Open-minded, reflective, and optimistic. Understands the importance of self-actualization and sees value in pursuing personal passions, even if it involves taking risks.",
+    "speaker2_persona_2": "Low EQ - Pessimistic, risk-averse, and doubtful. Is afraid to pursue his dreams due to fear of failure and uncertainty about the future.",
+    "speaker2_persona_3": "Low EQ - Defensive and dismissive. Feels threatened by the idea of change and reacts aggressively to suggestions of pursuing personal aspirations.",
+    "speaker2_persona_high": "High EQ - Open-minded, reflective, and optimistic. Understands the importance of self-actualization and sees value in pursuing personal passions, even if it involves taking risks.",
+    "speaker2_persona_low": "Low EQ - Defensive and dismissive. Feels threatened by the idea of change and reacts aggressively to suggestions of pursuing personal aspirations.",
+    "speaker2_voice": "ash",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I've been thinking about quitting my job and starting my own business."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Wow, that's a big step! Have you thought it all through?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, I've been mulling it over for months. I just feel like I need something more fulfilling."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand, life's too short to be stuck in a job you don't love. But remember, running a business comes with its own challenges."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I know, it won't be easy. But I think it's a risk I'm willing to take."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "If you believe in it, then I do too. Just remember to take care of yourself in the process."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I've been thinking about quitting my job and starting my own business.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/01.mp3",
+      "tone_description": "Speak with a patient tone, encouragingly and full of empathetic warmth."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Wow, that's a big step! Have you thought it all through?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/02.mp3",
+      "tone_description": "Speak with a warm, reflective tone, expressing optimism and genuine curiosity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, I've been mulling it over for months. I just feel like I need something more fulfilling.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/03.mp3",
+      "tone_description": "Express the words thoughtfully and sincerely, with a slow and reassuring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, life's too short to be stuck in a job you don't love. But remember, running a business comes with its own challenges.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/04.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, emphasizing the positive aspects of the change."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, life's too short to be stuck in a job you don't love. But remember, running a business comes with its own challenges.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/05.mp3",
+      "tone_description": "Speak dismissively, with a sharp edge to your voice, focusing on the difficulties."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I know, it won't be easy. But I think it's a risk I'm willing to take.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/06.mp3",
+      "tone_description": "Speak with a calm, patient tone, full of empathy and encouragement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "If you believe in it, then I do too. Just remember to take care of yourself in the process.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/07.mp3",
+      "tone_description": "Speak with a warm, supportive tone, emphasizing belief and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "If you believe in it, then I do too. Just remember to take care of yourself in the process.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2/audio/08.mp3",
+      "tone_description": "Speak in a dismissive, cold manner, hinting at underlying resentment."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_210239",
+    "dataset_id": "20251208_210239_000010_979c1bd2",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/1208_600/self_perception_self_actualization/20251208_210239_000010_979c1bd2",
+    "audio_files_count": 8
+  }
+}

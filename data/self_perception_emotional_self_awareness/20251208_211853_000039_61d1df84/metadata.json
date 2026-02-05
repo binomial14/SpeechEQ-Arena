@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unplanned Library Encounter",
+    "context": "On a calm Tuesday evening in a quiet local library, the hum of the air-conditioning and the soft rustling of book pages provide the white noise backdrop to an unexpected encounter.",
+    "description": "Ravi, a small business owner, unexpectedly runs into his old college friend, Amelia, who has just lost her job. The conversation unfolds among the shelves, under the soft light of reading lamps, surrounded by the scent of old books.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Small business owner",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Ravi is a thoughtful, empathetic individual who is good at recognizing and understanding his own emotions and those of others. He's able to maintain a calm demeanor in stressful situations and has a constructive approach to conflict.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Amelia",
+    "speaker2_role": "Unemployed",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Amelia, even though recently unemployed, is positive and emotionally self-aware. She is able to recognize and manage her feelings, and she communicates her emotions constructively and with maturity.",
+    "speaker2_persona_2": "Low EQ - Amelia is defensive and resentful about her job loss. She reacts emotionally, blaming others and expressing her feelings in a confrontational manner, showing a lack of self-awareness about her emotional state.",
+    "speaker2_persona_3": "Low EQ - Amelia is anxious and overwhelmed by her job loss. She reacts emotionally, expressing her feelings in a panicked, uncontrolled way, showing a lack of self-awareness about her emotional state.",
+    "speaker2_persona_high": "High EQ - Amelia, even though recently unemployed, is positive and emotionally self-aware. She is able to recognize and manage her feelings, and she communicates her emotions constructively and with maturity.",
+    "speaker2_persona_low": "Low EQ - Amelia is anxious and overwhelmed by her job loss. She reacts emotionally, expressing her feelings in a panicked, uncontrolled way, showing a lack of self-awareness about her emotional state.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Amelia, is that you? I can't believe it's been years since college!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Ravi! Yes, it's me. Wow, it's great to see you here. I have just lost my job, so I thought I'd spend some time here."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm really sorry to hear that, Amelia. That must be tough. But remember, every cloud has a silver lining."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yes, I guess you're right. I'm trying to see it as an opportunity to explore something new."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit, Amelia! And you know, if you're interested, we're looking for someone in my small business. Maybe you'd like to join?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Really? That sounds like a wonderful opportunity. I would love to learn more about it!"
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Amelia, is that you? I can't believe it's been years since college!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/01.mp3",
+      "tone_description": "Speak with warm surprise and a calm, nostalgic tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Ravi! Yes, it's me. Wow, it's great to see you here. I have just lost my job, so I thought I'd spend some time here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/02.mp3",
+      "tone_description": "Speak with a warm, upbeat tone, maintaining a positive demeanor despite the recent job loss."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm really sorry to hear that, Amelia. That must be tough. But remember, every cloud has a silver lining.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/03.mp3",
+      "tone_description": "Speak in a soft, comforting tone, slowly, emphasizing empathy and optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yes, I guess you're right. I'm trying to see it as an opportunity to explore something new.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/04.mp3",
+      "tone_description": "Speak with a calm, assertive tone, projecting optimism and resilience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yes, I guess you're right. I'm trying to see it as an opportunity to explore something new.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/05.mp3",
+      "tone_description": "Speak in a fast-paced, shaky voice, reflecting anxiety and a sense of being overwhelmed."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit, Amelia! And you know, if you're interested, we're looking for someone in my small business. Maybe you'd like to join?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/06.mp3",
+      "tone_description": "Speak with a supportive and optimistic tone, offering the opportunity gently."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Really? That sounds like a wonderful opportunity. I would love to learn more about it!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/07.mp3",
+      "tone_description": "Speak warmly, with genuine enthusiasm and a hint of hopeful curiosity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Really? That sounds like a wonderful opportunity. I would love to learn more about it!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84/audio/08.mp3",
+      "tone_description": "Speak quickly, with an anxious tone and palpable sense of overwhelm."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211853",
+    "dataset_id": "20251208_211853_000039_61d1df84",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211853_000039_61d1df84",
+    "audio_files_count": 8
+  }
+}

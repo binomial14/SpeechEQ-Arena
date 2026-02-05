@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Walk in the Park",
+    "context": "A sunny Saturday afternoon in a local park, children playing in the background, the sound of laughter and distant birds chirping can be heard. A light breeze makes the day feel pleasant.",
+    "description": "Two colleagues, one male and one female, take a break from their work to discuss a recent team project that has caused some tension within their group. They sit on a bench under a large oak tree, sipping iced tea.",
+    "speaker1_name": "Nina",
+    "speaker1_role": "Project Manager",
+    "speaker1_gender": "female",
+    "speaker1_persona": "Nina is empathetic and tuned into her colleague's feelings. She values open communication and seeks to understand different perspectives. She often prioritizes team harmony over her own opinions.",
+    "speaker1_voice": "Serena",
+    "speaker2_name": "Raj",
+    "speaker2_role": "Graphic Designer",
+    "speaker2_gender": "male",
+    "speaker2_persona_1": "Raj is also emotionally intelligent. He approaches conversations with an open mind, listens carefully, and responds thoughtfully. He focuses on collaboration and finds ways to reassure Nina.",
+    "speaker2_persona_2": "Raj reacts defensively, dismissing Nina's concerns and insisting that the project outcomes are more important than team dynamics. He feels attacked and becomes confrontational.",
+    "speaker2_persona_3": "Raj becomes frustrated and shuts down, telling Nina that he doesn't want to talk about feelings and that they should just focus on the work ahead. He feels overwhelmed and avoids the emotional aspect.",
+    "speaker2_persona_high": "Raj is also emotionally intelligent. He approaches conversations with an open mind, listens carefully, and responds thoughtfully. He focuses on collaboration and finds ways to reassure Nina.",
+    "speaker2_persona_low": "Raj becomes frustrated and shuts down, telling Nina that he doesn't want to talk about feelings and that they should just focus on the work ahead. He feels overwhelmed and avoids the emotional aspect.",
+    "speaker2_voice": "Dylan",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Have you noticed how tense things have been since that last project meeting?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it feels like everyone is on edge about their roles."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Do you think we should address the conflicts directly, or just let it simmer for now?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I think it\u2019s better to talk it out; ignoring it might just make things worse."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "But what if it backfires and makes everyone even more upset?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Sometimes a bit of discomfort is necessary for growth; we can handle it together."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Have you noticed how tense things have been since that last project meeting?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/01.mp3",
+      "tone_description": "Speak sharply and urgently with deep concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it feels like everyone is on edge about their roles.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/02.mp3",
+      "tone_description": "Speak resonantly and steadily with unshakeable reassurance."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Do you think we should address the conflicts directly, or just let it simmer for now?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/03.mp3",
+      "tone_description": "Speak resonantly and warmly with unwavering clarity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I think it\u2019s better to talk it out; ignoring it might just make things worse.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/04.mp3",
+      "tone_description": "speak gently and openly, inviting collaboration with a warm smile"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I think it\u2019s better to talk it out; ignoring it might just make things worse.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/05.mp3",
+      "tone_description": "speak with frustration, avoiding eye contact and sounding weary while dismissing emotions"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "But what if it backfires and makes everyone even more upset?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/06.mp3",
+      "tone_description": "Speak sharply and urgently with trembling anxiety."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sometimes a bit of discomfort is necessary for growth; we can handle it together.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/07.mp3",
+      "tone_description": "speak warmly and reassuringly, like a supportive friend [gentle nod]\u2026"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Sometimes a bit of discomfort is necessary for growth; we can handle it together.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6/audio/08.mp3",
+      "tone_description": "speak defensively and dismissively, with a sharp tone [cross arms]\u2026"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_060506",
+    "dataset_id": "20260126_060506_002291_e4522ce6",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/SpeechEQ_4500/interpersonal_empathy/20260126_060506_002291_e4522ce6",
+    "audio_files_count": 8
+  }
+}

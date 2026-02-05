@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Visitor",
+    "context": "A community event at a local park",
+    "description": "While hosting a stand at a local community event, promoting their startup's eco-friendly products, Priya is confronted by a former colleague, Luca, who claims that their company's products are not as environmentally friendly as advertised.",
+    "speaker1_name": "Priya",
+    "speaker1_role": "Co-founder of the startup",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Priya is open-minded, patient, and empathetic. She handles difficult conversations with grace and always tries to understand the other person's point of view before responding.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Luca",
+    "speaker2_role": "Former colleague and environmental activist",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Luca, with high EQ, is open, friendly and willing to share his concerns in a respectful and constructive manner. He is able to control his emotional reactions and focus on the discussion at hand.",
+    "speaker2_persona_2": "In his low EQ persona, Luca is defensive and quick to anger. He is easily irritated when his views are challenged and tends to resort to personal attacks rather than focusing on the issue at hand.",
+    "speaker2_persona_3": "When displaying a low EQ, Luca becomes anxious and paranoid, often jumping to conclusions without solid evidence. His communication is filled with assumptions and he is quick to play the victim.",
+    "speaker2_persona_high": "Luca, with high EQ, is open, friendly and willing to share his concerns in a respectful and constructive manner. He is able to control his emotional reactions and focus on the discussion at hand.",
+    "speaker2_persona_low": "In his low EQ persona, Luca is defensive and quick to anger. He is easily irritated when his views are challenged and tends to resort to personal attacks rather than focusing on the issue at hand.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Luca, long time no see! How can I help you today?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Priya, I'm here because I've heard some things about your products... they're not as eco-friendly as you claim."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's surprising to hear, Luca. Could you elaborate on your concerns?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, for starters, the packaging is not recyclable and the raw materials are sourced from questionable suppliers."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I see what you mean, Luca. We've been working on these issues and hope to implement changes soon."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I hope that's true, Priya. The environment can't afford more false promises."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Luca, long time no see! How can I help you today?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/01.mp3",
+      "tone_description": "Speak in a patient, empathetic tone, with a hint of excitement and warmth."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Priya, I'm here because I've heard some things about your products... they're not as eco-friendly as you claim.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/02.mp3",
+      "tone_description": "Express your concern calmly and respectfully, with a touch of friendly curiosity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's surprising to hear, Luca. Could you elaborate on your concerns?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/03.mp3",
+      "tone_description": "Speak in a calm, patient manner, showing empathy and openness to understanding Luca's concerns."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, for starters, the packaging is not recyclable and the raw materials are sourced from questionable suppliers.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/04.mp3",
+      "tone_description": "Speak calmly and thoughtfully, maintaining a friendly and respectful tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, for starters, the packaging is not recyclable and the raw materials are sourced from questionable suppliers.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/05.mp3",
+      "tone_description": "Speak with a defensive tone, letting irritation slip into your voice."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I see what you mean, Luca. We've been working on these issues and hope to implement changes soon.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/06.mp3",
+      "tone_description": "Speak with empathy and patience, maintaining an understanding and open-minded tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I hope that's true, Priya. The environment can't afford more false promises.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/07.mp3",
+      "tone_description": "Speak calmly, maintaining a friendly tone and a hint of concern for the issue."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I hope that's true, Priya. The environment can't afford more false promises.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533/audio/08.mp3",
+      "tone_description": "Speak sharply, with a defensive and irritated undertone, emphasizing 'false promises'."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213038",
+    "dataset_id": "20251208_213038_000040_78493533",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000040_78493533",
+    "audio_files_count": 8
+  }
+}

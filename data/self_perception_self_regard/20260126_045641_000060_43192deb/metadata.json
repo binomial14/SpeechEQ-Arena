@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Mixed-bag Dinner Conversation",
+    "context": "A family dinner at a cozy dining room with soft lighting. The table is set with a warm, homemade meal, and the faint sound of rain tapping against the window creates a comforting atmosphere.",
+    "description": "During dinner, two siblings, Leslie and Chris, engage in a conversation about their recent performance at work. Leslie feels proud of her accomplishments, while Chris struggles with self-esteem after receiving critical feedback from their manager.",
+    "speaker1_name": "Leslie",
+    "speaker1_role": "Older sister",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Leslie is confident and self-assured, always looking to uplift others while balancing her own self-reflection. She recognizes her strengths and is supportive of her brother's feelings.",
+    "speaker1_voice": "Serena",
+    "speaker2_name": "Chris",
+    "speaker2_role": "Younger brother",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Chris is open and willing to listen to constructive feedback, striving for improvement but sometimes doubts his abilities. He seeks validation from his sister.",
+    "speaker2_persona_2": "Chris is dismissive of his own achievements, feeling bitter after criticism. He reacts defensively and tends to disregard any positive feedback.",
+    "speaker2_persona_3": "Chris feels overwhelmed and anxious about the feedback. He lashes out, blaming external circumstances rather than addressing his own feelings or responsibilities.",
+    "speaker2_persona_high": "Chris is open and willing to listen to constructive feedback, striving for improvement but sometimes doubts his abilities. He seeks validation from his sister.",
+    "speaker2_persona_low": "Chris feels overwhelmed and anxious about the feedback. He lashes out, blaming external circumstances rather than addressing his own feelings or responsibilities.",
+    "speaker2_voice": "Eric",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, I heard you got some pretty harsh feedback from your manager, how's that going for you?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, it was tough to hear, but I'm trying to take it in stride."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But don't you think that maybe you should be doing better, considering how long you've been there?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I know I can improve, but I also recognize that everyone has off days, and I\u2019m still learning."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Still, it seems like you should be more concerned about your performance."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I get that, but I believe in my abilities and I won\u2019t let one critique define me."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, I heard you got some pretty harsh feedback from your manager, how's that going for you?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/01.mp3",
+      "tone_description": "Speak warmly and steadily with unwavering support."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, it was tough to hear, but I'm trying to take it in stride.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/02.mp3",
+      "tone_description": "Speak resolutely and warmly with unwavering determination."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But don't you think that maybe you should be doing better, considering how long you've been there?",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/03.mp3",
+      "tone_description": "Speak sharply and energetically with absolute certainty."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know I can improve, but I also recognize that everyone has off days, and I\u2019m still learning.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/04.mp3",
+      "tone_description": "speak earnestly, seeking reassurance with a hint of vulnerability [nervous smile]"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I know I can improve, but I also recognize that everyone has off days, and I\u2019m still learning.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/05.mp3",
+      "tone_description": "speak anxiously, lashing out with frustration and urgency [fidgeting hands]"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Still, it seems like you should be more concerned about your performance.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/06.mp3",
+      "tone_description": "Speak sharply and powerfully with unwavering support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I get that, but I believe in my abilities and I won\u2019t let one critique define me.",
+      "eq_level": "high",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/07.mp3",
+      "tone_description": "[sigh] speak softly, seeking reassurance as if unsure of your own strengths."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I get that, but I believe in my abilities and I won\u2019t let one critique define me.",
+      "eq_level": "low",
+      "audio_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb/audio/08.mp3",
+      "tone_description": "[crossed arms] speak defensively, with a bitter edge that dismisses any praise."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260126_045641",
+    "dataset_id": "20260126_045641_000060_43192deb",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/SpeechEQ_4500/self_perception_self_regard/20260126_045641_000060_43192deb",
+    "audio_files_count": 8
+  }
+}

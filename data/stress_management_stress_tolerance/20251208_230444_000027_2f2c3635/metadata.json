@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Food Truck Chaos",
+    "context": "A sunny afternoon at the annual community food truck festival",
+    "description": "It's a busy afternoon at the community food truck festival. A sudden malfunction in the main electricity line has caused a power outage leading to a halt in all activities. Food trucks can no longer serve food, and visitors are getting restless. Amidst this, the festival coordinator, Esther, is trying to manage the situation. She turns to her assistant, Shaan, to discuss the situation and their plan of action.",
+    "speaker1_name": "Esther",
+    "speaker1_role": "Festival Coordinator",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Esther is a composed and resilient person, known for her ability to handle stress effectively. She remains calm under pressure and can think clearly to make informed decisions.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Shaan",
+    "speaker2_role": "Festival Assistant",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Shaan is patient, calm, and understanding. He keeps his composure under stress, is able to think on his feet and provides constructive solutions during crisis situations.",
+    "speaker2_persona_2": "Low EQ - Shaan tends to become flustered and panicky under high-pressure situations. He struggles to think clearly and his communication becomes rash and hasty.",
+    "speaker2_persona_3": "Low EQ - Shaan reacts defensively to stress, often resorting to blaming others or the situation. He struggles to focus on solutions and instead, frequently dwells on what went wrong.",
+    "speaker2_persona_high": "High EQ - Shaan is patient, calm, and understanding. He keeps his composure under stress, is able to think on his feet and provides constructive solutions during crisis situations.",
+    "speaker2_persona_low": "Low EQ - Shaan reacts defensively to stress, often resorting to blaming others or the situation. He struggles to focus on solutions and instead, frequently dwells on what went wrong.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Shaan, this is a nightmare! We've got food trucks unable to serve, and visitors growing restless."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know, Esther, it's a tough spot. But we've faced challenges before, we'll get through this too."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You're right. Okay, let's get the power back on. Have you contacted the electricians?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yes, they're on their way but stuck in traffic. It might be a while."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Hmm, that's unfortunate. We should inform the visitors and offer them some form of compensation maybe."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Good idea, Esther! Let's offer them discount vouchers for next year's festival. It's a small gesture, but it might help."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Shaan, this is a nightmare! We've got food trucks unable to serve, and visitors growing restless.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/01.mp3",
+      "tone_description": "Speak calmly and firmly, showing resilience despite the stressful situation."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know, Esther, it's a tough spot. But we've faced challenges before, we'll get through this too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/02.mp3",
+      "tone_description": "Speak in a calm and soothing manner, reassuringly and with confidence."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You're right. Okay, let's get the power back on. Have you contacted the electricians?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/03.mp3",
+      "tone_description": "Speak in a calm, composed manner, demonstrating resilience and clear thinking."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yes, they're on their way but stuck in traffic. It might be a while.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/04.mp3",
+      "tone_description": "Speak with a steady, calm pace, instilling reassurance and patience in your tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yes, they're on their way but stuck in traffic. It might be a while.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/05.mp3",
+      "tone_description": "Speak with a defensive, blaming tone, hinting frustration and irritability."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Hmm, that's unfortunate. We should inform the visitors and offer them some form of compensation maybe.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/06.mp3",
+      "tone_description": "Speak in a composed and sincere manner, suggesting a solution confidently."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Good idea, Esther! Let's offer them discount vouchers for next year's festival. It's a small gesture, but it might help.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/07.mp3",
+      "tone_description": "Speak with a calm, composed tone, providing the solution with a reassuring, patient smile."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Good idea, Esther! Let's offer them discount vouchers for next year's festival. It's a small gesture, but it might help.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635/audio/08.mp3",
+      "tone_description": "Speak defensively, your tone laced with blame and a hint of annoyance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230444",
+    "dataset_id": "20251208_230444_000027_2f2c3635",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_230444_000027_2f2c3635",
+    "audio_files_count": 8
+  }
+}

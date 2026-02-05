@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Venue Change",
+    "context": "Community Event",
+    "description": "Brad and Melissa, two event planners for a community charity gala, meet at a local park to discuss the final preparations. It's a sunny, warm afternoon and children can be heard playing in the background. Suddenly, Brad gets a call from the venue manager who informs him that due to unforeseen circumstances, the venue booked for the gala is unavailable. They have to find a new venue within 24 hours.",
+    "speaker1_name": "Brad",
+    "speaker1_role": "Event Planner",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Brad is composed, strategic, and pragmatic when it comes to problem-solving. He believes in maintaining a positive attitude and tackling challenges head-on.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Melissa",
+    "speaker2_role": "Event Planner",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Melissa is flexible and solution-focused. She is calm under pressure and can quickly adapt to unexpected changes, showing resilience and resourcefulness.",
+    "speaker2_persona_2": "Low EQ - Melissa is rigid and struggles to cope with unexpected changes. She tends to panic and becomes overwhelmed easily, focusing more on the problem than a solution.",
+    "speaker2_persona_3": "Low EQ - Melissa is reactive and blames others when things go wrong. She tends to take out her frustration on those around her, often losing her temper and acting impulsively.",
+    "speaker2_persona_high": "High EQ - Melissa is flexible and solution-focused. She is calm under pressure and can quickly adapt to unexpected changes, showing resilience and resourcefulness.",
+    "speaker2_persona_low": "Low EQ - Melissa is rigid and struggles to cope with unexpected changes. She tends to panic and becomes overwhelmed easily, focusing more on the problem than a solution.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Melissa, we have a problem. The venue manager just called and said our booked venue is no longer available."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh wow, that's quite a curveball. When do we need to have a new place by?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "We have 24 hours to secure a new venue. Any ideas?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Let's not panic, we've dealt with worse. I'll call some of our contacts now, and we can start scouting potential places immediately."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, we've definitely conquered bigger challenges. I'll start looking into some back-up venues."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Great, let's meet back here in 2 hours with our options. And hey, we've got this!"
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Melissa, we have a problem. The venue manager just called and said our booked venue is no longer available.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/01.mp3",
+      "tone_description": "Speak calmly and strategically, with a touch of pragmatism."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh wow, that's quite a curveball. When do we need to have a new place by?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/02.mp3",
+      "tone_description": "Speak in a steady, calm tone, showing flexibility and solution-focused approach."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "We have 24 hours to secure a new venue. Any ideas?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/03.mp3",
+      "tone_description": "Speak in a composed, strategic manner, maintaining a positive and pragmatic tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Let's not panic, we've dealt with worse. I'll call some of our contacts now, and we can start scouting potential places immediately.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/04.mp3",
+      "tone_description": "Speak with a steady, calm rhythm, exuding confidence and a reassuring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Let's not panic, we've dealt with worse. I'll call some of our contacts now, and we can start scouting potential places immediately.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/05.mp3",
+      "tone_description": "Speak with a shaky, anxious voice, rushing through the words as if overwhelmed."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, we've definitely conquered bigger challenges. I'll start looking into some back-up venues.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/06.mp3",
+      "tone_description": "Speak in a steady, calm pace exuding confidence and strategic thinking."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great, let's meet back here in 2 hours with our options. And hey, we've got this!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/07.mp3",
+      "tone_description": "Speak with a steady, reassuring tone, demonstrating calm confidence and a touch of optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great, let's meet back here in 2 hours with our options. And hey, we've got this!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609/audio/08.mp3",
+      "tone_description": "Speak in an irritated, blaming manner, raising your voice and sounding frustrated."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_160809",
+    "dataset_id": "20251208_160809_000004_238b5609",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_300/stress_management_flexibility/20251208_160809_000004_238b5609",
+    "audio_files_count": 8
+  }
+}
