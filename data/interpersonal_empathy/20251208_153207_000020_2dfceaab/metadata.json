@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Sudden Change of Plans",
+    "context": "A social gathering at a local park during a sunny afternoon. Families are picnicking, children are playing, and a jazz band is performing in the gazebo.",
+    "description": "Speaker 1, Wendy, has been looking forward to attending a friend's wedding overseas. However, she recently found out that she's pregnant and won't be able to travel. She's sharing this news with her best friend, Speaker 2, Alex, at the park gathering.",
+    "speaker1_name": "Wendy",
+    "speaker1_role": "Best Friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Excited about her pregnancy, yet disappointed about missing the wedding. She's calm, expressive and open about her feelings.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Best Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - He is understanding, comforting and empathetic, expressing genuine happiness for her pregnancy while acknowledging her disappointment about the wedding.",
+    "speaker2_persona_2": "Low EQ - He is dismissive and insensitive, focusing only on her missing the wedding and disregarding her feelings about her pregnancy.",
+    "speaker2_persona_3": "Low EQ - He is overexcited and overbearing, focusing solely on her pregnancy and ignoring her disappointment about missing the wedding.",
+    "speaker2_persona_high": "High EQ - He is understanding, comforting and empathetic, expressing genuine happiness for her pregnancy while acknowledging her disappointment about the wedding.",
+    "speaker2_persona_low": "Low EQ - He is dismissive and insensitive, focusing only on her missing the wedding and disregarding her feelings about her pregnancy.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Alex, you know how excited I was for Tania's wedding in Italy? Well, I won't be able to go."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh no, Wendy. What happened? Are you okay?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, I'm fine. I'm actually pregnant, can you believe that? So, no traveling for me."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Wow, that's huge news, Wendy! I'm sorry you can't make it to the wedding, but congratulations on the baby!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you, Alex. It's a lot to process, but I'm excited about the baby too."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're going to be an amazing mom, Wendy. And don't worry about the wedding, we'll make sure to bring you back some cannoli!"
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Alex, you know how excited I was for Tania's wedding in Italy? Well, I won't be able to go.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/01.mp3",
+      "tone_description": "Express the excitement and disappointment calmly, with a touch of expressive sadness."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh no, Wendy. What happened? Are you okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/02.mp3",
+      "tone_description": "Speak with a gentle and empathetic tone, expressing concern and understanding."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, I'm fine. I'm actually pregnant, can you believe that? So, no traveling for me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/03.mp3",
+      "tone_description": "Speak with excited surprise, but also a touch of disappointment, maintaining a calm and open tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Wow, that's huge news, Wendy! I'm sorry you can't make it to the wedding, but congratulations on the baby!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/04.mp3",
+      "tone_description": "Speak warmly, with genuine excitement and a comforting undertone to soothe her disappointment."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Wow, that's huge news, Wendy! I'm sorry you can't make it to the wedding, but congratulations on the baby!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/05.mp3",
+      "tone_description": "Speak in a dismissive, cold manner, emphasizing the inconvenience of her absence at the wedding."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you, Alex. It's a lot to process, but I'm excited about the baby too.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/06.mp3",
+      "tone_description": "Expressively share the news with a mix of excitement and a hint of disappointment."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're going to be an amazing mom, Wendy. And don't worry about the wedding, we'll make sure to bring you back some cannoli!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/07.mp3",
+      "tone_description": "Speak softly with a comforting tone, expressing genuine joy and reassurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're going to be an amazing mom, Wendy. And don't worry about the wedding, we'll make sure to bring you back some cannoli!",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab/audio/08.mp3",
+      "tone_description": "Speak in a dismissive, cold manner, focusing on the cannoli with a hint of annoyance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_153207",
+    "dataset_id": "20251208_153207_000020_2dfceaab",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_300/interpersonal_empathy/20251208_153207_000020_2dfceaab",
+    "audio_files_count": 8
+  }
+}

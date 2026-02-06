@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Change in Band Practice",
+    "context": "A community center during an evening band practice",
+    "description": "The local band is in the middle of their regular practice at the community center for an upcoming charity concert. Suddenly, the power goes out, causing all the electric instruments to shut down. The band needs to continue practicing but has to adapt to the new situation.",
+    "speaker1_name": "Miko",
+    "speaker1_role": "Band leader",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, rational and adaptive. Always looks for solutions and is open to changes.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Simone",
+    "speaker2_role": "Band member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Maintains composure under stress, adapts to unexpected changes, and collaborates with others to solve problems.",
+    "speaker2_persona_2": "Low EQ - Easily stressed by unexpected changes, prefers to stick to the plan, and struggles to adapt to new situations.",
+    "speaker2_persona_3": "Low EQ - Reacts negatively to unexpected changes, becomes defensive and argumentative, avoids taking responsibility in problem-solving.",
+    "speaker2_persona_high": "High EQ - Maintains composure under stress, adapts to unexpected changes, and collaborates with others to solve problems.",
+    "speaker2_persona_low": "Low EQ - Reacts negatively to unexpected changes, becomes defensive and argumentative, avoids taking responsibility in problem-solving.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Well, that's a first. Alright, let's not panic. We need to keep practicing."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, but how are we supposed to practice without power?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Let's focus on what we have here. We can practice the acoustic parts and work on our harmonies."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alright, I guess that could work. Let's give it a shot."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit! Let's start with 'Moonlight Sonata'."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I'm ready to give it our best, power or no power!"
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Well, that's a first. Alright, let's not panic. We need to keep practicing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/01.mp3",
+      "tone_description": "Speak in a calm, rational tone, with a hint of surprise initially, then transition into reassurance."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, but how are we supposed to practice without power?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/02.mp3",
+      "tone_description": "Speak with a calm and adaptive tone, expressing collaboration and composed curiosity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Let's focus on what we have here. We can practice the acoustic parts and work on our harmonies.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/03.mp3",
+      "tone_description": "Speak in a calm, solution-oriented manner with a hint of adaptability."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, I guess that could work. Let's give it a shot.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/04.mp3",
+      "tone_description": "Speak calmly and collaboratively, with a tone of open-minded optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, I guess that could work. Let's give it a shot.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/05.mp3",
+      "tone_description": "Speak dismissively and defensively, with a tone filled with skepticism."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit! Let's start with 'Moonlight Sonata'.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/06.mp3",
+      "tone_description": "Speak in a composed and encouraging manner, with tones of optimism and adaptability."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm ready to give it our best, power or no power!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/07.mp3",
+      "tone_description": "Speak with a steady, encouraging tone, exuding a sense of calm resolve."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I'm ready to give it our best, power or no power!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e/audio/08.mp3",
+      "tone_description": "Speak with a harsh, defensive tone, as if challenging the situation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230013",
+    "dataset_id": "20251208_230013_000059_a14f5c3e",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_600/stress_management_flexibility/20251208_230013_000059_a14f5c3e",
+    "audio_files_count": 8
+  }
+}

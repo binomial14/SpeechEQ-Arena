@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Tempting Tech Trade",
+    "context": "At a bustling electronics expo",
+    "description": "Aiden, a tech enthusiast, and his friend, Shreya, are at a buzzing electronics expo. They come across a limited-time offer for a new gaming console, available only today in limited quantity. Aiden has been saving for a car but is tempted by the deal.",
+    "speaker1_name": "Aiden",
+    "speaker1_role": "Tech enthusiast",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Aiden is generally impulsive and easily swayed by new and flashy tech deals. He has been diligently saving for a car but is now tempted by the gaming console. He needs to demonstrate impulse control in this situation.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Shreya",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Shreya is calm, supportive, and helps Aiden weigh the pros and cons of his decision, reminding him about his long-term goal.",
+    "speaker2_persona_2": "Low EQ - Shreya is dismissive of Aiden's struggle, belittling his interest in the console and being sarcastic about his ability to save money.",
+    "speaker2_persona_3": "Low EQ - Shreya is impatient with Aiden's wavering, getting irked and pressuring him to just buy the console and 'live a little'.",
+    "speaker2_persona_high": "High EQ - Shreya is calm, supportive, and helps Aiden weigh the pros and cons of his decision, reminding him about his long-term goal.",
+    "speaker2_persona_low": "Low EQ - Shreya is impatient with Aiden's wavering, getting irked and pressuring him to just buy the console and 'live a little'.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Man, look at that deal! I'm really tempted to get that new gaming console."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "It's a great deal, but remember, you've been saving up for a car."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, you're right, but it's a limited-time offer. I may regret it if I don't buy it now."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "True, but will you regret it more if you have to delay getting your car? Think about it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You've got a point there. I guess, I should stick to my plan."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's a wise choice, Aiden. There will always be new deals and gaming consoles, but your car is a big goal."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Man, look at that deal! I'm really tempted to get that new gaming console.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/01.mp3",
+      "tone_description": "Speak with excitement and hesitation, revealing a struggle between desire and responsibility."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "It's a great deal, but remember, you've been saving up for a car.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/02.mp3",
+      "tone_description": "Speak gently and encouragingly, reminding him of his goal with a supportive tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, you're right, but it's a limited-time offer. I may regret it if I don't buy it now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/03.mp3",
+      "tone_description": "Speak quickly and excitedly, wavering slightly to show your internal struggle."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "True, but will you regret it more if you have to delay getting your car? Think about it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/04.mp3",
+      "tone_description": "Speak in a calm, patient tone, gently reminding him of his goals."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "True, but will you regret it more if you have to delay getting your car? Think about it.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/05.mp3",
+      "tone_description": "[Exasperated sigh] Speak in a pressured, impatient tone, pushing him to just buy the console."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You've got a point there. I guess, I should stick to my plan.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/06.mp3",
+      "tone_description": "Speak in a thoughtful, reflective tone, showing a moment of self-realization."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a wise choice, Aiden. There will always be new deals and gaming consoles, but your car is a big goal.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/07.mp3",
+      "tone_description": "Speak softly and encouragingly, emphasizing the importance of his long-term goals."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a wise choice, Aiden. There will always be new deals and gaming consoles, but your car is a big goal.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd/audio/08.mp3",
+      "tone_description": "Speak sarcastically, with a condescending tone, belittling his desire for the console."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_224646",
+    "dataset_id": "20251208_224646_000042_a79f0abd",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_600/decision_making_impulse_control/20251208_224646_000042_a79f0abd",
+    "audio_files_count": 8
+  }
+}

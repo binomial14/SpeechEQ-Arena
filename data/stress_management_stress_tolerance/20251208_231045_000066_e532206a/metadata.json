@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Overfilled Community Pool",
+    "context": "A busy community pool on a sunny, Saturday afternoon. The air is filled with the smell of sunscreen, the sound of children laughing and splashing. The sun is glaring down on the water, creating a shimmering spectacle.",
+    "description": "Sunita, the pool manager, is dealing with a sudden influx of visitors due to a heatwave. Rohan, the local council representative, arrives to discuss the pool's overcrowding issue.",
+    "speaker1_name": "Sunita",
+    "speaker1_role": "Pool Manager",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Sunita is a calm, composed, and patient professional who handles stressful situations with grace and tact. She listens carefully and communicates clearly. She always tries to find solutions rather than dwelling on problems.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Rohan",
+    "speaker2_role": "Local Council Representative",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Rohan is empathetic, understanding, and solution-oriented. He listens to Sunita's concerns, acknowledges the stress she's under, and works with her to find a practical and effective solution.",
+    "speaker2_persona_2": "Low EQ - Rohan is dismissive and impatient. He quickly becomes defensive when faced with problems and tends to blame others instead of seeking solutions.",
+    "speaker2_persona_3": "Low EQ - Rohan is easily overwhelmed and anxious. He reacts to the situation with panic and negative predictions, increasing the stress level instead of helping to alleviate it.",
+    "speaker2_persona_high": "High EQ - Rohan is empathetic, understanding, and solution-oriented. He listens to Sunita's concerns, acknowledges the stress she's under, and works with her to find a practical and effective solution.",
+    "speaker2_persona_low": "Low EQ - Rohan is dismissive and impatient. He quickly becomes defensive when faced with problems and tends to blame others instead of seeking solutions.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Rohan, I'm glad you're here. We're swamped with all these people trying to escape the heatwave."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I can see that, Sunita. It's definitely a challenging situation."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm worried about safety, Rohan. We simply don't have enough lifeguards to supervise this many people."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "That's certainly something we need to address immediately. I'll make sure we have more lifeguards on duty tomorrow. In the meantime, let's figure out how we can manage the crowd today."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I appreciate your swift action, Rohan. We could limit the number of people entering, maybe?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's a good idea, Sunita. Let's implement that and I'll also see if we can arrange for a temporary cooling center in the community hall."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Rohan, I'm glad you're here. We're swamped with all these people trying to escape the heatwave.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/01.mp3",
+      "tone_description": "Speak in a steady, composed manner, showing patience and clear communication despite the stress."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I can see that, Sunita. It's definitely a challenging situation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/02.mp3",
+      "tone_description": "Speak in a calm, understanding tone with a hint of resolution."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm worried about safety, Rohan. We simply don't have enough lifeguards to supervise this many people.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/03.mp3",
+      "tone_description": "Speak with a calm, patient tone, expressing your concern clearly and tactfully."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's certainly something we need to address immediately. I'll make sure we have more lifeguards on duty tomorrow. In the meantime, let's figure out how we can manage the crowd today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/04.mp3",
+      "tone_description": "Speak warmly and calmly, with a reassuring, solution-focused tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "That's certainly something we need to address immediately. I'll make sure we have more lifeguards on duty tomorrow. In the meantime, let's figure out how we can manage the crowd today.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/05.mp3",
+      "tone_description": "Speak in a dismissive, impatient tone, lacing the words with blame."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I appreciate your swift action, Rohan. We could limit the number of people entering, maybe?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/06.mp3",
+      "tone_description": "Speak in a calm, composed manner, suggesting the idea gently yet firmly."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a good idea, Sunita. Let's implement that and I'll also see if we can arrange for a temporary cooling center in the community hall.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/07.mp3",
+      "tone_description": "Speak in a warm, understanding tone, emphasizing collaboration and shared responsibility."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a good idea, Sunita. Let's implement that and I'll also see if we can arrange for a temporary cooling center in the community hall.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a/audio/08.mp3",
+      "tone_description": "Speak in a dismissive and impatient tone, with a hint of annoyance and sarcasm."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_231045",
+    "dataset_id": "20251208_231045_000066_e532206a",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_231045_000066_e532206a",
+    "audio_files_count": 8
+  }
+}

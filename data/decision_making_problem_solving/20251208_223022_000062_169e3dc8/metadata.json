@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Farmer's Market Stand Dilemma",
+    "context": "A bustling farmer's market on a sunny Saturday morning. There's chatter and laughter in the background, a country band playing nearby, and the smell of fresh produce in the air.",
+    "description": "Yvonne and Sam, two friends and co-owners of a popular homemade honey stand at the local farmer's market, have received a last-minute opportunity to expand their stand to a larger area. However, this requires quick decision making and problem-solving, as they need to redesign their layout and possibly adjust their inventory in a very short period of time.",
+    "speaker1_name": "Yvonne",
+    "speaker1_role": "Friend and co-owner of the honey stand",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Yvonne is calm, open-minded, and a great problem solver. She is always open to new ideas and is very good at evaluating situations from different angles. She communicates effectively and in a supportive manner.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Sam",
+    "speaker2_role": "Friend and co-owner of the honey stand",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Sam is receptive to Yvonne's ideas, shows willingness to explore new options, and contributes positively to the problem-solving process. He is calm, composed, and works collaboratively with Yvonne to reach the best decision.",
+    "speaker2_persona_2": "Low EQ - Sam is resistant to change, gets overwhelmed easily, and tends to shut down when faced with a problem. He communicates in a dismissive and negative tone, showing little willingness to engage in problem-solving.",
+    "speaker2_persona_3": "Low EQ - Sam is easily flustered and reacts impulsively when faced with a problem. He jumps to conclusions, interrupts Yvonne, and fails to consider her ideas, thus hindering the problem-solving process.",
+    "speaker2_persona_high": "High EQ - Sam is receptive to Yvonne's ideas, shows willingness to explore new options, and contributes positively to the problem-solving process. He is calm, composed, and works collaboratively with Yvonne to reach the best decision.",
+    "speaker2_persona_low": "Low EQ - Sam is easily flustered and reacts impulsively when faced with a problem. He jumps to conclusions, interrupts Yvonne, and fails to consider her ideas, thus hindering the problem-solving process.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Sam, we've got a chance to expand our stand, but it means a quick redesign and maybe some inventory adjustments."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's a big move, Yvonne. We'd need a plan, fast. Let's grab a coffee and jot down our ideas."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Good call, Sam. We should also consider how much additional honey we might need."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Absolutely, we don't want to run out mid-market. Let's also think about how we could rearrange the stand to make it more appealing."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, a larger stand would need a better layout. I think we can pull this off, Sam."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I believe in us, Yvonne. Let's make this work, one step at a time."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Sam, we've got a chance to expand our stand, but it means a quick redesign and maybe some inventory adjustments.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/01.mp3",
+      "tone_description": "Speak calmly and openly, with a hint of excitement about the potential expansion."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's a big move, Yvonne. We'd need a plan, fast. Let's grab a coffee and jot down our ideas.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/02.mp3",
+      "tone_description": "Speak in a calm, composed manner with a hint of excitement and collaborative spirit."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Good call, Sam. We should also consider how much additional honey we might need.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/03.mp3",
+      "tone_description": "Speak in a calm, thoughtful manner, showing openness to Sam's ideas."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Absolutely, we don't want to run out mid-market. Let's also think about how we could rearrange the stand to make it more appealing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/04.mp3",
+      "tone_description": "Speak calmly and assertively, showing eagerness in exploring the possibilities."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Absolutely, we don't want to run out mid-market. Let's also think about how we could rearrange the stand to make it more appealing.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/05.mp3",
+      "tone_description": "Speak hastily and impatiently, disregarding Yvonne's ideas with a hint of panic."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, a larger stand would need a better layout. I think we can pull this off, Sam.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/06.mp3",
+      "tone_description": "Speak with a calm and open-minded tone, expressing confidence in problem-solving."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I believe in us, Yvonne. Let's make this work, one step at a time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/07.mp3",
+      "tone_description": "Speak with a warm, patient tone, exuding calm confidence and cooperative enthusiasm."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I believe in us, Yvonne. Let's make this work, one step at a time.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8/audio/08.mp3",
+      "tone_description": "Speak in a flustered, hasty tone, sounding impatient and dismissive."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_223022",
+    "dataset_id": "20251208_223022_000062_169e3dc8",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_223022_000062_169e3dc8",
+    "audio_files_count": 8
+  }
+}

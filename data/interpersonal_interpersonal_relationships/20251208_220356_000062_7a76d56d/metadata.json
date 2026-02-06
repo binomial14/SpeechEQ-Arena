@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Saturday Morning Farmers Market",
+    "context": "A bustling farmers market on a sunny Saturday morning. The air is filled with the scent of fresh produce, baked goods, and roasted coffee.",
+    "description": "Speaker 1, Juan, is a farmer selling organic fruits and vegetables at his stand. Speaker 2, Sasha, is a regular customer who has been buying from Juan for years. During their weekly chat, Juan reveals that he is considering closing his stand due to financial difficulties.",
+    "speaker1_name": "Juan",
+    "speaker1_role": "Farmer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Juan is a warm, friendly individual who values his relationships with his customers. He is open about his struggles and appreciates the support he receives from the community.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Sasha",
+    "speaker2_role": "Regular Customer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Sasha is empathetic, understanding, and communicative. She offers to help Juan by spreading the word about his stand to her network and encourages him to persevere.",
+    "speaker2_persona_2": "Sasha is defensive and dismissive. She responds with surprise and annoyance, questioning why Juan would consider closing his stand and how it would impact her routine.",
+    "speaker2_persona_3": "Sasha is overly emotional and reactive. She responds with panic and despair, focusing on how this will affect her rather than offering support or understanding for Juan's situation.",
+    "speaker2_persona_high": "Sasha is empathetic, understanding, and communicative. She offers to help Juan by spreading the word about his stand to her network and encourages him to persevere.",
+    "speaker2_persona_low": "Sasha is defensive and dismissive. She responds with surprise and annoyance, questioning why Juan would consider closing his stand and how it would impact her routine.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Sasha, I've been doing some thinking lately..."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh? What's on your mind, Juan?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'm considering closing the stand - it's just not bringing in enough to keep things afloat."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I'm really sorry to hear that, Juan. I can't imagine how tough this decision must be for you."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Yeah, it's really hard. This stand is not just a business, it's a part of me."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I know how much this means to you. Let me see if I can rally some support from our community. We can't afford to lose your fresh produce."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Sasha, I've been doing some thinking lately...",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/01.mp3",
+      "tone_description": "Speak thoughtfully and sincerely, with a warm, friendly tone reflecting your appreciation for support."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh? What's on your mind, Juan?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/02.mp3",
+      "tone_description": "Speak with a calm, empathetic tone, indicating your willingness to listen."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'm considering closing the stand - it's just not bringing in enough to keep things afloat.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/03.mp3",
+      "tone_description": "Speak with a warm sincerity and a touch of regret, revealing your struggles honestly."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'm really sorry to hear that, Juan. I can't imagine how tough this decision must be for you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/04.mp3",
+      "tone_description": "Speak in a soft, soothing tone, offering warmth and empathy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'm really sorry to hear that, Juan. I can't imagine how tough this decision must be for you.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/05.mp3",
+      "tone_description": "Speak in a brisk, irritated tone with a hint of defensiveness."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Yeah, it's really hard. This stand is not just a business, it's a part of me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/06.mp3",
+      "tone_description": "Speak in a heartfelt, slow manner, expressing the deep emotional connection to the business."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I know how much this means to you. Let me see if I can rally some support from our community. We can't afford to lose your fresh produce.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/07.mp3",
+      "tone_description": "Speak gently and with sincere concern, offering hope and encouragement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I know how much this means to you. Let me see if I can rally some support from our community. We can't afford to lose your fresh produce.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d/audio/08.mp3",
+      "tone_description": "Speak with a sharp, irritated tone, almost accusatory in your surprise."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_220356",
+    "dataset_id": "20251208_220356_000062_7a76d56d",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220356_000062_7a76d56d",
+    "audio_files_count": 8
+  }
+}

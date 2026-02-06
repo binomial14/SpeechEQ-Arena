@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Book Club Disagreement",
+    "context": "Evening book club meeting at the local library",
+    "description": "The book club has to choose the next book they will read and discuss. There are two main propositions, but the club members are divided. Rajeev, the club organizer, suggests a voting system. The other club member, Naomi, disagrees with the proposed voting system, arguing that it's not fair.",
+    "speaker1_name": "Rajeev",
+    "speaker1_role": "Book Club Organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Rajeev is calm, patient, and open-minded. He is always careful to consider the feelings and opinions of others. He is known for his ability to stay focused on the reality of situations and not allow his emotions to cloud his judgment.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Naomi",
+    "speaker2_role": "Book Club Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Naomi is thoughtful, considerate, and rational. She takes the time to listen to others and consider their viewpoints, even when she doesn't agree. She calmly communicates her thoughts and feelings, focusing on the facts at hand.",
+    "speaker2_persona_2": "Low EQ - Naomi is impulsive, defensive, and quick to react. She tends to let her emotions take over, causing her to respond without fully considering the reality of the situation or the feelings of others.",
+    "speaker2_persona_3": "Low EQ - Naomi is anxious, irritable, and tends to overthink situations. This often leads to her jumping to conclusions and reacting based on her perceived reality, rather than the actual facts of the situation.",
+    "speaker2_persona_high": "High EQ - Naomi is thoughtful, considerate, and rational. She takes the time to listen to others and consider their viewpoints, even when she doesn't agree. She calmly communicates her thoughts and feelings, focusing on the facts at hand.",
+    "speaker2_persona_low": "Low EQ - Naomi is impulsive, defensive, and quick to react. She tends to let her emotions take over, causing her to respond without fully considering the reality of the situation or the feelings of others.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright everyone, we're divided on the next book, so how about we put it to a vote? Majority wins."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Hold on, Rajeev. That doesn't seem fair. Some of us have read one of the proposed books already, so their vote could be biased."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's a good point, Naomi. I hadn't considered that. But what alternative do you propose?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Maybe, we could exclude the votes of those who've read a book already. Or choose a completely new book that's not been read by anyone here."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Hmm, both are good alternatives. Let's discuss these options and see what the others think. Thanks for bringing this up, Naomi."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "No problem, Rajeev. It's important that everyone feels their opinion is valued in this club."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright everyone, we're divided on the next book, so how about we put it to a vote? Majority wins.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/01.mp3",
+      "tone_description": "Speak in a calm, patient manner, with an open-minded tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Hold on, Rajeev. That doesn't seem fair. Some of us have read one of the proposed books already, so their vote could be biased.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/02.mp3",
+      "tone_description": "Speak calmly and rationally, expressing your concerns with a fair and thoughtful tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's a good point, Naomi. I hadn't considered that. But what alternative do you propose?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/03.mp3",
+      "tone_description": "Speak thoughtfully and patiently, showing open-mindedness and consideration for Naomi's viewpoint."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe, we could exclude the votes of those who've read a book already. Or choose a completely new book that's not been read by anyone here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/04.mp3",
+      "tone_description": "Speak in a calm, thoughtful manner, conveying a sense of consideration and rationality."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe, we could exclude the votes of those who've read a book already. Or choose a completely new book that's not been read by anyone here.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/05.mp3",
+      "tone_description": "Speak in a defensive, quickened pace, letting emotional impulsivity seep into your tone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Hmm, both are good alternatives. Let's discuss these options and see what the others think. Thanks for bringing this up, Naomi.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/06.mp3",
+      "tone_description": "Speak patiently and thoughtfully, showing appreciation for Naomi's input."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No problem, Rajeev. It's important that everyone feels their opinion is valued in this club.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/07.mp3",
+      "tone_description": "Speak with a calm, measured pace and a tone filled with understanding and respect."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No problem, Rajeev. It's important that everyone feels their opinion is valued in this club.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8/audio/08.mp3",
+      "tone_description": "Speak hastily with a defensive edge and a dismissive undertone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_223657",
+    "dataset_id": "20251208_223657_000035_64cd80b8",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_600/decision_making_reality_testing/20251208_223657_000035_64cd80b8",
+    "audio_files_count": 8
+  }
+}

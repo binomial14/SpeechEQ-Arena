@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Piano Lesson",
+    "context": "It's a spring afternoon in a music school. The sound of different musical instruments fills the air. The sun is streaming through the windows.",
+    "description": "Two friends, both adult piano students, are discussing their respective progress after a group piano class.",
+    "speaker1_name": "Antonio",
+    "speaker1_role": "Adult piano student",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Antonio is patient, motivated, and always eager to learn. He is confident in his own potential, but always looks for ways to improve. He understands that growth requires time and effort.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Emma",
+    "speaker2_role": "Adult piano student",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Emma is also patient and motivated. She understands that learning is a process and everyone progresses at different rates. She is not discouraged by setbacks and is always supportive of her peers.",
+    "speaker2_persona_2": "Emma is easily frustrated and tends to compare herself to others. She gets discouraged easily and can be quite negative about her own progress.",
+    "speaker2_persona_3": "Emma is impatient and competitive. She is not satisfied unless she is the best in the class and often belittles others to make herself feel better.",
+    "speaker2_persona_high": "Emma is also patient and motivated. She understands that learning is a process and everyone progresses at different rates. She is not discouraged by setbacks and is always supportive of her peers.",
+    "speaker2_persona_low": "Emma is impatient and competitive. She is not satisfied unless she is the best in the class and often belittles others to make herself feel better.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe we're already halfway through the course, how do you think you're progressing?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I'm not sure, I feel like I'm not picking it up as quickly as everyone else."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Ah, come on, don't compare yourself to others. Everyone learns at their own pace."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, you're probably right. I need to focus more on my own journey rather than comparing."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit! Remember, the goal is to enjoy the process and make music."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right. I'll try to keep that in mind moving forward."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe we're already halfway through the course, how do you think you're progressing?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/01.mp3",
+      "tone_description": "Speak with a confident and curious tone, expressing a desire for growth and improvement."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I'm not sure, I feel like I'm not picking it up as quickly as everyone else.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/02.mp3",
+      "tone_description": "Speak calmly and patiently, emphasizing understanding and motivation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Ah, come on, don't compare yourself to others. Everyone learns at their own pace.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/03.mp3",
+      "tone_description": "Speak with patient reassurance, emphasizing each word to show understanding and encouragement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, you're probably right. I need to focus more on my own journey rather than comparing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/04.mp3",
+      "tone_description": "Speak in a calm, encouraging tone, with a patient and steady pace, exuding confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, you're probably right. I need to focus more on my own journey rather than comparing.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/05.mp3",
+      "tone_description": "Speak in a dismissive, competitive tone, with a touch of impatience and underlying discontent."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit! Remember, the goal is to enjoy the process and make music.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/06.mp3",
+      "tone_description": "Speak enthusiastically and confidently, emphasizing enjoyment and self-improvement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right. I'll try to keep that in mind moving forward.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/07.mp3",
+      "tone_description": "Speak with a patient, motivated tone, demonstrating understanding and support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right. I'll try to keep that in mind moving forward.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7/audio/08.mp3",
+      "tone_description": "Speak with an impatient, competitive edge, expressing dissatisfaction and superiority."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_142811",
+    "dataset_id": "20251208_142811_000011_a30cd8c7",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/1208_300/self_perception_self_actualization/20251208_142811_000011_a30cd8c7",
+    "audio_files_count": 8
+  }
+}

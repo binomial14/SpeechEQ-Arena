@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Fundraiser",
+    "context": "At a bustling community center where preparations are underway for a big charity fundraiser.",
+    "description": "It's a sunny afternoon and the community center is buzzing with activity. Tables are being set, decorations hung and food prepared for the evening's charity fundraiser. Two friends, Isha and Alejandro, are running the preparations. Isha, the event coordinator, has a vision for the event, which she's been independently planning for weeks. Alejandro, a volunteer, is helping Isha to execute her plan.",
+    "speaker1_name": "Isha",
+    "speaker1_role": "Event Coordinator",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Confident, organized and independent. Believes in her ability to successfully coordinate the event without needing much help or advice from others.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Alejandro",
+    "speaker2_role": "Volunteer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Supportive, understanding, and encouraging. Able to constructively provide input without undermining Isha's independence.",
+    "speaker2_persona_2": "Low EQ - Defensive and critical. Reacts negatively to Isha's independent planning and decision-making.",
+    "speaker2_persona_3": "Low EQ - Passive-aggressive and dismissive. Discouraged by Isha's independence and responds with sarcasm and indifference.",
+    "speaker2_persona_high": "High EQ - Supportive, understanding, and encouraging. Able to constructively provide input without undermining Isha's independence.",
+    "speaker2_persona_low": "Low EQ - Defensive and critical. Reacts negatively to Isha's independent planning and decision-making.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alejandro, could you please hang those lanterns over there by the entrance?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Sure, Isha. But don't you think they might look better by the stage?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I've actually visualized them by the entrance, it will create a warm welcome for our guests."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Ah, I see your point. Okay, by the entrance it is."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you, Alejandro. Once you're done with that, could you please start setting up the food tables?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, I'll get right on that."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alejandro, could you please hang those lanterns over there by the entrance?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/01.mp3",
+      "tone_description": "Speak assertively and clearly with a confident, independent tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Sure, Isha. But don't you think they might look better by the stage?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/02.mp3",
+      "tone_description": "Speak gently and suggestively, showcasing your supportive nature while maintaining a light, encouraging tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I've actually visualized them by the entrance, it will create a warm welcome for our guests.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/03.mp3",
+      "tone_description": "Speak assertively and confidently, emphasizing the strategic placement of the lanterns."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Ah, I see your point. Okay, by the entrance it is.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/04.mp3",
+      "tone_description": "Speak in a warm, encouraging tone, with a touch of enthusiasm."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Ah, I see your point. Okay, by the entrance it is.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/05.mp3",
+      "tone_description": "Speak in a harsh, critical tone, sounding slightly annoyed and defensive."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you, Alejandro. Once you're done with that, could you please start setting up the food tables?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/06.mp3",
+      "tone_description": "Speak clearly and assertively, expressing gratitude and confidence in your instructions."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, I'll get right on that.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/07.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, expressing sincere eagerness to help."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, I'll get right on that.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c/audio/08.mp3",
+      "tone_description": "Respond defensively with a sharp tone, laced with skepticism and annoyance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_214703",
+    "dataset_id": "20251208_214703_000023_5c112a6c",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/1208_600/self_expression_independence/20251208_214703_000023_5c112a6c",
+    "audio_files_count": 8
+  }
+}

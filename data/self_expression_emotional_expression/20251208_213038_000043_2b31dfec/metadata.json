@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Rainy Day at the Farmers Market",
+    "context": "A rainy Saturday morning at the local farmers market",
+    "description": "Nina, a cheesemaker, and her best friend, Raj, who is a baker, have stalls next to each other at the local farmers market. It has been raining heavily and market footfall is significantly low. Raj is feeling down due to the low sales. Nina notices his low spirits and tries to uplift him.",
+    "speaker1_name": "Nina",
+    "speaker1_role": "Cheesemaker and best friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Observant, sensitive, empathetic, expressive, positive",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Raj",
+    "speaker2_role": "Baker and best friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Optimistic, understanding, calm, expressive",
+    "speaker2_persona_2": "Low EQ - Pessimistic, defensive, unexpressive",
+    "speaker2_persona_3": "Low EQ - Anxious, irritated, non-expressive",
+    "speaker2_persona_high": "High EQ - Optimistic, understanding, calm, expressive",
+    "speaker2_persona_low": "Low EQ - Anxious, irritated, non-expressive",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Raj, you seem a bit off today. Is it because of the weather dampening our sales?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, Nina. This rain has really put a damper on things. Barely sold any bread today."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I know it's disheartening, but remember how we bounced back last time it rained? We even had a rush for your sourdough!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, Nina. I suppose it's just hard not to feel down when you're staring at all these unsold loaves."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I get it, Raj. But hey, let's make the best of it. How about some bread and cheese for lunch?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That sounds like a plan, Nina. Let's turn this rainy day into a picnic!"
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Raj, you seem a bit off today. Is it because of the weather dampening our sales?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/01.mp3",
+      "tone_description": "Express your concern gently and empathetically with a touch of optimism."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, Nina. This rain has really put a damper on things. Barely sold any bread today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/02.mp3",
+      "tone_description": "Speak in an understanding and expressive tone, with a hint of optimism despite the situation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I know it's disheartening, but remember how we bounced back last time it rained? We even had a rush for your sourdough!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/03.mp3",
+      "tone_description": "Speak empathetically and expressively, with a tone of positive reassurance."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, Nina. I suppose it's just hard not to feel down when you're staring at all these unsold loaves.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/04.mp3",
+      "tone_description": "Speak warmly and reassuringly, assuring Nina with a gentle, understanding tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, Nina. I suppose it's just hard not to feel down when you're staring at all these unsold loaves.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/05.mp3",
+      "tone_description": "Speak rapidly and irritably, expressing your frustration and anxiety."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I get it, Raj. But hey, let's make the best of it. How about some bread and cheese for lunch?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/06.mp3",
+      "tone_description": "Speak in a comforting, empathetic tone, while maintaining a positive and expressive energy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds like a plan, Nina. Let's turn this rainy day into a picnic!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/07.mp3",
+      "tone_description": "Speak with a warm, expressive tone and a touch of optimism, suggesting a fun, shared experience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds like a plan, Nina. Let's turn this rainy day into a picnic!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec/audio/08.mp3",
+      "tone_description": "Speak with a quick, anxious pace, a hint of irritation in your voice, as if you're already anticipating problems."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213038",
+    "dataset_id": "20251208_213038_000043_2b31dfec",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000043_2b31dfec",
+    "audio_files_count": 8
+  }
+}

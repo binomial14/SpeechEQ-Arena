@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Change at the Community Center",
+    "context": "Community Center, late afternoon, people are setting up for an evening event, the sound of volunteers moving furniture, laughter and chatter fill the room.",
+    "description": "Chloe, a community center manager, is talking to her colleague, Raj, about significant changes in their roles due to a new management decision. Chloe is content with her job and struggles to see the need for change, while Raj is excited about the new opportunities.",
+    "speaker1_name": "Chloe",
+    "speaker1_role": "Community Center Manager",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Content, resistant to change, focused on routine and stability, somewhat anxious about the unknown.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Raj",
+    "speaker2_role": "Community Center Assistant Manager",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Embraces change, sees opportunities for growth in every situation, empathetic and understanding towards Chloe's concerns.",
+    "speaker2_persona_2": "Low EQ - Excited about change, dismissive of Chloe's concerns, overly optimistic without considering potential pitfalls.",
+    "speaker2_persona_3": "Low EQ - Anxious and reactive towards change, easily frustrated by Chloe's resistance, struggles to empathize with her perspective.",
+    "speaker2_persona_high": "High EQ - Embraces change, sees opportunities for growth in every situation, empathetic and understanding towards Chloe's concerns.",
+    "speaker2_persona_low": "Low EQ - Anxious and reactive towards change, easily frustrated by Chloe's resistance, struggles to empathize with her perspective.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't wrap my head around why they'd want to shake things up now, everything's been running so smoothly."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I get what you're saying, Chloe. But, these changes could bring fresh ideas and energy into our roles."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But I like my job as it is, Raj. I don't want to deal with the unknown."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Change can be scary, Chloe. But it also opens doors to new opportunities. We could learn and grow in ways we haven't imagined."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're always so optimistic, Raj, but I'm still not sure..."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's okay, Chloe. It's normal to feel unsure. Let's take it one step at a time together, shall we?"
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't wrap my head around why they'd want to shake things up now, everything's been running so smoothly.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/01.mp3",
+      "tone_description": "Speak cautiously and slowly, with a tone of confusion and mild anxiety."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I get what you're saying, Chloe. But, these changes could bring fresh ideas and energy into our roles.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/02.mp3",
+      "tone_description": "Speak calmly and empathetically, infusing optimism and understanding into your tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But I like my job as it is, Raj. I don't want to deal with the unknown.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/03.mp3",
+      "tone_description": "Speak in a steady, content tone, hinting at anxiety towards the end."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Change can be scary, Chloe. But it also opens doors to new opportunities. We could learn and grow in ways we haven't imagined.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/04.mp3",
+      "tone_description": "Speak gently and reassuringly, with empathy and a hint of excitement for the potential growth."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Change can be scary, Chloe. But it also opens doors to new opportunities. We could learn and grow in ways we haven't imagined.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/05.mp3",
+      "tone_description": "Speak in a reactive and tense manner, displaying clear frustration and anxiety towards Chloe's resistance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're always so optimistic, Raj, but I'm still not sure...",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/06.mp3",
+      "tone_description": "Speak in a steady, slightly anxious tone, showing your hesitation and resistance to change."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's okay, Chloe. It's normal to feel unsure. Let's take it one step at a time together, shall we?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/07.mp3",
+      "tone_description": "Speak with a calm and soothing tone, gently encouraging Chloe with empathy and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's okay, Chloe. It's normal to feel unsure. Let's take it one step at a time together, shall we?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7/audio/08.mp3",
+      "tone_description": "Speak with a tense and impatient tone, the reassurances sounding more like hurried instructions."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211223",
+    "dataset_id": "20251208_211223_000057_c065dff7",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/1208_600/self_perception_self_actualization/20251208_211223_000057_c065dff7",
+    "audio_files_count": 8
+  }
+}

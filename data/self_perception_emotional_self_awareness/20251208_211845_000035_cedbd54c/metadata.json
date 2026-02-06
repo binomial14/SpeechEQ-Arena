@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Canine Conflict at the Community Park",
+    "context": "A sunny afternoon at the community park. The rustling leaves, laughter of children playing and distant barking of dogs create a vibrant ambiance. Two people are having a conversation near the dog park section, under the shade of a large maple tree.",
+    "description": "Soraya, a regular at the park, is having an uncomfortable conversation with Bryan, a newcomer. Bryan's dog has been causing trouble by chasing and scaring other dogs, and Soraya is trying to address the issue.",
+    "speaker1_name": "Soraya",
+    "speaker1_role": "Regular park visitor",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, empathetic, and assertive. She is a regular at the community park and is invested in maintaining a peaceful environment there. She is mindful of her tone and emotions while addressing uncomfortable situations.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Bryan",
+    "speaker2_role": "New park visitor",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Bryan is open to feedback, understanding, and acknowledges his dog\u2019s behavior. He manages to stay composed and receptive throughout the conversation, showing concern for the distress caused to others.",
+    "speaker2_persona_2": "Low EQ - Bryan gets defensive and dismissive. He reacts sharply, blaming other dogs for the issue and refusing to accept any responsibility for his dog's behavior.",
+    "speaker2_persona_3": "Low EQ - Bryan responds with a high level of irritation and annoyance. He doesn't believe his dog is at fault and is bothered by Soraya\u2019s attempt to discuss the matter.",
+    "speaker2_persona_high": "High EQ - Bryan is open to feedback, understanding, and acknowledges his dog\u2019s behavior. He manages to stay composed and receptive throughout the conversation, showing concern for the distress caused to others.",
+    "speaker2_persona_low": "Low EQ - Bryan gets defensive and dismissive. He reacts sharply, blaming other dogs for the issue and refusing to accept any responsibility for his dog's behavior.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hi Bryan, I've noticed your dog, Rocky, is pretty energetic today."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, he's a lively one isn't he? He loves to run around and play with other dogs."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes, but it seems like his playfulness is getting a bit too much for some of the smaller dogs here. They seem rather scared."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "You're right, I haven't really noticed that. Maybe I should keep a closer eye on him."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That would be wonderful, Bryan. The park is for everyone to enjoy, after all."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, I'll make sure Rocky behaves better next time. Thanks for letting me know, Soraya."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hi Bryan, I've noticed your dog, Rocky, is pretty energetic today.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/01.mp3",
+      "tone_description": "Speak with a calm and empathetic tone, assertively addressing the situation."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, he's a lively one isn't he? He loves to run around and play with other dogs.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/02.mp3",
+      "tone_description": "Speak in a calm, understanding tone, acknowledging Rocky's energy with a hint of pride."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes, but it seems like his playfulness is getting a bit too much for some of the smaller dogs here. They seem rather scared.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/03.mp3",
+      "tone_description": "Speak in a gentle, empathetic tone, but maintain assertive firmness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, I haven't really noticed that. Maybe I should keep a closer eye on him.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/04.mp3",
+      "tone_description": "Speak warmly and genuinely, with a thoughtful and considerate tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "You're right, I haven't really noticed that. Maybe I should keep a closer eye on him.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/05.mp3",
+      "tone_description": "[scoff] Speak defensively and with a dismissive, quick tone, showing a lack of concern."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That would be wonderful, Bryan. The park is for everyone to enjoy, after all.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/06.mp3",
+      "tone_description": "Speak calmly and empathetically, asserting your point with a gentle, confident tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, I'll make sure Rocky behaves better next time. Thanks for letting me know, Soraya.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/07.mp3",
+      "tone_description": "Speak gently and sincerely, showing a genuine concern and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, I'll make sure Rocky behaves better next time. Thanks for letting me know, Soraya.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c/audio/08.mp3",
+      "tone_description": "[Defensive chuckle] Speak in a dismissive and sharp tone, expressing annoyance and disbelief."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211845",
+    "dataset_id": "20251208_211845_000035_cedbd54c",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211845_000035_cedbd54c",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Orchestra Rehearsal Changes",
+    "context": "Saturday afternoon, in a spacious, brightly lit rehearsal room at the local community center. The room buzzes with the sounds of tuning instruments, shuffling sheet music, and light chatter among the orchestra members.",
+    "description": "The community orchestra was about to start their regular rehearsal when a sudden power outage in the building affected the electronic equipment, including the PA system and some of the musicians' instruments. The conductor, Josef, has to quickly adapt and reorganize the rehearsal.",
+    "speaker1_name": "Josef",
+    "speaker1_role": "Community Orchestra Conductor",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, confident, and composed, with a knack for problem-solving. He is an experienced conductor who is comfortable with unexpected challenges and can think on his feet.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Nadia",
+    "speaker2_role": "Orchestra Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Emotionally intelligent, cool-headed, and supportive. She appreciates Josef's leadership and is ready to adapt to the sudden change.",
+    "speaker2_persona_2": "Low EQ - Emotionally reactive, defensive, and resistant to change. She is frustrated by the sudden change and shows it in her tone.",
+    "speaker2_persona_3": "Low EQ - Emotionally reactive, anxious, and worried. She is overwhelmed by the sudden change and starts to panic.",
+    "speaker2_persona_high": "High EQ - Emotionally intelligent, cool-headed, and supportive. She appreciates Josef's leadership and is ready to adapt to the sudden change.",
+    "speaker2_persona_low": "Low EQ - Emotionally reactive, anxious, and worried. She is overwhelmed by the sudden change and starts to panic.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright everyone, I know this power outage is a curveball, but we're going to make the best of it. Let's focus on sections that are primarily acoustic."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "But Josef, my electronic violin won't work without power, how am I supposed to rehearse?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand your concern. Let's have you shadow the first violinist's part for now. You can focus on techniques and dynamics."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Okay, I guess that could work. I just hope the power comes back soon."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I hope so too. But until then, let's make the most of what we have. You'll be surprised by how much we can still accomplish."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, Josef. Let's do this!"
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright everyone, I know this power outage is a curveball, but we're going to make the best of it. Let's focus on sections that are primarily acoustic.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/01.mp3",
+      "tone_description": "Speak in a calm, confident tone, with a hint of creative problem-solving enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "But Josef, my electronic violin won't work without power, how am I supposed to rehearse?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/02.mp3",
+      "tone_description": "Speak with a calm, adaptive tone, expressing concern yet readiness to adjust to the situation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand your concern. Let's have you shadow the first violinist's part for now. You can focus on techniques and dynamics.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/03.mp3",
+      "tone_description": "Speak in a reassuring and composed manner, highlighting the solution with confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Okay, I guess that could work. I just hope the power comes back soon.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/04.mp3",
+      "tone_description": "Speak with a calm, steady voice, exuding reassurance and a sense of adaptability."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Okay, I guess that could work. I just hope the power comes back soon.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/05.mp3",
+      "tone_description": "Speak quickly and nervously, emphasizing your overwhelming anxiety and worry."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I hope so too. But until then, let's make the most of what we have. You'll be surprised by how much we can still accomplish.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/06.mp3",
+      "tone_description": "Speak reassuringly and with a steady, confident pace, highlighting the hope in the situation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Josef. Let's do this!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/07.mp3",
+      "tone_description": "Speak with calm assurance, emphasizing your agreement and readiness in a supportive manner."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Josef. Let's do this!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255/audio/08.mp3",
+      "tone_description": "Speak dismissively, with your words carrying a hint of sarcasm and underlying frustration."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_225600",
+    "dataset_id": "20251208_225600_000030_b9ca7255",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_600/stress_management_flexibility/20251208_225600_000030_b9ca7255",
+    "audio_files_count": 8
+  }
+}

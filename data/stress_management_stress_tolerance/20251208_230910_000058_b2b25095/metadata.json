@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Misplaced Manuscript",
+    "context": "A public library on a rainy afternoon, the sound of soft raindrops hitting the windows and the faint rustle of book pages turning.",
+    "description": "Rhys, an experienced librarian, discovers that an important manuscript donated by a local author for a community event has been misplaced. He communicates the situation to Blaire, the library's director.",
+    "speaker1_name": "Rhys",
+    "speaker1_role": "Librarian",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, communicative, and solution-oriented, Rhys is able to effectively manage stress and clearly communicate problems.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Blaire",
+    "speaker2_role": "Library Director",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Blaire remains calm under pressure, listens attentively, and focuses on solutions rather than blaming others.",
+    "speaker2_persona_2": "Low EQ - Blaire responds defensively, blames Rhys for the situation, and reacts with anger and frustration.",
+    "speaker2_persona_3": "Low EQ - Blaire becomes overly anxious, focuses on the negative implications of the situation, and struggles to find a productive solution.",
+    "speaker2_persona_high": "High EQ - Blaire remains calm under pressure, listens attentively, and focuses on solutions rather than blaming others.",
+    "speaker2_persona_low": "Low EQ - Blaire responds defensively, blames Rhys for the situation, and reacts with anger and frustration.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Blaire, I'm afraid we have a bit of a situation. The manuscript donated by Mrs. Thompson for the community event seems to be misplaced."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh no, that's not good. The event is only a few days away!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes, I understand. I've already initiated a search in the library. We should be able to locate it soon."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alright, Rhys. I trust your judgment. Please do everything you can to find it."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely, Blaire. I'll keep you updated on the progress."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thank you, Rhys. I'll let Mrs. Thompson know there might be a slight delay, but assure her we're doing all we can."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Blaire, I'm afraid we have a bit of a situation. The manuscript donated by Mrs. Thompson for the community event seems to be misplaced.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/01.mp3",
+      "tone_description": "Speak in a calm, clear manner, conveying the seriousness of the situation without causing panic."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh no, that's not good. The event is only a few days away!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/02.mp3",
+      "tone_description": "Speak in a calm, solution-focused tone, exhibiting confidence and composure."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes, I understand. I've already initiated a search in the library. We should be able to locate it soon.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/03.mp3",
+      "tone_description": "Speak in a steady, calm tone, expressing confidence and clear communication."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, Rhys. I trust your judgment. Please do everything you can to find it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/04.mp3",
+      "tone_description": "Speak with a calm, steady pace and a warm, trusting tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alright, Rhys. I trust your judgment. Please do everything you can to find it.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/05.mp3",
+      "tone_description": "Speak with a sharp, accusatory tone, as if blaming Rhys for the situation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely, Blaire. I'll keep you updated on the progress.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/06.mp3",
+      "tone_description": "Speak calmly and confidently, communicating the update with a solution-oriented tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thank you, Rhys. I'll let Mrs. Thompson know there might be a slight delay, but assure her we're doing all we can.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/07.mp3",
+      "tone_description": "Speak in a calm, confident tone, conveying reassurance and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thank you, Rhys. I'll let Mrs. Thompson know there might be a slight delay, but assure her we're doing all we can.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095/audio/08.mp3",
+      "tone_description": "Speak with a high-pitched, anxious tone, emphasizing the severity of the delay."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230910",
+    "dataset_id": "20251208_230910_000058_b2b25095",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_230910_000058_b2b25095",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Dilemma",
+    "context": "At a local community center in a small town, where a meeting between two committee members is taking place.",
+    "description": "The community center is facing budget cuts and needs to decide whether to close the children\u2019s library or the senior\u2019s computer lab. The meeting is held during a typical weekday afternoon, with soft murmurs from the center's activities filling the background. The sun is setting outside, casting a warm glow through the window onto the wooden meeting table scattered with budget papers and coffee mugs.",
+    "speaker1_name": "Charlie",
+    "speaker1_role": "Committee Member",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Charlie is a thoughtful, patient and empathetic individual. He tends to bring calming energy to the room, and always makes an effort to understand and validate others' perspectives.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Olivia",
+    "speaker2_role": "Committee Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Olivia is a confident, respectful individual who listens actively and appreciates different viewpoints. She is solution-oriented and tends to make decisions based on logical reasoning and consideration of everyone's needs.",
+    "speaker2_persona_2": "Olivia is a quick-tempered, impatient person who tends to be dismissive of alternative viewpoints. She gets defensive easily and tends to make decisions impulsively, based on her own preferences and biases.",
+    "speaker2_persona_3": "Olivia is an anxious, indecisive person who struggles to make tough decisions. She tends to be overwhelmed by complex problems and has difficulty focusing on solutions. She often avoids confrontation and is unable to express her thoughts clearly.",
+    "speaker2_persona_high": "Olivia is a confident, respectful individual who listens actively and appreciates different viewpoints. She is solution-oriented and tends to make decisions based on logical reasoning and consideration of everyone's needs.",
+    "speaker2_persona_low": "Olivia is a quick-tempered, impatient person who tends to be dismissive of alternative viewpoints. She gets defensive easily and tends to make decisions impulsively, based on her own preferences and biases.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Well, this is a hard one. The children\u2019s library and the senior\u2019s computer lab are both essential."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yes, they are. But we can't ignore the budget cuts. We need to make a decision."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Let's look at the usage data again. Which one is more frequently used?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, the data shows the library is more frequently used but... what if we're just going to hurt the seniors who really rely on the computer lab?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I see your point. Maybe we could find a way to continue the computer lab activities in a smaller scale?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That might work. We could perhaps use a part of the library for the lab activities during certain hours."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Well, this is a hard one. The children\u2019s library and the senior\u2019s computer lab are both essential.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/01.mp3",
+      "tone_description": "Speak thoughtfully and patiently, imparting a sense of calm understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yes, they are. But we can't ignore the budget cuts. We need to make a decision.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/02.mp3",
+      "tone_description": "Speak firmly and respectfully, emphasizing the need for decision-making."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Let's look at the usage data again. Which one is more frequently used?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/03.mp3",
+      "tone_description": "Speak in a contemplative manner, with a calm, patient tone, showing empathy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, the data shows the library is more frequently used but... what if we're just going to hurt the seniors who really rely on the computer lab?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/04.mp3",
+      "tone_description": "Speak with a steady, thoughtful tone, asking the question with respectful curiosity and concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, the data shows the library is more frequently used but... what if we're just going to hurt the seniors who really rely on the computer lab?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/05.mp3",
+      "tone_description": "Speak hastily and dismissively, with a hint of annoyance and impatience in your voice."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I see your point. Maybe we could find a way to continue the computer lab activities in a smaller scale?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/06.mp3",
+      "tone_description": "Speak in a gentle, understanding tone, suggesting the idea at a relaxed pace."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That might work. We could perhaps use a part of the library for the lab activities during certain hours.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/07.mp3",
+      "tone_description": "Speak confidently and respectfully, with a measured pace and a solution-oriented mindset."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That might work. We could perhaps use a part of the library for the lab activities during certain hours.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448/audio/08.mp3",
+      "tone_description": "Speak fast and defensively, dismiss any alternative viewpoints with a hint of impatience."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222246",
+    "dataset_id": "20251208_222246_000001_eb610448",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_222246_000001_eb610448",
+    "audio_files_count": 8
+  }
+}

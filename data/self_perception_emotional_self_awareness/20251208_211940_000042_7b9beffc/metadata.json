@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Farmers Market Miscommunication",
+    "context": "A bustling farmers market on a sunny Saturday morning. Birds are chirping, children are running around, and vendors are calling out to potential customers. The scent of fresh produce and baked goods fill the air.",
+    "description": "Liam, a vendor selling homemade candles, is approached by his neighboring vendor, Elena, about a conflict regarding their shared space.",
+    "speaker1_name": "Liam",
+    "speaker1_role": "Farmers market vendor",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Patient, calm, and understanding. He's aware of his emotions and handles difficult situations with grace.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Elena",
+    "speaker2_role": "Neighboring vendor",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - She approaches Liam with a composed demeanor, clearly articulates her concerns, and offers a solution that would benefit both parties.",
+    "speaker2_persona_2": "Low EQ - She confronts Liam defensively, immediately blaming him for the issue without considering the possibility of a miscommunication or seeking a peaceful resolution.",
+    "speaker2_persona_3": "Low EQ - She becomes highly emotional, overwhelmed by the situation and unable to communicate her concerns effectively due to her heightened state of distress.",
+    "speaker2_persona_high": "High EQ - She approaches Liam with a composed demeanor, clearly articulates her concerns, and offers a solution that would benefit both parties.",
+    "speaker2_persona_low": "Low EQ - She confronts Liam defensively, immediately blaming him for the issue without considering the possibility of a miscommunication or seeking a peaceful resolution.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Elena, you seem a bit tense this morning. Is there something on your mind?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Liam, I think your candles are taking up more space than they should. It's crowding my area."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I see, I didn't realize it was causing an issue. I was trying to display them all so customers could see the variety."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand, but we have to share this space fairly. Maybe we can come up with a better arrangement?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's a good point, Elena. Let's work out a way to display our products without encroaching on each other's space."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks, Liam. I appreciate your understanding and willingness to compromise."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Elena, you seem a bit tense this morning. Is there something on your mind?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/01.mp3",
+      "tone_description": "Speak in a soft, patient tone, exuding calm understanding and gentle concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Liam, I think your candles are taking up more space than they should. It's crowding my area.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/02.mp3",
+      "tone_description": "Speak calmly and sincerely, expressing your concern in a respectful and composed manner."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I see, I didn't realize it was causing an issue. I was trying to display them all so customers could see the variety.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/03.mp3",
+      "tone_description": "Speak in a calm and understanding tone, with a touch of sincerity and patience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, but we have to share this space fairly. Maybe we can come up with a better arrangement?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/04.mp3",
+      "tone_description": "Speak calmly, articulating each word with a composed, patient, and understanding tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, but we have to share this space fairly. Maybe we can come up with a better arrangement?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/05.mp3",
+      "tone_description": "Speak defensively and accusingly, with a harsh tone and a hint of blame."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's a good point, Elena. Let's work out a way to display our products without encroaching on each other's space.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/06.mp3",
+      "tone_description": "Speak in a calm, patient tone, suggesting a solution without sounding confrontational."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Liam. I appreciate your understanding and willingness to compromise.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/07.mp3",
+      "tone_description": "Speak with a calm, steady pace, exuding warmth and sincere gratitude."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Liam. I appreciate your understanding and willingness to compromise.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc/audio/08.mp3",
+      "tone_description": "Speak in a sarcastic, confrontational tone, with a harsh undertone of blame."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211940",
+    "dataset_id": "20251208_211940_000042_7b9beffc",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211940_000042_7b9beffc",
+    "audio_files_count": 8
+  }
+}

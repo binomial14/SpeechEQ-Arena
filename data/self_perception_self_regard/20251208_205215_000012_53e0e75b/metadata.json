@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Center Mural",
+    "context": "A community center in a small town",
+    "description": "A large community center in a rural town has decided to hold a contest where local artists can submit designs for a mural to be painted on the exterior wall. The community center director, Jenna, has asked Frank, a respected local artist, to be part of the judging panel. Frank, who has always been self-conscious about his own work, is hesitant about judging others.",
+    "speaker1_name": "Jenna",
+    "speaker1_role": "Community Center Director",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Jenna is confident, enthusiastic, and always looking to bring out the best in people. She is empathetic and has a high EQ, understanding the emotions of others and responding accordingly.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Frank",
+    "speaker2_role": "Local Artist",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ: Frank is humble and modest about his abilities. Despite his self-consciousness, he is willing to step out of his comfort zone for the benefit of the community. He values the opportunity to contribute and acknowledges his own worth.",
+    "speaker2_persona_2": "Low EQ: Frank is insecure and overly self-critical. He is reluctant to participate in the judging panel, allowing his low self-regard to overshadow the recognition of his talent and expertise by others.",
+    "speaker2_persona_3": "Low EQ: Frank is dismissive and defensive, responding with negativity to the suggestion of being a judge. He belittles his own skills and fails to recognize his contribution to the local art scene.",
+    "speaker2_persona_high": "High EQ: Frank is humble and modest about his abilities. Despite his self-consciousness, he is willing to step out of his comfort zone for the benefit of the community. He values the opportunity to contribute and acknowledges his own worth.",
+    "speaker2_persona_low": "Low EQ: Frank is dismissive and defensive, responding with negativity to the suggestion of being a judge. He belittles his own skills and fails to recognize his contribution to the local art scene.",
+    "speaker2_voice": "ash",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Frank, we'd really value your artistic insight on the judging panel for the mural competition."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I appreciate the offer, Jenna, but I'm not sure I'm the best person for this. I've always been more of a creator than a critic."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Frank, your work is highly respected in this town. Your input would be invaluable to our artists."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, if you think it could really help, I'll give it a shot. But I might need some guidance."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely, Frank. I'll be there every step of the way. Thank you for agreeing to do this."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Alright. Let's hope I can do this justice."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Frank, we'd really value your artistic insight on the judging panel for the mural competition.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/01.mp3",
+      "tone_description": "Speak enthusiastically and warmly, expressing genuine appreciation for Frank's artistic expertise."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I appreciate the offer, Jenna, but I'm not sure I'm the best person for this. I've always been more of a creator than a critic.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/02.mp3",
+      "tone_description": "Speak humbly and appreciatively, with a tone of modest uncertainty."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Frank, your work is highly respected in this town. Your input would be invaluable to our artists.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/03.mp3",
+      "tone_description": "Speak with a sincere, warm tone, highlighting your appreciation and confidence in Frank's abilities."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, if you think it could really help, I'll give it a shot. But I might need some guidance.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/04.mp3",
+      "tone_description": "Speak gently and gratefully, exuding modesty and a warm willingness to help."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, if you think it could really help, I'll give it a shot. But I might need some guidance.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/05.mp3",
+      "tone_description": "Speak dismissively with a defensive edge, belittling oneself with a sarcastic undertone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely, Frank. I'll be there every step of the way. Thank you for agreeing to do this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/06.mp3",
+      "tone_description": "Speak with heartfelt gratitude and confidence, assuring Frank of your unwavering support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright. Let's hope I can do this justice.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/07.mp3",
+      "tone_description": "Speak earnestly and humbly, with a warm and hopeful undertone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright. Let's hope I can do this justice.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b/audio/08.mp3",
+      "tone_description": "Speak with a dismissive and defensive tone, laced with a hint of sarcasm."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205215",
+    "dataset_id": "20251208_205215_000012_53e0e75b",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205215_000012_53e0e75b",
+    "audio_files_count": 8
+  }
+}

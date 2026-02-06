@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Planning the Neighborhood Clean-up",
+    "context": "A sunny Saturday morning in a local community park",
+    "description": "A group of community members have gathered to plan and organize a neighborhood clean-up day. Speaker 1, the president of the neighborhood association, is leading the meeting. He is discussing with Speaker 2, a community member, about the plans and responsibilities for the clean-up day.",
+    "speaker1_name": "George",
+    "speaker1_role": "President of the neighborhood association",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "George is patient, calm, and always looking out for the best interests of the community. He values everyone's input and is dedicated to fostering a sense of unity and responsibility in the neighborhood.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Linda",
+    "speaker2_role": "Community member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Linda is an engaged, active member of the community who values social responsibility. She is willing to contribute her time and resources to community initiatives and is respectful and considerate of others' ideas.",
+    "speaker2_persona_2": "Linda is a community member who tends to be dismissive and uninterested in community initiatives. She is often defensive when asked to contribute to community events, and prefers to keep to herself.",
+    "speaker2_persona_3": "Linda is a community member who often complains about the state of the neighborhood but is unwilling to contribute to improvement efforts. She is quick to criticize others' ideas and often becomes irritated or angry if asked to participate.",
+    "speaker2_persona_high": "Linda is an engaged, active member of the community who values social responsibility. She is willing to contribute her time and resources to community initiatives and is respectful and considerate of others' ideas.",
+    "speaker2_persona_low": "Linda is a community member who often complains about the state of the neighborhood but is unwilling to contribute to improvement efforts. She is quick to criticize others' ideas and often becomes irritated or angry if asked to participate.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alright folks, we're planning to clean up the neighborhood next Sunday. We'll need volunteers for different tasks. Any suggestions?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I could help organize the recycling. We need to make sure we're not just moving trash around."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's a great idea! It's crucial that we're environmentally responsible in this process. What do you need for that?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, I'll need some help sorting the recycling and a few extra bins. And maybe someone with a truck to haul it all away."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Sounds doable. I'll put a call out for volunteers and see if we can find someone with a truck. Anything else?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "No, that should be enough. Thanks for arranging all of this, it's going to make a big difference."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alright folks, we're planning to clean up the neighborhood next Sunday. We'll need volunteers for different tasks. Any suggestions?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/01.mp3",
+      "tone_description": "Speak in a patient and calm manner, inviting suggestions with a tone of unity and responsibility."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I could help organize the recycling. We need to make sure we're not just moving trash around.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/02.mp3",
+      "tone_description": "Speak with a clear, assertive, and responsible tone, emphasizing the importance of proper recycling."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's a great idea! It's crucial that we're environmentally responsible in this process. What do you need for that?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/03.mp3",
+      "tone_description": "Speak in a patient and calm manner, highlighting your enthusiasm and responsibility towards the environment."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I'll need some help sorting the recycling and a few extra bins. And maybe someone with a truck to haul it all away.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/04.mp3",
+      "tone_description": "Speak with enthusiasm and warmth, highlighting the importance and willingness to contribute."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I'll need some help sorting the recycling and a few extra bins. And maybe someone with a truck to haul it all away.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/05.mp3",
+      "tone_description": "Speak with a sarcastic and dismissive tone, showing your lack of interest and irritation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Sounds doable. I'll put a call out for volunteers and see if we can find someone with a truck. Anything else?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/06.mp3",
+      "tone_description": "Speak in a calm, reassuring manner, showing eagerness to help and foster unity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No, that should be enough. Thanks for arranging all of this, it's going to make a big difference.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/07.mp3",
+      "tone_description": "Speak with a warm, genuine tone, conveying gratitude and optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No, that should be enough. Thanks for arranging all of this, it's going to make a big difference.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde/audio/08.mp3",
+      "tone_description": "Speak in a sharp, irritable tone, with an underlying sense of criticism and reluctance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_154152",
+    "dataset_id": "20251208_154152_000042_90af5bde",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_300/interpersonal_social_responsibility/20251208_154152_000042_90af5bde",
+    "audio_files_count": 8
+  }
+}

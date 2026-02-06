@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unsettled Gym Partner",
+    "context": "Gym",
+    "description": "After a strenuous workout session at their local gym, John and his gym partner, Alex, are cooling down. John notices that Alex seems unusually quiet and aloof.",
+    "speaker1_name": "John",
+    "speaker1_role": "Gym partner",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "John is generally perceptive and empathetic. He's good at noticing changes in people's behavior and addressing them in a thoughtful and non-confrontational manner.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Gym partner",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Alex is aware of his emotions and can articulate them clearly. He's comfortable discussing his feelings and understands the value in doing so.",
+    "speaker2_persona_2": "Low EQ - Alex struggles to identify and articulate his feelings. He's uncomfortable discussing his emotions, and often defaults to denial or deflection when confronted about them.",
+    "speaker2_persona_3": "Low EQ - Alex is quick to anger and often reacts defensively when his emotional state is questioned. He struggles with emotional self-awareness and prefers to avoid discussing his feelings.",
+    "speaker2_persona_high": "High EQ - Alex is aware of his emotions and can articulate them clearly. He's comfortable discussing his feelings and understands the value in doing so.",
+    "speaker2_persona_low": "Low EQ - Alex is quick to anger and often reacts defensively when his emotional state is questioned. He struggles with emotional self-awareness and prefers to avoid discussing his feelings.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "You've been pretty quiet today, Alex, anything on your mind?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Nah, it's nothing, just a bit tired I guess."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Well, remember it's okay to take breaks if you need to. No need to overdo it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yeah, I know. But I've got to keep pushing, right?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Sure, but remember your wellbeing comes first. Is this about the upcoming competition?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, it is. Just feeling a bit overwhelmed with it all."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "You've been pretty quiet today, Alex, anything on your mind?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/01.mp3",
+      "tone_description": "Speak gently and empathetically, with a tone of genuine concern and interest."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Nah, it's nothing, just a bit tired I guess.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/02.mp3",
+      "tone_description": "Speak calmly and sincerely, with a touch of fatigue in your tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Well, remember it's okay to take breaks if you need to. No need to overdo it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/03.mp3",
+      "tone_description": "Speak gently and reassuringly, with a tone of understanding and empathy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, I know. But I've got to keep pushing, right?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/04.mp3",
+      "tone_description": "Speak with a calm, introspective tone, gently acknowledging the struggle."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yeah, I know. But I've got to keep pushing, right?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/05.mp3",
+      "tone_description": "Speak sharply, defensively, with an edge of anger in your voice."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Sure, but remember your wellbeing comes first. Is this about the upcoming competition?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/06.mp3",
+      "tone_description": "Speak with a gentle, empathetic tone, offering reassurance but also expressing concern."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, it is. Just feeling a bit overwhelmed with it all.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/07.mp3",
+      "tone_description": "Speak with a calm and open tone, articulating each word to convey your emotional awareness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, it is. Just feeling a bit overwhelmed with it all.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b/audio/08.mp3",
+      "tone_description": "Speak with a sharp, frustrated tone, reacting defensively when questioned about your emotional state."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211439",
+    "dataset_id": "20251208_211439_000004_1fa6ae0b",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211439_000004_1fa6ae0b",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Navigating a Misunderstanding at the Farmers Market",
+    "context": "Saturday morning at a bustling local farmers market filled with vendors selling fresh produce, homemade crafts, and artisanal foods.",
+    "description": "Kiran, a vendor selling homemade candles, has an encounter with a fellow vendor, Mei, who mistakenly believed Kiran had encroached on her space. Kiran navigates the misunderstanding while keeping aware of his emotions.",
+    "speaker1_name": "Kiran",
+    "speaker1_role": "Farmers Market Vendor (Candle Maker)",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Kiran is calm, empathetic, patient, and has a high emotional self-awareness. He is mindful of his emotions and how they can affect his interactions.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Mei",
+    "speaker2_role": "Farmers Market Vendor (Bakery Owner)",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Mei is confident, assertive, but also understanding and open to resolving conflicts. She is able to express her frustrations but is also ready to listen and empathize with others.",
+    "speaker2_persona_2": "Low EQ - Mei is quick to anger and defensive. She has a hard time regulating her emotions and often lets her frustration dictate her actions and reactions.",
+    "speaker2_persona_3": "Low EQ - Mei is anxious and easily overwhelmed. She tends to overreact to situations and struggles to manage her emotions effectively.",
+    "speaker2_persona_high": "High EQ - Mei is confident, assertive, but also understanding and open to resolving conflicts. She is able to express her frustrations but is also ready to listen and empathize with others.",
+    "speaker2_persona_low": "Low EQ - Mei is quick to anger and defensive. She has a hard time regulating her emotions and often lets her frustration dictate her actions and reactions.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Mei, I noticed you seemed a bit upset earlier. Is everything okay?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Well, Kiran, it looked like your candles were creeping into my space earlier. I felt a bit invaded."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh, I didn't realize that. I thought I was within my designated area."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Maybe you didn't notice, but it made my products look cramped and it's not fair to me."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I'm really sorry, Mei. It wasn't my intention. I'll be more mindful of our shared boundaries in the future."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thank you, Kiran. I appreciate your understanding and cooperation."
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Mei, I noticed you seemed a bit upset earlier. Is everything okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/01.mp3",
+      "tone_description": "Speak gently and patiently, showcasing your empathetic and calm demeanor."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Well, Kiran, it looked like your candles were creeping into my space earlier. I felt a bit invaded.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/02.mp3",
+      "tone_description": "Speak assertively yet kindly, expressing your feelings without sounding confrontational."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh, I didn't realize that. I thought I was within my designated area.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/03.mp3",
+      "tone_description": "Speak with a soft, apologetic tone, expressing sincere understanding."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe you didn't notice, but it made my products look cramped and it's not fair to me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/04.mp3",
+      "tone_description": "Speak firmly but with an empathetic tone, showing your confidence and readiness for resolution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe you didn't notice, but it made my products look cramped and it's not fair to me.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/05.mp3",
+      "tone_description": "Speak in a quick, defensive manner, letting your frustration seep into your words."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I'm really sorry, Mei. It wasn't my intention. I'll be more mindful of our shared boundaries in the future.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/06.mp3",
+      "tone_description": "Speak with a calm, empathetic tone, expressing sincere regret and mindfulness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thank you, Kiran. I appreciate your understanding and cooperation.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/07.mp3",
+      "tone_description": "Speak firmly yet warmly, expressing gratitude and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thank you, Kiran. I appreciate your understanding and cooperation.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7/audio/08.mp3",
+      "tone_description": "Speak in a sharp, slightly defensive tone, with a hint of lingering frustration."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_211540",
+    "dataset_id": "20251208_211540_000015_4cf360e7",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "data/1208_600/self_perception_emotional_self_awareness/20251208_211540_000015_4cf360e7",
+    "audio_files_count": 8
+  }
+}

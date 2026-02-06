@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Farewell at the Farmer's Market",
+    "context": "Saturday morning at a bustling farmer's market. The air is filled with the scent of fresh produce, baked goods, and aromatic coffee. A local band is playing a lively tune in the background. The sky is cloudless and the sun is bright.",
+    "description": "During a routine visit to the farmer's market, childhood friends, Kiera and Preet, unexpectedly cross paths at the organic vegetables stall. Kiera, who just returned from a long trip abroad, shares the news that she has decided to move to another city permanently.",
+    "speaker1_name": "Kiera",
+    "speaker1_role": "Childhood friend who is planning to move away",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Open-hearted, sociable, and sensitive, Kiera is someone who values her relationships deeply. She has a knack for reading people's emotions and responding in an empathetic manner.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Preet",
+    "speaker2_role": "Childhood friend surprised by the news",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Preet is warm, understanding, and emotionally attuned. He is able to empathize with Kiera's decision and expresses his feelings in a supportive manner.",
+    "speaker2_persona_2": "Low EQ - Preet is prone to emotional reactivity and tends to express his feelings in a defensive manner. He struggles to empathize with Kiera's decision and reacts with frustration and disbelief.",
+    "speaker2_persona_3": "Low EQ - Preet tends to suppress his emotions, resulting in a detached and indifferent response. He avoids expressing his feelings and struggles to show empathy towards Kiera's decision.",
+    "speaker2_persona_high": "High EQ - Preet is warm, understanding, and emotionally attuned. He is able to empathize with Kiera's decision and expresses his feelings in a supportive manner.",
+    "speaker2_persona_low": "Low EQ - Preet is prone to emotional reactivity and tends to express his feelings in a defensive manner. He struggles to empathize with Kiera's decision and reacts with frustration and disbelief.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Preet, it's so good to see you! I've got some news, I've decided to move to Chicago permanently."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Wow, Kiera! That's... unexpected. I mean, it's great, but it's going to be different without you here."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I know, it's a big change. But I feel it's the right thing for me right now."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I'm really going to miss you, Kiera. But I'm happy for you if it's what you want."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you, Preet. I'm going to miss you too. But don't worry, we'll find ways to keep in touch."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Yeah, you're right. We'll make it work. Just promise me you'll come back to visit sometimes."
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Preet, it's so good to see you! I've got some news, I've decided to move to Chicago permanently.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/01.mp3",
+      "tone_description": "Speak with warm enthusiasm and a touch of excitement, conveying your deep emotional connection."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Wow, Kiera! That's... unexpected. I mean, it's great, but it's going to be different without you here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/02.mp3",
+      "tone_description": "Speak with a warm, understanding tone, expressing surprise and a hint of sadness."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I know, it's a big change. But I feel it's the right thing for me right now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/03.mp3",
+      "tone_description": "Speak sincerely and calmly, expressing your decision with gentle confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'm really going to miss you, Kiera. But I'm happy for you if it's what you want.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/04.mp3",
+      "tone_description": "Speak softly and warmly, conveying genuine understanding and empathy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I'm really going to miss you, Kiera. But I'm happy for you if it's what you want.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/05.mp3",
+      "tone_description": "Speak in a tense, defensive tone, betraying frustration and disbelief."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you, Preet. I'm going to miss you too. But don't worry, we'll find ways to keep in touch.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/06.mp3",
+      "tone_description": "Speak with a warm, sincere tone, and a hint of melancholy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, you're right. We'll make it work. Just promise me you'll come back to visit sometimes.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/07.mp3",
+      "tone_description": "Speak warmly and tenderly, with a soft, reassuring tone and a hint of sadness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Yeah, you're right. We'll make it work. Just promise me you'll come back to visit sometimes.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee/audio/08.mp3",
+      "tone_description": "Speak with a defensive, irritated tone, as though struggling to accept the situation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_220557",
+    "dataset_id": "20251208_220557_000015_093f0bee",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "data/1208_600/interpersonal_empathy/20251208_220557_000015_093f0bee",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "A Difficult Conversation at the Farmer's Market",
+    "context": "A bustling farmer's market on a sunny Saturday afternoon. The air is filled with the aroma of fresh produce, the chatter of shoppers, and the occasional crow of a rooster from the poultry section. The setting is a stall selling homemade honey and beeswax products.",
+    "description": "Speaker 1, Rafiq, the owner of a honey and beeswax products stall, has to discuss with Speaker 2, Nia, his employee, about her consistent tardiness which has been affecting the stall's operations.",
+    "speaker1_name": "Rafiq",
+    "speaker1_role": "Stall owner",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Rafiq is calm, understanding, and firmly believes in open communication. He is emotionally expressive and is not afraid to talk about his feelings and the impact of situations on him.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Nia",
+    "speaker2_role": "Employee",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ: Nia is receptive to feedback, understanding, and communicates her feelings effectively. She acknowledges her mistakes and makes a genuine attempt to improve.",
+    "speaker2_persona_2": "Low EQ - Defensive: Nia gets defensive when confronted, tends to shift blame and avoids taking responsibility for her actions.",
+    "speaker2_persona_3": "Low EQ - Irritated: Nia is dismissive and irritated when confronted. She tends to respond with curt, sharp comments and shows little regard for others' feelings.",
+    "speaker2_persona_high": "High EQ: Nia is receptive to feedback, understanding, and communicates her feelings effectively. She acknowledges her mistakes and makes a genuine attempt to improve.",
+    "speaker2_persona_low": "Low EQ - Irritated: Nia is dismissive and irritated when confronted. She tends to respond with curt, sharp comments and shows little regard for others' feelings.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Nia, I've noticed that you've been coming in late quite frequently these past few weeks."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know, Rafiq, I'm sorry. I've been struggling with some personal issues lately."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand that we all have personal issues, but your tardiness is affecting the stall's operations. We're short-handed when you're not here on time."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I didn't realize how much my tardiness was affecting the stall. I'll work on being more punctual, I promise."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you, Nia. I appreciate your understanding and commitment to do better."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I appreciate your understanding too, Rafiq. I didn't mean to cause any inconvenience. I'll do my best."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Nia, I've noticed that you've been coming in late quite frequently these past few weeks.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/01.mp3",
+      "tone_description": "Speak calmly and firmly, yet expressively to highlight your concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know, Rafiq, I'm sorry. I've been struggling with some personal issues lately.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/02.mp3",
+      "tone_description": "Speak in a sincere and understanding tone, with a hint of regret."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand that we all have personal issues, but your tardiness is affecting the stall's operations. We're short-handed when you're not here on time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/03.mp3",
+      "tone_description": "Speak firmly but empathetically, showing understanding yet concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I didn't realize how much my tardiness was affecting the stall. I'll work on being more punctual, I promise.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/04.mp3",
+      "tone_description": "Speak softly and sincerely, with a tone of genuine remorse and commitment to improve."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I didn't realize how much my tardiness was affecting the stall. I'll work on being more punctual, I promise.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/05.mp3",
+      "tone_description": "Speak sharply and curtly, with palpable irritation and a dismissive snort."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you, Nia. I appreciate your understanding and commitment to do better.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/06.mp3",
+      "tone_description": "Express gratitude and understanding with a calm, firm, and sincere tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your understanding too, Rafiq. I didn't mean to cause any inconvenience. I'll do my best.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/07.mp3",
+      "tone_description": "Speak with a sincere, warm tone, expressing genuine regret and determination to improve."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I appreciate your understanding too, Rafiq. I didn't mean to cause any inconvenience. I'll do my best.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079/audio/08.mp3",
+      "tone_description": "Speak with a sharp, dismissive tone, showing annoyance about the perceived inconvenience."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213314",
+    "dataset_id": "20251208_213314_000060_b5591079",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_213314_000060_b5591079",
+    "audio_files_count": 8
+  }
+}

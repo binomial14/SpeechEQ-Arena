@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Failed Community Fundraiser",
+    "context": "Late afternoon at a community center, where a fundraising event has just ended with less success than anticipated.",
+    "description": "The annual community center fundraiser, organized by the center's director and a dedicated volunteer, did not meet its financial goal. They are now discussing the event's outcome and planning next steps.",
+    "speaker1_name": "Gabriel",
+    "speaker1_role": "Community Center Director",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Composed, open, and honest. Expresses his feelings in an appropriate and constructive manner.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Sophie",
+    "speaker2_role": "Dedicated Volunteer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Warm, understanding, and constructive. Expresses her feelings clearly and optimistically.",
+    "speaker2_persona_2": "Low EQ - Defensive and dismissive. Responds to Gabriel's feelings with sarcasm and defensiveness.",
+    "speaker2_persona_3": "Low EQ - Anxious and irritated. Responds to Gabriel's feelings with anxiety and frustration, failing to express her own feelings adequately.",
+    "speaker2_persona_high": "High EQ - Warm, understanding, and constructive. Expresses her feelings clearly and optimistically.",
+    "speaker2_persona_low": "Low EQ - Defensive and dismissive. Responds to Gabriel's feelings with sarcasm and defensiveness.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Well, this wasn't the result we were hoping for."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I was really hoping we'd hit our target this year."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Do you think we made a mistake with our approach?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Maybe, but we did our best with what we had. Let's not beat ourselves up."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, we can't change what's done. Let's start planning for next year."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, we'll learn from this and make next year's fundraiser a success."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Well, this wasn't the result we were hoping for.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/01.mp3",
+      "tone_description": "Speak calmly and honestly, with a slight hint of disappointment."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I was really hoping we'd hit our target this year.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/02.mp3",
+      "tone_description": "Speak with a warm, understanding tone, subtly expressing optimism and resilience."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Do you think we made a mistake with our approach?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/03.mp3",
+      "tone_description": "Express your question with calm composure, hinting at slight disappointment."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe, but we did our best with what we had. Let's not beat ourselves up.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/04.mp3",
+      "tone_description": "Speak with a gentle, optimistic tone, emphasizing understanding and encouragement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe, but we did our best with what we had. Let's not beat ourselves up.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/05.mp3",
+      "tone_description": "Speak defensively, with a dismissive and sarcastic edge, brushing off the concern."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, we can't change what's done. Let's start planning for next year.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/06.mp3",
+      "tone_description": "Speak in a calm, accepting tone, emphasizing a forward-thinking positivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we'll learn from this and make next year's fundraiser a success.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/07.mp3",
+      "tone_description": "Speak warmly and optimistically, infusing hope and constructive energy into your words."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, we'll learn from this and make next year's fundraiser a success.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a/audio/08.mp3",
+      "tone_description": "[Sarcastically] deliver the line with a dismissive and defensive tone, masking vulnerability."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213038",
+    "dataset_id": "20251208_213038_000044_5297643a",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_213038_000044_5297643a",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Setback at the Charity Run",
+    "context": "A public park during a charity fun run on a sunny Saturday afternoon",
+    "description": "The charity run is going well when suddenly, the main refreshment station collapses, causing chaos and confusion. Speaker 1 and Speaker 2, who are both volunteers at the event, are left to deal with the situation.",
+    "speaker1_name": "Amina",
+    "speaker1_role": "Event Coordinator",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Amina is always calm, composed, and optimistic. She is good at dealing with unexpected situations and always tries to see the bright side of things.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Ravi",
+    "speaker2_role": "Volunteer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Ravi is also optimistic and solution-oriented. He doesn\u2019t panic in stressful situations and always tries to find the silver lining.",
+    "speaker2_persona_2": "Ravi has a tendency to panic in stressful situations. He views unexpected problems as catastrophes rather than opportunities for problem-solving.",
+    "speaker2_persona_3": "Ravi tends to be pessimistic and is quick to express negative thoughts. He finds it hard to stay hopeful in stressful situations and often complains.",
+    "speaker2_persona_high": "Ravi is also optimistic and solution-oriented. He doesn\u2019t panic in stressful situations and always tries to find the silver lining.",
+    "speaker2_persona_low": "Ravi tends to be pessimistic and is quick to express negative thoughts. He finds it hard to stay hopeful in stressful situations and often complains.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, the refreshment stand just collapsed! This is a disaster."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yes, it's a mess but panicking won't help. Let's think of a way to handle this."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You're right. Let's gather the spilled water bottles and distribute them directly."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Great idea! And we can use the tables from the finish line as a temporary station."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I hadn't thought of that. Let's get to it then."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "We've got this. After all, it's not about the mishaps, but how we respond to them."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, the refreshment stand just collapsed! This is a disaster.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/01.mp3",
+      "tone_description": "Speak calmly and optimistically, finding the positive amidst the chaos."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yes, it's a mess but panicking won't help. Let's think of a way to handle this.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/02.mp3",
+      "tone_description": "Speak calmly and optimistically, focusing on problem-solving rather than panic."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You're right. Let's gather the spilled water bottles and distribute them directly.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/03.mp3",
+      "tone_description": "Speak in a calm, composed manner, conveying optimism and control over the situation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Great idea! And we can use the tables from the finish line as a temporary station.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/04.mp3",
+      "tone_description": "Speak in a confident, assured tone, with a hint of excitement and optimism in your voice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Great idea! And we can use the tables from the finish line as a temporary station.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/05.mp3",
+      "tone_description": "Speak in a reluctant, grumbling tone, with a sigh indicating your lack of enthusiasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I hadn't thought of that. Let's get to it then.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/06.mp3",
+      "tone_description": "Speak with a calm and optimistic tone, expressing readiness and agreement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "We've got this. After all, it's not about the mishaps, but how we respond to them.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/07.mp3",
+      "tone_description": "Speak with an upbeat, calm tempo, radiating confidence and optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "We've got this. After all, it's not about the mishaps, but how we respond to them.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695/audio/08.mp3",
+      "tone_description": "Speak with a shaky, hurried pace, voice tinged with panic and distress."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_231924",
+    "dataset_id": "20251208_231924_000058_b176c695",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/1208_600/stress_management_optimism/20251208_231924_000058_b176c695",
+    "audio_files_count": 8
+  }
+}

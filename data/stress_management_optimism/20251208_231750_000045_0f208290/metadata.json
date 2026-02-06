@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Storm at the Community Picnic",
+    "context": "A community picnic at the local park. It's a sunny afternoon, with children running around, families spread out on picnic blankets, and the smell of grilled food wafting through the air. Suddenly, dark clouds begin to roll in.",
+    "description": "The annual community picnic is in full swing when an unexpected storm threatens to ruin the event. The two speakers are the event organizers, tasked with dealing with the situation.",
+    "speaker1_name": "Mila",
+    "speaker1_role": "Event Organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, level-headed, and solution-oriented. Mila is known for her ability to handle stressful situations with grace and positivity.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Ravi",
+    "speaker2_role": "Event Organizer",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Emotionally intelligent, warm, and constructive. Ravi is quick to adapt and sees the potential in challenging situations.",
+    "speaker2_persona_2": "Low EQ - Reactive and pessimistic. Ravi tends to focus on the negative aspects of a situation and struggles to see beyond immediate problems.",
+    "speaker2_persona_3": "Low EQ - Overwhelmed and anxious. Ravi becomes easily flustered in stressful situations and tends to catastrophize.",
+    "speaker2_persona_high": "High EQ - Emotionally intelligent, warm, and constructive. Ravi is quick to adapt and sees the potential in challenging situations.",
+    "speaker2_persona_low": "Low EQ - Overwhelmed and anxious. Ravi becomes easily flustered in stressful situations and tends to catastrophize.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh no, look at those clouds rolling in! This isn't good."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I see them. But hey, we've dealt with worse, haven't we?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "True, but this was supposed to be a sunny, fun day for everyone."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "And it still can be. Let's get the tents up, shift the grills under cover, and make this an adventure for the kids!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You're right, we can turn this around. Let's get to it!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's the spirit! And who knows, maybe by the time we're done, the storm will have passed."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh no, look at those clouds rolling in! This isn't good.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/01.mp3",
+      "tone_description": "Speak calmly and assuredly, maintaining a positive and solution-oriented tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I see them. But hey, we've dealt with worse, haven't we?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/02.mp3",
+      "tone_description": "Speak with a calm, warm confidence, reassuringly dismissing the concern."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "True, but this was supposed to be a sunny, fun day for everyone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/03.mp3",
+      "tone_description": "Speak with a calm and reassuring tone, maintaining a positive attitude despite the situation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "And it still can be. Let's get the tents up, shift the grills under cover, and make this an adventure for the kids!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/04.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, highlighting the adventure with a hopeful inflection."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "And it still can be. Let's get the tents up, shift the grills under cover, and make this an adventure for the kids!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/05.mp3",
+      "tone_description": "Speak with a shaky, anxious voice, rushing through the plan as if overwhelmed."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You're right, we can turn this around. Let's get to it!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/06.mp3",
+      "tone_description": "Speak with a calm, confident pace, infusing optimism and determination into your tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit! And who knows, maybe by the time we're done, the storm will have passed.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/07.mp3",
+      "tone_description": "Speak with a warm, encouraging tone, emphasizing hope and possibility."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit! And who knows, maybe by the time we're done, the storm will have passed.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290/audio/08.mp3",
+      "tone_description": "Speak in a rushed, jittery tone, emphasizing worry and apprehension."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_231750",
+    "dataset_id": "20251208_231750_000045_0f208290",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/1208_600/stress_management_optimism/20251208_231750_000045_0f208290",
+    "audio_files_count": 8
+  }
+}

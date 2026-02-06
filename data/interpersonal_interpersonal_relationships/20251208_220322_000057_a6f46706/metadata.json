@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Misunderstanding at the Community Center",
+    "context": "A bustling community center where a Zumba class has just finished",
+    "description": "Just as a lively Zumba class wraps up at the community center, there's a misunderstanding about a misplaced water bottle. Yasmin, the Zumba instructor, approaches Kenji, a regular participant, about a water bottle left behind that she believes is his. Kenji, however, is adamant that it isn't his.",
+    "speaker1_name": "Yasmin",
+    "speaker1_role": "Zumba Instructor",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Patient, empathetic, and proactive in addressing issues. Always maintains a calm demeanor and shows genuine concern for others.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Kenji",
+    "speaker2_role": "Zumba Class Participant",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Open-minded and appreciative. Takes time to listen and understand, while maintaining a respectful and friendly demeanor.",
+    "speaker2_persona_2": "Low EQ - Defensive and dismissive. Quick to jump to conclusions without fully listening to the other person's perspective.",
+    "speaker2_persona_3": "Low EQ - Anxious and irritated. Takes things personally and responds hastily without considering the other person's intent.",
+    "speaker2_persona_high": "High EQ - Open-minded and appreciative. Takes time to listen and understand, while maintaining a respectful and friendly demeanor.",
+    "speaker2_persona_low": "Low EQ - Anxious and irritated. Takes things personally and responds hastily without considering the other person's intent.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Interpersonal Relationships - ability to build and maintain mutually satisfying relationships that are characterized by trust and compassion"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Kenji, I think you left your water bottle here."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "No, that's not mine, Yasmin. I've got mine right here."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Are you sure? I thought I saw you drinking from this one earlier."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yasmin, I'm positive. This isn't my bottle. I wouldn't forget something like that."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Okay, I must have been mistaken then. I'll see if anyone else recognizes it. Thanks for clarifying."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "No problem, Yasmin. Always good to double-check."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Kenji, I think you left your water bottle here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/01.mp3",
+      "tone_description": "Speak in a soft, caring tone, slowly and with genuine concern."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "No, that's not mine, Yasmin. I've got mine right here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/02.mp3",
+      "tone_description": "Speak in a friendly and assured manner, indicating your water bottle with a gentle gesture."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Are you sure? I thought I saw you drinking from this one earlier.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/03.mp3",
+      "tone_description": "Speak with sincere concern and gentle certainty, maintaining your calm demeanor."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yasmin, I'm positive. This isn't my bottle. I wouldn't forget something like that.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/04.mp3",
+      "tone_description": "Speak gently and patiently, with a hint of curiosity and a friendly smile"
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yasmin, I'm positive. This isn't my bottle. I wouldn't forget something like that.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/05.mp3",
+      "tone_description": "Speak with a tense, anxious tone, rushing through your words and sounding slightly irritated"
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Okay, I must have been mistaken then. I'll see if anyone else recognizes it. Thanks for clarifying.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/06.mp3",
+      "tone_description": "Speak calmly and gently, expressing sincere gratitude and a proactive willingness to resolve the issue."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No problem, Yasmin. Always good to double-check.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/07.mp3",
+      "tone_description": "Speak warmly and calmly, showing appreciation and open-mindedness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "No problem, Yasmin. Always good to double-check.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706/audio/08.mp3",
+      "tone_description": "Speak hastily with a hint of irritation, as if you're personally offended."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_220322",
+    "dataset_id": "20251208_220322_000057_a6f46706",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_220322_000057_a6f46706",
+    "audio_files_count": 8
+  }
+}

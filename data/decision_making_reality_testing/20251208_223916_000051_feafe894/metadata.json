@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Hiking Trip Miscalculation",
+    "context": "An early Saturday morning, two friends are preparing for a hiking trip at the foot of a mountain trail. The sky is clear, with a cool breeze rustling the leaves. Birds are chirping, and there's a distant sound of a waterfall.",
+    "description": "Lee, an experienced hiker, and his friend, Dev, who is a newbie, are preparing to ascend the mountain. Lee has noticed that Dev has packed a lot of unnecessary items in his backpack which could make the climb difficult for him.",
+    "speaker1_name": "Lee",
+    "speaker1_role": "Experienced Hiker",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Observant, experienced, patient, and tactful in communication. Lee is someone who understands the importance of addressing concerns realistically.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Dev",
+    "speaker2_role": "Newbie Hiker",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Open to feedback, appreciative of Lee's experience, and willing to adjust his plan based on reality.",
+    "speaker2_persona_2": "Low EQ - Defensive and stubborn, unwilling to admit his lack of experience and the impracticality of his preparation.",
+    "speaker2_persona_3": "Low EQ - Overconfident and dismissive, refusing to take Lee's advice seriously and overestimating his own abilities.",
+    "speaker2_persona_high": "High EQ - Open to feedback, appreciative of Lee's experience, and willing to adjust his plan based on reality.",
+    "speaker2_persona_low": "Low EQ - Overconfident and dismissive, refusing to take Lee's advice seriously and overestimating his own abilities.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey Dev, it seems like you've packed a lot in your bag. Remember, we're going for a hike, not moving houses!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know, Lee, but I thought it's better to be prepared than to be caught off guard."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Being prepared is great, but carrying a heavy load could make the climb really hard for you, especially as a first-timer."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Hmm, I didn't think about it that way... I suppose I don't need all these extra clothes and snacks."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's the spirit, mate. Just take the essentials and we'll be fine. The mountain isn't going anywhere."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, less is more in this case. Let's do this, I'm excited!"
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey Dev, it seems like you've packed a lot in your bag. Remember, we're going for a hike, not moving houses!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/01.mp3",
+      "tone_description": "Speak with a light-hearted tone, gently teasing but not condescending."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know, Lee, but I thought it's better to be prepared than to be caught off guard.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/02.mp3",
+      "tone_description": "Speak with a light-hearted tone, showing appreciation for Lee's advice and demonstrating preparedness."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Being prepared is great, but carrying a heavy load could make the climb really hard for you, especially as a first-timer.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/03.mp3",
+      "tone_description": "Speak tactfully and patiently with a hint of humor to lighten the mood."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, I didn't think about it that way... I suppose I don't need all these extra clothes and snacks.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/04.mp3",
+      "tone_description": "Speak in a warm, open tone, showing appreciation for Lee's advice with a calm demeanor."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, I didn't think about it that way... I suppose I don't need all these extra clothes and snacks.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/05.mp3",
+      "tone_description": "Speak dismissively and arrogantly, barely concealing a smirk as you underestimate Lee's advice."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's the spirit, mate. Just take the essentials and we'll be fine. The mountain isn't going anywhere.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/06.mp3",
+      "tone_description": "Speak in a patient and reassuring tone, lightly emphasizing the practical advice."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, less is more in this case. Let's do this, I'm excited!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/07.mp3",
+      "tone_description": "Speak with a genuine warmth and eagerness, appreciating Lee's advice with a sincere, excited tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, less is more in this case. Let's do this, I'm excited!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894/audio/08.mp3",
+      "tone_description": "Speak dismissively, with a cocky laugh, brushing off Lee's advice and sounding overly confident."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_223916",
+    "dataset_id": "20251208_223916_000051_feafe894",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_600/decision_making_reality_testing/20251208_223916_000051_feafe894",
+    "audio_files_count": 8
+  }
+}

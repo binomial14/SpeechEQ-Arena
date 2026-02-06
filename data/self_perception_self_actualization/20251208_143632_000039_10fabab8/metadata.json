@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unfulfilled Dream",
+    "context": "At a family dinner in a cozy suburban home, over the clatter of dishes and the laughter of children playing in the next room.",
+    "description": "A middle-aged woman named Tamara and her younger sister, Lila, are talking about their careers. Lila is a successful business owner while Tamara has a job that she is not passionate about and is considering a career change.",
+    "speaker1_name": "Tamara",
+    "speaker1_role": "Older Sister",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "A middle-aged woman who is not fully satisfied with her career. She is introspective and seeking to explore her potential and make a change.",
+    "speaker1_voice": "coral",
+    "speaker2_name": "Lila",
+    "speaker2_role": "Younger Sister",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Lila is supportive, empathetic, and encouraging. She listens carefully and provides constructive feedback.",
+    "speaker2_persona_2": "Low EQ - Lila is dismissive, impatient, and does not empathize with Tamara's situation. She is quick to criticize and lacks understanding.",
+    "speaker2_persona_3": "Low EQ - Lila is overly critical, judgmental, and condescending. She assumes Tamara is just being lazy or ungrateful and does not understand her quest for self-actualization.",
+    "speaker2_persona_high": "High EQ - Lila is supportive, empathetic, and encouraging. She listens carefully and provides constructive feedback.",
+    "speaker2_persona_low": "Low EQ - Lila is overly critical, judgmental, and condescending. She assumes Tamara is just being lazy or ungrateful and does not understand her quest for self-actualization.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "You know Lila, I've been thinking of quitting my job and trying something new."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's quite a decision, Tamara. Have you thought about what you'd like to do instead?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I've always dreamed of opening my own bakery, but I'm scared it's too late for me."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "It's never too late to follow your dreams, Tamara. But it's also important to consider the practical aspects."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I know, it just feels like a huge leap. I don't want to regret not trying though."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's a valid feeling, Tamara. Maybe start by exploring the idea in your free time, without quitting your job right away?"
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "You know Lila, I've been thinking of quitting my job and trying something new.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/01.mp3",
+      "tone_description": "Speak thoughtfully and with an undercurrent of excitement for potential change."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's quite a decision, Tamara. Have you thought about what you'd like to do instead?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/02.mp3",
+      "tone_description": "Speak with a warm, empathetic tone and a hint of curiosity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I've always dreamed of opening my own bakery, but I'm scared it's too late for me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/03.mp3",
+      "tone_description": "Speak with a mix of longing and uncertainty, yet maintain a hopeful undertone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's never too late to follow your dreams, Tamara. But it's also important to consider the practical aspects.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/04.mp3",
+      "tone_description": "Speak softly and warmly, using a gentle, encouraging tone to convey understanding and support."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's never too late to follow your dreams, Tamara. But it's also important to consider the practical aspects.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/05.mp3",
+      "tone_description": "Speak in a condescending and judgmental tone, with an air of superiority and a hint of scorn."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I know, it just feels like a huge leap. I don't want to regret not trying though.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/06.mp3",
+      "tone_description": "Speak in a thoughtful and hesitant manner, reflecting underlying courage."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a valid feeling, Tamara. Maybe start by exploring the idea in your free time, without quitting your job right away?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/07.mp3",
+      "tone_description": "Speak gently and reassuringly, with a warm and empathetic tone that encourages exploration."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a valid feeling, Tamara. Maybe start by exploring the idea in your free time, without quitting your job right away?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8/audio/08.mp3",
+      "tone_description": "Speak in a condescending and judgmental manner, with a sarcastic undertone implying laziness."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_143632",
+    "dataset_id": "20251208_143632_000039_10fabab8",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "data/1208_300/self_perception_self_actualization/20251208_143632_000039_10fabab8",
+    "audio_files_count": 8
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Failed Bake Sale",
+    "context": "A community bake sale in the local park",
+    "description": "After months of planning, the bake sale organized by the community club failed to raise the expected funds. The club leaders, Heather and Lisa, are discussing the events of the day.",
+    "speaker1_name": "Heather",
+    "speaker1_role": "Community Club Co-Leader",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Warm, empathetic, understanding, and communicative. Always tries to see the positives even in challenging situations.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Lisa",
+    "speaker2_role": "Community Club Co-Leader",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Positive, constructive, and self-accepting. Even though disappointed, Lisa acknowledges her role in the failed event, but does not allow it to affect her self-worth.",
+    "speaker2_persona_2": "Low EQ - Defensive and self-deprecating. Lisa takes the failure of the bake sale personally and blames herself entirely for the outcome.",
+    "speaker2_persona_3": "Low EQ - Anxious and irritated. Lisa is visibly upset about the failed event, constantly questioning her capabilities and worth.",
+    "speaker2_persona_high": "High EQ - Positive, constructive, and self-accepting. Even though disappointed, Lisa acknowledges her role in the failed event, but does not allow it to affect her self-worth.",
+    "speaker2_persona_low": "Low EQ - Anxious and irritated. Lisa is visibly upset about the failed event, constantly questioning her capabilities and worth.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can't believe it, Lisa. After all that work, we didn't raise nearly as much as we'd hoped."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know, Heather. It's a bit of a setback, isn't it?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "More than a bit. We really needed those funds for the community center renovations."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Yes, we did. But let's not beat ourselves up about it, we did everything we could."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I guess you're right. We should try to learn from this and plan better next time."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely! We're not defined by one failed event, we'll use this as a stepping stone."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can't believe it, Lisa. After all that work, we didn't raise nearly as much as we'd hoped.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/01.mp3",
+      "tone_description": "Speak with a warm and empathetic tone, expressing disappointment but remaining hopeful."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know, Heather. It's a bit of a setback, isn't it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/02.mp3",
+      "tone_description": "Speak in a calm, accepting tone, acknowledging the setback but remaining hopeful."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "More than a bit. We really needed those funds for the community center renovations.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/03.mp3",
+      "tone_description": "Speak with a warm, empathetic tone, expressing understanding and optimism despite the setback."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yes, we did. But let's not beat ourselves up about it, we did everything we could.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/04.mp3",
+      "tone_description": "Speak with a comforting and reassuring tone, maintaining a positive and steady pace."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Yes, we did. But let's not beat ourselves up about it, we did everything we could.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/05.mp3",
+      "tone_description": "Speak quickly and anxiously, with a clear edge of frustration and self-doubt."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I guess you're right. We should try to learn from this and plan better next time.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/06.mp3",
+      "tone_description": "Speak in a soothing, empathetic tone, expressing optimism for future planning."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! We're not defined by one failed event, we'll use this as a stepping stone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/07.mp3",
+      "tone_description": "Speak with a bright, uplifting tone, emphasizing resilience and optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! We're not defined by one failed event, we'll use this as a stepping stone.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5/audio/08.mp3",
+      "tone_description": "Speak in a hurried, anxious tone, voice trembling slightly with underlying frustration."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_141422",
+    "dataset_id": "20251208_141422_000020_16fcc7b5",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_300/self_perception_self_regard/20251208_141422_000020_16fcc7b5",
+    "audio_files_count": 8
+  }
+}

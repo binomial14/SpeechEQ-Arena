@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Delayed Farmers Market Stall",
+    "context": "Saturday morning at a bustling farmers market in the city",
+    "description": "Ravi and Amina are partners who run a popular organic produce stall at the local farmers market. They have arrived early to set up, only to find that their regular spot has been taken by a new vendor. They need to set up their stall at a different location, which is less visible and far from their usual customers.",
+    "speaker1_name": "Ravi",
+    "speaker1_role": "Farmers Market Stall Owner",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Ravi is a patient and optimistic person. He tends to see the positive side of things and doesn't easily get stressed or upset. He believes in open communication and problem-solving, always seeking to motivate and inspire others.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Amina",
+    "speaker2_role": "Farmers Market Stall Co-Owner",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Amina is adaptable and resilient. She remains level-headed and optimistic during stressful situations, able to focus on solutions rather than problems. She is able to express her frustrations calmly and constructively, keeping the team's morale high.",
+    "speaker2_persona_2": "Low EQ - Amina tends to panic and become pessimistic when unexpected problems arise. She has a hard time seeing beyond the immediate issue and can get stuck in a negative mindset, which can affect the morale of those around her.",
+    "speaker2_persona_3": "Low EQ - Amina tends to react defensively to changes and challenges. She is quick to blame others for mishaps and struggles to maintain a positive outlook when faced with adversity. Her reactive nature can create tension and conflict with others.",
+    "speaker2_persona_high": "High EQ - Amina is adaptable and resilient. She remains level-headed and optimistic during stressful situations, able to focus on solutions rather than problems. She is able to express her frustrations calmly and constructively, keeping the team's morale high.",
+    "speaker2_persona_low": "Low EQ - Amina tends to react defensively to changes and challenges. She is quick to blame others for mishaps and struggles to maintain a positive outlook when faced with adversity. Her reactive nature can create tension and conflict with others.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh man, looks like our spot's been taken! I can't believe they gave it to a new vendor."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Well, this is a bummer, but we'll make it work. Let's see if we can find another spot."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "All the good spots are taken, we're going to be stuck in the back, out of sight."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "It's not ideal, but maybe we can turn this into an opportunity to reach new customers. Let's stay positive."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I hope you're right. I just don't want our regulars to think we've left."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "We'll make sure they know where to find us. Change can be good, remember?"
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh man, looks like our spot's been taken! I can't believe they gave it to a new vendor.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/01.mp3",
+      "tone_description": "Speak calmly and optimistically, with a hint of surprise but without any irritation."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Well, this is a bummer, but we'll make it work. Let's see if we can find another spot.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/02.mp3",
+      "tone_description": "Speak with a calm, optimistic tone, expressing mild disappointment but quickly transitioning to solution-focused positivity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "All the good spots are taken, we're going to be stuck in the back, out of sight.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/03.mp3",
+      "tone_description": "Speak with a calm and optimistic tone, remaining hopeful despite the setback."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's not ideal, but maybe we can turn this into an opportunity to reach new customers. Let's stay positive.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/04.mp3",
+      "tone_description": "Speak with a clear, steady voice, maintaining a hopeful and constructive tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's not ideal, but maybe we can turn this into an opportunity to reach new customers. Let's stay positive.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/05.mp3",
+      "tone_description": "Speak defensively and with a hint of blame, the frustration evident in your tone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I hope you're right. I just don't want our regulars to think we've left.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/06.mp3",
+      "tone_description": "Speak calmly and optimistically, with an encouraging tone and a hint of concern."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "We'll make sure they know where to find us. Change can be good, remember?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/07.mp3",
+      "tone_description": "Speak with a steady, assuring tone, projecting optimism and resilience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "We'll make sure they know where to find us. Change can be good, remember?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a/audio/08.mp3",
+      "tone_description": "Speak defensively in a sharp, accusatory tone, showing resistance to change."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_231845",
+    "dataset_id": "20251208_231845_000057_3067867a",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "data/1208_600/stress_management_optimism/20251208_231845_000057_3067867a",
+    "audio_files_count": 8
+  }
+}

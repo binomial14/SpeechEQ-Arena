@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Boundary Setting at a Community Event",
+    "context": "A community BBQ event at a local park on a sunny Saturday afternoon. The event is bustling with people, children playing, BBQ grills sizzling, and a live band playing in the background.",
+    "description": "Carla, a known community volunteer, is approached by John, the event coordinator, who wants her to take on another task. Carla is already busy with multiple responsibilities and needs to assertively communicate her boundaries.",
+    "speaker1_name": "Carla",
+    "speaker1_role": "Community Volunteer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Composed, reasonable and empathetic. She is someone who values her commitments and is aware of her limits.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "John",
+    "speaker2_role": "Event Coordinator",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - understanding, appreciative, and respectful of Carla's boundaries, not pushing her beyond her limits.",
+    "speaker2_persona_2": "Low EQ - dismissive and impatient, trying to impose his needs without considering Carla's current workload.",
+    "speaker2_persona_3": "Low EQ - manipulative and guilt-tripping, attempting to exploit Carla's dedication to the community to make her accept the additional task.",
+    "speaker2_persona_high": "High EQ - understanding, appreciative, and respectful of Carla's boundaries, not pushing her beyond her limits.",
+    "speaker2_persona_low": "Low EQ - dismissive and impatient, trying to impose his needs without considering Carla's current workload.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "John, I see you coming over here with that 'I need a favor' look."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Carla, you know me too well! We could really use your help with coordinating the kids' games."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I'd love to, John, but I'm already spread thin with the food and the decorations. I can't add another task to my plate."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, I guess we'll have to find someone else then. You always make things look so effortless, Carla."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you, John. I think Sarah might be free, why don't you ask her?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's a great idea, Carla. I'll go find Sarah. Thanks for all that you're doing."
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "John, I see you coming over here with that 'I need a favor' look.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/01.mp3",
+      "tone_description": "Speak calmly and reasonably, with an undercurrent of empathy and understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Carla, you know me too well! We could really use your help with coordinating the kids' games.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/02.mp3",
+      "tone_description": "Speak with a warm, sincere tone, showing appreciation for Carla's help."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I'd love to, John, but I'm already spread thin with the food and the decorations. I can't add another task to my plate.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/03.mp3",
+      "tone_description": "Speak calmly, with a touch of warmth and slight exhaustion, indicating your limits."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I guess we'll have to find someone else then. You always make things look so effortless, Carla.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/04.mp3",
+      "tone_description": "Speak in a warm, appreciative tone, conveying understanding and respect for Carla's situation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, I guess we'll have to find someone else then. You always make things look so effortless, Carla.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/05.mp3",
+      "tone_description": "Speak in a dismissive, impatient tone, indicating frustration and disregard for Carla's workload."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you, John. I think Sarah might be free, why don't you ask her?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/06.mp3",
+      "tone_description": "Speak with a calm and reasonable tone, suggesting Sarah with a slight hint of relief."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a great idea, Carla. I'll go find Sarah. Thanks for all that you're doing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/07.mp3",
+      "tone_description": "Speak in a warm, slow pace expressing sincere gratitude and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a great idea, Carla. I'll go find Sarah. Thanks for all that you're doing.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b/audio/08.mp3",
+      "tone_description": "Speak hastily and dismissively, with a tone of impatience and disregard."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_150704",
+    "dataset_id": "20251208_150704_000008_c88f6d4b",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "data/1208_300/self_expression_assertiveness/20251208_150704_000008_c88f6d4b",
+    "audio_files_count": 8
+  }
+}

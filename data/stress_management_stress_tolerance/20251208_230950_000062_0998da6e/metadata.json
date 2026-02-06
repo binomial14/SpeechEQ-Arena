@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Windy Farmers Market",
+    "context": "A bustling farmers market in the town center on a sunny but windy Saturday afternoon",
+    "description": "Chihiro, the market organizer, is speaking with one of the vendors, Aiden, whose tent has just been uprooted by a sudden gust of wind, scattering his products everywhere. Aiden must now confront the immediate stress of the situation.",
+    "speaker1_name": "Chihiro",
+    "speaker1_role": "Market Organizer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Calm, empathetic and solution-oriented, always looking for ways to help and support the vendors during the market",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Aiden",
+    "speaker2_role": "Vendor",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Calm and constructive, understands the situation is not ideal but knows getting upset will not resolve the issue at hand",
+    "speaker2_persona_2": "Low EQ - Easily frustrated and tends to lash out when under stress, prone to blame others for his misfortunes",
+    "speaker2_persona_3": "Low EQ - Overwhelmed and panics under stress, struggles to think clearly and take appropriate action",
+    "speaker2_persona_high": "High EQ - Calm and constructive, understands the situation is not ideal but knows getting upset will not resolve the issue at hand",
+    "speaker2_persona_low": "Low EQ - Easily frustrated and tends to lash out when under stress, prone to blame others for his misfortunes",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Aiden, are you okay? That was quite a gust!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I'm fine, but my stall...it's all ruined."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Let's not worry about that right now. We need to pick up your products before they blow away."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I've spent so long setting up, and now it's all for nothing."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I understand your frustration, but let's clean up first and then figure out what to do next, okay?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right, Chihiro. No use crying over spilled milk, I suppose."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Aiden, are you okay? That was quite a gust!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/01.mp3",
+      "tone_description": "Express your concern calmly and empathetically, maintaining a supportive tone."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I'm fine, but my stall...it's all ruined.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/02.mp3",
+      "tone_description": "Speak with a calm, understanding tone, while conveying slight disappointment."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Let's not worry about that right now. We need to pick up your products before they blow away.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/03.mp3",
+      "tone_description": "Speak with a calm, empathetic urgency, reassuringly offering a solution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I've spent so long setting up, and now it's all for nothing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/04.mp3",
+      "tone_description": "Speak in a calm, steady voice, exuding patience and understanding despite the setback."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I've spent so long setting up, and now it's all for nothing.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/05.mp3",
+      "tone_description": "Speak angrily, with a bitter edge to your voice, blaming the situation on unseen forces."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I understand your frustration, but let's clean up first and then figure out what to do next, okay?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/06.mp3",
+      "tone_description": "Speak in a calm, soothing manner to convey empathy and a sense of solution-focused control."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Chihiro. No use crying over spilled milk, I suppose.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/07.mp3",
+      "tone_description": "Speak softly and patiently, showing understanding and acceptance of the situation."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right, Chihiro. No use crying over spilled milk, I suppose.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e/audio/08.mp3",
+      "tone_description": "Speak in a high-pitched, shaky voice, reflecting panic and stress."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_230950",
+    "dataset_id": "20251208_230950_000062_0998da6e",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "data/1208_600/stress_management_stress_tolerance/20251208_230950_000062_0998da6e",
+    "audio_files_count": 8
+  }
+}

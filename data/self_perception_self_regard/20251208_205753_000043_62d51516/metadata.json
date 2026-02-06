@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Botanical Garden Fundraiser",
+    "context": "In a bustling botanical garden during a fundraiser event",
+    "description": "During a charity fundraiser in a lush botanical garden, the main organizer, Kofi, is approached by his friend and volunteer, Lina, regarding a speech he is about to give. Lina has noticed Kofi's nervousness and tries to reassure him.",
+    "speaker1_name": "Kofi",
+    "speaker1_role": "Fundraiser Organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Nervous and lacking confidence in his public speaking abilities. Despite his insecurity, he is kind and appreciative of Lina's help.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Lina",
+    "speaker2_role": "Friend and Volunteer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Empathetic and supportive; she is able to boost Kofi's confidence while acknowledging his feelings of nervousness.",
+    "speaker2_persona_2": "Low EQ - Brusque and dismissive; she belittles Kofi's feelings of insecurity and pushes him to perform without considering his emotional state.",
+    "speaker2_persona_3": "Low EQ - Overconfident and insensitive; she brushes off Kofi's nervousness and speaks highly of her own public speaking abilities, making Kofi feel inferior.",
+    "speaker2_persona_high": "High EQ - Empathetic and supportive; she is able to boost Kofi's confidence while acknowledging his feelings of nervousness.",
+    "speaker2_persona_low": "Low EQ - Brusque and dismissive; she belittles Kofi's feelings of insecurity and pushes him to perform without considering his emotional state.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Lina, I'm not sure I can go through with this speech..."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Kofi, I know you're nervous, but remember all the hard work you've put into this event."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "But what if I mess up? I don't want to let anyone down."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "We all know you're passionate about this cause, and that's what matters most. Any little stumble won't overshadow that."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "You really think so?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, Kofi. You've got this!"
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Lina, I'm not sure I can go through with this speech...",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/01.mp3",
+      "tone_description": "Speak in a shaky, hesitant tone, but with an undertone of appreciation for Lina's help."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Kofi, I know you're nervous, but remember all the hard work you've put into this event.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/02.mp3",
+      "tone_description": "Speak gently and encouragingly, emphasizing the reassurance with a confident tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "But what if I mess up? I don't want to let anyone down.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/03.mp3",
+      "tone_description": "Speak with a shaky, uncertain voice, reflecting your nervousness and fear of disappointment."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "We all know you're passionate about this cause, and that's what matters most. Any little stumble won't overshadow that.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/04.mp3",
+      "tone_description": "Speak with warmth and gentle reassurance, making every word sound like a comforting embrace."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "We all know you're passionate about this cause, and that's what matters most. Any little stumble won't overshadow that.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/05.mp3",
+      "tone_description": "Speak in a sharp, dismissive tone, brushing off his concerns with a brisk pace."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "You really think so?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/06.mp3",
+      "tone_description": "Speak hesitantly and with a soft, earnest tone, revealing your nervousness but also your dedication."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Kofi. You've got this!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/07.mp3",
+      "tone_description": "Speak with a warm, uplifting tone, emphasizing 'Absolutely' and 'You've got this' to boost his confidence."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Kofi. You've got this!",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516/audio/08.mp3",
+      "tone_description": "Speak in a dismissive, hurried manner, downplaying his fears and pushing him to just get on with it."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205753",
+    "dataset_id": "20251208_205753_000043_62d51516",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205753_000043_62d51516",
+    "audio_files_count": 8
+  }
+}

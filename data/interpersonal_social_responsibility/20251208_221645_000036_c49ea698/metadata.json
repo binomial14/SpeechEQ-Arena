@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Garden Project",
+    "context": "Public meeting at a neighborhood community center",
+    "description": "At a neighborhood meeting held at the local community center, residents are discussing the plan to start a community garden. The intention is to turn a nearby vacant lot into a green space that can grow fruits, vegetables, and flowers for the community. The discussion is led by Haruki, the community organizer, and he's talking to Priya, a long-time resident of the neighborhood.",
+    "speaker1_name": "Haruki",
+    "speaker1_role": "Community Organizer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Haruki is a thoughtful and open-minded individual. He has a knack for listening to others and respecting their opinions. He is very passionate about his community and always looks for ways to improve it. He is highly empathetic, understanding and shows high emotional intelligence in his interactions.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Priya",
+    "speaker2_role": "Long-time Resident",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Priya is a thoughtful and considerate person. She understands the importance of social responsibility and is eager to contribute to her community. She empathizes with the opinions of others and communicates in a respectful and constructive manner.",
+    "speaker2_persona_2": "Low EQ - Priya is rather self-centered and tends to disregard the ideas and opinions of others. She communicates in a dismissive manner and shows little interest in community projects or social responsibility.",
+    "speaker2_persona_3": "Low EQ - Priya is a reactive person who tends to respond with irritation or frustration when she does not agree with something. She has a hard time seeing the bigger picture and focusing on the community's needs over her own.",
+    "speaker2_persona_high": "High EQ - Priya is a thoughtful and considerate person. She understands the importance of social responsibility and is eager to contribute to her community. She empathizes with the opinions of others and communicates in a respectful and constructive manner.",
+    "speaker2_persona_low": "Low EQ - Priya is a reactive person who tends to respond with irritation or frustration when she does not agree with something. She has a hard time seeing the bigger picture and focusing on the community's needs over her own.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "So, we're looking to transform the vacant lot into a community garden. It'll not only beautify the neighborhood but also provide fresh produce for everyone."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I appreciate the intention, Haruki, but aren't there potential issues with upkeep and maintenance?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "That's a valid point, Priya. We are planning to have a schedule where community members take turns maintaining the garden."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Hmm, I see. Just hope folks will be responsible and not shirk off their duties, you know?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Yes, it's a communal effort. We're hoping to foster a sense of shared responsibility. We'll also have a system to ensure accountability."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Well, that sounds like a plan. Count me in, I'd love to help make our neighborhood a greener place."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "So, we're looking to transform the vacant lot into a community garden. It'll not only beautify the neighborhood but also provide fresh produce for everyone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/01.mp3",
+      "tone_description": "Speak with a warm, inviting tone, slowly articulating the benefits of the community garden."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I appreciate the intention, Haruki, but aren't there potential issues with upkeep and maintenance?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/02.mp3",
+      "tone_description": "Express your concerns gently and thoughtfully, with a hint of worry in your tone."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "That's a valid point, Priya. We are planning to have a schedule where community members take turns maintaining the garden.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/03.mp3",
+      "tone_description": "Speak in a calm and understanding manner, highlighting your thoughtfulness and community spirit."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, I see. Just hope folks will be responsible and not shirk off their duties, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/04.mp3",
+      "tone_description": "Speak with a warm, understanding tone, emphasizing the importance of community responsibility."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, I see. Just hope folks will be responsible and not shirk off their duties, you know?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/05.mp3",
+      "tone_description": "Speak with a hint of irritation, focusing on the potential problems and inconveniences."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Yes, it's a communal effort. We're hoping to foster a sense of shared responsibility. We'll also have a system to ensure accountability.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/06.mp3",
+      "tone_description": "Speak calmly and sincerely, emphasizing shared responsibility and accountability."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, that sounds like a plan. Count me in, I'd love to help make our neighborhood a greener place.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/07.mp3",
+      "tone_description": "Speak gently and enthusiastically, reflecting your eagerness to participate and foster community growth."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Well, that sounds like a plan. Count me in, I'd love to help make our neighborhood a greener place.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698/audio/08.mp3",
+      "tone_description": "Speak with a hint of irritation, as if this plan is a personal inconvenience to you."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_221645",
+    "dataset_id": "20251208_221645_000036_c49ea698",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_600/interpersonal_social_responsibility/20251208_221645_000036_c49ea698",
+    "audio_files_count": 8
+  }
+}

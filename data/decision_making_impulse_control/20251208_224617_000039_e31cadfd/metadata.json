@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Library Incident",
+    "context": "A community library on a busy Saturday afternoon",
+    "description": "Seth, the librarian, finds a library patron, Riley, reading a book that was mistakenly placed on the shelf despite being reserved for another patron. Seth has to inform Riley about the situation and ask for the book back, which could potentially upset Riley who is deeply immersed in the book.",
+    "speaker1_name": "Seth",
+    "speaker1_role": "Librarian",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, patient, highly considerate of others' feelings, and always willing to offer a solution or compromise",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Riley",
+    "speaker2_role": "Library Patron",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Open-minded, understanding, and willing to concede when a reasonable explanation is given",
+    "speaker2_persona_2": "Low EQ - Easily irritated, jumps to conclusions, and doesn't listen to explanations fully",
+    "speaker2_persona_3": "Low EQ - Quick to take offense, tends to overreact, and has a hard time letting go of small inconveniences",
+    "speaker2_persona_high": "High EQ - Open-minded, understanding, and willing to concede when a reasonable explanation is given",
+    "speaker2_persona_low": "Low EQ - Quick to take offense, tends to overreact, and has a hard time letting go of small inconveniences",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Riley, I'm really sorry for the inconvenience but that book you're reading was mistakenly shelved. It's actually been reserved by another patron."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh, really? But I'm halfway through and it's so good!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I understand, Riley. I can see if I can order another copy for you?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, that's a bummer but I guess it's fair. I can wait for the new copy."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Great, I appreciate your understanding, Riley. I'll put the order in right away."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks, Seth. I'll just find another book for now."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Riley, I'm really sorry for the inconvenience but that book you're reading was mistakenly shelved. It's actually been reserved by another patron.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/01.mp3",
+      "tone_description": "Speak gently and patiently, with a sincere tone of regret and a hint of a solution."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh, really? But I'm halfway through and it's so good!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/02.mp3",
+      "tone_description": "Speak in an understanding tone, conveying surprise with a hint of disappointment."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I understand, Riley. I can see if I can order another copy for you?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/03.mp3",
+      "tone_description": "Speak in a soothing tone, with calm reassurance and a hint of solution-oriented optimism."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, that's a bummer but I guess it's fair. I can wait for the new copy.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/04.mp3",
+      "tone_description": "Speak calmly with a warm, understanding tone and a slight, accepting nod."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, that's a bummer but I guess it's fair. I can wait for the new copy.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/05.mp3",
+      "tone_description": "Speak defensively with a strained voice, showing signs of overreacting and irritation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Great, I appreciate your understanding, Riley. I'll put the order in right away.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/06.mp3",
+      "tone_description": "Speak in a calm, patient tone, expressing genuine understanding and readiness to help."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Seth. I'll just find another book for now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/07.mp3",
+      "tone_description": "Speak gently and appreciatively, with a relaxed rhythm and a hint of gratitude in your voice."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks, Seth. I'll just find another book for now.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd/audio/08.mp3",
+      "tone_description": "Speak abruptly, with a tinge of annoyance, and a fast, dismissive tone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_224617",
+    "dataset_id": "20251208_224617_000039_e31cadfd",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_600/decision_making_impulse_control/20251208_224617_000039_e31cadfd",
+    "audio_files_count": 8
+  }
+}

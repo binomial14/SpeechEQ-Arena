@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Change at the Farmers' Market",
+    "context": "Saturday morning at a bustling farmers' market in a small town. There's a chill in the air as fall is approaching, but the sun is out, and the atmosphere is lively with vendors calling out their wares and families shopping for weekly groceries.",
+    "description": "Liam, a local farmer, has been setting up his booth at the same spot in the market for years. Today, he arrives to find that his spot has been assigned to a new vendor. He approaches the market organizer, Sarah, to discuss the matter.",
+    "speaker1_name": "Liam",
+    "speaker1_role": "Local farmer, regular vendor",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Generous, warm-hearted, and passionate about his work. He's known in the community for his jovial nature and friendly demeanor.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Sarah",
+    "speaker2_role": "Farmers' Market Organizer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Calm, patient, and understanding. She values maintaining a harmonious community.",
+    "speaker2_persona_2": "Low EQ - Defensive and dismissive. She doesn't handle criticism or complaints well and tends to react defensively.",
+    "speaker2_persona_3": "Low EQ - Anxious and overly apologetic. She often feels overwhelmed by her responsibilities and tends to avoid confrontation.",
+    "speaker2_persona_high": "High EQ - Calm, patient, and understanding. She values maintaining a harmonious community.",
+    "speaker2_persona_low": "Low EQ - Defensive and dismissive. She doesn't handle criticism or complaints well and tends to react defensively.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Morning, Sarah. It seems there's a mix-up with my booth. It's been taken by someone else."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Ah, Liam, I was hoping to catch you before you set up. We've had to reassign some spaces due to last-minute changes."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Well, that's a bit of an inconvenience. I've been in that spot for years, Sarah."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I understand, Liam, and I apologize for the inconvenience. We are trying to accommodate everyone, and sometimes that requires flexibility. Your new spot is just a few stalls down."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I suppose it's not the end of the world, just unexpected. I'll move my things then."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Thanks for understanding, Liam. I'll make sure we communicate any changes better in the future."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Morning, Sarah. It seems there's a mix-up with my booth. It's been taken by someone else.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/01.mp3",
+      "tone_description": "Speak in a light-hearted and friendly manner, showing some surprise but no frustration."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Ah, Liam, I was hoping to catch you before you set up. We've had to reassign some spaces due to last-minute changes.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/02.mp3",
+      "tone_description": "Speak in a calm and understanding tone, with a touch of regret."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Well, that's a bit of an inconvenience. I've been in that spot for years, Sarah.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/03.mp3",
+      "tone_description": "Speak with a jovial tone, maintaining warmth and generosity despite the inconvenience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, Liam, and I apologize for the inconvenience. We are trying to accommodate everyone, and sometimes that requires flexibility. Your new spot is just a few stalls down.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/04.mp3",
+      "tone_description": "Speak with calm patience, emphasizing understanding and reassurance with a warm, harmonious tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I understand, Liam, and I apologize for the inconvenience. We are trying to accommodate everyone, and sometimes that requires flexibility. Your new spot is just a few stalls down.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/05.mp3",
+      "tone_description": "Speak defensively and dismissively, with a sharp tone, hinting at irritation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I suppose it's not the end of the world, just unexpected. I'll move my things then.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/06.mp3",
+      "tone_description": "Speak with a jovial tone, showcasing understanding and flexibility despite the inconvenience."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for understanding, Liam. I'll make sure we communicate any changes better in the future.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/07.mp3",
+      "tone_description": "Speak with a serene, soothing voice, slow-paced and full of empathy"
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Thanks for understanding, Liam. I'll make sure we communicate any changes better in the future.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777/audio/08.mp3",
+      "tone_description": "Speak briskly and defensively, with an edge of irritation in your voice"
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_161520",
+    "dataset_id": "20251208_161520_000039_abba8777",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_300/stress_management_flexibility/20251208_161520_000039_abba8777",
+    "audio_files_count": 8
+  }
+}

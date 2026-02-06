@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Community Library Initiative",
+    "context": "It's early Saturday afternoon at a bustling coffee shop. The aroma of freshly ground coffee mixed with the sounds of frothing milk and the light chatter of patrons creates a cozy atmosphere. Sunlight filters through the large windows, casting a warm glow on the tables.",
+    "description": "Elena, a local librarian, is meeting with Hiroshi, a prominent business owner in the community, to discuss a proposal for a community library initiative. Elena has been working tirelessly to create a comprehensive plan that includes a mobile library service for remote areas, reading programs for kids, and workshops for adults.",
+    "speaker1_name": "Elena",
+    "speaker1_role": "Local Librarian",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Elena is passionate, dedicated, and has a strong sense of community responsibility. She believes in the importance of education and accessibility to resources for everyone, regardless of their socio-economic status. She is a good listener, empathetic, and is always ready to accommodate others' perspectives.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Hiroshi",
+    "speaker2_role": "Business Owner",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Hiroshi is open-minded, insightful, and values social responsibility. He understands the importance of such initiatives for the community and is willing to contribute his resources for the greater good. He appreciates the effort Elena has put into the project and expresses his support.",
+    "speaker2_persona_2": "Low EQ - Hiroshi is dismissive and short-sighted. He is primarily concerned with his own business interests and fails to see the long-term benefits of such initiatives for the community. He disregards Elena's passion and efforts, focusing only on the immediate financial implications.",
+    "speaker2_persona_3": "Low EQ - Hiroshi is impatient and lacks empathy. He is unwilling to take the time to understand the importance of the initiative, reacting negatively due to perceived inconvenience. He is resistant to change and expresses his disapproval in a rude and dismissive manner.",
+    "speaker2_persona_high": "High EQ - Hiroshi is open-minded, insightful, and values social responsibility. He understands the importance of such initiatives for the community and is willing to contribute his resources for the greater good. He appreciates the effort Elena has put into the project and expresses his support.",
+    "speaker2_persona_low": "Low EQ - Hiroshi is impatient and lacks empathy. He is unwilling to take the time to understand the importance of the initiative, reacting negatively due to perceived inconvenience. He is resistant to change and expresses his disapproval in a rude and dismissive manner.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hiroshi, I've been thinking - we need a community library initiative that extends beyond our physical library."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's an intriguing thought, Elena. But, how do we reach those who live in remote areas?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Great question! I propose a mobile library service that could reach even the most distant parts of our community."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Hmm, it sounds like a valuable service. But what about the costs? Have you considered how we'll fund this?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Yes, I've been working on a funding plan as well, which includes seeking grants and sponsorships from businesses like yours."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "I see. The benefits for the community are evident. Let's explore this further, I'm interested."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hiroshi, I've been thinking - we need a community library initiative that extends beyond our physical library.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/01.mp3",
+      "tone_description": "Speak with passionate conviction and a tone of warm inclusivity."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's an intriguing thought, Elena. But, how do we reach those who live in remote areas?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/02.mp3",
+      "tone_description": "Speak thoughtfully and patiently, showing genuine interest and concern for the community."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Great question! I propose a mobile library service that could reach even the most distant parts of our community.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/03.mp3",
+      "tone_description": "Speak passionately and with a sense of determination, underscoring the importance of accessibility."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, it sounds like a valuable service. But what about the costs? Have you considered how we'll fund this?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/04.mp3",
+      "tone_description": "Speak with a thoughtful and supportive tone, showing genuine interest and concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Hmm, it sounds like a valuable service. But what about the costs? Have you considered how we'll fund this?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/05.mp3",
+      "tone_description": "Speak impatiently and coldly, with a dismissive and resistant tone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Yes, I've been working on a funding plan as well, which includes seeking grants and sponsorships from businesses like yours.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/06.mp3",
+      "tone_description": "Speak with a passionate, confident tone, highlighting the importance of community support."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I see. The benefits for the community are evident. Let's explore this further, I'm interested.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/07.mp3",
+      "tone_description": "Speak with a calm, supportive tone, displaying genuine interest and openness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "I see. The benefits for the community are evident. Let's explore this further, I'm interested.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a/audio/08.mp3",
+      "tone_description": "Speak with an impatient, stern tone, expressing annoyance and disapproval."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_222129",
+    "dataset_id": "20251208_222129_000067_1e29210a",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_600/interpersonal_social_responsibility/20251208_222129_000067_1e29210a",
+    "audio_files_count": 8
+  }
+}

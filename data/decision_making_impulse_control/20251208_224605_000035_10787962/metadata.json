@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Last Minute Concert Tickets",
+    "context": "A small, bustling coffee shop in the city center. It's late afternoon, the sky is clouded over, and the sound of rain hitting the windows mixes with the buzz of conversations and the grinding of coffee beans.",
+    "description": "Two friends, Carlos and Amara, meet up for coffee after work. Carlos, a music enthusiast, discovers that a band they both love is playing a surprise concert in town tonight, but tickets are limited and expensive.",
+    "speaker1_name": "Carlos",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Passionate about music, tends to act on impulse and get carried away easily. He can be persuasive when he is excited about something.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Amara",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - She is sensible and practical, thinks through her actions before making decisions, and is able to effectively communicate her thoughts and feelings.",
+    "speaker2_persona_2": "Low EQ - She is easily swayed by peer pressure and struggles to say no to friends, often making impulsive decisions that she later regrets.",
+    "speaker2_persona_3": "Low EQ - She is quick to react emotionally and tends to be defensive when feeling pressured into making decisions. Often responds with irritation when faced with unexpected situations.",
+    "speaker2_persona_high": "High EQ - She is sensible and practical, thinks through her actions before making decisions, and is able to effectively communicate her thoughts and feelings.",
+    "speaker2_persona_low": "Low EQ - She is quick to react emotionally and tends to be defensive when feeling pressured into making decisions. Often responds with irritation when faced with unexpected situations.",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Amara, you won't believe it! Our favorite band is playing a surprise concert in town tonight!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Seriously? That's awesome, but I bet the tickets are sold out or crazy expensive by now."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "There are a few tickets left but they are pricey. Should we just go for it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I would love to, but I've got bills to pay. It's not a wise decision at this point."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I guess you're right. Maybe we can catch them next time they're in town."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Definitely! And we can start saving up for it now."
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Amara, you won't believe it! Our favorite band is playing a surprise concert in town tonight!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/01.mp3",
+      "tone_description": "Speak quickly and excitedly, with a persuasive undertone to convey your enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Seriously? That's awesome, but I bet the tickets are sold out or crazy expensive by now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/02.mp3",
+      "tone_description": "Express the statement with a mixture of excitement and practical concern."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "There are a few tickets left but they are pricey. Should we just go for it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/03.mp3",
+      "tone_description": "Speak quickly and excitedly, with a persuasive edge and a hint of spontaneity."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I would love to, but I've got bills to pay. It's not a wise decision at this point.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/04.mp3",
+      "tone_description": "Speak in a calm, measured tone, voicing each word with thoughtful consideration and gentle firmness."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I would love to, but I've got bills to pay. It's not a wise decision at this point.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/05.mp3",
+      "tone_description": "Speak with a sharp, defensive tone, letting frustration leak into your voice as you explain your situation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I guess you're right. Maybe we can catch them next time they're in town.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/06.mp3",
+      "tone_description": "Speak with a persuasive yet understanding tone, expressing disappointment but hopeful optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Definitely! And we can start saving up for it now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/07.mp3",
+      "tone_description": "Speak calmly and thoughtfully, with a hint of reserved optimism."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Definitely! And we can start saving up for it now.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962/audio/08.mp3",
+      "tone_description": "Speak abruptly, with a tinge of annoyance and defensiveness."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_224605",
+    "dataset_id": "20251208_224605_000035_10787962",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_600/decision_making_impulse_control/20251208_224605_000035_10787962",
+    "audio_files_count": 8
+  }
+}

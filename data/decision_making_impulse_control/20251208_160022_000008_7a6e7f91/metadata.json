@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unplanned Pitch",
+    "context": "A coffee shop near a business district, mid-afternoon. The murmur of conversations and clinking of cutlery can be heard in the background. The aroma of freshly brewed coffee fills the air.",
+    "description": "Two colleagues unexpectedly bump into an important client while getting coffee. They seize the opportunity to pitch a new project idea, but their client is in a rush.",
+    "speaker1_name": "Amelia",
+    "speaker1_role": "Colleague",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Patient, tactful, and observant. She is very good at understanding social cues and managing her impulses in professional situations.",
+    "speaker1_voice": "shimmer",
+    "speaker2_name": "Liam",
+    "speaker2_role": "Colleague",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Calm, considerate and patient. He listens carefully before speaking and respects the client's time constraints.",
+    "speaker2_persona_2": "Impulsive and overly eager. He often interrupts others and pushes his ideas without considering the context or other people's situations.",
+    "speaker2_persona_3": "Aggressive and impatient. He gets frustrated easily when things don't go his way, and tends to pressure others into agreeing with him.",
+    "speaker2_persona_high": "Calm, considerate and patient. He listens carefully before speaking and respects the client's time constraints.",
+    "speaker2_persona_low": "Aggressive and impatient. He gets frustrated easily when things don't go his way, and tends to pressure others into agreeing with him.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey, isn't that Mr. Johnson from XYZ Corp? What a surprise to see him here!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh wow, it is! This could be our chance to pitch that new project idea."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Right, let's approach him. Hey, Mr. Johnson! Fancy seeing you here."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "We don't want to keep you, but we have a new project idea that could really benefit XYZ Corp. Can we take a minute of your time?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "We promise it won't take long, we understand you're in a rush."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Even just a quick overview now, and we can follow up with details later if it piques your interest?"
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey, isn't that Mr. Johnson from XYZ Corp? What a surprise to see him here!",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/01.mp3",
+      "tone_description": "Speak with a tactful surprise and a hint of intrigue in a calm pace."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh wow, it is! This could be our chance to pitch that new project idea.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/02.mp3",
+      "tone_description": "Speak with a calm and patient tone, expressing consideration and confident excitement."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Right, let's approach him. Hey, Mr. Johnson! Fancy seeing you here.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/03.mp3",
+      "tone_description": "Speak calmly and tactfully, expressing genuine surprise and interest."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "We don't want to keep you, but we have a new project idea that could really benefit XYZ Corp. Can we take a minute of your time?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/04.mp3",
+      "tone_description": "Speak slowly and thoughtfully, with a respectful tone that highlights your consideration for his time."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "We don't want to keep you, but we have a new project idea that could really benefit XYZ Corp. Can we take a minute of your time?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/05.mp3",
+      "tone_description": "Speak assertively and impatiently, pressuring him into giving you his attention immediately."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "We promise it won't take long, we understand you're in a rush.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/06.mp3",
+      "tone_description": "Speak in a light, quick pace, exuding patience and tactfulness, with an undertone of urgency."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Even just a quick overview now, and we can follow up with details later if it piques your interest?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/07.mp3",
+      "tone_description": "Speak in a gentle, respectful manner with an unhurried pace, radiating assurance."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Even just a quick overview now, and we can follow up with details later if it piques your interest?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91/audio/08.mp3",
+      "tone_description": "Speak forcefully and rapidly, with an underlying tone of frustration and impatience."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_160022",
+    "dataset_id": "20251208_160022_000008_7a6e7f91",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "data/1208_300/decision_making_impulse_control/20251208_160022_000008_7a6e7f91",
+    "audio_files_count": 8
+  }
+}

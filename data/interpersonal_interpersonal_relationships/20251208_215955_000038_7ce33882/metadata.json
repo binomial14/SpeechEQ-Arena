@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Unexpected Farewell",
+    "context": "At a bustling community center during a farewell party for a beloved yoga teacher",
+    "description": "A community center is hosting a farewell party for an adored yoga teacher, Mei, who is moving to another city. Mei's longtime student and friend, Yara, approaches her to wish her well and share her feelings about the departure.",
+    "speaker1_name": "Yara",
+    "speaker1_role": "Longtime yoga student and friend",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Empathetic, caring, and expressive. Values building and maintaining strong interpersonal relationships.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Mei",
+    "speaker2_role": "Yoga teacher",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Emotionally intelligent, warm, and receptive. Understands the importance of expressing gratitude and acknowledging others' feelings in maintaining relationships.",
+    "speaker2_persona_2": "Low EQ - Emotionally reactive in a defensive way. Tends to dismiss or minimize others' feelings and avoid emotional conversations.",
+    "speaker2_persona_3": "Low EQ - Emotionally reactive in an anxious way. Overwhelmed by others' emotions, tends to shut down or withdraw from emotional conversations.",
+    "speaker2_persona_high": "High EQ - Emotionally intelligent, warm, and receptive. Understands the importance of expressing gratitude and acknowledging others' feelings in maintaining relationships.",
+    "speaker2_persona_low": "Low EQ - Emotionally reactive in a defensive way. Tends to dismiss or minimize others' feelings and avoid emotional conversations.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Interpersonal - Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Mei, I can't believe you're moving away. I'm really going to miss our sessions."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "I know, Yara. It's not an easy decision for me either."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "You've been such a positive influence in my life. I feel like I'm losing a friend and a mentor."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "And you've been an incredible student and friend, Yara. I'm so grateful for our time together."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I guess all good things must come to an end. But promise we'll stay in touch?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely, Yara. This isn't a goodbye, but a see you later."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Mei, I can't believe you're moving away. I'm really going to miss our sessions.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/01.mp3",
+      "tone_description": "Express the words with a caring tone, full of warm sadness and regret."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "I know, Yara. It's not an easy decision for me either.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/02.mp3",
+      "tone_description": "Speak in a soft, empathetic tone, expressing sincere understanding and sadness."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "You've been such a positive influence in my life. I feel like I'm losing a friend and a mentor.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/03.mp3",
+      "tone_description": "Expressively and sincerely convey your sadness and appreciation, with a caring tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "And you've been an incredible student and friend, Yara. I'm so grateful for our time together.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/04.mp3",
+      "tone_description": "Speak slowly, warmly and sincerely, allowing your gratitude to fill your voice."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "And you've been an incredible student and friend, Yara. I'm so grateful for our time together.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/05.mp3",
+      "tone_description": "Speak defensively and abruptly, with a dismissive undertone, avoiding eye contact."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I guess all good things must come to an end. But promise we'll stay in touch?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/06.mp3",
+      "tone_description": "Speak gently and expressively, imbuing your voice with warmth and a hint of sadness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Yara. This isn't a goodbye, but a see you later.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/07.mp3",
+      "tone_description": "Speak gently and warmly, with a voice filled with gratitude and understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely, Yara. This isn't a goodbye, but a see you later.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882/audio/08.mp3",
+      "tone_description": "Speak quickly and defensively, with a dismissive undertone, avoiding sentimentality."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_215955",
+    "dataset_id": "20251208_215955_000038_7ce33882",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "data/1208_600/interpersonal_interpersonal_relationships/20251208_215955_000038_7ce33882",
+    "audio_files_count": 8
+  }
+}

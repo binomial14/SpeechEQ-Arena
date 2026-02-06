@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Dreamer and the Pragmatist",
+    "context": "A small family-owned bakery on a busy Saturday morning",
+    "description": "Liam, the owner of the bakery, is discussing with his sister and co-owner, Zoe, about a potentially risky business expansion plan he has in mind.",
+    "speaker1_name": "Liam",
+    "speaker1_role": "Bakery owner and brother",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Optimistic, ambitious, and tends to get carried away with big ideas without fully considering the practical implications.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Zoe",
+    "speaker2_role": "Bakery co-owner and sister",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Pragmatic, supportive, and emotionally intelligent. She gently pushes back on Liam's plan, acknowledging the potential benefits but also raising valid concerns and suggesting a more measured approach.",
+    "speaker2_persona_2": "Low EQ - Overly cautious and anxious. She responds to Liam's plan with immediate negativity and alarm, predicting disastrous outcomes without fully considering the potential benefits.",
+    "speaker2_persona_3": "Low EQ - Defensive and dismissive. She immediately rejects Liam's plan without giving it fair consideration, becoming defensive and belittling Liam's ambitions.",
+    "speaker2_persona_high": "High EQ - Pragmatic, supportive, and emotionally intelligent. She gently pushes back on Liam's plan, acknowledging the potential benefits but also raising valid concerns and suggesting a more measured approach.",
+    "speaker2_persona_low": "Low EQ - Defensive and dismissive. She immediately rejects Liam's plan without giving it fair consideration, becoming defensive and belittling Liam's ambitions.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Zoe, I've been thinking about expanding our business, maybe adding a coffee shop to the bakery."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That's a big step, Liam. Have you thought about the costs and risks involved?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I know it's a risk, but I believe it could really boost our sales. People love a good cup of coffee with their pastries."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "It's not just about what people love, Liam. We need to think about the financial implications, the competition, the time and effort it'll take."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I get your point, Zoe. Maybe we should do more research and run some numbers before making a decision."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That sounds like a good idea. Let's not rush into anything and make sure we're making the right move."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Zoe, I've been thinking about expanding our business, maybe adding a coffee shop to the bakery.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/01.mp3",
+      "tone_description": "Speak enthusiastically and a bit hastily, as if excited by the new idea."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That's a big step, Liam. Have you thought about the costs and risks involved?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/02.mp3",
+      "tone_description": "Speak in a soft, supportive tone, gently questioning with a hint of caution."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I know it's a risk, but I believe it could really boost our sales. People love a good cup of coffee with their pastries.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/03.mp3",
+      "tone_description": "Speak enthusiastically and optimistically, with a hint of excitement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's not just about what people love, Liam. We need to think about the financial implications, the competition, the time and effort it'll take.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/04.mp3",
+      "tone_description": "Speak with gentle firmness, acknowledging his idea but infusing some practical caution."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "It's not just about what people love, Liam. We need to think about the financial implications, the competition, the time and effort it'll take.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/05.mp3",
+      "tone_description": "Speak dismissively, in a brisk, cold tone, barely hiding your irritation at his idea."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I get your point, Zoe. Maybe we should do more research and run some numbers before making a decision.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/06.mp3",
+      "tone_description": "Speak in an energetic, yet thoughtful and considerate manner, showing openness to Zoe's perspective."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds like a good idea. Let's not rush into anything and make sure we're making the right move.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/07.mp3",
+      "tone_description": "Speak in a calm, warm voice, projecting understanding and supportiveness."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That sounds like a good idea. Let's not rush into anything and make sure we're making the right move.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea/audio/08.mp3",
+      "tone_description": "Speak dismissively, with a hint of sarcasm, conveying a sense of belittling and rejection."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155136",
+    "dataset_id": "20251208_155136_000004_debd63ea",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155136_000004_debd63ea",
+    "audio_files_count": 8
+  }
+}

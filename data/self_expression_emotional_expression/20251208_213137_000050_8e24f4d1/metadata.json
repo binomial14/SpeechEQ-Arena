@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Change in Community Center Schedule",
+    "context": "A local community center in a small town",
+    "description": "The community center has recently decided to change its opening hours, causing some disruption to the locals who use it. During a typical Tuesday morning, two locals meet at the center's entrance. They are surprised to find that the center is still closed, and a notice about the change in schedule is posted on the door.",
+    "speaker1_name": "Ibrahim",
+    "speaker1_role": "Community center regular, retired teacher",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, understanding, and empathetic. He is patient, a good listener, and expresses his feelings clearly without being confrontational.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Kendra",
+    "speaker2_role": "Community center regular, freelance designer",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Kendra is understanding, empathetic, and expressive. She doesn't suppress her emotions, but she is careful about how she communicates them, ensuring she does not come off as aggressive or defensive.",
+    "speaker2_persona_2": "Low EQ - Kendra is reactive and tends to express her emotions in an abrupt, blunt manner. She gets easily frustrated and communicates her feelings without considering the impact of her words on others.",
+    "speaker2_persona_3": "Low EQ - Kendra is passive-aggressive and sarcastic, often resorting to critical comments and veiled insults to express her feelings. She tends to suppress her real emotions, resulting in a more negative and confrontational communication style.",
+    "speaker2_persona_high": "High EQ - Kendra is understanding, empathetic, and expressive. She doesn't suppress her emotions, but she is careful about how she communicates them, ensuring she does not come off as aggressive or defensive.",
+    "speaker2_persona_low": "Low EQ - Kendra is passive-aggressive and sarcastic, often resorting to critical comments and veiled insults to express her feelings. She tends to suppress her real emotions, resulting in a more negative and confrontational communication style.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Well, this is a surprise! I didn't expect them to change the opening hours all of a sudden."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Neither did I. It's really thrown my schedule off balance."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes, it's quite inconvenient. I wonder if the management considered how this would affect us regulars."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Maybe they did, maybe they didn't. But it's not like we can do anything about it - they've made their decision."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Well, perhaps we could speak to the director about our concerns. It's worth a try."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You're right. It's better to voice our concerns rather than just complain and do nothing."
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Well, this is a surprise! I didn't expect them to change the opening hours all of a sudden.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/01.mp3",
+      "tone_description": "Express the line in an unhurried, calm manner with a touch of surprise."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Neither did I. It's really thrown my schedule off balance.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/02.mp3",
+      "tone_description": "Express your words empathetically and with a touch of shared frustration, but remain composed."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes, it's quite inconvenient. I wonder if the management considered how this would affect us regulars.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/03.mp3",
+      "tone_description": "Speak in a calm and understanding tone, expressing mild frustration with patience."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe they did, maybe they didn't. But it's not like we can do anything about it - they've made their decision.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/04.mp3",
+      "tone_description": "Speak in a soft, soothing tone, conveying understanding and empathy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Maybe they did, maybe they didn't. But it's not like we can do anything about it - they've made their decision.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/05.mp3",
+      "tone_description": "Speak in a sarcastic, passive-aggressive manner with a veiled hint of criticism."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Well, perhaps we could speak to the director about our concerns. It's worth a try.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/06.mp3",
+      "tone_description": "Speak in a soft, calm manner, expressing your views empathetically and with understanding."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right. It's better to voice our concerns rather than just complain and do nothing.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/07.mp3",
+      "tone_description": "Speak in a calm, understanding tone, carefully choosing your words to be constructive."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You're right. It's better to voice our concerns rather than just complain and do nothing.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1/audio/08.mp3",
+      "tone_description": "Blurt out the words in an irritated, sharp tone, showing your frustration openly."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213137",
+    "dataset_id": "20251208_213137_000050_8e24f4d1",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "data/1208_600/self_expression_emotional_expression/20251208_213137_000050_8e24f4d1",
+    "audio_files_count": 8
+  }
+}

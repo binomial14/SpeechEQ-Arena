@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Independent Barista",
+    "context": "A bustling coffee shop on a chilly Monday morning. The aroma of freshly ground coffee beans fills the air, mixed with the faint smell of cinnamon pastries. The chatter of customers, the hiss of the coffee machine, and the clatter of dishes create a lively atmosphere.",
+    "description": "A barista named Jamie is working the morning shift. Jamie's friend and former co-worker, Alex, enters the shop and notices Jamie is the only one behind the counter. They engage in a conversation about Jamie's new role and responsibilities.",
+    "speaker1_name": "Jamie",
+    "speaker1_role": "Barista",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Resourceful, self-reliant, enjoys her independence. Takes pride in her ability to handle tasks on her own.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Friend and former co-worker",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Understanding, supportive, acknowledges Jamie's ability to work independently.",
+    "speaker2_persona_2": "Low EQ - Dismissive, lacks empathy, and doesn't appreciate Jamie's independence.",
+    "speaker2_persona_3": "Low EQ - Overly worried, doesn't respect Jamie's independence and tries to offer unsolicited advice.",
+    "speaker2_persona_high": "High EQ - Understanding, supportive, acknowledges Jamie's ability to work independently.",
+    "speaker2_persona_low": "Low EQ - Dismissive, lacks empathy, and doesn't appreciate Jamie's independence.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Hey, Alex! Fancy seeing you here, man. Grab a seat, I'll get you your usual."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Hey Jamie, it's been a while! Looks like you're running the whole show now."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, it's been a big shift. I'm now managing the whole operations, from roasting to serving."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Wow, that's impressive! Isn't it overwhelming though?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "It can be, but I love the challenge and the freedom to make my own decisions."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's the spirit, Jamie! More power to you, mate."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Hey, Alex! Fancy seeing you here, man. Grab a seat, I'll get you your usual.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/01.mp3",
+      "tone_description": "Speak with a confident, independent tone, warmly inviting, yet slightly surprised."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Hey Jamie, it's been a while! Looks like you're running the whole show now.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/02.mp3",
+      "tone_description": "Speak with a friendly tone, full of warm recognition and respectful admiration."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, it's been a big shift. I'm now managing the whole operations, from roasting to serving.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/03.mp3",
+      "tone_description": "Speak with a sense of pride and self-assurance, balancing warmth and professional confidence."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Wow, that's impressive! Isn't it overwhelming though?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/04.mp3",
+      "tone_description": "Speak softly with genuine warmth, giving a sense of admiration and concern."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Wow, that's impressive! Isn't it overwhelming though?",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/05.mp3",
+      "tone_description": "Speak in a dismissive tone, lightly scoffing and minimizing their achievement."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "It can be, but I love the challenge and the freedom to make my own decisions.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/06.mp3",
+      "tone_description": "Speak with confident enthusiasm, cherishing the challenge and independence in your tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit, Jamie! More power to you, mate.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/07.mp3",
+      "tone_description": "Speak with genuine enthusiasm and warmth, using a supportive and encouraging tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit, Jamie! More power to you, mate.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc/audio/08.mp3",
+      "tone_description": "Speak in a sarcastic, bored tone, showing clear disinterest and dismissiveness."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_151529",
+    "dataset_id": "20251208_151529_000015_1105febc",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "data/1208_300/self_expression_independence/20251208_151529_000015_1105febc",
+    "audio_files_count": 8
+  }
+}

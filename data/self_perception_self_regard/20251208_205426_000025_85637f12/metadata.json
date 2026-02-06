@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Farmer's Market Haggling",
+    "context": "An early Saturday morning at a bustling farmer's market in a small town. The sun is just rising, casting long shadows on the array of colorful produce and handmade goods displayed in various stalls. There's a hum of chatter, punctuated by the occasional call of a seller and the rustling of paper bags.",
+    "description": "Nina, a regular at the market, is talking to Haruki, a seller who recently started bringing his homegrown vegetables. Nina is interested in buying some of his organic peppers but finds the price a bit high. They are negotiating the price.",
+    "speaker1_name": "Nina",
+    "speaker1_role": "Customer",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Negotiator, friendly and respectful, believes in fair deals, able to express her thoughts clearly and assertively.",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Haruki",
+    "speaker2_role": "Seller",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Open to negotiation, confident in the value of his product, but also understanding and respectful of the customer's perspective.",
+    "speaker2_persona_2": "Low EQ - Defensive and sensitive about his pricing, quick to take offense, and shows frustration easily.",
+    "speaker2_persona_3": "Low EQ - Anxious and uncertain, tends to undersell himself and his product, lacks confidence in negotiation.",
+    "speaker2_persona_high": "High EQ - Open to negotiation, confident in the value of his product, but also understanding and respectful of the customer's perspective.",
+    "speaker2_persona_low": "Low EQ - Defensive and sensitive about his pricing, quick to take offense, and shows frustration easily.",
+    "speaker2_voice": "ballad",
+    "eq_skill_tested": "Self-Perception - Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Haruki, your peppers look fantastic! But $5 per pound... that's a bit steep, don't you think?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Thanks, Nina. I understand your point, but these are organically grown, and I've put a lot of effort into nurturing them."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I get that, Haruki. Organic farming isn't easy, but could you maybe give a regular like me a bit of a discount?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I appreciate your regular business, Nina, and I want to be fair. How about $4.50 per pound, and I'll throw in a bunch of fresh herbs?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's more like it, Haruki! I can't resist your fresh herbs. Deal!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Great, Nina! I'm glad we could work something out. Your support means a lot to me."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Haruki, your peppers look fantastic! But $5 per pound... that's a bit steep, don't you think?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/01.mp3",
+      "tone_description": "Express your admiration for the peppers enthusiastically, then transition to a friendly, assertive tone for the pricing issue."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Thanks, Nina. I understand your point, but these are organically grown, and I've put a lot of effort into nurturing them.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/02.mp3",
+      "tone_description": "Express your words assertively yet warmly, emphasizing your hard work and respect for organic farming."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I get that, Haruki. Organic farming isn't easy, but could you maybe give a regular like me a bit of a discount?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/03.mp3",
+      "tone_description": "Speak in a friendly, assertive tone with a hint of light-hearted bargaining."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I appreciate your regular business, Nina, and I want to be fair. How about $4.50 per pound, and I'll throw in a bunch of fresh herbs?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/04.mp3",
+      "tone_description": "Speak warmly and patiently, maintaining a confident tone and a hint of negotiation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I appreciate your regular business, Nina, and I want to be fair. How about $4.50 per pound, and I'll throw in a bunch of fresh herbs?",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/05.mp3",
+      "tone_description": "Speak defensively, with a slightly raised voice, showing a hint of frustration and indignation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's more like it, Haruki! I can't resist your fresh herbs. Deal!",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/06.mp3",
+      "tone_description": "Express your words enthusiastically and gratefully, with a friendly tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great, Nina! I'm glad we could work something out. Your support means a lot to me.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/07.mp3",
+      "tone_description": "Speak warmly with a confident, genuine tone, appreciating the agreement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great, Nina! I'm glad we could work something out. Your support means a lot to me.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12/audio/08.mp3",
+      "tone_description": "Speak with a defensive, slightly irritated tone, showing relief but also resentment."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_205426",
+    "dataset_id": "20251208_205426_000025_85637f12",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "data/1208_600/self_perception_self_regard/20251208_205426_000025_85637f12",
+    "audio_files_count": 8
+  }
+}

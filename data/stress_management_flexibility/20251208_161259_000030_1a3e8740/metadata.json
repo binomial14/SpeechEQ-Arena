@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Unexpected Changes in the Community Event",
+    "context": "A community park, late afternoon, where two members of the community event organizing team are talking. The sounds of children playing and birds chirping can be heard in the background.",
+    "description": "The annual community event is about to begin in a few hours. However, due to unforeseen circumstances, a major part of the event, the live band performance, has to be cancelled. The two members of the organizing team are discussing how to handle this sudden change.",
+    "speaker1_name": "Thomas",
+    "speaker1_role": "Head organizer of the community event",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Calm, composed, and solution-oriented, Thomas is used to dealing with unexpected changes and always manages to handle such situations with grace.",
+    "speaker1_voice": "fable",
+    "speaker2_name": "Emily",
+    "speaker2_role": "Co-organizer of the community event",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Emily is emotionally intelligent, understands the gravity of the situation, and responds constructively, showing resilience and flexibility in the face of stress.",
+    "speaker2_persona_2": "Low EQ - Emily is emotionally reactive, takes the cancellation of the live band performance personally, and responds defensively, showing a lack of flexibility in dealing with unexpected changes.",
+    "speaker2_persona_3": "Low EQ - Emily is overly anxious and irritated by the sudden change. She tends to overreact and struggles to come up with a constructive solution, reflecting her inability to handle stress flexibly.",
+    "speaker2_persona_high": "High EQ - Emily is emotionally intelligent, understands the gravity of the situation, and responds constructively, showing resilience and flexibility in the face of stress.",
+    "speaker2_persona_low": "Low EQ - Emily is overly anxious and irritated by the sudden change. She tends to overreact and struggles to come up with a constructive solution, reflecting her inability to handle stress flexibly.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "We've got a problem - the live band can't make it tonight. The drummer broke his arm."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Oh no! That's a major part of the event. What are we going to do?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, I know it's a big blow. But we need to figure out a solution quickly. Maybe we can have a local DJ or someone step in?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "A DJ could work, yes. But we also need to communicate this to the attendees in a way that doesn't disappoint them too much."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Good point. We should frame it as a surprise change, not a cancellation. Let's get the communication team on it."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Agreed. Let's make the most of this situation and turn it into an opportunity for something new and exciting."
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "We've got a problem - the live band can't make it tonight. The drummer broke his arm.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/01.mp3",
+      "tone_description": "Deliver the news with a calm, composed tone, showing confidence in handling the situation."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Oh no! That's a major part of the event. What are we going to do?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/02.mp3",
+      "tone_description": "Speak with sincere concern and problem-solving determination, maintaining a calm and steady pace."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, I know it's a big blow. But we need to figure out a solution quickly. Maybe we can have a local DJ or someone step in?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/03.mp3",
+      "tone_description": "Speak in a calm, composed manner, suggesting the solution with a confident, problem-solving tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "A DJ could work, yes. But we also need to communicate this to the attendees in a way that doesn't disappoint them too much.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/04.mp3",
+      "tone_description": "Speak calmly and constructively, with a touch of reassuring optimism in your tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "A DJ could work, yes. But we also need to communicate this to the attendees in a way that doesn't disappoint them too much.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/05.mp3",
+      "tone_description": "Speak in a rushed, anxious manner, allowing irritation to seep into your tone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Good point. We should frame it as a surprise change, not a cancellation. Let's get the communication team on it.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/06.mp3",
+      "tone_description": "Speak in a steady, strategic manner, exuding calmness and confidence."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Agreed. Let's make the most of this situation and turn it into an opportunity for something new and exciting.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/07.mp3",
+      "tone_description": "Speak with a soft, steady voice, exuding calm confidence and constructive positivity."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Agreed. Let's make the most of this situation and turn it into an opportunity for something new and exciting.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740/audio/08.mp3",
+      "tone_description": "Speak in a fast, jittery tone, with hints of anxiety and irritation."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_161259",
+    "dataset_id": "20251208_161259_000030_1a3e8740",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "data/1208_300/stress_management_flexibility/20251208_161259_000030_1a3e8740",
+    "audio_files_count": 8
+  }
+}

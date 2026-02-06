@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Case of the Neglected Neighborhood Park",
+    "context": "A local neighborhood association meeting at the community center on a Wednesday evening.",
+    "description": "The neighborhood association is discussing ways to improve the local park, which has been neglected and fallen into disrepair. The association needs volunteers to help with this initiative.",
+    "speaker1_name": "Rafael",
+    "speaker1_role": "President of the neighborhood association",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Rafael is a committed and understanding leader. He listens to everyone's ideas, values cooperation, and encourages everyone to contribute to community activities.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Megan",
+    "speaker2_role": "Neighbor, member of the neighborhood association",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Megan is responsible, cooperative, and invested in the well-being of her community. She actively participates in community discussions and is willing to volunteer her time and resources to community initiatives.",
+    "speaker2_persona_2": "Low EQ - Megan is self-absorbed and uninterested in community affairs. She reacts defensively to any suggestion of taking on additional responsibilities outside of her personal interests.",
+    "speaker2_persona_3": "Low EQ - Megan is dismissive and indifferent about community issues. She tends to be pessimistic and cynical, seeing efforts to improve the community as futile and a waste of time.",
+    "speaker2_persona_high": "High EQ - Megan is responsible, cooperative, and invested in the well-being of her community. She actively participates in community discussions and is willing to volunteer her time and resources to community initiatives.",
+    "speaker2_persona_low": "Low EQ - Megan is self-absorbed and uninterested in community affairs. She reacts defensively to any suggestion of taking on additional responsibilities outside of her personal interests.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I'm sure we all agree, the park has seen better days and it's high time we step up as a community to bring it back to life."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "You're right, that park is a real mess. We can't let it stay like that."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Glad to hear you're on board. We need volunteers to help with cleaning, repairing equipment and planting new trees and flowers. Can we count on you?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "To be honest, I'm pretty busy these days, but I guess I can spare a few hours on the weekend."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "That's fantastic, every bit helps. Thank you for stepping up, I'll put you down for some weekend shifts."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Alright, I'm in. Let's show the kids how much we care about their play space."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I'm sure we all agree, the park has seen better days and it's high time we step up as a community to bring it back to life.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/01.mp3",
+      "tone_description": "Speak with a slow, earnest pace and an encouraging, warm tone to inspire action."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "You're right, that park is a real mess. We can't let it stay like that.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/02.mp3",
+      "tone_description": "Speak with a sincere, cooperative tone and a sense of responsibility."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Glad to hear you're on board. We need volunteers to help with cleaning, repairing equipment and planting new trees and flowers. Can we count on you?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/03.mp3",
+      "tone_description": "Speak firmly yet kindly, displaying your commitment and encouraging community involvement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "To be honest, I'm pretty busy these days, but I guess I can spare a few hours on the weekend.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/04.mp3",
+      "tone_description": "Speak in a warm, patient manner, showing your willingness and commitment to help."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "To be honest, I'm pretty busy these days, but I guess I can spare a few hours on the weekend.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/05.mp3",
+      "tone_description": "Speak in a defensive, reluctant tone, expressing inconvenience and lack of interest."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "That's fantastic, every bit helps. Thank you for stepping up, I'll put you down for some weekend shifts.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/06.mp3",
+      "tone_description": "Express sincere gratitude and understanding in a warm, encouraging tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright, I'm in. Let's show the kids how much we care about their play space.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/07.mp3",
+      "tone_description": "Speak warmly and enthusiastically, showing your genuine interest and commitment."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Alright, I'm in. Let's show the kids how much we care about their play space.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a/audio/08.mp3",
+      "tone_description": "Speak with a hint of annoyance, as if you're being inconvenienced."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_221342",
+    "dataset_id": "20251208_221342_000017_a03cff6a",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "data/1208_600/interpersonal_social_responsibility/20251208_221342_000017_a03cff6a",
+    "audio_files_count": 8
+  }
+}

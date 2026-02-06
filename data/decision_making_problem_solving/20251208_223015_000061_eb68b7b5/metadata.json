@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Soccer Team Dilemma",
+    "context": "A sunny afternoon at a bustling local park, children are playing soccer while parents and friends cheer from the sidelines. The park is full of the sounds of chirping birds, laughter, and the occasional referee whistle. The smell of freshly cut grass hangs in the air.",
+    "description": "During a children's soccer game, two parents, Haruki and Isabella, are discussing a recurring problem with their children's soccer team. The team is struggling because they lack a dedicated coach, and the parents have been taking turns filling in. However, this arrangement isn't working out well, as the kids aren't getting consistent training. Isabella suggests they hire a professional coach and charge each family a small fee to cover the cost.",
+    "speaker1_name": "Isabella",
+    "speaker1_role": "Parent, ad hoc coach",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Isabella is solution-oriented and empathetic. She's a good listener and values the opinions of others. She's good at staying calm under pressure and is able to communicate her thoughts clearly and respectfully.",
+    "speaker1_voice": "nova",
+    "speaker2_name": "Haruki",
+    "speaker2_role": "Parent, ad hoc coach",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Haruki is open-minded and empathetic. He's able to see the value in Isabella's suggestion and is willing to contribute constructively to the discussion. He can handle unexpected situations with grace and tact, and is always willing to consider new ideas.",
+    "speaker2_persona_2": "Low EQ - Haruki is stubborn and resistant to change. He's quick to dismiss Isabella's suggestion without giving it proper consideration. He can be defensive and a bit argumentative when faced with unexpected situations or ideas that challenge his own.",
+    "speaker2_persona_3": "Low EQ - Haruki is anxious and pessimistic. He's quick to worry about the potential negative outcomes of Isabella's suggestion, and struggles to see the potential benefits. He may voice his concerns in a way that is overly negative or anxious.",
+    "speaker2_persona_high": "High EQ - Haruki is open-minded and empathetic. He's able to see the value in Isabella's suggestion and is willing to contribute constructively to the discussion. He can handle unexpected situations with grace and tact, and is always willing to consider new ideas.",
+    "speaker2_persona_low": "Low EQ - Haruki is stubborn and resistant to change. He's quick to dismiss Isabella's suggestion without giving it proper consideration. He can be defensive and a bit argumentative when faced with unexpected situations or ideas that challenge his own.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "This ad hoc coaching thing, it's not working, Isabella. The kids aren't getting the consistency they need."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Yeah, I've been thinking about that too, Haruki. What if we hired a professional coach?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "A professional coach would definitely bring consistency, but isn't that going to be expensive?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Well, we could share the cost among all families, maybe add a small fee to the membership? It could be an investment in our kids' development."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Hmm, that's a good point. I guess it's worth discussing with the other parents."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Great! Let's arrange a meeting with the other parents next week. We can present the idea and discuss the logistics."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "This ad hoc coaching thing, it's not working, Isabella. The kids aren't getting the consistency they need.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/01.mp3",
+      "tone_description": "Speak calmly and clearly, showing empathy and a solution-oriented mindset."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Yeah, I've been thinking about that too, Haruki. What if we hired a professional coach?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/02.mp3",
+      "tone_description": "Speak thoughtfully and agreeably, showcasing your open-mindedness and empathy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "A professional coach would definitely bring consistency, but isn't that going to be expensive?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/03.mp3",
+      "tone_description": "Speak in a calm, thoughtful manner, showing empathy and concern for the costs involved."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, we could share the cost among all families, maybe add a small fee to the membership? It could be an investment in our kids' development.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/04.mp3",
+      "tone_description": "Speak in a soft, considerate tone, offering the suggestion as an open-ended question with a warm smile."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Well, we could share the cost among all families, maybe add a small fee to the membership? It could be an investment in our kids' development.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/05.mp3",
+      "tone_description": "Speak dismissively and defensively, as if you're putting up a wall against the idea, with a hint of irritation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Hmm, that's a good point. I guess it's worth discussing with the other parents.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/06.mp3",
+      "tone_description": "Speak calmly and thoughtfully, with an open-minded and empathetic tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great! Let's arrange a meeting with the other parents next week. We can present the idea and discuss the logistics.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/07.mp3",
+      "tone_description": "Speak warmly and confidently, emphasizing the potential benefits of the idea."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Great! Let's arrange a meeting with the other parents next week. We can present the idea and discuss the logistics.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5/audio/08.mp3",
+      "tone_description": "Speak anxiously, emphasizing the 'logistics' with a worried, hesitant tone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_223015",
+    "dataset_id": "20251208_223015_000061_eb68b7b5",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "data/1208_600/decision_making_problem_solving/20251208_223015_000061_eb68b7b5",
+    "audio_files_count": 8
+  }
+}

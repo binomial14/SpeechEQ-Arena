@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "The Karaoke Night Challenge",
+    "context": "A local bar's karaoke night",
+    "description": "It's a bustling Friday evening, the air heavy with the smell of nachos and beer. The bar is buzzing with excitement as it's the popular karaoke night. Two friends, Kamal and Mark, are at the bar. They're discussing Kamal's anxiety about singing in public. Mark, who is known for his singing skills, encourages Kamal to give it a shot.",
+    "speaker1_name": "Mark",
+    "speaker1_role": "Friend",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Mark is confident, empathetic, and has a high EQ. He is a good listener and knows how to communicate his thoughts in an assertive yet respectful manner.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Kamal",
+    "speaker2_role": "Friend",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "High EQ - Kamal is open to feedback, appreciates Mark's encouragement and musters up the courage to participate.",
+    "speaker2_persona_2": "Low EQ - Kamal is defensive and immediately dismisses the idea, reacting with annoyance to Mark's suggestion.",
+    "speaker2_persona_3": "Low EQ - Kamal is anxious and fearful, responding to Mark's encouragement with panic and nervousness.",
+    "speaker2_persona_high": "High EQ - Kamal is open to feedback, appreciates Mark's encouragement and musters up the courage to participate.",
+    "speaker2_persona_low": "Low EQ - Kamal is anxious and fearful, responding to Mark's encouragement with panic and nervousness.",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Man, I don't know about this, Mark... I've never been good with singing in front of people."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Come on, Kamal. You know, everyone here is just here to have fun, right? It's not American Idol."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yeah, I get that but... I just don't want to embarrass myself, you know?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Look, you've got a great voice, Kamal. Think of it as a fun challenge. And remember, I'm here with you."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Alright, I'll think about it. Maybe after another beer."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's the spirit, man! And remember, it's all about having fun, not about being the best singer."
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Man, I don't know about this, Mark... I've never been good with singing in front of people.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/01.mp3",
+      "tone_description": "Speak with a comforting tone and empathetic reassurance, showing confident understanding."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Come on, Kamal. You know, everyone here is just here to have fun, right? It's not American Idol.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/02.mp3",
+      "tone_description": "Speak in a grateful, encouraging manner, with a hint of gentle humor."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yeah, I get that but... I just don't want to embarrass myself, you know?",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/03.mp3",
+      "tone_description": "[Gently] Speak with confident reassurance and empathetic understanding."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Look, you've got a great voice, Kamal. Think of it as a fun challenge. And remember, I'm here with you.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/04.mp3",
+      "tone_description": "Speak warmly with a reassuring, confident tone, lightly touching his arm."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Look, you've got a great voice, Kamal. Think of it as a fun challenge. And remember, I'm here with you.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/05.mp3",
+      "tone_description": "Speak gently, with a soothing and assuring tone, maintaining eye contact."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Alright, I'll think about it. Maybe after another beer.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/06.mp3",
+      "tone_description": "Speak in a reassuring, light-hearted tone, suggesting openness to the idea."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit, man! And remember, it's all about having fun, not about being the best singer.",
+      "eq_level": "high",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/07.mp3",
+      "tone_description": "Speak warmly and reassuringly, with palpable enthusiasm and a hint of playful encouragement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's the spirit, man! And remember, it's all about having fun, not about being the best singer.",
+      "eq_level": "low",
+      "audio_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7/audio/08.mp3",
+      "tone_description": "Speak with a sarcastic undertone, expressing subtle irritation masked by faux enthusiasm."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_213751",
+    "dataset_id": "20251208_213751_000023_761c1ec7",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "data/1208_600/self_expression_assertiveness/20251208_213751_000023_761c1ec7",
+    "audio_files_count": 8
+  }
+}

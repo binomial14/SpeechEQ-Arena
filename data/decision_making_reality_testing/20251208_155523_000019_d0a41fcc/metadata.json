@@ -1,0 +1,128 @@
+{
+  "scenario": {
+    "title": "Pitching the Unattainable Project",
+    "context": "An informal meeting in a bustling coffee shop late in the afternoon. The smell of freshly brewed coffee fills the air, and the low murmur of conversations and the occasional sound of the coffee machine can be heard in the background.",
+    "description": "Kieran, a software developer, is talking to his friend and colleague, Maya, a project manager. Kieran has an exciting, but highly ambitious, idea for a new project that he wants Maya to consider.",
+    "speaker1_name": "Kieran",
+    "speaker1_role": "Software Developer",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Enthusiastic, creative, and passionate, but tends to get carried away with his ideas without considering their feasibility.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Maya",
+    "speaker2_role": "Project Manager",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "High EQ - Analytical, strategic, and compassionate. She is able to gently bring Kieran back to reality while encouraging his creativity.",
+    "speaker2_persona_2": "Low EQ - Impulsive and dismissive. She quickly shuts down Kieran's idea without giving it proper consideration.",
+    "speaker2_persona_3": "Low EQ - Overly accommodating and avoids confrontation. She agrees with Kieran's idea without considering the reality of the situation.",
+    "speaker2_persona_high": "High EQ - Analytical, strategic, and compassionate. She is able to gently bring Kieran back to reality while encouraging his creativity.",
+    "speaker2_persona_low": "Low EQ - Impulsive and dismissive. She quickly shuts down Kieran's idea without giving it proper consideration.",
+    "speaker2_voice": "shimmer",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Maya, I've been brainstorming this new project idea - a fully integrated, AI-based personal assistant app."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "That sounds interesting, Kieran. But how feasible is it?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "It's ambitious, I know. But imagine the impact it can have, enhancing productivity and organization for everyone."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "I get the potential, Kieran, but we need to consider our resources, timelines, and technical limitations."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I understand that. Maybe we can start with a basic version, and then build on top of it?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That's a more realistic approach. Let's flesh out this idea more and see how we can make it work."
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Maya, I've been brainstorming this new project idea - a fully integrated, AI-based personal assistant app.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/01.mp3",
+      "tone_description": "Speak passionately and swiftly, brimming with creative enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "That sounds interesting, Kieran. But how feasible is it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/02.mp3",
+      "tone_description": "Speak with a gentle, analytical tone, expressing curiosity yet skepticism."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "It's ambitious, I know. But imagine the impact it can have, enhancing productivity and organization for everyone.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/03.mp3",
+      "tone_description": "Speak enthusiastically and rapidly, with an excited tone to convey passion for the idea."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get the potential, Kieran, but we need to consider our resources, timelines, and technical limitations.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/04.mp3",
+      "tone_description": "Speak thoughtfully and gently, with an encouraging yet grounded tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "I get the potential, Kieran, but we need to consider our resources, timelines, and technical limitations.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/05.mp3",
+      "tone_description": "Speak in a brisk, dismissive tone, conveying impatience and skepticism."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I understand that. Maybe we can start with a basic version, and then build on top of it?",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/06.mp3",
+      "tone_description": "Speak passionately and confidently, yet with a hint of caution."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a more realistic approach. Let's flesh out this idea more and see how we can make it work.",
+      "eq_level": "high",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/07.mp3",
+      "tone_description": "Speak gently with a strategic and encouraging tone, making sure to emphasize the word 'realistic'."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That's a more realistic approach. Let's flesh out this idea more and see how we can make it work.",
+      "eq_level": "low",
+      "audio_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc/audio/08.mp3",
+      "tone_description": "Speak hastily and dismissively, barely hiding your impatience with a sarcastic edge."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20251208_155523",
+    "dataset_id": "20251208_155523_000019_d0a41fcc",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "data/1208_300/decision_making_reality_testing/20251208_155523_000019_d0a41fcc",
+    "audio_files_count": 8
+  }
+}
